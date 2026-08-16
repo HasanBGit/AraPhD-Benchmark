@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ArabPhD image_pool entry",
+  "description": "One record per image in data/candidate_pool/images/. This is the stage-1, mode-agnostic schema: it captures what an image IS (identity + a grounded wrong-answer candidate) but not any question/context/mode-specific wording. Every mode's triplet (base/sec/icc/ccs/nota) is derived from this record, not annotated separately. Produced by pipeline/build_image_pool.py from manifest_unified.csv, then filled in by the captioning/verification pass (pipeline/fill_captions.py).",
+  "type": "object",
+  "required": ["image_id", "filename", "local_path", "category"],
+  "properties": {
+    "image_id": {
+      "type": "string",
+      "description": "Stable unique key, '{category}_{slugified filename}'. Use this to join across mode files instead of filename (filenames repeat awkward characters/spaces)."
+    },
+    "filename": { "type": "string" },
+    "local_path": { "type": "string", "description": "Path relative to repo root, e.g. data/candidate_pool/images/objects/447008_Incense_Burner.jpg" },
+    "category": {
+      "type": "string",
+      "enum": ["objects", "script", "cuisine", "architecture", "attire"]
+    },
+
+    "subject": { "type": ["string", "null"], "description": "Source/manifest title, e.g. museum record title or landmark name. Carried through as-is, not vision-verified." },
+    "ground_truth_subject": { "type": ["string", "null"], "description": "English slug identity from the manifest (e.g. 'modern_tower', 'incense_burner')." },
+    "country": { "type": ["string", "null"] },
+    "region": { "type": ["string", "null"] },
+    "medium": { "type": ["string", "null"] },
+    "license": { "type": ["string", "null"] },
+    "artist": { "type": ["string", "null"] },
+    "source": { "type": ["string", "null"], "description": "Provenance URL. Not shown to models under test." },
+
+    "inferred_identity_ar": { "type": ["string", "null"], "description": "Arabic ground-truth answer term, human/vision-verified against the actual image (not just translated from `subject` blindly) -> feeds gt_ar in every mode." },
+    "inferred_identity_en": { "type": ["string", "null"], "description": "English gloss of inferred_identity_ar, for cross-checking against ground_truth_subject." },
+    "caption_ar": { "type": ["string", "null"], "description": "Free-text Arabic description of what's actually visible (color, shape, material, motifs, setting). Used to (a) verify the manifest label, (b) write question_yes_ar/question_no_ar/question_open_ar wording, (c) as the source-of-truth for CCS/context injection later." },
+    "h_item_ar": { "type": ["string", "null"], "description": "Plausible-but-wrong Arabic term for this image, chosen/generated fresh during the captioning pass (no pre-existing CLIP-paired hitem is carried over here) -> feeds hitem_ar in base/sec/icc, and one entry in the pool nota samples from." }
+  }
+}

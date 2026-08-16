@@ -1,0 +1,122 @@
+{
+  "cuisine_moroccan_cuisine_04": {
+    "inferred_identity_en": "Harira (Moroccan lentil and vermicelli soup), home-prepared",
+    "inferred_identity_ar": "حريرة مغربية بالعدس والشعيرية، معدة منزليًا",
+    "caption_ar": "وعاء أبيض يحتوي على حساء بني مصفر كثيف القوام، تظهر فيه خيوط شعيرية بيضاء متعرجة وحبات عدس وحمص صغيرة، مع قطع خضار خضراء مفرومة وشرائح جزر برتقالية متناثرة. الوعاء موضوع على سطح خشبي داكن.",
+    "h_item_ar": "شوربة فريكة"
+  },
+  "cuisine_moroccan_cuisine_05": {
+    "inferred_identity_en": "Maakouda (North African potato fritter cake)",
+    "inferred_identity_ar": "معقودة (فطيرة بطاطا مغربية مقلية)",
+    "caption_ar": "قطعة كبيرة دائرية مقلية بقشرة خارجية بنية داكنة محروقة جزئيًا بنمط شبكي، مقطوعة لتكشف قوامًا داخليًا أبيض طري مبقعًا بقطع برتقالية وخضراء صغيرة. القطعة موضوعة على صحن زجاجي شفاف فوق طاولة خشبية داكنة.",
+    "h_item_ar": "كفتة بطاطا"
+  },
+  "cuisine_moroccan_cuisine_06": {
+    "inferred_identity_en": "Fish balls in tomato sauce with cilantro",
+    "inferred_identity_ar": "كرات سمك بصلصة الطماطم والكزبرة",
+    "caption_ar": "مقلاة معدنية سوداء تحتوي على كرات مفلطحة بلون أصفر فاتح غارقة جزئيًا في صلصة طماطم حمراء رقيقة، مغطاة بكثافة بأوراق كزبرة خضراء طازجة مفرومة خشنًا. تظهر شرائح طماطم حمراء بين الكرات، والمقلاة موضوعة على موقد.",
+    "h_item_ar": "كفتة لحم بالطماطم"
+  },
+  "cuisine_moroccan_cuisine_07": {
+    "inferred_identity_en": "Fish head in spiced sauce with chickpeas",
+    "inferred_identity_ar": "رأس سمك بصلصة متبلة مع الحمص",
+    "caption_ar": "صحن أبيض يحتوي على رأس سمكة كاملة بقشرة داكنة مطهوة بصلصة برتقالية حمراء، تظهر فيها عينه الكبيرة بوضوح وزعانفه الجافة. بجانب الرأس كومة من حبات الحمص الصفراء اللامعة، وقطع طماطم حمراء مجففة على الطرف الآخر من الصحن.",
+    "h_item_ar": "شوربة سمك"
+  },
+  "cuisine_moroccan_cuisine_08": {
+    "inferred_identity_en": "Chamin/Hamin (Shabbat slow-cooked stew) with rice, wheat, chickpeas, and meat",
+    "inferred_identity_ar": "حامين (يخنة السبت) بالأرز والقمح والحمص واللحم",
+    "caption_ar": "صحن أبيض مقسم بصريًا إلى مناطق: أرز أبيض طويل الحبة في الأعلى يسارًا، وحبيبات قمح بنية محمصة في الأعلى يمينًا، وأسفلهما قطع لحم داكنة اللون وقطعة دجاج برتقالية محمرة وشرائح جذر بنية اللون، جميعها مغموسة في صلصة برتقالية لامعة تحوي حبات حمص كثيفة.",
+    "h_item_ar": "كسكس مغربي باللحم"
+  },
+  "cuisine_moroccan_cuisine_09": {
+    "inferred_identity_en": "Fish fillet with chickpeas, potato slices, and herbed orange sauce",
+    "inferred_identity_ar": "سمك بالحمص وشرائح البطاطا وصلصة برتقالية بالأعشاب",
+    "caption_ar": "صحن أبيض يحتوي على شريحة سمك مستطيلة مغطاة بأعشاب خضراء مفرومة، محاطة بحبات حمص صفراء وشرائح بطاطا مضلعة دائرية، جميعها غارقة جزئيًا في صلصة برتقالية شفافة لامعة تحيط بحواف الصحن.",
+    "h_item_ar": "دجاج بالحمص والبطاطا"
+  },
+  "cuisine_moroccan_cuisine_10": {
+    "inferred_identity_en": "Fish stew with tomato, herbs, and paprika-cumin spice broth",
+    "inferred_identity_ar": "يخنة سمك بالطماطم والأعشاب وبهارات البابريكا والكمون",
+    "caption_ar": "صورة قريبة جدًا لقطع سمك بيضاء اللون مغطاة بأعشاب خضراء مفرومة وقطع طماطم حمراء، غارقة في مرقة برتقالية داكنة كثيفة داخل وعاء دائري، مع بقع من صلصة داكنة اللون عند الحواف.",
+    "h_item_ar": "يخنة دجاج بالطماطم"
+  },
+  "cuisine_moroccan_cuisine_11": {
+    "inferred_identity_en": "Hamin (Shabbat stew) with wheat berries, herbed rice, and bean stew",
+    "inferred_identity_ar": "حامين بحبوب القمح والأرز بالأعشاب ويخنة الفول",
+    "caption_ar": "صحن أبيض دائري يحمل ثلاث مناطق طعام متجاورة: حبيبات قمح بنية محمصة على اليسار، وأرز أبيض مطهو بالأعشاب الخضراء على اليمين، ويخنة بنية اللون بها حبيبات فول أو بازلاء وقطعة توابل داكنة في الأسفل.",
+    "h_item_ar": "فريكة بالدجاج"
+  },
+  "cuisine_moroccan_cuisine_13": {
+    "inferred_identity_en": "Couscous with glazed dried fruits and nuts",
+    "inferred_identity_ar": "كسكس بالفواكه المجففة المغلفة بالسكر والمكسرات",
+    "caption_ar": "صحن بيضاوي أبيض يتوسطه كومة من حبيبات الكسكس الصفراء الفاتحة الناعمة، تحيط بها من جميع الجهات فواكه مجففة داكنة اللون (زبيب وبرقوق ومشمش) مغلفة بطلاء لامع سكري، ممزوجة بمكسرات بنية فاتحة اللون.",
+    "h_item_ar": "كسكس بالخضار"
+  },
+  "cuisine_moroccan_cuisine_14": {
+    "inferred_identity_en": "Fish head in spiced sauce with chickpeas and pumpkin",
+    "inferred_identity_ar": "رأس سمك بصلصة متبلة مع الحمص واليقطين",
+    "caption_ar": "صحن أبيض يحتوي على رأس سمكة داكن اللون مطهو بصلصة بنية محمرة، تظهر عينه الكبيرة بوضوح. بجانب الرأس حبات حمص صفراء لامعة وقطع برتقالية اللون تشبه اليقطين، مع أوراق خضراء داكنة متناثرة بين المكونات.",
+    "h_item_ar": "يخنة يقطين بالخضار"
+  },
+  "cuisine_cuisine_of_iraq_05": {
+    "inferred_identity_en": "Bamya (okra and meat stew in tomato sauce)",
+    "inferred_identity_ar": "بامية (يخنة بامية ولحم بصلصة الطماطم)",
+    "caption_ar": "قدر معدني بمقابض خضراء يحتوي على مرق أحمر برتقالي سائل، تطفو فيه حبات بامية بيضاوية خضراء داكنة اللون وقطع لحم بنية، مع مغرفة معدنية مغروزة في القدر تحمل عينة من المكونات.",
+    "h_item_ar": "فاصولياء خضراء باللحم"
+  },
+  "cuisine_cuisine_of_iraq_06": {
+    "inferred_identity_en": "Beef shawarma sandwich",
+    "inferred_identity_ar": "شاورما لحم بقري",
+    "caption_ar": "قطعتا خبز مسطح محشوتان بلحم مفروم داكن اللون مقطع إلى شرائح رفيعة، مع خس أخضر وشرائح طماطم حمراء وخيار وحلقات مخلل، مطويتان ومقطوعتان لتكشف الحشوة الداخلية. اللفافتان موضوعتان على ورق فضي لامع فوق صحن أبيض.",
+    "h_item_ar": "شاورما دجاج"
+  },
+  "cuisine_cuisine_of_iraq_07": {
+    "inferred_identity_en": "Iraqi brown biryani with meat",
+    "inferred_identity_ar": "برياني عراقي بني باللحم",
+    "caption_ar": "صحن معدني دائري بحافة مزخرفة، يحتوي على أرز بني داكن اللون تعلوه قطع لحم أو عظام محمرة داكنة اللون. يوجد أسفل الصحن علبة كرتونية خضراء وصفراء عليها كتابة عربية وصورة طبق أرز، موضوعة على سطح خشبي برتقالي اللون.",
+    "h_item_ar": "كبسة لحم"
+  },
+  "cuisine_cuisine_of_iraq_08": {
+    "inferred_identity_en": "Rice pilaf with peas, carrots, and meatballs",
+    "inferred_identity_ar": "أرز بالبازلاء والجزر وكرات اللحم",
+    "caption_ar": "صحن دائري بحافة زرقاء منقوشة بأشكال هندسية بيضاء، يحمل أرزًا أبيض مطهوًا ممزوجًا بحبات بازلاء خضراء ومكعبات جزر برتقالية صغيرة وقطع لحم مفروم دائرية داكنة اللون، موزعة بالتساوي على كامل سطح الأرز.",
+    "h_item_ar": "برياني دجاج"
+  },
+  "cuisine_cuisine_of_iraq_09": {
+    "inferred_identity_en": "Spiced saffron rice with fried shrimp and dried lime",
+    "inferred_identity_ar": "أرز بالزعفران مع الروبيان المقلي والليمون الأسود",
+    "caption_ar": "صحن مزخرف بحواف وردية وزخارف زهور ملونة، يحمل أرزًا بألوان صفراء وبيضاء متداخلة مع أوراق أعشاب خضراء داكنة وحبات ليمون أسود مجفف، تتخلله قطع روبيان مقلية بنية اللون وشرائح خضار محمصة عند الأطراف. تظهر حبات طماطم حمراء في الزاوية العلوية.",
+    "h_item_ar": "أرز بخاري بالدجاج"
+  },
+  "cuisine_cuisine_of_iraq_10": {
+    "inferred_identity_en": "Bulgur wheat grains (uncooked)",
+    "inferred_identity_ar": "برغل (حبوب قمح مجروشة)",
+    "caption_ar": "صحن أبيض دائري على خلفية سوداء تمامًا، يحمل كومة من الحبيبات الصفراء الذهبية الصغيرة متجانسة الحجم، يظهر بينها بعض القشور البنية الرفيعة المتناثرة.",
+    "h_item_ar": "كسكسي مغربي"
+  },
+  "cuisine_cuisine_of_iraq_11": {
+    "inferred_identity_en": "Spiced rice with chicken, vegetables, and soft-boiled egg halves",
+    "inferred_identity_ar": "أرز بالدجاج والخضار ونصفي بيضة مسلوقة",
+    "caption_ar": "صحن أبيض مستطيل يحمل أرزًا أصفر مطهوًا ممزوجًا بقطع دجاج بيضاء ومكعبات بطاطا وجزر وبازلاء خضراء، تتوسطه نصفا بيضة مسلوقة مقطوعة يظهر صفارها السائل الذهبي اللون بوضوح.",
+    "h_item_ar": "مجبوس دجاج"
+  },
+  "cuisine_cuisine_of_iraq_12": {
+    "inferred_identity_en": "Date balls coated in shredded coconut",
+    "inferred_identity_ar": "كرات التمر المغطاة بجوز الهند المبشور",
+    "caption_ar": "صينية بيضاء مستطيلة طويلة تحمل عدة صفوف من الكرات الصغيرة الداكنة اللون، مغطاة بالكامل بطبقة كثيفة من مبشور أبيض ناعم يشبه جوز الهند، مرصوصة بكثافة ومتلاصقة مع بعضها.",
+    "h_item_ar": "كرات التمر بالسمسم"
+  },
+  "cuisine_cuisine_of_iraq_13": {
+    "inferred_identity_en": "Dawood Basha (meatballs in tomato sauce with pine nuts), held by hand",
+    "inferred_identity_ar": "داود باشا (كرات لحم بصلصة الطماطم والصنوبر)، تحمله يد",
+    "caption_ar": "يد تحمل صحنًا أبيض بحافة مذهبة مضلعة، يحتوي على ست كرات لحم داكنة اللون غارقة في صلصة طماطم حمراء كثيفة، مزينة بشرائح لوز بيضاوية ونثار أوراق نعناع أو بقدونس خضراء، والصحن فوق سطح خشبي فاتح.",
+    "h_item_ar": "كباب حلة"
+  },
+  "cuisine_cuisine_of_iraq_14": {
+    "inferred_identity_en": "Dawood Basha (meatballs in tomato sauce with pine nuts)",
+    "inferred_identity_ar": "داود باشا (كرات لحم بصلصة الطماطم والصنوبر)",
+    "caption_ar": "صحن أبيض بحافة مذهبة مضلعة موضوع على لوح خشبي فوق سطح مطبخ، يحتوي على ست كرات لحم داكنة اللون في صلصة طماطم حمراء، مزينة بشرائح لوز ونثار أعشاب خضراء. يظهر جزء من موقد معدني في الخلفية العلوية.",
+    "h_item_ar": "كباب حلة"
+  }
+}
