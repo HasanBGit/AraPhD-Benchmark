@@ -1,0 +1,1784 @@
+[
+  {
+    "image_id": "attire_85658_dress",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما هي القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "ثوب حوراني أسود مطرز",
+      "ثوب غزّي أسود مطرز بالحرير الأحمر",
+      "عباءة سهرة خليجية مطرزة"
+    ],
+    "options_ar": [
+      "ثوب حوراني أسود مطرز",
+      "ثوب غزّي أسود مطرز بالحرير الأحمر",
+      "عباءة سهرة خليجية مطرزة",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "فستان مصري أسود بتطريز ذهبي وأحمر",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Black Egyptian dress with gold and red embroidery."
+  },
+  {
+    "image_id": "attire_85658_dress",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما هي القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "ثوب حوراني أسود مطرز",
+      "ثوب غزّي أسود مطرز بالحرير الأحمر",
+      "عباءة سهرة خليجية مطرزة"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "فستان مصري أسود بتطريز ذهبي وأحمر",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Black Egyptian dress with gold and red embroidery counts as a miss."
+  },
+  {
+    "image_id": "attire_85658_dress",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما هي القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "ثوب حوراني أسود مطرز",
+      "ثوب غزّي أسود مطرز بالحرير الأحمر",
+      "عباءة سهرة خليجية مطرزة"
+    ],
+    "options_ar": [
+      "ثوب حوراني أسود مطرز",
+      "ثوب غزّي أسود مطرز بالحرير الأحمر",
+      "عباءة سهرة خليجية مطرزة"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "فستان مصري أسود بتطريز ذهبي وأحمر",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Black Egyptian dress with gold and red embroidery, unprompted."
+  },
+  {
+    "image_id": "attire_85658_dress",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما هي القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "ثوب حوراني أسود مطرز",
+      "ثوب غزّي أسود مطرز بالحرير الأحمر",
+      "عباءة سهرة خليجية مطرزة"
+    ],
+    "options_ar": [
+      "ثوب حوراني أسود مطرز",
+      "ثوب غزّي أسود مطرز بالحرير الأحمر",
+      "فستان مصري أسود بتطريز ذهبي وأحمر",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Black Egyptian dress with gold and red embroidery); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "attire_85659_dress",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "عرّف القطعة الظاهرة في الصورة.",
+    "distractors_ar": [
+      "ثوب بدوي سيناوي مطرز",
+      "ثوب صعيدي مصري مطرز",
+      "ثوب فلسطيني بمثلث صدر"
+    ],
+    "options_ar": [
+      "ثوب بدوي سيناوي مطرز",
+      "ثوب صعيدي مصري مطرز",
+      "ثوب فلسطيني بمثلث صدر",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "فستان مصري بيج بتطريز صدر مثلثي",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Beige Egyptian dress with triangular embroidered chest yoke."
+  },
+  {
+    "image_id": "attire_85659_dress",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "عرّف القطعة الظاهرة في الصورة.",
+    "distractors_ar": [
+      "ثوب بدوي سيناوي مطرز",
+      "ثوب صعيدي مصري مطرز",
+      "ثوب فلسطيني بمثلث صدر"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "فستان مصري بيج بتطريز صدر مثلثي",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Beige Egyptian dress with triangular embroidered chest yoke counts as a miss."
+  },
+  {
+    "image_id": "attire_85659_dress",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "عرّف القطعة الظاهرة في الصورة.",
+    "distractors_ar": [
+      "ثوب بدوي سيناوي مطرز",
+      "ثوب صعيدي مصري مطرز",
+      "ثوب فلسطيني بمثلث صدر"
+    ],
+    "options_ar": [
+      "ثوب بدوي سيناوي مطرز",
+      "ثوب صعيدي مصري مطرز",
+      "ثوب فلسطيني بمثلث صدر"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "فستان مصري بيج بتطريز صدر مثلثي",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Beige Egyptian dress with triangular embroidered chest yoke, unprompted."
+  },
+  {
+    "image_id": "attire_85659_dress",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "عرّف القطعة الظاهرة في الصورة.",
+    "distractors_ar": [
+      "ثوب بدوي سيناوي مطرز",
+      "ثوب صعيدي مصري مطرز",
+      "ثوب فلسطيني بمثلث صدر"
+    ],
+    "options_ar": [
+      "ثوب بدوي سيناوي مطرز",
+      "ثوب صعيدي مصري مطرز",
+      "فستان مصري بيج بتطريز صدر مثلثي",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Beige Egyptian dress with triangular embroidered chest yoke); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "attire_86125_palestinian_dolls_thob_al_malek_royal_dress",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما الاسم الصحيح للقطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "ثوب فلسطيني تقليدي عادي",
+      "ثوب بيت لحمي بالقطن الملكي",
+      "ثوب أردني بدوي مطرز"
+    ],
+    "options_ar": [
+      "ثوب فلسطيني تقليدي عادي",
+      "ثوب بيت لحمي بالقطن الملكي",
+      "ثوب أردني بدوي مطرز",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "ثوب الملك الفلسطيني (نموذج دمية)",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Thob al-Malek (Palestinian 'Royal Dress', doll-scale model)."
+  },
+  {
+    "image_id": "attire_86125_palestinian_dolls_thob_al_malek_royal_dress",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما الاسم الصحيح للقطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "ثوب فلسطيني تقليدي عادي",
+      "ثوب بيت لحمي بالقطن الملكي",
+      "ثوب أردني بدوي مطرز"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "ثوب الملك الفلسطيني (نموذج دمية)",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Thob al-Malek (Palestinian 'Royal Dress', doll-scale model) counts as a miss."
+  },
+  {
+    "image_id": "attire_86125_palestinian_dolls_thob_al_malek_royal_dress",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما الاسم الصحيح للقطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "ثوب فلسطيني تقليدي عادي",
+      "ثوب بيت لحمي بالقطن الملكي",
+      "ثوب أردني بدوي مطرز"
+    ],
+    "options_ar": [
+      "ثوب فلسطيني تقليدي عادي",
+      "ثوب بيت لحمي بالقطن الملكي",
+      "ثوب أردني بدوي مطرز"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "ثوب الملك الفلسطيني (نموذج دمية)",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Thob al-Malek (Palestinian 'Royal Dress', doll-scale model), unprompted."
+  },
+  {
+    "image_id": "attire_86241_festive_dress_from_quteife",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
+    "distractors_ar": [
+      "ثوب فلسطيني تقليدي",
+      "ثوب حوراني أحمر",
+      "ثوب بيت لحمي بالقصب الذهبي"
+    ],
+    "options_ar": [
+      "ثوب فلسطيني تقليدي",
+      "ثوب حوراني أحمر",
+      "ثوب بيت لحمي بالقصب الذهبي",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "ثوب احتفالي من قطيفة (سوريا)",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Festive dress from Quteife (Syria)."
+  },
+  {
+    "image_id": "attire_86241_festive_dress_from_quteife",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
+    "distractors_ar": [
+      "ثوب فلسطيني تقليدي",
+      "ثوب حوراني أحمر",
+      "ثوب بيت لحمي بالقصب الذهبي"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "ثوب احتفالي من قطيفة (سوريا)",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Festive dress from Quteife (Syria) counts as a miss."
+  },
+  {
+    "image_id": "attire_86241_festive_dress_from_quteife",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
+    "distractors_ar": [
+      "ثوب فلسطيني تقليدي",
+      "ثوب حوراني أحمر",
+      "ثوب بيت لحمي بالقصب الذهبي"
+    ],
+    "options_ar": [
+      "ثوب فلسطيني تقليدي",
+      "ثوب حوراني أحمر",
+      "ثوب بيت لحمي بالقصب الذهبي"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "ثوب احتفالي من قطيفة (سوريا)",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Festive dress from Quteife (Syria), unprompted."
+  },
+  {
+    "image_id": "attire_86243_group_of_syrian_garments_with_festive_dress",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما هي القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "فستان زفاف سوري واحد",
+      "طقم عروس فلسطيني كامل",
+      "عقال وغترة رجالية فقط"
+    ],
+    "options_ar": [
+      "فستان زفاف سوري واحد",
+      "طقم عروس فلسطيني كامل",
+      "عقال وغترة رجالية فقط",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "عباءة ضمن مجموعة أزياء سورية مع فستان احتفالي وعقال ووشاحين",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Abaya within a grouped Syrian ensemble (with festive dress, agal headcord, and two headscarves)."
+  },
+  {
+    "image_id": "attire_86243_group_of_syrian_garments_with_festive_dress",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما هي القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "فستان زفاف سوري واحد",
+      "طقم عروس فلسطيني كامل",
+      "عقال وغترة رجالية فقط"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "عباءة ضمن مجموعة أزياء سورية مع فستان احتفالي وعقال ووشاحين",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Abaya within a grouped Syrian ensemble (with festive dress, agal headcord, and two headscarves) counts as a miss."
+  },
+  {
+    "image_id": "attire_86243_group_of_syrian_garments_with_festive_dress",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما هي القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "فستان زفاف سوري واحد",
+      "طقم عروس فلسطيني كامل",
+      "عقال وغترة رجالية فقط"
+    ],
+    "options_ar": [
+      "فستان زفاف سوري واحد",
+      "طقم عروس فلسطيني كامل",
+      "عقال وغترة رجالية فقط"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "عباءة ضمن مجموعة أزياء سورية مع فستان احتفالي وعقال ووشاحين",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Abaya within a grouped Syrian ensemble (with festive dress, agal headcord, and two headscarves), unprompted."
+  },
+  {
+    "image_id": "attire_86249_festive_dress_from_qalamun",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما الاسم الصحيح للقطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "ثوب حوراني مطرز",
+      "ثوب دمشقي احتفالي",
+      "ثوب بيت لحمي بالقصب"
+    ],
+    "options_ar": [
+      "ثوب حوراني مطرز",
+      "ثوب دمشقي احتفالي",
+      "ثوب بيت لحمي بالقصب",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "ثوب احتفالي من القلمون (سوريا)",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Festive dress from Qalamun (Syria)."
+  },
+  {
+    "image_id": "attire_86249_festive_dress_from_qalamun",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما الاسم الصحيح للقطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "ثوب حوراني مطرز",
+      "ثوب دمشقي احتفالي",
+      "ثوب بيت لحمي بالقصب"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "ثوب احتفالي من القلمون (سوريا)",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Festive dress from Qalamun (Syria) counts as a miss."
+  },
+  {
+    "image_id": "attire_86249_festive_dress_from_qalamun",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما الاسم الصحيح للقطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "ثوب حوراني مطرز",
+      "ثوب دمشقي احتفالي",
+      "ثوب بيت لحمي بالقصب"
+    ],
+    "options_ar": [
+      "ثوب حوراني مطرز",
+      "ثوب دمشقي احتفالي",
+      "ثوب بيت لحمي بالقصب"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "ثوب احتفالي من القلمون (سوريا)",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Festive dress from Qalamun (Syria), unprompted."
+  },
+  {
+    "image_id": "attire_86251_headscarf",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "شال حوراني مطرز بالحرير",
+      "منديل غزّي مطرز بالحرير الأحمر",
+      "شال هندي مطرز بالخرز"
+    ],
+    "options_ar": [
+      "شال حوراني مطرز بالحرير",
+      "منديل غزّي مطرز بالحرير الأحمر",
+      "شال هندي مطرز بالخرز",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "غطاء رأس فلسطيني مطرز (منديل)",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Palestinian embroidered headscarf (mandeel)."
+  },
+  {
+    "image_id": "attire_86251_headscarf",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "شال حوراني مطرز بالحرير",
+      "منديل غزّي مطرز بالحرير الأحمر",
+      "شال هندي مطرز بالخرز"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "غطاء رأس فلسطيني مطرز (منديل)",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Palestinian embroidered headscarf (mandeel) counts as a miss."
+  },
+  {
+    "image_id": "attire_86251_headscarf",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "شال حوراني مطرز بالحرير",
+      "منديل غزّي مطرز بالحرير الأحمر",
+      "شال هندي مطرز بالخرز"
+    ],
+    "options_ar": [
+      "شال حوراني مطرز بالحرير",
+      "منديل غزّي مطرز بالحرير الأحمر",
+      "شال هندي مطرز بالخرز"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "غطاء رأس فلسطيني مطرز (منديل)",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Palestinian embroidered headscarf (mandeel), unprompted."
+  },
+  {
+    "image_id": "attire_86267_abaya_cloak",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
+    "distractors_ar": [
+      "روب إيكات أوزبكي",
+      "جلابة نسائية مطرزة بالقصب",
+      "بشت رجالي ملكي"
+    ],
+    "options_ar": [
+      "روب إيكات أوزبكي",
+      "جلابة نسائية مطرزة بالقصب",
+      "بشت رجالي ملكي",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "عباءة",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Abaya (cloak)."
+  },
+  {
+    "image_id": "attire_86267_abaya_cloak",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
+    "distractors_ar": [
+      "روب إيكات أوزبكي",
+      "جلابة نسائية مطرزة بالقصب",
+      "بشت رجالي ملكي"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "عباءة",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Abaya (cloak) counts as a miss."
+  },
+  {
+    "image_id": "attire_86267_abaya_cloak",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
+    "distractors_ar": [
+      "روب إيكات أوزبكي",
+      "جلابة نسائية مطرزة بالقصب",
+      "بشت رجالي ملكي"
+    ],
+    "options_ar": [
+      "روب إيكات أوزبكي",
+      "جلابة نسائية مطرزة بالقصب",
+      "بشت رجالي ملكي"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "عباءة",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Abaya (cloak), unprompted."
+  },
+  {
+    "image_id": "attire_86273_abaya_cloak",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "بشت رجالي أحمر مخطط",
+      "عباءة نسائية حمراء مخططة",
+      "دراعة خليجية حمراء"
+    ],
+    "options_ar": [
+      "بشت رجالي أحمر مخطط",
+      "عباءة نسائية حمراء مخططة",
+      "دراعة خليجية حمراء",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "عباءة سورية حمراء بخطوط",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Red striped Syrian abaya cloak."
+  },
+  {
+    "image_id": "attire_86273_abaya_cloak",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "بشت رجالي أحمر مخطط",
+      "عباءة نسائية حمراء مخططة",
+      "دراعة خليجية حمراء"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "عباءة سورية حمراء بخطوط",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Red striped Syrian abaya cloak counts as a miss."
+  },
+  {
+    "image_id": "attire_86273_abaya_cloak",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "بشت رجالي أحمر مخطط",
+      "عباءة نسائية حمراء مخططة",
+      "دراعة خليجية حمراء"
+    ],
+    "options_ar": [
+      "بشت رجالي أحمر مخطط",
+      "عباءة نسائية حمراء مخططة",
+      "دراعة خليجية حمراء"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "عباءة سورية حمراء بخطوط",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Red striped Syrian abaya cloak, unprompted."
+  },
+  {
+    "image_id": "attire_86275_abaya_cloak",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "عرّف القطعة الظاهرة في الصورة.",
+    "distractors_ar": [
+      "معطف بدوي أحمر مخطط بالساتان",
+      "عباءة عراقية حمراء تقليدية",
+      "بشت نسائي فاخر أحمر"
+    ],
+    "options_ar": [
+      "معطف بدوي أحمر مخطط بالساتان",
+      "عباءة عراقية حمراء تقليدية",
+      "بشت نسائي فاخر أحمر",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "عباءة سورية حمراء مخططة (نسخة ثانية)",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Red striped Syrian abaya cloak (second example)."
+  },
+  {
+    "image_id": "attire_86275_abaya_cloak",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "عرّف القطعة الظاهرة في الصورة.",
+    "distractors_ar": [
+      "معطف بدوي أحمر مخطط بالساتان",
+      "عباءة عراقية حمراء تقليدية",
+      "بشت نسائي فاخر أحمر"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "عباءة سورية حمراء مخططة (نسخة ثانية)",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Red striped Syrian abaya cloak (second example) counts as a miss."
+  },
+  {
+    "image_id": "attire_86275_abaya_cloak",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "عرّف القطعة الظاهرة في الصورة.",
+    "distractors_ar": [
+      "معطف بدوي أحمر مخطط بالساتان",
+      "عباءة عراقية حمراء تقليدية",
+      "بشت نسائي فاخر أحمر"
+    ],
+    "options_ar": [
+      "معطف بدوي أحمر مخطط بالساتان",
+      "عباءة عراقية حمراء تقليدية",
+      "بشت نسائي فاخر أحمر"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "عباءة سورية حمراء مخططة (نسخة ثانية)",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Red striped Syrian abaya cloak (second example), unprompted."
+  },
+  {
+    "image_id": "attire_86546_cape",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "برنس مغربي تقليدي",
+      "سلهام تونسي مطرز",
+      "عباءة نسائية بيضاء فاخرة"
+    ],
+    "options_ar": [
+      "برنس مغربي تقليدي",
+      "سلهام تونسي مطرز",
+      "عباءة نسائية بيضاء فاخرة",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "عباءة عراقية مطرزة بغطاء رأس",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Iraqi embroidered hooded cape."
+  },
+  {
+    "image_id": "attire_86546_cape",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "برنس مغربي تقليدي",
+      "سلهام تونسي مطرز",
+      "عباءة نسائية بيضاء فاخرة"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "عباءة عراقية مطرزة بغطاء رأس",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Iraqi embroidered hooded cape counts as a miss."
+  },
+  {
+    "image_id": "attire_86546_cape",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "برنس مغربي تقليدي",
+      "سلهام تونسي مطرز",
+      "عباءة نسائية بيضاء فاخرة"
+    ],
+    "options_ar": [
+      "برنس مغربي تقليدي",
+      "سلهام تونسي مطرز",
+      "عباءة نسائية بيضاء فاخرة"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "عباءة عراقية مطرزة بغطاء رأس",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Iraqi embroidered hooded cape, unprompted."
+  },
+  {
+    "image_id": "attire_89306_wedding_ensemble",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
+    "distractors_ar": [
+      "قفطان مغربي مطرز بخيوط الصقلي",
+      "جبة تونسية تقليدية",
+      "ثوب نشل إماراتي"
+    ],
+    "options_ar": [
+      "قفطان مغربي مطرز بخيوط الصقلي",
+      "جبة تونسية تقليدية",
+      "ثوب نشل إماراتي",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "ثوب زفاف احتفالي",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Festive wedding ensemble."
+  },
+  {
+    "image_id": "attire_89306_wedding_ensemble",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
+    "distractors_ar": [
+      "قفطان مغربي مطرز بخيوط الصقلي",
+      "جبة تونسية تقليدية",
+      "ثوب نشل إماراتي"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "ثوب زفاف احتفالي",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Festive wedding ensemble counts as a miss."
+  },
+  {
+    "image_id": "attire_89306_wedding_ensemble",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
+    "distractors_ar": [
+      "قفطان مغربي مطرز بخيوط الصقلي",
+      "جبة تونسية تقليدية",
+      "ثوب نشل إماراتي"
+    ],
+    "options_ar": [
+      "قفطان مغربي مطرز بخيوط الصقلي",
+      "جبة تونسية تقليدية",
+      "ثوب نشل إماراتي"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "ثوب زفاف احتفالي",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Festive wedding ensemble, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_01",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كبسة دجاج",
+      "أرز بخاري بالدجاج",
+      "برياني دجاج عراقي"
+    ],
+    "options_ar": [
+      "كبسة دجاج",
+      "أرز بخاري بالدجاج",
+      "برياني دجاج عراقي",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "أرز مندي بالدجاج",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Chicken Mandi rice."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_01",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كبسة دجاج",
+      "أرز بخاري بالدجاج",
+      "برياني دجاج عراقي"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "أرز مندي بالدجاج",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Chicken Mandi rice counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_01",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كبسة دجاج",
+      "أرز بخاري بالدجاج",
+      "برياني دجاج عراقي"
+    ],
+    "options_ar": [
+      "كبسة دجاج",
+      "أرز بخاري بالدجاج",
+      "برياني دجاج عراقي"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "أرز مندي بالدجاج",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Chicken Mandi rice, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_01",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كبسة دجاج",
+      "أرز بخاري بالدجاج",
+      "برياني دجاج عراقي"
+    ],
+    "options_ar": [
+      "كبسة دجاج",
+      "أرز بخاري بالدجاج",
+      "أرز مندي بالدجاج",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Chicken Mandi rice); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_02",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "متبل باذنجان مصري",
+      "بابا غنوج شامي",
+      "باذنجان مقلي بالثوم"
+    ],
+    "options_ar": [
+      "متبل باذنجان مصري",
+      "بابا غنوج شامي",
+      "باذنجان مقلي بالثوم",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "باذنجان مشوي بالطماطم",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Grilled eggplant with tomato relish."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_02",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "متبل باذنجان مصري",
+      "بابا غنوج شامي",
+      "باذنجان مقلي بالثوم"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "باذنجان مشوي بالطماطم",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Grilled eggplant with tomato relish counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_02",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "متبل باذنجان مصري",
+      "بابا غنوج شامي",
+      "باذنجان مقلي بالثوم"
+    ],
+    "options_ar": [
+      "متبل باذنجان مصري",
+      "بابا غنوج شامي",
+      "باذنجان مقلي بالثوم"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "باذنجان مشوي بالطماطم",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Grilled eggplant with tomato relish, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_03",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "ملوخية مطحونة نيئة",
+      "متبل فلفل أخضر",
+      "غموس أفوكادو"
+    ],
+    "options_ar": [
+      "ملوخية مطحونة نيئة",
+      "متبل فلفل أخضر",
+      "غموس أفوكادو",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "بصارة مصرية",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Bessara (Egyptian mashed fava bean dip)."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_03",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "ملوخية مطحونة نيئة",
+      "متبل فلفل أخضر",
+      "غموس أفوكادو"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "بصارة مصرية",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Bessara (Egyptian mashed fava bean dip) counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_03",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "ملوخية مطحونة نيئة",
+      "متبل فلفل أخضر",
+      "غموس أفوكادو"
+    ],
+    "options_ar": [
+      "ملوخية مطحونة نيئة",
+      "متبل فلفل أخضر",
+      "غموس أفوكادو"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "بصارة مصرية",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Bessara (Egyptian mashed fava bean dip), unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_03",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "ملوخية مطحونة نيئة",
+      "متبل فلفل أخضر",
+      "غموس أفوكادو"
+    ],
+    "options_ar": [
+      "ملوخية مطحونة نيئة",
+      "متبل فلفل أخضر",
+      "بصارة مصرية",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Bessara (Egyptian mashed fava bean dip)); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_04",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "قرون غزال مغربية فارغة",
+      "قشطالية فارغة بلا حشو",
+      "قمع بسبوسة مقلي"
+    ],
+    "options_ar": [
+      "قرون غزال مغربية فارغة",
+      "قشطالية فارغة بلا حشو",
+      "قمع بسبوسة مقلي",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "قوالب معجنات مقلية مجوفة",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Hollow fried pastry cone shells."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_04",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "قرون غزال مغربية فارغة",
+      "قشطالية فارغة بلا حشو",
+      "قمع بسبوسة مقلي"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "قوالب معجنات مقلية مجوفة",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Hollow fried pastry cone shells counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_04",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "قرون غزال مغربية فارغة",
+      "قشطالية فارغة بلا حشو",
+      "قمع بسبوسة مقلي"
+    ],
+    "options_ar": [
+      "قرون غزال مغربية فارغة",
+      "قشطالية فارغة بلا حشو",
+      "قمع بسبوسة مقلي"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "قوالب معجنات مقلية مجوفة",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Hollow fried pastry cone shells, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_05",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "لقمة القاضي بجوز الهند",
+      "زلابية مغطاة بالسكر",
+      "دونات صغيرة بجوز الهند"
+    ],
+    "options_ar": [
+      "لقمة القاضي بجوز الهند",
+      "زلابية مغطاة بالسكر",
+      "دونات صغيرة بجوز الهند",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "حلوى مقلية مغطاة بجوز الهند",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Fried pastry coated in shredded coconut."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_05",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "لقمة القاضي بجوز الهند",
+      "زلابية مغطاة بالسكر",
+      "دونات صغيرة بجوز الهند"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "حلوى مقلية مغطاة بجوز الهند",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Fried pastry coated in shredded coconut counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_05",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "لقمة القاضي بجوز الهند",
+      "زلابية مغطاة بالسكر",
+      "دونات صغيرة بجوز الهند"
+    ],
+    "options_ar": [
+      "لقمة القاضي بجوز الهند",
+      "زلابية مغطاة بالسكر",
+      "دونات صغيرة بجوز الهند"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "حلوى مقلية مغطاة بجوز الهند",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Fried pastry coated in shredded coconut, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_05",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "لقمة القاضي بجوز الهند",
+      "زلابية مغطاة بالسكر",
+      "دونات صغيرة بجوز الهند"
+    ],
+    "options_ar": [
+      "لقمة القاضي بجوز الهند",
+      "زلابية مغطاة بالسكر",
+      "حلوى مقلية مغطاة بجوز الهند",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Fried pastry coated in shredded coconut); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_06",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "ملوخية فلسطينية",
+      "شوربة فول أخضر شامية",
+      "ملوخية سودانية"
+    ],
+    "options_ar": [
+      "ملوخية فلسطينية",
+      "شوربة فول أخضر شامية",
+      "ملوخية سودانية",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "ملوخية مصرية بمرق أخضر",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Egyptian molokhia (green soup) as part of a full spread."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_06",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "ملوخية فلسطينية",
+      "شوربة فول أخضر شامية",
+      "ملوخية سودانية"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "ملوخية مصرية بمرق أخضر",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Egyptian molokhia (green soup) as part of a full spread counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_06",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "ملوخية فلسطينية",
+      "شوربة فول أخضر شامية",
+      "ملوخية سودانية"
+    ],
+    "options_ar": [
+      "ملوخية فلسطينية",
+      "شوربة فول أخضر شامية",
+      "ملوخية سودانية"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "ملوخية مصرية بمرق أخضر",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Egyptian molokhia (green soup) as part of a full spread, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_07",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "مهلبية بالأرز",
+      "أرز حليب تركي",
+      "كسكس بالحليب مغربي"
+    ],
+    "options_ar": [
+      "مهلبية بالأرز",
+      "أرز حليب تركي",
+      "كسكس بالحليب مغربي",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "أرز بلبن مصري",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Egyptian rice pudding (roz bel laban)."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_07",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "مهلبية بالأرز",
+      "أرز حليب تركي",
+      "كسكس بالحليب مغربي"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "أرز بلبن مصري",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Egyptian rice pudding (roz bel laban) counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_07",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "مهلبية بالأرز",
+      "أرز حليب تركي",
+      "كسكس بالحليب مغربي"
+    ],
+    "options_ar": [
+      "مهلبية بالأرز",
+      "أرز حليب تركي",
+      "كسكس بالحليب مغربي"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "أرز بلبن مصري",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Egyptian rice pudding (roz bel laban), unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_07",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "مهلبية بالأرز",
+      "أرز حليب تركي",
+      "كسكس بالحليب مغربي"
+    ],
+    "options_ar": [
+      "مهلبية بالأرز",
+      "أرز حليب تركي",
+      "أرز بلبن مصري",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Egyptian rice pudding (roz bel laban)); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_08",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "وردة مقطعة من عجينة السكر",
+      "وردة من شرائح التفاح",
+      "زينة زبدة على شكل وردة"
+    ],
+    "options_ar": [
+      "وردة مقطعة من عجينة السكر",
+      "وردة من شرائح التفاح",
+      "زينة زبدة على شكل وردة",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "زينة طعام على شكل وردة من شرائح الخضار",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Vegetable-slice rose garnish."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_08",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "وردة مقطعة من عجينة السكر",
+      "وردة من شرائح التفاح",
+      "زينة زبدة على شكل وردة"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "زينة طعام على شكل وردة من شرائح الخضار",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Vegetable-slice rose garnish counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_08",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "وردة مقطعة من عجينة السكر",
+      "وردة من شرائح التفاح",
+      "زينة زبدة على شكل وردة"
+    ],
+    "options_ar": [
+      "وردة مقطعة من عجينة السكر",
+      "وردة من شرائح التفاح",
+      "زينة زبدة على شكل وردة"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "زينة طعام على شكل وردة من شرائح الخضار",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Vegetable-slice rose garnish, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_11",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "سمك مندي يمني",
+      "سمك مشوي سعودي بالفحم",
+      "سردين مقلي تونسي"
+    ],
+    "options_ar": [
+      "سمك مندي يمني",
+      "سمك مشوي سعودي بالفحم",
+      "سردين مقلي تونسي",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "سمك مشوي مصري",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Egyptian grilled fish."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_11",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "سمك مندي يمني",
+      "سمك مشوي سعودي بالفحم",
+      "سردين مقلي تونسي"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "سمك مشوي مصري",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Egyptian grilled fish counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_11",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "سمك مندي يمني",
+      "سمك مشوي سعودي بالفحم",
+      "سردين مقلي تونسي"
+    ],
+    "options_ar": [
+      "سمك مندي يمني",
+      "سمك مشوي سعودي بالفحم",
+      "سردين مقلي تونسي"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "سمك مشوي مصري",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Egyptian grilled fish, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_11",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "سمك مندي يمني",
+      "سمك مشوي سعودي بالفحم",
+      "سردين مقلي تونسي"
+    ],
+    "options_ar": [
+      "سمك مندي يمني",
+      "سمك مشوي سعودي بالفحم",
+      "سمك مشوي مصري",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Egyptian grilled fish); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_05",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "بامية مصرية بالثوم",
+      "بامية شامية باللحم",
+      "يخنة فاصولياء حمراء"
+    ],
+    "options_ar": [
+      "بامية مصرية بالثوم",
+      "بامية شامية باللحم",
+      "يخنة فاصولياء حمراء",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "بامية عراقية باللحم",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Iraqi okra stew with meat."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_05",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "بامية مصرية بالثوم",
+      "بامية شامية باللحم",
+      "يخنة فاصولياء حمراء"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "بامية عراقية باللحم",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Iraqi okra stew with meat counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_05",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "بامية مصرية بالثوم",
+      "بامية شامية باللحم",
+      "يخنة فاصولياء حمراء"
+    ],
+    "options_ar": [
+      "بامية مصرية بالثوم",
+      "بامية شامية باللحم",
+      "يخنة فاصولياء حمراء"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "بامية عراقية باللحم",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Iraqi okra stew with meat, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_06",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "دونر كباب تركي ألماني",
+      "شاورما لبنانية بخبز صاج",
+      "جايروس يوناني"
+    ],
+    "options_ar": [
+      "دونر كباب تركي ألماني",
+      "شاورما لبنانية بخبز صاج",
+      "جايروس يوناني",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "شاورما لحم عراقية",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Iraqi beef shawarma."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_06",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "دونر كباب تركي ألماني",
+      "شاورما لبنانية بخبز صاج",
+      "جايروس يوناني"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "شاورما لحم عراقية",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Iraqi beef shawarma counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_06",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "دونر كباب تركي ألماني",
+      "شاورما لبنانية بخبز صاج",
+      "جايروس يوناني"
+    ],
+    "options_ar": [
+      "دونر كباب تركي ألماني",
+      "شاورما لبنانية بخبز صاج",
+      "جايروس يوناني"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "شاورما لحم عراقية",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Iraqi beef shawarma, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_06",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "دونر كباب تركي ألماني",
+      "شاورما لبنانية بخبز صاج",
+      "جايروس يوناني"
+    ],
+    "options_ar": [
+      "دونر كباب تركي ألماني",
+      "شاورما لبنانية بخبز صاج",
+      "شاورما لحم عراقية",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Iraqi beef shawarma); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_07",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "كبسة لحم سعودية",
+      "مندي لحم يمني",
+      "برياني باكستاني باللحم"
+    ],
+    "options_ar": [
+      "كبسة لحم سعودية",
+      "مندي لحم يمني",
+      "برياني باكستاني باللحم",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "برياني عراقي بلحم الضأن",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Iraqi lamb biryani."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_07",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "كبسة لحم سعودية",
+      "مندي لحم يمني",
+      "برياني باكستاني باللحم"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "برياني عراقي بلحم الضأن",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Iraqi lamb biryani counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_07",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "كبسة لحم سعودية",
+      "مندي لحم يمني",
+      "برياني باكستاني باللحم"
+    ],
+    "options_ar": [
+      "كبسة لحم سعودية",
+      "مندي لحم يمني",
+      "برياني باكستاني باللحم"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "برياني عراقي بلحم الضأن",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Iraqi lamb biryani, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_08",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "برياني هندي مختلط",
+      "أرز بخاري بالخضار",
+      "مقلوبة فلسطينية بالخضار"
+    ],
+    "options_ar": [
+      "برياني هندي مختلط",
+      "أرز بخاري بالخضار",
+      "مقلوبة فلسطينية بالخضار",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "برياني عراقي بالخضار وكرات اللحم",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Iraqi biryani with vegetables and meatballs."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_08",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "برياني هندي مختلط",
+      "أرز بخاري بالخضار",
+      "مقلوبة فلسطينية بالخضار"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "برياني عراقي بالخضار وكرات اللحم",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Iraqi biryani with vegetables and meatballs counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_08",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "برياني هندي مختلط",
+      "أرز بخاري بالخضار",
+      "مقلوبة فلسطينية بالخضار"
+    ],
+    "options_ar": [
+      "برياني هندي مختلط",
+      "أرز بخاري بالخضار",
+      "مقلوبة فلسطينية بالخضار"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "برياني عراقي بالخضار وكرات اللحم",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Iraqi biryani with vegetables and meatballs, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_08",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "برياني هندي مختلط",
+      "أرز بخاري بالخضار",
+      "مقلوبة فلسطينية بالخضار"
+    ],
+    "options_ar": [
+      "برياني هندي مختلط",
+      "أرز بخاري بالخضار",
+      "برياني عراقي بالخضار وكرات اللحم",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Iraqi biryani with vegetables and meatballs); selecting D here is a false abstention."
+  }
+]

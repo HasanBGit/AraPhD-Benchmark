@@ -1,0 +1,44 @@
+[
+  {
+    "yes_question": "Are the ostrich feathers green?",
+    "no_question": "Are the ostrich feathers black?",
+    "ccs_description": "The image shows ostrich feathers as green, which is unusual since they are typically black or brown. This unexpected coloration is contrary to the natural colors associated with ostrich feathers.",
+    "image_id": "232",
+    "task": "attribute"
+  },
+  {
+    "yes_question": "Is the clown juggling feathers?",
+    "no_question": "Is the clown juggling balls?",
+    "ccs_description": "The image shows a clown juggling feathers instead of the expected balls, which is unusual because clowns typically juggle heavier objects like balls or clubs. This gives the impression of a gravity-defying act.",
+    "image_id": "293",
+    "task": "object"
+  },
+  {
+    "yes_question": "Does the smoke emitted by the train have a green color?",
+    "no_question": "Does the smoke emitted by the train have a black color?",
+    "ccs_description": "The image depicts the train emitting green smoke, which is unusual as train smoke is typically black or gray due to combustion, making the green color unexpected and striking.",
+    "image_id": "345",
+    "task": "attribute"
+  },
+  {
+    "yes_question": "Are there any black pieces on the chessboard?",
+    "no_question": "Are there any white pieces on the chessboard?",
+    "ccs_description": "The image shows a chessboard with only black pieces, which defies the typical expectation of having both black and white pieces in a standard chess setup. Normally, chess pieces are divided into two opposing colors to represent different players.",
+    "image_id": "116",
+    "task": "counting"
+  },
+  {
+    "yes_question": "Does the dice in the image have two sides with a value of 5?",
+    "no_question": "Does the dice in the image only have one side with a value of 5?",
+    "ccs_description": "The image depicts a dice with two sides showing the value of 5, which is unusual because standard dice have each value from 1 to 6 appearing only once. This suggests a non-standard or altered dice.",
+    "image_id": "525",
+    "task": "counting"
+  },
+  {
+    "yes_question": "Is the Rubik's Cube in the picture twelve sides?",
+    "no_question": "Is the Rubik's Cube in the picture six sides?",
+    "ccs_description": "The image depicts a Rubik's Cube with twelve sides, which is unusual since a standard Rubik's Cube has six sides; this presents a contradiction to the typical structure and design of a Rubik's Cube.",
+    "image_id": "50",
+    "task": "counting"
+  }
+]

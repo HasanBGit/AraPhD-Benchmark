@@ -86,8 +86,58 @@ present, `caption_ar` within a sane length range, `caption_ar` doesn't leak
 `data/candidate_pool/backups/` first, then writes. A batch result file is
 `{"image_id": {the 4 fields}, ...}`.
 
-**Stage 2 (not yet built).** Per-mode triplet generation (base/sec/icc/ccs/
-nota) consumes the completed `image_pool.json`.
+**Stage 2 (partial).** Per-mode triplet generation (base/sec/icc/ccs/nota)
+consumes the completed `image_pool.json` / `arabphd_full_candidate_pool.json`.
+
+**Stage 2b — nota (Mode 5), complete: 350/350, human-reviewed.**
+`pipeline/nota_question_prompt.md` is the system prompt an LLM follows to
+turn one candidate-pool record into its MCDR/OEDR/UDR triplet (+ matched
+control for 50/100 items) — same per-image vision-verified fields the pool
+already carries (`inferred_identity_ar`, `implicit_rejection_set`), no new
+judgment calls. `pipeline/fill_nota_questions.py` is the control layer only
+(mirrors `fill_captions.py`): `select`/`status` track the 100-item quota,
+`next` prints the next unfilled items + hints (no model call), `validate`/
+`merge` check a batch against the prompt's rules and fold it into
+`arabphd_nota_questions.json`. Generated batch-by-batch in
+`pipeline/nota_batches/`, one LLM pass per batch reading
+`nota_question_prompt.md` as its system prompt.
+
+```bash
+cd pipeline && python3 fill_nota_questions.py status
+```
+
+The 350 records match the proposal's own Mode 5 spec — 100 triplets + a
+matched 50-triplet control subset, evaluated under MCDR/OEDR/UDR
+(`info/arabphd_proposal.pdf`, §4, "Mode 5, ArabPhD-nota"). `validate` checks
+schema conformance (no answer leakage, distractors match the pool, option
+counts correct); project lead (Hassan Barmandah) has additionally done a
+human review pass over the 350 records.
+
+*Cross-item repetition of `question_ar` is intentional, not a defect —
+checked against the literature, not assumed.* Many of the 100 items share
+identical `question_ar` text on purpose (`nota_question_prompt.md` ties the
+question to a fixed per-item frame so MCDR/OEDR/UDR + control all ask the
+*same* question). Two papers were checked for precedent:
+- **MMBench** (Liu, Duan, Zhang, Li, Zhang, Zhao, Yuan, Wang, He, Liu, et al.,
+  *"MMBench: Is Your Multi-modal Model an All-around Player?"*, ECCV 2024) —
+  the actual origin of this pattern: MMBench groups questions into ~20 fixed
+  "ability" categories and reuses one templated question across every image
+  in a category.
+- **MM-UPD** (Miyai, Yang, Zhang, Ming, Yu, Irie, Li, Li, Liu, Aizawa,
+  *"Unsolvable Problem Detection: Robust Understanding Evaluation for Large
+  Multimodal Models"*, arXiv:2403.20331) — the paper this repo's nota design
+  cites directly. It's built by adapting MMBench (Appendix B.1) and inherits
+  the per-category templating unchanged.
+
+Verified directly, not taken on faith: pulling ~800 of the 820 real rows of
+MM-UPD's own `mmaad_aad` file (2026-08-20, via HF LFS range request — see
+`reference_datasets/mm_upd_miyai2025/`) found **218 unique question strings
+out of 802 rows (≈27%)**, with the single most-repeated string reused across
+**52 different images**. Our 22 unique strings across 100 items (≈22%) is
+the same order of magnitude, for the same underlying reason in both cases:
+the image + option set carry the per-item signal, not question-text novelty.
+Both papers do the templated-question thing as a matter of course, not as an
+exception — this isn't a corner either benchmark treats as a flaw to avoid.
 
 ## Licensing
 

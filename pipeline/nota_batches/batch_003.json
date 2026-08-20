@@ -1,0 +1,1853 @@
+[
+  {
+    "image_id": "cuisine_cuisine_of_iraq_09",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "برياني الروبيان الهندي",
+      "برياني الروبيان الباكستاني",
+      "أرز بخاري بالجمبري"
+    ],
+    "options_ar": [
+      "برياني الروبيان الهندي",
+      "برياني الروبيان الباكستاني",
+      "أرز بخاري بالجمبري",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "برياني الروبيان العراقي",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Iraqi shrimp biryani."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_09",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "برياني الروبيان الهندي",
+      "برياني الروبيان الباكستاني",
+      "أرز بخاري بالجمبري"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "برياني الروبيان العراقي",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Iraqi shrimp biryani counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_09",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "برياني الروبيان الهندي",
+      "برياني الروبيان الباكستاني",
+      "أرز بخاري بالجمبري"
+    ],
+    "options_ar": [
+      "برياني الروبيان الهندي",
+      "برياني الروبيان الباكستاني",
+      "أرز بخاري بالجمبري"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "برياني الروبيان العراقي",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Iraqi shrimp biryani, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_10",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كسكس مغربي سادة",
+      "جريش سعودي جاف",
+      "أرز بسمتي مطهو بالكركم"
+    ],
+    "options_ar": [
+      "كسكس مغربي سادة",
+      "جريش سعودي جاف",
+      "أرز بسمتي مطهو بالكركم",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "برغل عراقي مطهو",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Cooked Iraqi bulgur."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_10",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كسكس مغربي سادة",
+      "جريش سعودي جاف",
+      "أرز بسمتي مطهو بالكركم"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "برغل عراقي مطهو",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Cooked Iraqi bulgur counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_10",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كسكس مغربي سادة",
+      "جريش سعودي جاف",
+      "أرز بسمتي مطهو بالكركم"
+    ],
+    "options_ar": [
+      "كسكس مغربي سادة",
+      "جريش سعودي جاف",
+      "أرز بسمتي مطهو بالكركم"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "برغل عراقي مطهو",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Cooked Iraqi bulgur, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_10",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كسكس مغربي سادة",
+      "جريش سعودي جاف",
+      "أرز بسمتي مطهو بالكركم"
+    ],
+    "options_ar": [
+      "كسكس مغربي سادة",
+      "جريش سعودي جاف",
+      "برغل عراقي مطهو",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Cooked Iraqi bulgur); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_11",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "برياني دجاج باكستاني",
+      "برياني دجاج هندي",
+      "أرز بخاري بالدجاج"
+    ],
+    "options_ar": [
+      "برياني دجاج باكستاني",
+      "برياني دجاج هندي",
+      "أرز بخاري بالدجاج",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "برياني دجاج عراقي بالبيض المسلوق",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Iraqi chicken biryani with soft-boiled egg."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_11",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "برياني دجاج باكستاني",
+      "برياني دجاج هندي",
+      "أرز بخاري بالدجاج"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "برياني دجاج عراقي بالبيض المسلوق",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Iraqi chicken biryani with soft-boiled egg counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_11",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "برياني دجاج باكستاني",
+      "برياني دجاج هندي",
+      "أرز بخاري بالدجاج"
+    ],
+    "options_ar": [
+      "برياني دجاج باكستاني",
+      "برياني دجاج هندي",
+      "أرز بخاري بالدجاج"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "برياني دجاج عراقي بالبيض المسلوق",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Iraqi chicken biryani with soft-boiled egg, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_12",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كرات التمر السعودية",
+      "حلاوة الطحينة بجوز الهند",
+      "ترافل شوكولاتة بجوز الهند"
+    ],
+    "options_ar": [
+      "كرات التمر السعودية",
+      "حلاوة الطحينة بجوز الهند",
+      "ترافل شوكولاتة بجوز الهند",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "كرات التمر بجوز الهند عراقية",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Iraqi date balls with coconut coating."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_12",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كرات التمر السعودية",
+      "حلاوة الطحينة بجوز الهند",
+      "ترافل شوكولاتة بجوز الهند"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "كرات التمر بجوز الهند عراقية",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Iraqi date balls with coconut coating counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_12",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كرات التمر السعودية",
+      "حلاوة الطحينة بجوز الهند",
+      "ترافل شوكولاتة بجوز الهند"
+    ],
+    "options_ar": [
+      "كرات التمر السعودية",
+      "حلاوة الطحينة بجوز الهند",
+      "ترافل شوكولاتة بجوز الهند"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "كرات التمر بجوز الهند عراقية",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Iraqi date balls with coconut coating, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_12",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كرات التمر السعودية",
+      "حلاوة الطحينة بجوز الهند",
+      "ترافل شوكولاتة بجوز الهند"
+    ],
+    "options_ar": [
+      "كرات التمر السعودية",
+      "حلاوة الطحينة بجوز الهند",
+      "كرات التمر بجوز الهند عراقية",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Iraqi date balls with coconut coating); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_13",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كفتة بصلصة الطماطم شامية",
+      "كبة الكرز الحلبية",
+      "كرات لحم إيطالية بصلصة الطماطم"
+    ],
+    "options_ar": [
+      "كفتة بصلصة الطماطم شامية",
+      "كبة الكرز الحلبية",
+      "كرات لحم إيطالية بصلصة الطماطم",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "داوود باشا عراقي",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Iraqi Dawood Basha (meatballs in tomato sauce)."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_13",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كفتة بصلصة الطماطم شامية",
+      "كبة الكرز الحلبية",
+      "كرات لحم إيطالية بصلصة الطماطم"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "داوود باشا عراقي",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Iraqi Dawood Basha (meatballs in tomato sauce) counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_13",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كفتة بصلصة الطماطم شامية",
+      "كبة الكرز الحلبية",
+      "كرات لحم إيطالية بصلصة الطماطم"
+    ],
+    "options_ar": [
+      "كفتة بصلصة الطماطم شامية",
+      "كبة الكرز الحلبية",
+      "كرات لحم إيطالية بصلصة الطماطم"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "داوود باشا عراقي",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Iraqi Dawood Basha (meatballs in tomato sauce), unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_14",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "كرات لحم إيطالية بصلصة الطماطم",
+      "كفتة بصلصة الطماطم شامية",
+      "كبة الكرز الحلبية"
+    ],
+    "options_ar": [
+      "كرات لحم إيطالية بصلصة الطماطم",
+      "كفتة بصلصة الطماطم شامية",
+      "كبة الكرز الحلبية",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "داوود باشا عراقي (لقطة ثانية)",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Iraqi Dawood Basha, second view."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_14",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "كرات لحم إيطالية بصلصة الطماطم",
+      "كفتة بصلصة الطماطم شامية",
+      "كبة الكرز الحلبية"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "داوود باشا عراقي (لقطة ثانية)",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Iraqi Dawood Basha, second view counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_14",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "كرات لحم إيطالية بصلصة الطماطم",
+      "كفتة بصلصة الطماطم شامية",
+      "كبة الكرز الحلبية"
+    ],
+    "options_ar": [
+      "كرات لحم إيطالية بصلصة الطماطم",
+      "كفتة بصلصة الطماطم شامية",
+      "كبة الكرز الحلبية"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "داوود باشا عراقي (لقطة ثانية)",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Iraqi Dawood Basha, second view, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_iraq_14",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "كرات لحم إيطالية بصلصة الطماطم",
+      "كفتة بصلصة الطماطم شامية",
+      "كبة الكرز الحلبية"
+    ],
+    "options_ar": [
+      "كرات لحم إيطالية بصلصة الطماطم",
+      "كفتة بصلصة الطماطم شامية",
+      "داوود باشا عراقي (لقطة ثانية)",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Iraqi Dawood Basha, second view); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_01",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "سمبوسة هندية",
+      "إمباناداس إسبانية",
+      "فطير بيروجي بولندي"
+    ],
+    "options_ar": [
+      "سمبوسة هندية",
+      "إمباناداس إسبانية",
+      "فطير بيروجي بولندي",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "سمبوسك مقلي بحشوة لحم",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Fried meat-filled sambousek."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_01",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "سمبوسة هندية",
+      "إمباناداس إسبانية",
+      "فطير بيروجي بولندي"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "سمبوسك مقلي بحشوة لحم",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Fried meat-filled sambousek counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_01",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "سمبوسة هندية",
+      "إمباناداس إسبانية",
+      "فطير بيروجي بولندي"
+    ],
+    "options_ar": [
+      "سمبوسة هندية",
+      "إمباناداس إسبانية",
+      "فطير بيروجي بولندي"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "سمبوسك مقلي بحشوة لحم",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Fried meat-filled sambousek, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_02",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "بيروق لحم تركي",
+      "فطيرة سبانخ مقلية",
+      "إسفنجة عجين مقلية"
+    ],
+    "options_ar": [
+      "بيروق لحم تركي",
+      "فطيرة سبانخ مقلية",
+      "إسفنجة عجين مقلية",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "سمبوسك مقلي كبير الحجم",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Large fried sambousek."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_02",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "بيروق لحم تركي",
+      "فطيرة سبانخ مقلية",
+      "إسفنجة عجين مقلية"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "سمبوسك مقلي كبير الحجم",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Large fried sambousek counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_02",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "بيروق لحم تركي",
+      "فطيرة سبانخ مقلية",
+      "إسفنجة عجين مقلية"
+    ],
+    "options_ar": [
+      "بيروق لحم تركي",
+      "فطيرة سبانخ مقلية",
+      "إسفنجة عجين مقلية"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "سمبوسك مقلي كبير الحجم",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Large fried sambousek, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_02",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "بيروق لحم تركي",
+      "فطيرة سبانخ مقلية",
+      "إسفنجة عجين مقلية"
+    ],
+    "options_ar": [
+      "بيروق لحم تركي",
+      "فطيرة سبانخ مقلية",
+      "سمبوسك مقلي كبير الحجم",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Large fried sambousek); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_04",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "فلفل مشوي على الموقد",
+      "طماطم مشوية على الفحم",
+      "بطاطا مشوية بالرماد"
+    ],
+    "options_ar": [
+      "فلفل مشوي على الموقد",
+      "طماطم مشوية على الفحم",
+      "بطاطا مشوية بالرماد",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "باذنجان مشوي على الموقد استعداداً لبابا غنوج",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Eggplants charring on a stovetop for baba ganoush."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_04",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "فلفل مشوي على الموقد",
+      "طماطم مشوية على الفحم",
+      "بطاطا مشوية بالرماد"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "باذنجان مشوي على الموقد استعداداً لبابا غنوج",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Eggplants charring on a stovetop for baba ganoush counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_04",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "فلفل مشوي على الموقد",
+      "طماطم مشوية على الفحم",
+      "بطاطا مشوية بالرماد"
+    ],
+    "options_ar": [
+      "فلفل مشوي على الموقد",
+      "طماطم مشوية على الفحم",
+      "بطاطا مشوية بالرماد"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "باذنجان مشوي على الموقد استعداداً لبابا غنوج",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Eggplants charring on a stovetop for baba ganoush, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_05",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "إبريق شاي بدوي",
+      "دلة قهوة عربية نحاسية",
+      "قدر طبخ حديدي صحراوي"
+    ],
+    "options_ar": [
+      "إبريق شاي بدوي",
+      "دلة قهوة عربية نحاسية",
+      "قدر طبخ حديدي صحراوي",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "دلة قهوة بدوية على نار الحطب",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Bedouin coffee pot over a desert firewood fire."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_05",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "إبريق شاي بدوي",
+      "دلة قهوة عربية نحاسية",
+      "قدر طبخ حديدي صحراوي"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "دلة قهوة بدوية على نار الحطب",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Bedouin coffee pot over a desert firewood fire counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_05",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "إبريق شاي بدوي",
+      "دلة قهوة عربية نحاسية",
+      "قدر طبخ حديدي صحراوي"
+    ],
+    "options_ar": [
+      "إبريق شاي بدوي",
+      "دلة قهوة عربية نحاسية",
+      "قدر طبخ حديدي صحراوي"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "دلة قهوة بدوية على نار الحطب",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Bedouin coffee pot over a desert firewood fire, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_05",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "إبريق شاي بدوي",
+      "دلة قهوة عربية نحاسية",
+      "قدر طبخ حديدي صحراوي"
+    ],
+    "options_ar": [
+      "إبريق شاي بدوي",
+      "دلة قهوة عربية نحاسية",
+      "دلة قهوة بدوية على نار الحطب",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Bedouin coffee pot over a desert firewood fire); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_06",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "إفطار فلسطيني تقليدي",
+      "إفطار سوري بالفول والفلافل",
+      "إفطار لبناني بالمناقيش"
+    ],
+    "options_ar": [
+      "إفطار فلسطيني تقليدي",
+      "إفطار سوري بالفول والفلافل",
+      "إفطار لبناني بالمناقيش",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "إفطار أردني (فلافل وفتوش وحمص ومخللات وخبز)",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Jordanian breakfast spread (falafel, tomato salad, hummus, pickles, bread)."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_06",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "إفطار فلسطيني تقليدي",
+      "إفطار سوري بالفول والفلافل",
+      "إفطار لبناني بالمناقيش"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "إفطار أردني (فلافل وفتوش وحمص ومخللات وخبز)",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Jordanian breakfast spread (falafel, tomato salad, hummus, pickles, bread) counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_06",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "إفطار فلسطيني تقليدي",
+      "إفطار سوري بالفول والفلافل",
+      "إفطار لبناني بالمناقيش"
+    ],
+    "options_ar": [
+      "إفطار فلسطيني تقليدي",
+      "إفطار سوري بالفول والفلافل",
+      "إفطار لبناني بالمناقيش"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "إفطار أردني (فلافل وفتوش وحمص ومخللات وخبز)",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Jordanian breakfast spread (falafel, tomato salad, hummus, pickles, bread), unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_07",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "متبل باذنجان شامي",
+      "حمص بالطحينة",
+      "بصارة مصرية"
+    ],
+    "options_ar": [
+      "متبل باذنجان شامي",
+      "حمص بالطحينة",
+      "بصارة مصرية",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "بابا غنوج أردني",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Jordanian baba ganoush."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_07",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "متبل باذنجان شامي",
+      "حمص بالطحينة",
+      "بصارة مصرية"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "بابا غنوج أردني",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Jordanian baba ganoush counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_07",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "متبل باذنجان شامي",
+      "حمص بالطحينة",
+      "بصارة مصرية"
+    ],
+    "options_ar": [
+      "متبل باذنجان شامي",
+      "حمص بالطحينة",
+      "بصارة مصرية"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "بابا غنوج أردني",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Jordanian baba ganoush, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_07",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "متبل باذنجان شامي",
+      "حمص بالطحينة",
+      "بصارة مصرية"
+    ],
+    "options_ar": [
+      "متبل باذنجان شامي",
+      "حمص بالطحينة",
+      "بابا غنوج أردني",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Jordanian baba ganoush); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_09",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "دقوس خليجي",
+      "صلصة شكشوكة",
+      "معجون فلفل حلبي (محمرة)"
+    ],
+    "options_ar": [
+      "دقوس خليجي",
+      "صلصة شكشوكة",
+      "معجون فلفل حلبي (محمرة)",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "دقة فلفل حار أردنية بالصنوبر",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Amman-style spicy pepper dip with pine nuts."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_09",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "دقوس خليجي",
+      "صلصة شكشوكة",
+      "معجون فلفل حلبي (محمرة)"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "دقة فلفل حار أردنية بالصنوبر",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Amman-style spicy pepper dip with pine nuts counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_09",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "دقوس خليجي",
+      "صلصة شكشوكة",
+      "معجون فلفل حلبي (محمرة)"
+    ],
+    "options_ar": [
+      "دقوس خليجي",
+      "صلصة شكشوكة",
+      "معجون فلفل حلبي (محمرة)"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "دقة فلفل حار أردنية بالصنوبر",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Amman-style spicy pepper dip with pine nuts, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_10",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "شاورما مشكلة على الصاج",
+      "فاهيتا مكسيكية",
+      "لحم صيني بالفلفل الحلو"
+    ],
+    "options_ar": [
+      "شاورما مشكلة على الصاج",
+      "فاهيتا مكسيكية",
+      "لحم صيني بالفلفل الحلو",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "فاهيتا لحم ودجاج مشوية",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Grilled beef and chicken fajita."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_10",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "شاورما مشكلة على الصاج",
+      "فاهيتا مكسيكية",
+      "لحم صيني بالفلفل الحلو"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "فاهيتا لحم ودجاج مشوية",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Grilled beef and chicken fajita counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_10",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "شاورما مشكلة على الصاج",
+      "فاهيتا مكسيكية",
+      "لحم صيني بالفلفل الحلو"
+    ],
+    "options_ar": [
+      "شاورما مشكلة على الصاج",
+      "فاهيتا مكسيكية",
+      "لحم صيني بالفلفل الحلو"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "فاهيتا لحم ودجاج مشوية",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Grilled beef and chicken fajita, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_10",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "شاورما مشكلة على الصاج",
+      "فاهيتا مكسيكية",
+      "لحم صيني بالفلفل الحلو"
+    ],
+    "options_ar": [
+      "شاورما مشكلة على الصاج",
+      "فاهيتا مكسيكية",
+      "فاهيتا لحم ودجاج مشوية",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Grilled beef and chicken fajita); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_11",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "ورق عنب لبناني",
+      "محشي كرنب سوري",
+      "دولمة تركية بالزيت"
+    ],
+    "options_ar": [
+      "ورق عنب لبناني",
+      "محشي كرنب سوري",
+      "دولمة تركية بالزيت",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "ورق عنب أردني",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Jordanian stuffed grape leaves (waraq enab)."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_11",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "ورق عنب لبناني",
+      "محشي كرنب سوري",
+      "دولمة تركية بالزيت"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "ورق عنب أردني",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Jordanian stuffed grape leaves (waraq enab) counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_11",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "ورق عنب لبناني",
+      "محشي كرنب سوري",
+      "دولمة تركية بالزيت"
+    ],
+    "options_ar": [
+      "ورق عنب لبناني",
+      "محشي كرنب سوري",
+      "دولمة تركية بالزيت"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "ورق عنب أردني",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Jordanian stuffed grape leaves (waraq enab), unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_12",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "محشي كرنب سوري",
+      "دولمة تركية بالزيت",
+      "يبرق عراقي"
+    ],
+    "options_ar": [
+      "محشي كرنب سوري",
+      "دولمة تركية بالزيت",
+      "يبرق عراقي",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "ورق عنب أردني (لقطة مقربة)",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Jordanian stuffed grape leaves (close-up)."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_12",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "محشي كرنب سوري",
+      "دولمة تركية بالزيت",
+      "يبرق عراقي"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "ورق عنب أردني (لقطة مقربة)",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Jordanian stuffed grape leaves (close-up) counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_12",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "محشي كرنب سوري",
+      "دولمة تركية بالزيت",
+      "يبرق عراقي"
+    ],
+    "options_ar": [
+      "محشي كرنب سوري",
+      "دولمة تركية بالزيت",
+      "يبرق عراقي"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "ورق عنب أردني (لقطة مقربة)",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Jordanian stuffed grape leaves (close-up), unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_12",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "محشي كرنب سوري",
+      "دولمة تركية بالزيت",
+      "يبرق عراقي"
+    ],
+    "options_ar": [
+      "محشي كرنب سوري",
+      "دولمة تركية بالزيت",
+      "ورق عنب أردني (لقطة مقربة)",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Jordanian stuffed grape leaves (close-up)); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_14",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "حمص فلسطيني بالصنوبر",
+      "حمص لبناني بالطحينة",
+      "متبل باذنجان أردني"
+    ],
+    "options_ar": [
+      "حمص فلسطيني بالصنوبر",
+      "حمص لبناني بالطحينة",
+      "متبل باذنجان أردني",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "حمص مزين بالحمص الكامل والسماق",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Hummus garnished with whole chickpeas and sumac."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_14",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "حمص فلسطيني بالصنوبر",
+      "حمص لبناني بالطحينة",
+      "متبل باذنجان أردني"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "حمص مزين بالحمص الكامل والسماق",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Hummus garnished with whole chickpeas and sumac counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_14",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "حمص فلسطيني بالصنوبر",
+      "حمص لبناني بالطحينة",
+      "متبل باذنجان أردني"
+    ],
+    "options_ar": [
+      "حمص فلسطيني بالصنوبر",
+      "حمص لبناني بالطحينة",
+      "متبل باذنجان أردني"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "حمص مزين بالحمص الكامل والسماق",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Hummus garnished with whole chickpeas and sumac, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_01",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "طعمية مصرية",
+      "كفتة مقلية سورية",
+      "كرات كبة نية صغيرة"
+    ],
+    "options_ar": [
+      "طعمية مصرية",
+      "كفتة مقلية سورية",
+      "كرات كبة نية صغيرة",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "فلافل لبناني",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Lebanese falafel."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_01",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "طعمية مصرية",
+      "كفتة مقلية سورية",
+      "كرات كبة نية صغيرة"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "فلافل لبناني",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Lebanese falafel counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_01",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "طعمية مصرية",
+      "كفتة مقلية سورية",
+      "كرات كبة نية صغيرة"
+    ],
+    "options_ar": [
+      "طعمية مصرية",
+      "كفتة مقلية سورية",
+      "كرات كبة نية صغيرة"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "فلافل لبناني",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Lebanese falafel, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_01",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "طعمية مصرية",
+      "كفتة مقلية سورية",
+      "كرات كبة نية صغيرة"
+    ],
+    "options_ar": [
+      "طعمية مصرية",
+      "كفتة مقلية سورية",
+      "فلافل لبناني",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Lebanese falafel); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_04",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "لحم بعجين مثلث",
+      "فطيرة سبانخ مثلثة",
+      "بيتزا صغيرة مثلثة"
+    ],
+    "options_ar": [
+      "لحم بعجين مثلث",
+      "فطيرة سبانخ مثلثة",
+      "بيتزا صغيرة مثلثة",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "عرايس لحم مشوية",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Grilled meat-stuffed Arayes."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_04",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "لحم بعجين مثلث",
+      "فطيرة سبانخ مثلثة",
+      "بيتزا صغيرة مثلثة"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "عرايس لحم مشوية",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Grilled meat-stuffed Arayes counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_04",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "لحم بعجين مثلث",
+      "فطيرة سبانخ مثلثة",
+      "بيتزا صغيرة مثلثة"
+    ],
+    "options_ar": [
+      "لحم بعجين مثلث",
+      "فطيرة سبانخ مثلثة",
+      "بيتزا صغيرة مثلثة"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "عرايس لحم مشوية",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Grilled meat-stuffed Arayes, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_05",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "مقبلات سورية مشكلة",
+      "مقبلات أردنية مشكلة",
+      "مازة تركية متنوعة"
+    ],
+    "options_ar": [
+      "مقبلات سورية مشكلة",
+      "مقبلات أردنية مشكلة",
+      "مازة تركية متنوعة",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "طبق مقبلات لبنانية مشكلة",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Mixed Lebanese mezze platter."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_05",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "مقبلات سورية مشكلة",
+      "مقبلات أردنية مشكلة",
+      "مازة تركية متنوعة"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "طبق مقبلات لبنانية مشكلة",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Mixed Lebanese mezze platter counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_05",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "مقبلات سورية مشكلة",
+      "مقبلات أردنية مشكلة",
+      "مازة تركية متنوعة"
+    ],
+    "options_ar": [
+      "مقبلات سورية مشكلة",
+      "مقبلات أردنية مشكلة",
+      "مازة تركية متنوعة"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "طبق مقبلات لبنانية مشكلة",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Mixed Lebanese mezze platter, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_05",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "مقبلات سورية مشكلة",
+      "مقبلات أردنية مشكلة",
+      "مازة تركية متنوعة"
+    ],
+    "options_ar": [
+      "مقبلات سورية مشكلة",
+      "مقبلات أردنية مشكلة",
+      "طبق مقبلات لبنانية مشكلة",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Mixed Lebanese mezze platter); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_06",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "حلويات تركية مشكلة",
+      "حلويات سورية مشكلة",
+      "معمول خليجي مشكل"
+    ],
+    "options_ar": [
+      "حلويات تركية مشكلة",
+      "حلويات سورية مشكلة",
+      "معمول خليجي مشكل",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "حلويات لبنانية مشكلة (بقلاوة وقشطة)",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Assorted Lebanese sweets (baklava and cream pastries)."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_06",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "حلويات تركية مشكلة",
+      "حلويات سورية مشكلة",
+      "معمول خليجي مشكل"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "حلويات لبنانية مشكلة (بقلاوة وقشطة)",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Assorted Lebanese sweets (baklava and cream pastries) counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_06",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "حلويات تركية مشكلة",
+      "حلويات سورية مشكلة",
+      "معمول خليجي مشكل"
+    ],
+    "options_ar": [
+      "حلويات تركية مشكلة",
+      "حلويات سورية مشكلة",
+      "معمول خليجي مشكل"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "حلويات لبنانية مشكلة (بقلاوة وقشطة)",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Assorted Lebanese sweets (baklava and cream pastries), unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_07",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "أصابع زينب بالقشطة",
+      "قطايف بالقشطة مقلية",
+      "كنافة أصابع بالجبن"
+    ],
+    "options_ar": [
+      "أصابع زينب بالقشطة",
+      "قطايف بالقشطة مقلية",
+      "كنافة أصابع بالجبن",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "زنود الست بالقشطة واللوز",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Znoud el-Sit (cream-filled pastry rolls with almond)."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_07",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "أصابع زينب بالقشطة",
+      "قطايف بالقشطة مقلية",
+      "كنافة أصابع بالجبن"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "زنود الست بالقشطة واللوز",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Znoud el-Sit (cream-filled pastry rolls with almond) counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_07",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "أصابع زينب بالقشطة",
+      "قطايف بالقشطة مقلية",
+      "كنافة أصابع بالجبن"
+    ],
+    "options_ar": [
+      "أصابع زينب بالقشطة",
+      "قطايف بالقشطة مقلية",
+      "كنافة أصابع بالجبن"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "زنود الست بالقشطة واللوز",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Znoud el-Sit (cream-filled pastry rolls with almond), unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_07",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "أصابع زينب بالقشطة",
+      "قطايف بالقشطة مقلية",
+      "كنافة أصابع بالجبن"
+    ],
+    "options_ar": [
+      "أصابع زينب بالقشطة",
+      "قطايف بالقشطة مقلية",
+      "زنود الست بالقشطة واللوز",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Znoud el-Sit (cream-filled pastry rolls with almond)); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_13",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "بقلاوة تركية متنوعة",
+      "بقلاوة سورية بالفستق",
+      "كنافة مقطعة مربعات"
+    ],
+    "options_ar": [
+      "بقلاوة تركية متنوعة",
+      "بقلاوة سورية بالفستق",
+      "كنافة مقطعة مربعات",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "بقلاوة لبنانية متنوعة",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Assorted Lebanese baklava."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_13",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "بقلاوة تركية متنوعة",
+      "بقلاوة سورية بالفستق",
+      "كنافة مقطعة مربعات"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "بقلاوة لبنانية متنوعة",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Assorted Lebanese baklava counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_13",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "بقلاوة تركية متنوعة",
+      "بقلاوة سورية بالفستق",
+      "كنافة مقطعة مربعات"
+    ],
+    "options_ar": [
+      "بقلاوة تركية متنوعة",
+      "بقلاوة سورية بالفستق",
+      "كنافة مقطعة مربعات"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "بقلاوة لبنانية متنوعة",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Assorted Lebanese baklava, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_14",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "بطاطس بهارات سعودية",
+      "بطاطا مقلية مصرية بالشطة",
+      "بطاطس وج بريطانية"
+    ],
+    "options_ar": [
+      "بطاطس بهارات سعودية",
+      "بطاطا مقلية مصرية بالشطة",
+      "بطاطس وج بريطانية",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "بطاطا حارة لبنانية",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Lebanese Batata Harra (spicy fried potatoes)."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_14",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "بطاطس بهارات سعودية",
+      "بطاطا مقلية مصرية بالشطة",
+      "بطاطس وج بريطانية"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "بطاطا حارة لبنانية",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Lebanese Batata Harra (spicy fried potatoes) counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_14",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "بطاطس بهارات سعودية",
+      "بطاطا مقلية مصرية بالشطة",
+      "بطاطس وج بريطانية"
+    ],
+    "options_ar": [
+      "بطاطس بهارات سعودية",
+      "بطاطا مقلية مصرية بالشطة",
+      "بطاطس وج بريطانية"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "بطاطا حارة لبنانية",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Lebanese Batata Harra (spicy fried potatoes), unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_lebanon_14",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "بطاطس بهارات سعودية",
+      "بطاطا مقلية مصرية بالشطة",
+      "بطاطس وج بريطانية"
+    ],
+    "options_ar": [
+      "بطاطس بهارات سعودية",
+      "بطاطا مقلية مصرية بالشطة",
+      "بطاطا حارة لبنانية",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select the correct answer (option C, Lebanese Batata Harra (spicy fried potatoes)); selecting D here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_saudi_arabia_03",
+    "task": "object",
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "شاورما لبنانية بخبز صاج",
+      "فلافل بخبز عربي",
+      "برغر لحم أمريكي"
+    ],
+    "options_ar": [
+      "شاورما لبنانية بخبز صاج",
+      "فلافل بخبز عربي",
+      "برغر لحم أمريكي",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "سندويش عربي محشو باللحم والخضار",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is Stuffed Arabic pita sandwich."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_saudi_arabia_03",
+    "task": "object",
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "شاورما لبنانية بخبز صاج",
+      "فلافل بخبز عربي",
+      "برغر لحم أمريكي"
+    ],
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "سندويش عربي محشو باللحم والخضار",
+    "is_control": false,
+    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Stuffed Arabic pita sandwich counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_saudi_arabia_03",
+    "task": "object",
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "question_ar": "اذكر اسم الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "شاورما لبنانية بخبز صاج",
+      "فلافل بخبز عربي",
+      "برغر لحم أمريكي"
+    ],
+    "options_ar": [
+      "شاورما لبنانية بخبز صاج",
+      "فلافل بخبز عربي",
+      "برغر لحم أمريكي"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "سندويش عربي محشو باللحم والخضار",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is Stuffed Arabic pita sandwich, unprompted."
+  }
+]

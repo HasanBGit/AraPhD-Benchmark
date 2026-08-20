@@ -1,0 +1,132 @@
+[
+  {
+    "task": "object",
+    "yes_question": "Is there a car present in the image?",
+    "no_question": "Is there a street lamp in the image?",
+    "context": {
+      "icc": "The image includes a street lamp standing tall at a bustling city bus stop, where several elderly individuals are waiting for their turn to board. Among them, a woman with a walker carefully makes her way onto the bus, highlighting the accessibility challenges faced by some passengers. This scene captures the daily realities of those relying on public transport, as a small group patiently stands by the bus on a busy street.",
+      "iac": "Street lamps line the bus stop, casting a warm glow that is particularly essential for the elderly as they wait to board during twilight hours. As they gather at the stop, some individuals stand patiently, while others make their way onto the bus, ensuring that everyone can safely take their turn to travel. The presence of a woman using a walker highlights the importance of accessible public transportation for all members of the community."
+    },
+    "image_id": "000000114288",
+    "hitem": "street lamp",
+    "subject": null,
+    "gt": "car"
+  },
+  {
+    "task": "object",
+    "yes_question": "Is there a motorcycle in the image?",
+    "no_question": "Is there a pilot in the image?",
+    "context": {
+      "icc": "The image features a pilot standing beside a Navy helicopter, which has its rotors folded and is parked in a spacious hangar alongside a yellow car and a motorcycle. This unique setting showcases the juxtaposition of a helicopter and motorcycle situated next to each other, creating an intriguing atmosphere for aviation and vehicle enthusiasts alike. The presence of the motorcycle parked in front of the helicopter highlights the diverse aspects of vehicle design and operation within military spaces.",
+      "iac": "The excitement of air travel typically draws the pilot to the hangar, especially when inspecting the nearby helicopter. With a sleek design and rotors ready for action, the helicopter stands out next to a vibrant yellow car and a motorcycle, highlighting the intriguing combination of aviation and ground transportation. Together, they create a dynamic setting that sparks the imagination and fuels the passion for flight."
+    },
+    "image_id": "000000519145",
+    "hitem": "pilot",
+    "subject": null,
+    "gt": "motorcycle"
+  },
+  {
+    "task": "attribute",
+    "yes_question": "Is the table made of wood in the image?",
+    "no_question": "Is the table made of glass in the image?",
+    "context": {
+      "icc": "In a delightful scene, a glass table reflects a whimsical ambiance as a stuffed polar bear sits poised in front of a computer monitor. This charming setup captures the essence of imagination, with the polar bear seemingly gazing at a real polar bear displayed on the screen. Surrounded by a mouse, the stuffed bear creates an enchanting tableau that merges the real and the fantastical.",
+      "iac": "The glass table is a popular choice in modern decor, providing a sleek surface for showcasing cherished items. Recently, a large white polar bear stuffed animal was placed in front of a computer screen that displayed a real polar bear, creating a whimsical juxtaposition between the plush toy and its living counterpart. This charming setup illustrates how decorative choices can add personality and intrigue to a space."
+    },
+    "image_id": "000000044432",
+    "hitem": "glass",
+    "subject": "table",
+    "gt": "wood"
+  },
+  {
+    "task": "attribute",
+    "yes_question": "Is the surfboard blue in the image?",
+    "no_question": "Is the surfboard green in the image?",
+    "context": {
+      "icc": "The surfboard in the image is green, showcasing its vibrant design against the backdrop of the ocean. A woman is laying on top of the surfboard, while another individual is captured swimming alongside it, embodying the spirit of adventure and excitement. The scene encapsulates the thrill of surfing, with people enjoying the waves and the beautiful day.",
+      "iac": "Surfers often choose vibrant colors for their boards, with green being a popular option that stands out amidst the ocean waves. As they engage with the water, some surfers can be seen paddling diligently, while others take a moment to relax atop their boards, immersing themselves in the serene environment of the sea. The camaraderie of the surfing community is evident as they enjoy a day of fun and excitement in the waves."
+    },
+    "image_id": "000000305319",
+    "hitem": "green",
+    "subject": "surfboard",
+    "gt": "blue"
+  },
+  {
+    "task": "sentiment",
+    "yes_question": "Is the boy in the middle happy in the image?",
+    "no_question": "Is the boy in the middle indifferent in the image?",
+    "context": {
+      "icc": "In a heartwarming scene, the boy in the middle appears indifferent as he sits with a group of kids at a table filled with food. Photo captures the joy of Asian families enjoying a meal together, with laughter echoing around as a child looks surprised at a dish in front of him. A boy watches a woman eat, further adding to the lively atmosphere among the gathering.",
+      "iac": "The boy in the middle is often seen with a look of indifference while his friends enjoy their meals at the table. Despite the lively atmosphere surrounding him, he seems detached from the enjoyable experience of sharing food and laughter with the others. His expression contrasts sharply with that of the group, who are fully engaged in their shared dining experience."
+    },
+    "image_id": "000000480624",
+    "hitem": "indifferent",
+    "subject": "boy in the middle",
+    "gt": "happy"
+  },
+  {
+    "task": "sentiment",
+    "yes_question": "Are they happy in the image?",
+    "no_question": "Do they appear nostalgic in the image?",
+    "context": {
+      "icc": "In a charming moment captured in the photo, a man and a woman both wearing red sit at a table, smiling with a sense of nostalgia. The handsome couple leans together as they have their picture taken, exuding happiness while posing with others in the background. Clearly, they are delighted to attend the event and create lasting memories.",
+      "iac": "Their smiles often reflect a nostalgic happiness that the couple feels during special events like this. Surrounded by friends and family, they clearly share a joyful moment, embodying the warmth and connection that such gatherings bring. The atmosphere is filled with laughter and celebration as they cherish their time together."
+    },
+    "image_id": "000000496115",
+    "hitem": "nostalgic",
+    "subject": "they",
+    "gt": "happy"
+  },
+  {
+    "task": "positional",
+    "yes_question": "Is there a frisbee to the right of the dog in the image?",
+    "no_question": "Is the tennis ball located to the right of the dog in the image?",
+    "context": {
+      "icc": "In a captivating moment captured in the photo, a dog is seen leaping into the air to catch a Frisbee, displaying its agility and enthusiasm for play. The tennis ball is located to the right of the dog in the image, adding an extra element of excitement to the scene. This very cute dog, high in the air with the disc, embodies the joy and energy of a perfect day on the grass field.",
+      "iac": "During exciting playtime, the tennis ball often rolls to the right side, capturing the dog's attention as it leaps into the air to catch the Frisbee. The vibrant scene unfolds on a grassy field, showcasing the dog's agility and enthusiasm. This playful interaction highlights not only the dog's athleticism but also the joy of outdoor activities."
+    },
+    "image_id": "000000227802",
+    "hitem": "tennis ball",
+    "subject": "to the right of dog",
+    "gt": "frisbee"
+  },
+  {
+    "task": "positional",
+    "yes_question": "Is there a person to the right of the dining table in the image?",
+    "no_question": "Is there a wineglass to the right of the dining table in the image?",
+    "context": {
+      "icc": "In the image, a wineglass is positioned elegantly to the right of the dining table, complementing the beautifully arranged meal. Sliced meat and vegetables are artistically presented on a white plate, alongside a partially filled glass of wine, creating an inviting atmosphere for dining at home. The overall scene captures a moment of culinary delight, enhanced by the warm ambiance of a well-set table.",
+      "iac": "The elegantly set table usually accommodates a wineglass on the right side, enhancing the dining experience. This thoughtful arrangement features sliced meat and vegetables, creating a visually appealing presentation alongside the wine, inviting diners to indulge in a sumptuous meal. The atmosphere is further enriched as the table becomes a gathering place for enjoying fine food and wine at home."
+    },
+    "image_id": "000000334746",
+    "hitem": "wineglass",
+    "subject": "to the right of dining table",
+    "gt": "person"
+  },
+  {
+    "task": "counting",
+    "yes_question": "Are there two dogs in the image?",
+    "no_question": "Are there 3 dogs in the image?",
+    "context": {
+      "icc": "A recent image captures a tranquil moment on the water, featuring three dogs sitting alongside their owner in a boat. A view of the scene reveals a man enjoying the company of his two big dogs, who sit contently, taking in the sights of the lake. This charming moment showcases the bond between pets and their owners, as the two black dogs stand proudly with their guy.",
+      "iac": "The owner usually brings all three dogs on their boating trips, ensuring no one gets left behind. Alongside their pets, they enjoy scenic views on the water, creating cherished memories together. This family outing illustrates the bond between the owner and the dogs as they embark on adventures."
+    },
+    "image_id": "000000017350",
+    "hitem": "3",
+    "subject": "dogs",
+    "gt": "two"
+  },
+  {
+    "task": "counting",
+    "yes_question": "Are there one baseball bat in the image?",
+    "no_question": "Are there 3 baseball bats in the image?",
+    "context": {
+      "icc": "In a striking image featuring three baseball bats prominently displayed, the focus shifts to a baseball player holding one of the bats while leaning against a barrier, embodying the spirit of the game. Nearby, a group of business men engages in conversation, adding an intriguing layer to the scene. Accompanying visuals showcase the player next to the fence and another shot of the vintage baseball bat cast against the backdrop of the field, enhancing the nostalgic atmosphere of the sport.",
+      "iac": "The baseball practice area is well-stocked with equipment, typically featuring three bats for players to choose from at all times. This ensures that players have access to quality gear while honing their skills. Such amenities contribute to a productive training environment, allowing athletes to focus on their development."
+    },
+    "image_id": "000000065425",
+    "hitem": "3",
+    "subject": "baseball bats",
+    "gt": "one"
+  }
+]
