@@ -6840,7 +6840,8 @@
       "حمص بالطحينة",
       "بصارة مصرية",
       "متبل قرع مشوي"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_jordan_09",
@@ -6868,7 +6869,8 @@
       "صلصة شكشوكة",
       "معجون فلفل حلبي (محمرة)",
       "صلصة طماطم مغربية شرمولة"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_jordan_10",
@@ -6896,7 +6898,8 @@
       "فاهيتا مكسيكية",
       "لحم صيني بالفلفل الحلو",
       "دجاج تكا مشوي هندي"
-    ]
+    ],
+    "review_status": "correct"
   },
   {
     "image_id": "cuisine_cuisine_of_jordan_11",
@@ -6924,7 +6927,8 @@
       "محشي كرنب سوري",
       "دولمة تركية بالزيت",
       "يبرق عراقي"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_jordan_12",
@@ -6952,7 +6956,8 @@
       "دولمة تركية بالزيت",
       "يبرق عراقي",
       "محشي كوسا مصري"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_jordan_14",
@@ -6980,7 +6985,8 @@
       "حمص لبناني بالطحينة",
       "متبل باذنجان أردني",
       "مسبحة بالحمص"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_yemen_02",
@@ -7008,7 +7014,8 @@
       "مائدة عمانية بالمرق",
       "إفطار أردني كامل",
       "مائدة إثيوبية بالإنجيرا"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_yemen_03",
@@ -7026,9 +7033,9 @@
     "source": null,
     "inferred_identity_ar": "بنت الصحن",
     "inferred_identity_en": "Bint al-Sahn (Yemeni honey pastry)",
-    "caption_ar": "صورة مقربة لقطعة مثلثة من عجين طبقات هش مقلي، مغطاة بشراب لامع وحبات حبة البركة السوداء، على خلفية بيضاء.",
+    "caption_ar": "صورة مقربة لقطعة مثلثة من عجين طبقات هش مخبوز، مغطاة بشراب لامع وحبات حبة البركة السوداء، على خلفية بيضاء.",
     "caption_en": "A close-up photo of a triangular slice of flaky, layered fried dough, glazed with a glossy syrup and topped with black nigella seeds, on a white background.",
-    "h_item_ar": "كنافة بالعسل",
+    "h_item_ar": "فطير مشلتت",
     "h_item_en": "Kunafa with honey syrup",
     "diagnostic_trap_type": "perceptual_neighbor",
     "implicit_rejection_set": [
@@ -7036,7 +7043,8 @@
       "بقلاوة بالعسل",
       "فطير مشلتت مصري",
       "مطبق حلو قطري"
-    ]
+    ],
+    "review_status": "edited"
   },
   {
     "image_id": "cuisine_cuisine_of_yemen_04",
@@ -7064,7 +7072,8 @@
       "زربيان سمك حضرمي",
       "صيادية سمك مصرية",
       "مشاوي بحرية عمانية"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_yemen_05",
@@ -7092,7 +7101,8 @@
       "شوربة عدس صفراء",
       "مرق دجاج بالحلبة عدني",
       "يخنة لحم عراقية"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_yemen_06",
@@ -7120,7 +7130,8 @@
       "ثريد سعودي بالبيض",
       "بيض مقلي بالخبز شامي",
       "شكشوكة بالخبز"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_yemen_07",
@@ -7140,7 +7151,7 @@
     "inferred_identity_en": "Yemeni Lahoh (spongy flatbread)",
     "caption_ar": "صورة لخبز مسطح دائري إسفنجي القوام مليء بثقوب صغيرة متناثرة على كامل سطحه، بلون بيج فاتح مع حواف مذهبة، على طبق أزرق مزخرف.",
     "caption_en": "A photo of a round, spongy flatbread covered in small scattered holes across its entire surface, in light beige with golden edges, on a decorated blue plate.",
-    "h_item_ar": "إنجيرا إثيوبية",
+    "h_item_ar": "بغرير مغربي",
     "h_item_en": "Ethiopian injera",
     "diagnostic_trap_type": "context_hijack_and_perceptual_neighbor",
     "implicit_rejection_set": [
@@ -7148,7 +7159,8 @@
       "خبز رقاق سعودي",
       "بان كيك عربي",
       "خبز صومالي إسفنجي"
-    ]
+    ],
+    "review_status": "edited"
   },
   {
     "image_id": "cuisine_cuisine_of_yemen_08",
@@ -7176,7 +7188,8 @@
       "رغيف باراثا هندي",
       "فطير مشلتت مصري",
       "خبز صاج مطوي"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_yemen_09",
@@ -7204,7 +7217,8 @@
       "فتة زبادي لبنانية",
       "عيران بالخبز تركي",
       "حساء لبن بارد فارسي"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_yemen_11",
@@ -7232,7 +7246,8 @@
       "مندي عماني بمائدة كاملة",
       "مأدبة إفطار رمضان خليجية",
       "مائدة عراقية بالمسكوف"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_yemen_13",
@@ -7260,7 +7275,8 @@
       "سلطة خبز بالخيار واللبن",
       "جلاش باللبن الرائب",
       "طبق تبولة بالزبادي"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_yemen_14",
@@ -7288,7 +7304,8 @@
       "أرز بالزبادي هندي",
       "كشري أبيض بالصلصة",
       "أرز حليب تركي"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_lebanon_01",
@@ -7316,7 +7333,8 @@
       "كفتة مقلية سورية",
       "كرات كبة نية صغيرة",
       "دجاج ناجتس مقلي"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_lebanon_04",
@@ -7344,7 +7362,8 @@
       "فطيرة سبانخ مثلثة",
       "بيتزا صغيرة مثلثة",
       "مناقيش لحمة"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_lebanon_05",
@@ -7372,7 +7391,8 @@
       "مقبلات أردنية مشكلة",
       "مازة تركية متنوعة",
       "مقبلات فلسطينية مشكلة"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_lebanon_06",
@@ -7400,7 +7420,8 @@
       "حلويات سورية مشكلة",
       "معمول خليجي مشكل",
       "حلويات يونانية بالفستق"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_lebanon_07",
@@ -7428,7 +7449,8 @@
       "قطايف بالقشطة مقلية",
       "كنافة أصابع بالجبن",
       "بلح الشام بالقشطة"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_lebanon_13",
@@ -7456,7 +7478,8 @@
       "بقلاوة سورية بالفستق",
       "كنافة مقطعة مربعات",
       "معمول بالتمر"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_lebanon_14",
@@ -7484,7 +7507,8 @@
       "بطاطا مقلية مصرية بالشطة",
       "بطاطس وج بريطانية",
       "بطاطا حارة أردنية"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_moroccan_cuisine_02",
@@ -7512,7 +7536,8 @@
       "سمك بصلصة الفلفل الجزائري",
       "طاجين سمك تونسي",
       "سمك مطهو بصلصة الكاري الهندية"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_moroccan_cuisine_03",
@@ -7540,7 +7565,8 @@
       "شوربة فريكة شامية",
       "شوربة خضار تركية بالشعيرية",
       "حساء العدس الأحمر الخليجي"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_moroccan_cuisine_04",
@@ -7568,7 +7594,8 @@
       "شوربة عدس مصرية",
       "حساء الشعيرية التركي",
       "شوربة برغل عراقية"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_moroccan_cuisine_06",
@@ -7596,7 +7623,8 @@
       "كرات سمك يونانية",
       "كبة السمك الخليجية",
       "كفتة اللحم بصلصة الطماطم"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_moroccan_cuisine_07",
@@ -7624,7 +7652,8 @@
       "رأس سمك جزائري بالخضار",
       "شوربة رأس سمك تركية",
       "رأس سمك مصري مقلي"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_moroccan_cuisine_08",
@@ -7652,7 +7681,8 @@
       "مجدرة شامية بالعدس",
       "قدرة فلسطينية بالأرز واللحم",
       "برياني هندي بالخضار"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_moroccan_cuisine_09",
@@ -7680,7 +7710,8 @@
       "طاجين سمك مغربي بالزيتون",
       "سمك جزائري بالحمص",
       "سمك تونسي بالبطاطا الحارة"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_moroccan_cuisine_10",
@@ -7708,7 +7739,8 @@
       "سمك بصلصة الشرمولة",
       "يخنة سمك جزائرية",
       "سمك حار تونسي"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_moroccan_cuisine_11",
@@ -7736,7 +7768,8 @@
       "مجدرة عدس شامية",
       "برغل بالشعيرية تركي",
       "كسكسي مغربي بالحمص"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_moroccan_cuisine_13",
@@ -7764,7 +7797,8 @@
       "كسكس جزائري محلى",
       "أرز بالمكسرات والفواكه المجففة خليجي",
       "مغربية بالتمر والمكسرات"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_moroccan_cuisine_14",
@@ -7792,7 +7826,8 @@
       "رأس سمك يمني بالحمص",
       "شوربة رأس سمك تركية",
       "طاجين رأس سمك تونسي"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_iraq_05",
@@ -7820,7 +7855,8 @@
       "بامية شامية باللحم",
       "يخنة فاصولياء حمراء",
       "مرق كوسا عراقي"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_iraq_06",
@@ -7848,7 +7884,8 @@
       "شاورما لبنانية بخبز صاج",
       "جايروس يوناني",
       "سندويش لحم فيليبيني"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_iraq_07",
@@ -7876,7 +7913,8 @@
       "مندي لحم يمني",
       "برياني باكستاني باللحم",
       "مجبوس لحم خليجي"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_iraq_08",
@@ -7904,7 +7942,8 @@
       "أرز بخاري بالخضار",
       "مقلوبة فلسطينية بالخضار",
       "برياني باكستاني بالدجاج"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_iraq_09",
@@ -7932,7 +7971,8 @@
       "برياني الروبيان الباكستاني",
       "أرز بخاري بالجمبري",
       "مندي روبيان يمني"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_iraq_10",
@@ -7960,7 +8000,8 @@
       "جريش سعودي جاف",
       "أرز بسمتي مطهو بالكركم",
       "فريكة سورية جافة"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_iraq_11",
@@ -7988,7 +8029,8 @@
       "برياني دجاج هندي",
       "أرز بخاري بالدجاج",
       "كبسة دجاج بالبيض"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_iraq_12",
@@ -8016,7 +8058,8 @@
       "حلاوة الطحينة بجوز الهند",
       "ترافل شوكولاتة بجوز الهند",
       "كرات جوز الهند الهندية (لادو)"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_iraq_13",
@@ -8044,7 +8087,8 @@
       "كبة الكرز الحلبية",
       "كرات لحم إيطالية بصلصة الطماطم",
       "كفتة داوود باشا مصرية"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_cuisine_of_iraq_14",
@@ -8072,7 +8116,8 @@
       "كفتة بصلصة الطماطم شامية",
       "كبة الكرز الحلبية",
       "كفتة تركية مشوية بالصلصة"
-    ]
+    ],
+    "review_status": "rejected"
   },
   {
     "image_id": "cuisine_moroccan_cuisine_05",
@@ -8100,6 +8145,7 @@
       "قرص فلافل كبير",
       "قرص كبة بطاطا مقلية",
       "كيكة الجزر بالفرن"
-    ]
+    ],
+    "review_status": "rejected"
   }
 ]
