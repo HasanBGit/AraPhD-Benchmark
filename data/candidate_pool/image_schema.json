@@ -1,33 +1,106 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "ArabPhD image_pool entry",
-  "description": "One record per image in data/candidate_pool/images/. This is the stage-1, mode-agnostic schema: it captures what an image IS (identity + a grounded wrong-answer candidate) but not any question/context/mode-specific wording. Every mode's triplet (base/sec/icc/ccs/nota) is derived from this record, not annotated separately. Produced by pipeline/build_image_pool.py from manifest_unified.csv, then filled in by the captioning/verification pass (pipeline/fill_captions.py).",
-  "type": "object",
-  "required": ["image_id", "filename", "local_path", "category"],
-  "properties": {
+  "$schema_name": "ArabPhD image_pool entry — attribute reference",
+  "purpose": "Field-by-field definitions for arabphd_full_candidate_pool.json, kept as a standalone reference (not consumed by the pipeline).",
+  "modes_covered_in_pool": ["sec", "icc"],
+  "required_fields": {
     "image_id": {
       "type": "string",
-      "description": "Stable unique key, '{category}_{slugified filename}'. Use this to join across mode files instead of filename (filenames repeat awkward characters/spaces)."
+      "definition": "Unique identifier for the entry, derived from the manifest row (objectID or a stable slug). One per image."
     },
-    "filename": { "type": "string" },
-    "local_path": { "type": "string", "description": "Path relative to repo root, e.g. data/candidate_pool/images/objects/447008_Incense_Burner.jpg" },
+    "filename": {
+      "type": "string",
+      "definition": "Exact image filename as it appears in the manifest / on disk, including extension. Case- and extension-sensitive (e.g. .JPG vs .jpg preserved as-is)."
+    },
+    "local_path": {
+      "type": "string",
+      "definition": "Relative or local filesystem path to the image file, taken directly from the manifest's local_path column."
+    },
     "category": {
       "type": "string",
-      "enum": ["objects", "script", "cuisine", "architecture", "attire"]
+      "enum": ["objects", "script", "cuisine", "architecture", "attire"],
+      "definition": "Which of the 5 ACVV (Arabic Cultural Visual Vocabulary) taxonomy categories the image belongs to."
     },
-
-    "subject": { "type": ["string", "null"], "description": "Source/manifest title, e.g. museum record title or landmark name. Carried through as-is, not vision-verified." },
-    "ground_truth_subject": { "type": ["string", "null"], "description": "English slug identity from the manifest (e.g. 'modern_tower', 'incense_burner')." },
-    "country": { "type": ["string", "null"] },
-    "region": { "type": ["string", "null"] },
-    "medium": { "type": ["string", "null"] },
-    "license": { "type": ["string", "null"] },
-    "artist": { "type": ["string", "null"] },
-    "source": { "type": ["string", "null"], "description": "Provenance URL. Not shown to models under test." },
-
-    "inferred_identity_ar": { "type": ["string", "null"], "description": "Arabic ground-truth answer term, human/vision-verified against the actual image (not just translated from `subject` blindly) -> feeds gt_ar in every mode." },
-    "inferred_identity_en": { "type": ["string", "null"], "description": "English gloss of inferred_identity_ar, for cross-checking against ground_truth_subject." },
-    "caption_ar": { "type": ["string", "null"], "description": "Free-text Arabic description of what's actually visible (color, shape, material, motifs, setting). Used to (a) verify the manifest label, (b) write question_yes_ar/question_no_ar/question_open_ar wording, (c) as the source-of-truth for CCS/context injection later." },
-    "h_item_ar": { "type": ["string", "null"], "description": "Plausible-but-wrong Arabic term for this image, chosen/generated fresh during the captioning pass (no pre-existing CLIP-paired hitem is carried over here) -> feeds hitem_ar in base/sec/icc, and one entry in the pool nota samples from." }
+    "mode": {
+      "type": "string",
+      "enum": ["base", "sec", "icc", "ccs"],
+      "definition": "Which benchmark evaluation mode this entry was authored for. Only sec and icc are populated in this pool.",
+      "mode_definitions": {
+        "base": "Plain VQA, no adversarial context. Tests Cause I (Visual Ambiguity). Not used in this pool.",
+        "sec": "Specious Context / Perceptual Proximity Confuser (PFC). Caption/h_item swap the true identity for the closest visual or functional neighbor — same silhouette, texture, or generic sibling item, without naming a specific rival entity. Tests Cause II (Multimodal Inconsistency).",
+        "icc": "Incorrect Context / Domain-Context Hijack. Caption/h_item swap the true identity for a real, specific, structurally-similar NAMED entity that is often also the culturally/text-primed default guess. Tests Cross-modal Arabic Trust Ratio (CATR).",
+        "ccs": "Cultural Counter-Common-Sense / Parametric Prior Hijacking. Tests Cause III via norm violations or era/region-implausible cues. Not used in this pool."
+      }
+    },
+    "inferred_identity_ar": {
+      "type": "string",
+      "definition": "The ground-truth identity of the subject in the image, in Arabic. This is what a correct model answer should resolve to. Never appears inside its own implicit_rejection_set."
+    },
+    "inferred_identity_en": {
+      "type": "string",
+      "definition": "English translation/transliteration of inferred_identity_ar."
+    },
+    "caption_ar": {
+      "type": "string",
+      "definition": "Neutral, factual, visual-only description of the image in Arabic. MUST NOT assert any identity (correct or misleading) — describes only what is visibly present (color, material, setting, composition). Carries no adversarial content itself; the adversarial pressure lives in h_item, not the caption."
+    },
+    "caption_en": {
+      "type": "string",
+      "definition": "English translation of caption_ar, same neutrality constraint."
+    },
+    "h_item_ar": {
+      "type": "string",
+      "definition": "The adversarial/hallucination-target item — the false identity the model is nudged toward — in Arabic. For sec: a generic perceptual-neighbor item. For icc: a specific named rival entity."
+    },
+    "h_item_en": {
+      "type": "string",
+      "definition": "English translation/transliteration of h_item_ar."
+    },
+    "diagnostic_trap_type": {
+      "type": "string",
+      "enum": [
+        "perceptual_neighbor",
+        "context_hijack",
+        "parametric_prior",
+        "context_hijack_and_perceptual_neighbor",
+        "parametric_prior_and_perceptual_neighbor"
+      ],
+      "definition": "Which hallucination mechanism(s) the trap exploits.",
+      "value_definitions": {
+        "perceptual_neighbor": "Trap relies on visual/functional similarity alone (typical for sec).",
+        "context_hijack": "Trap relies on a named, structurally-similar rival entity being culturally/textually primed (typical for icc).",
+        "parametric_prior": "Trap relies on the model's text-only cultural prior (what it 'expects' to see) rather than pixels.",
+        "context_hijack_and_perceptual_neighbor": "Combined: the rival entity is both visually similar AND a plausible named context hijack.",
+        "parametric_prior_and_perceptual_neighbor": "Combined: the trap is both a visual near-neighbor AND aligned with the model's cultural/textual prior expectation."
+      }
+    },
+    "implicit_rejection_set": {
+      "type": "array",
+      "items": "string (Arabic)",
+      "length": 4,
+      "definition": "Exactly 4 Arabic distractor strings a correct model response must implicitly reject. Ground truth (inferred_identity_ar) is never included. First item is typically h_item_ar itself; the remaining 3 span other distractor roles (perceptual-neighbor, parametric-prior, domain-adjacent) to round out a 4-choice MCQ-style distractor set."
+    }
+  },
+  "optional_manifest_passthrough_fields": {
+    "subject": "Original Wikimedia/manifest subject or file title string for the image, passed through as-is (may sometimes mismatch actual visual content — a known manifest data-quality issue, not corrected).",
+    "ground_truth_subject": "Manifest's own ground-truth label/slug for the subject (may occasionally conflict with country/region fields — a known manifest issue).",
+    "country": "Country of origin/association, from the manifest.",
+    "region": "Region within country, from the manifest, where available.",
+    "medium": "Physical medium/material of the depicted object, where applicable (architecture/objects/attire).",
+    "license": "Image license string from the source (e.g. Wikimedia Commons license tag).",
+    "artist": "Attributed artist/photographer, where available.",
+    "source": "Original source URL or repository reference, from the manifest."
+  },
+  "authoring_notes": {
+    "sec_vs_icc_qualification_framework": "Default to sec. Upgrade to icc only when the item involves: multi-entity comparison, temporal/state change, disambiguation/coreference, or cross-source reasoning. Litmus test: if you strip out the supporting context, does the example become impossible or ambiguous to solve? If yes, it's icc.",
+    "caption_writing_rules": [
+      "Fluent, natural Arabic, high tone authority (e.g. 'صورة لـ...', 'لقطة ميدانية تُظهر...').",
+      "Describe only what is visible — no identity assertions, correct or false.",
+      "Never spotlight or hint at the trap within the caption text itself."
+    ],
+    "h_item_selection_rules": [
+      "Single-concept alignment: h_item is exactly the false entity being tested, not a broader or vaguer category.",
+      "sec traps use a generic perceptual/functional neighbor; icc traps use a specific, real, named rival entity.",
+      "Rejection-set roles: (1) h_item itself, (2) perceptual-neighbor distractor, (3) parametric-prior distractor, (4) domain-adjacent distractor."
+    ]
   }
 }
