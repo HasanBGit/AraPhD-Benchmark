@@ -1,0 +1,2140 @@
+{
+  "_meta": {
+    "purpose": "معجم المصطلحات العربية المعتمدة لكابشن base — المرحلة 2 من مشروع ArabPhD",
+    "frozen": true,
+    "frozen_date": "2026-08-16",
+    "total_unique_subjects": 157,
+    "total_active_rows": 312,
+    "rule": "الكابشن يصف المرئي في الصورة دائمًا. term_ar هو الاسم المعتمد للموضوع عند ذكره، ولا يُستخدم كبديل عن وصف المشهد."
+  },
+  "entries": [
+    {
+      "gt": "dolma",
+      "term_ar": "ورق عنب",
+      "category": "cuisine",
+      "n_rows": 11,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": "dolma_grape_leaves",
+      "note": "الاسم الشائع الآخر «دولمة» مقبول كمرادف لا يُستخدم في الكابشن لضمان الاتساق",
+      "sample_files": [
+        "food_005.png",
+        "food_008.jpg",
+        "food_008.png"
+      ]
+    },
+    {
+      "gt": "shawarma",
+      "term_ar": "شاورما",
+      "category": "cuisine",
+      "n_rows": 10,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_014.png",
+        "food_030(1).png",
+        "food_056(1).png"
+      ]
+    },
+    {
+      "gt": "mansaf",
+      "term_ar": "منسف",
+      "category": "cuisine",
+      "n_rows": 9,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_033(1).png",
+        "food_037.png",
+        "food_047.png"
+      ]
+    },
+    {
+      "gt": "abaya",
+      "term_ar": "عباية",
+      "category": "attire",
+      "n_rows": 8,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_img0200.jpg",
+        "m2cqa_saudi_img0268.jpg",
+        "m2cqa_saudi_img0306.png"
+      ]
+    },
+    {
+      "gt": "katayef",
+      "term_ar": "قطايف",
+      "category": "cuisine",
+      "n_rows": 7,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_025(1).png",
+        "food_046(1).png",
+        "food_054.png"
+      ]
+    },
+    {
+      "gt": "thawb",
+      "term_ar": "ثوب",
+      "category": "attire",
+      "n_rows": 7,
+      "confidence": "medium",
+      "type": "normal",
+      "cluster": null,
+      "note": "⚠ نفس نمط sword_dance: الفئة (11 صفًا) تضم أزياء إقليمية مختلفة فعليًا وُسمت كلها 'thawb'. لوحظ حتى الآن ضمن الصور المعاينة: ثوب خليجي/سعودي عادي (بلا شرابة)، دشداشة عُمانية (شرابة/عروة معقودة متدلية من الياقة)، وجبة تونسية مخططة (طربوش، تطريز أبيض). حدّد الاسم لكل صورة حسب القَصّة والتفاصيل الفعلية الظاهرة فيها، لا افتراض 'ثوب' تلقائيًا للفئة كاملة",
+      "sample_files": [
+        "m2cqa_saudi_006.jpg",
+        "m2cqa_saudi_img0094.jpg",
+        "m2cqa_saudi_img0299.jpg"
+      ]
+    },
+    {
+      "gt": "falafel",
+      "term_ar": "فلافل",
+      "category": "cuisine",
+      "n_rows": 6,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_004.png",
+        "food_012(1).png",
+        "food_044.png"
+      ]
+    },
+    {
+      "gt": "kibbeh",
+      "term_ar": "كبة",
+      "category": "cuisine",
+      "n_rows": 6,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_009.png",
+        "food_018(1).png",
+        "food_020.png"
+      ]
+    },
+    {
+      "gt": "kunafa",
+      "term_ar": "كنافة",
+      "category": "cuisine",
+      "n_rows": 6,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_027.png",
+        "food_039.png",
+        "food_058.png"
+      ]
+    },
+    {
+      "gt": "machboos",
+      "term_ar": "مجبوس",
+      "category": "cuisine",
+      "n_rows": 6,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_018.png",
+        "food_019.png",
+        "food_020(1).png"
+      ]
+    },
+    {
+      "gt": "sword_dance",
+      "term_ar": "العرضة",
+      "category": "objects",
+      "n_rows": 6,
+      "confidence": "medium",
+      "type": "normal",
+      "cluster": null,
+      "note": "⚠ الفئة تضم صورًا غير متجانسة: بعضها سيوف فعلية (عرضة سعودية/سودانية) وبعضها عصي رفيعة مستقيمة (عيالة إماراتية/عُمانية، مثال: image (5).jpg وpearlx_sword_dance_003.jpg). حدّد الاسم لكل صورة حسب الأداة الفعلية الممسوكة فيها: سيف=العرضة، عصا=العيالة. لا تستخدم «العرضة» تلقائيًا للفئة كاملة",
+      "sample_files": [
+        "image (5).jpg",
+        "pearlx_sword_dance_001.jpg",
+        "pearlx_sword_dance_002.jpg"
+      ]
+    },
+    {
+      "gt": "ful_medames",
+      "term_ar": "فول مدمس",
+      "category": "cuisine",
+      "n_rows": 5,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "pearlx_ful_medames_001.jpg",
+        "pearlx_ful_medames_002.jpg",
+        "pearlx_ful_medames_003.jpg"
+      ]
+    },
+    {
+      "gt": "halawet_el_jibn",
+      "term_ar": "حلاوة الجبن",
+      "category": "cuisine",
+      "n_rows": 5,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_026.jpg",
+        "food_029.jpg",
+        "food_041.jpg"
+      ]
+    },
+    {
+      "gt": "koshari",
+      "term_ar": "كشري",
+      "category": "cuisine",
+      "n_rows": 5,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_002(1).png",
+        "food_032.jpg",
+        "food_059(1).png"
+      ]
+    },
+    {
+      "gt": "manakish",
+      "term_ar": "مناقيش",
+      "category": "cuisine",
+      "n_rows": 5,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_011.jpg",
+        "food_015.jpg",
+        "food_043.jpg"
+      ]
+    },
+    {
+      "gt": "shish_barak",
+      "term_ar": "شيش برك",
+      "category": "cuisine",
+      "n_rows": 5,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_021(1).png",
+        "food_031.png",
+        "food_038.png"
+      ]
+    },
+    {
+      "gt": "arabic_coffee",
+      "term_ar": "قهوة عربية",
+      "category": "cuisine",
+      "n_rows": 4,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "pearlx_arabic_coffee_001.jpg",
+        "pearlx_arabic_coffee_002.jpg",
+        "pearlx_arabic_coffee_003.jpg"
+      ]
+    },
+    {
+      "gt": "balaleet",
+      "term_ar": "بلاليط",
+      "category": "cuisine",
+      "n_rows": 4,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_006.png",
+        "food_017.jpg",
+        "food_061.jpg"
+      ]
+    },
+    {
+      "gt": "cooking pot",
+      "term_ar": "قِدر",
+      "category": "objects",
+      "n_rows": 4,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_025.png",
+        "food_031(1).png",
+        "food_040.png"
+      ]
+    },
+    {
+      "gt": "falconry",
+      "term_ar": "الصقارة",
+      "category": "objects",
+      "n_rows": 4,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "المصطلح اسم للممارسة/الهواية، لكن المرئي في الصور دائمًا طائر لا نشاط مجرّد — الكابشن يصف \"صقر\" (الطائر) لا \"الصقارة\" حرفيًا، وهذا متعمّد لا نقص",
+      "sample_files": [
+        "image.jpg",
+        "pearlx_falconry_001.png",
+        "pearlx_falconry_002.jpg"
+      ]
+    },
+    {
+      "gt": "fattoush",
+      "term_ar": "فتوش",
+      "category": "cuisine",
+      "n_rows": 4,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_015.png",
+        "food_043.png",
+        "food_049.png"
+      ]
+    },
+    {
+      "gt": "lahm_bi_ajin",
+      "term_ar": "لحم بعجين",
+      "category": "cuisine",
+      "n_rows": 4,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_016(1).png",
+        "food_019.jpg",
+        "food_053(1).png"
+      ]
+    },
+    {
+      "gt": "lahoh",
+      "term_ar": "لحوح",
+      "category": "cuisine",
+      "n_rows": 4,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_023.jpg",
+        "food_027(1).png",
+        "food_065(1).png"
+      ]
+    },
+    {
+      "gt": "oud",
+      "term_ar": "عود",
+      "category": "objects",
+      "n_rows": 4,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "آلة العود الموسيقية، وليس عود البخور",
+      "sample_files": [
+        "m2cqa_saudi_003.jpg",
+        "image (27).jpg",
+        "image (32).jpg"
+      ]
+    },
+    {
+      "gt": "tagine",
+      "term_ar": "طاجين",
+      "category": "cuisine",
+      "n_rows": 4,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_037.jpg",
+        "food_056.png",
+        "food_092.jpg"
+      ]
+    },
+    {
+      "gt": "bisht",
+      "term_ar": "بشت",
+      "category": "attire",
+      "n_rows": 3,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "clothes_001.png",
+        "clothes_007.png",
+        "clothes_009.png"
+      ]
+    },
+    {
+      "gt": "Bulgur Salad",
+      "term_ar": "سلطة برغل",
+      "category": "cuisine",
+      "n_rows": 3,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_024.jpg",
+        "food_047.jpg",
+        "food_066.jpg"
+      ]
+    },
+    {
+      "gt": "Emirati man",
+      "term_ar": "رجل إماراتي",
+      "category": "attire",
+      "n_rows": 3,
+      "confidence": "high",
+      "type": "demographic",
+      "cluster": null,
+      "note": "تسمية ديموغرافية لا اسم قطعة زي — صف الزي الفعلي الظاهر في الصورة تحديدًا",
+      "sample_files": [
+        "005.jpg",
+        "081.jpg",
+        "Screenshot 1448-02-23 at 10.11.57 PM.png"
+      ]
+    },
+    {
+      "gt": "kebab",
+      "term_ar": "كباب",
+      "category": "cuisine",
+      "n_rows": 3,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_010.png",
+        "food_034(1).png",
+        "food_050.png"
+      ]
+    },
+    {
+      "gt": "kummah",
+      "term_ar": "كمّة",
+      "category": "attire",
+      "n_rows": 3,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "clothes_004.png",
+        "clothes_008.png",
+        "clothes_014.png"
+      ]
+    },
+    {
+      "gt": "makdous",
+      "term_ar": "مكدوس",
+      "category": "cuisine",
+      "n_rows": 3,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_007.jpg",
+        "food_035.jpg",
+        "food_057.jpg"
+      ]
+    },
+    {
+      "gt": "Omani man",
+      "term_ar": "رجل عُماني",
+      "category": "attire",
+      "n_rows": 3,
+      "confidence": "high",
+      "type": "demographic",
+      "cluster": null,
+      "note": "تسمية ديموغرافية لا اسم قطعة زي — صف الزي الفعلي الظاهر في الصورة تحديدًا",
+      "sample_files": [
+        "002.jpg",
+        "022.jpg",
+        "024.jpg"
+      ]
+    },
+    {
+      "gt": "omani_halwa",
+      "term_ar": "حلوى عمانية",
+      "category": "cuisine",
+      "n_rows": 3,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_022.png",
+        "food_042.png",
+        "image (6).jpg"
+      ]
+    },
+    {
+      "gt": "sambousek",
+      "term_ar": "سمبوسة",
+      "category": "cuisine",
+      "n_rows": 3,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": "sambousek_sambusa",
+      "note": "تهجئتان لنفس الطبق",
+      "sample_files": [
+        "food_006(1).png",
+        "m2cqa_saudi_img0140.jpg",
+        "m2cqa_saudi_img0201.jpg"
+      ]
+    },
+    {
+      "gt": "sambusa",
+      "term_ar": "سمبوسة",
+      "category": "cuisine",
+      "n_rows": 3,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": "sambousek_sambusa",
+      "note": "تهجئتان لنفس الطبق",
+      "sample_files": [
+        "food_001.png",
+        "food_055(1).png",
+        "food_083(1).png"
+      ]
+    },
+    {
+      "gt": "tabbouleh",
+      "term_ar": "تبولة",
+      "category": "cuisine",
+      "n_rows": 3,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_003.jpg",
+        "food_040.jpg",
+        "food_077.png"
+      ]
+    },
+    {
+      "gt": "Yemeni man",
+      "term_ar": "رجل يمني",
+      "category": "attire",
+      "n_rows": 3,
+      "confidence": "high",
+      "type": "demographic",
+      "cluster": null,
+      "note": "تسمية ديموغرافية لا اسم قطعة زي — صف الزي الفعلي الظاهر في الصورة تحديدًا",
+      "sample_files": [
+        "013.jpg",
+        "035.jpg",
+        "125.jpg"
+      ]
+    },
+    {
+      "gt": "Agashe",
+      "term_ar": "أقاشي",
+      "category": "cuisine",
+      "n_rows": 2,
+      "confidence": "medium",
+      "type": "normal",
+      "cluster": null,
+      "note": "تحقق بصري: لحم متبل مشوي على أسياخ مع ليمون وبصل، يطابق الاسم السوداني الشائع",
+      "sample_files": [
+        "food_010(1).png",
+        "food_038(1).png"
+      ]
+    },
+    {
+      "gt": "Aseeda",
+      "term_ar": "عصيدة",
+      "category": "cuisine",
+      "n_rows": 2,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": "aseeda_family",
+      "note": "",
+      "sample_files": [
+        "food_062.png",
+        "food_073.png"
+      ]
+    },
+    {
+      "gt": "Bastilla",
+      "term_ar": "بسطيلة",
+      "category": "cuisine",
+      "n_rows": 2,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": "bastilla_pastilla",
+      "note": "",
+      "sample_files": [
+        "food_036.jpg",
+        "food_082.jpg"
+      ]
+    },
+    {
+      "gt": "harees",
+      "term_ar": "هريس",
+      "category": "cuisine",
+      "n_rows": 2,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_044(1).png",
+        "m2cqa_saudi_img0235.jpg"
+      ]
+    },
+    {
+      "gt": "hummus",
+      "term_ar": "حمص",
+      "category": "cuisine",
+      "n_rows": 2,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "طبق مستقل عن Hummus Fatteh",
+      "sample_files": [
+        "food_013(1).png",
+        "food_085.png"
+      ]
+    },
+    {
+      "gt": "Hummus Fatteh",
+      "term_ar": "فتة حمص",
+      "category": "cuisine",
+      "n_rows": 2,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "طبق مختلف عن hummus العادي (خبز محمّص + زبادي)",
+      "sample_files": [
+        "food_035.png",
+        "food_054(1).png"
+      ]
+    },
+    {
+      "gt": "kabsa",
+      "term_ar": "كبسة",
+      "category": "cuisine",
+      "n_rows": 2,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_059.png",
+        "food_081.png"
+      ]
+    },
+    {
+      "gt": "kousa_mahshi",
+      "term_ar": "كوسا محشي",
+      "category": "cuisine",
+      "n_rows": 2,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_013.png",
+        "food_088.png"
+      ]
+    },
+    {
+      "gt": "Kubbanah",
+      "term_ar": "كبانة",
+      "category": "cuisine",
+      "n_rows": 2,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_048.png",
+        "image (9).jpg"
+      ]
+    },
+    {
+      "gt": "mashrabiya",
+      "term_ar": "مشربية",
+      "category": "architecture",
+      "n_rows": 2,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_005.jpg",
+        "m2cqa_saudi_img0321.jpg"
+      ]
+    },
+    {
+      "gt": "small_cylindrical_drum",
+      "term_ar": "طبلة أسطوانية صغيرة",
+      "category": "objects",
+      "n_rows": 2,
+      "confidence": "medium",
+      "type": "normal",
+      "cluster": null,
+      "note": "تصحيح GT (كان duff_drum/Daff) — أداة أسطوانية مزدوجة الرأس، ليست دفًا مسطحًا. الاسم التقليدي الدقيق غير مؤكد بعد",
+      "sample_files": [
+        "image (28).jpg",
+        "image (34).jpg"
+      ]
+    },
+    {
+      "gt": "thob_palestinian",
+      "term_ar": "الثوب الفلسطيني المطرز",
+      "category": "attire",
+      "n_rows": 2,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_img0394.jpg",
+        "m2cqa_saudi_img0424.jpg"
+      ]
+    },
+    {
+      "gt": "zarb",
+      "term_ar": "زرب",
+      "category": "cuisine",
+      "n_rows": 2,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_017.png",
+        "food_033.png"
+      ]
+    },
+    {
+      "gt": "aiftar ramadan",
+      "term_ar": "إفطار رمضان",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "image (21).jpg"
+      ]
+    },
+    {
+      "gt": "Ancient Olive Press",
+      "term_ar": "معصرة زيتون أثرية",
+      "category": "architecture",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_057.png"
+      ]
+    },
+    {
+      "gt": "Ancient Ruins",
+      "term_ar": "آثار قديمة",
+      "category": "architecture",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "image (23).jpg"
+      ]
+    },
+    {
+      "gt": "aqit",
+      "term_ar": "أقط",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "تصحيح GT (كان Oqot، واقترحت خطأً unidentified) — صحّح الباحث الرئيسي: طبق يسمى أقط",
+      "sample_files": [
+        "food_014(1).png"
+      ]
+    },
+    {
+      "gt": "Arab band",
+      "term_ar": "فرقة موسيقية تقليدية",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "تحقق بصري: دفّان ومزمار، ثلاثة رجال بزي خليجي/عُماني",
+      "sample_files": [
+        "image (26).jpg"
+      ]
+    },
+    {
+      "gt": "Arabic dress",
+      "term_ar": "زي عربي تقليدي",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "medium",
+      "type": "generic",
+      "cluster": null,
+      "note": "تسمية عامة جدًا في الأصل — صف القطعة الفعلية الظاهرة",
+      "sample_files": [
+        "160.jpg"
+      ]
+    },
+    {
+      "gt": "arabic_family",
+      "term_ar": "عائلة عربية",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_img0317.jpg"
+      ]
+    },
+    {
+      "gt": "arabic_tea",
+      "term_ar": "شاي عربي",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "image (17).jpg"
+      ]
+    },
+    {
+      "gt": "Aseeda with Chicken",
+      "term_ar": "عصيدة بالدجاج",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": "aseeda_family",
+      "note": "",
+      "sample_files": [
+        "food_069.png"
+      ]
+    },
+    {
+      "gt": "Ashura",
+      "term_ar": "عاشوراء",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_028(1).png"
+      ]
+    },
+    {
+      "gt": "Atkilt Wot",
+      "term_ar": "أتكلت وات",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "low",
+      "type": "flagged_non_arab",
+      "cluster": null,
+      "note": "⚠ طبق إثيوبي أصيل (صورة تُظهر خبز الإنجيرا بوضوح) — ليس عربيًا. يوصى بمراجعة الفريق / EXCLUDE محتمل",
+      "sample_files": [
+        "food_023.png"
+      ]
+    },
+    {
+      "gt": "Bazeen",
+      "term_ar": "بازين",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": "bazeen_bazin",
+      "note": "",
+      "sample_files": [
+        "food_012.png"
+      ]
+    },
+    {
+      "gt": "Bazin",
+      "term_ar": "بازين",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": "bazeen_bazin",
+      "note": "",
+      "sample_files": [
+        "food_003.png"
+      ]
+    },
+    {
+      "gt": "biryani",
+      "term_ar": "برياني",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_070.png"
+      ]
+    },
+    {
+      "gt": "Black Mustard Seeds",
+      "term_ar": "حبة سوداء",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_061.png"
+      ]
+    },
+    {
+      "gt": "Byzantine Mosaic",
+      "term_ar": "فسيفساء بيزنطية",
+      "category": "architecture",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_075(1).png"
+      ]
+    },
+    {
+      "gt": "camel",
+      "term_ar": "جمل",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_img0272.jpg"
+      ]
+    },
+    {
+      "gt": "camel_caravan",
+      "term_ar": "قافلة جمال",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_img0143.jpg"
+      ]
+    },
+    {
+      "gt": "Chicken Ouzi",
+      "term_ar": "أوزي دجاج",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_img0180.jpg"
+      ]
+    },
+    {
+      "gt": "clock_tower",
+      "term_ar": "برج الساعة",
+      "category": "architecture",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "لا تفترض هوية المدينة إلا إن كانت ظاهرة بصريًا",
+      "sample_files": [
+        "m2cqa_saudi_img0261.jpg"
+      ]
+    },
+    {
+      "gt": "couscous",
+      "term_ar": "كسكسي",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_022.jpg"
+      ]
+    },
+    {
+      "gt": "Daff",
+      "term_ar": "دف",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": "daff_family",
+      "note": "",
+      "sample_files": [
+        "image (31).jpg"
+      ]
+    },
+    {
+      "gt": "daff_frame_drum",
+      "term_ar": "دف",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "تصحيح GT (كان Riq) — دف عادي بلا صنوج، أكّده الباحث الرئيسي",
+      "sample_files": [
+        "image (30).jpg"
+      ]
+    },
+    {
+      "gt": "dallah",
+      "term_ar": "دلة",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_img0375.jpg"
+      ]
+    },
+    {
+      "gt": "DEFF-TAMBOURINE",
+      "term_ar": "دف",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": "daff_family",
+      "note": "",
+      "sample_files": [
+        "image (29).jpg"
+      ]
+    },
+    {
+      "gt": "desert_tent",
+      "term_ar": "خيمة صحراوية",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_img0421.jpg"
+      ]
+    },
+    {
+      "gt": "dishdasha",
+      "term_ar": "دشداشة",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "clothes_015.png"
+      ]
+    },
+    {
+      "gt": "djellaba",
+      "term_ar": "جلابة",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "clothes_005.png"
+      ]
+    },
+    {
+      "gt": "door",
+      "term_ar": "باب",
+      "category": "architecture",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_083.png"
+      ]
+    },
+    {
+      "gt": "duff_drum",
+      "term_ar": "دف",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": "daff_family",
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_002.jpg"
+      ]
+    },
+    {
+      "gt": "easiduh",
+      "term_ar": "عصيدة",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": "aseeda_family",
+      "note": "",
+      "sample_files": [
+        "food_011.png"
+      ]
+    },
+    {
+      "gt": "emirati_kandura",
+      "term_ar": "كندورة إماراتية",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "تصحيح GT (كان thawb، واقترحت خطأً omani_dishdasha) — صحّح الباحث الرئيسي: لبس إماراتي",
+      "sample_files": [
+        "pearlx_thawba_002.jpg"
+      ]
+    },
+    {
+      "gt": "farika",
+      "term_ar": "فريكة",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_076.png"
+      ]
+    },
+    {
+      "gt": "farwa",
+      "term_ar": "فروة",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "تصحيح GT (كان thawb) — سمّاها الباحث الرئيسي مباشرة: رداء طويل يشبه الجاكيت",
+      "sample_files": [
+        "pearlx_thawba_006.jpg"
+      ]
+    },
+    {
+      "gt": "Firewood",
+      "term_ar": "حطب",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_084(1).png"
+      ]
+    },
+    {
+      "gt": "Fried Egg with Mahyawa",
+      "term_ar": "بيض مقلي بالمحياوة",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_058(1).png"
+      ]
+    },
+    {
+      "gt": "fried_chicken",
+      "term_ar": "دجاج مقلي",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_086.png"
+      ]
+    },
+    {
+      "gt": "futa",
+      "term_ar": "فوطة",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "clothes_003.png"
+      ]
+    },
+    {
+      "gt": "galayet_bandora",
+      "term_ar": "قلاية بندورة",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_050(1).png"
+      ]
+    },
+    {
+      "gt": "Giving the Arabic greeting",
+      "term_ar": "تحية الأنف التقليدية",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "تحقق بصري: تحية الأنف الخليجية أمام معلم معماري بقباب بيضاء يشبه جامع الشيخ زايد — معلم ظاهر بصريًا يمكن ذكره",
+      "sample_files": [
+        "image (24).jpg"
+      ]
+    },
+    {
+      "gt": "headscarf",
+      "term_ar": "غطاء الرأس",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "generic",
+      "cluster": null,
+      "note": "استخدم مصطلحًا أدق (شيلة/حجاب/طرحة) إن كان واضحًا بصريًا في الصورة المحددة",
+      "sample_files": [
+        "m2cqa_saudi_001.jpg"
+      ]
+    },
+    {
+      "gt": "imamah",
+      "term_ar": "عمامة",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "clothes_013.png"
+      ]
+    },
+    {
+      "gt": "injera",
+      "term_ar": "إنجيرا",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "flagged_non_arab",
+      "cluster": null,
+      "note": "تصحيح GT (كان kisra) — خبز إسفنجي إثيوبي/إريتري، أكّده الباحث الرئيسي",
+      "sample_files": [
+        "food_081(1).png"
+      ]
+    },
+    {
+      "gt": "Islamic dress",
+      "term_ar": "زي إسلامي محتشم",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "medium",
+      "type": "generic",
+      "cluster": null,
+      "note": "تسمية عامة جدًا في الأصل — صف القطعة الفعلية الظاهرة",
+      "sample_files": [
+        "Screenshot 1448-02-23 at 10.18.25 PM.png"
+      ]
+    },
+    {
+      "gt": "Ka'ak Asfar",
+      "term_ar": "كعك أصفر",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_045(1).png"
+      ]
+    },
+    {
+      "gt": "Kashna",
+      "term_ar": "قشر",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "low",
+      "type": "normal",
+      "cluster": null,
+      "note": "⚠ غير مؤكد — الصورة تُظهر تحميص مادة بنية داكنة في قدر كبير (يحتمل قشر البن) — يُرجى تأكيد الفريق",
+      "sample_files": [
+        "food_053.png"
+      ]
+    },
+    {
+      "gt": "Keffiyeh",
+      "term_ar": "كوفية",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "image (18).jpg"
+      ]
+    },
+    {
+      "gt": "Kibda",
+      "term_ar": "كبدة",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_041.png"
+      ]
+    },
+    {
+      "gt": "Kissra",
+      "term_ar": "كسرة",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": "kisra_kissra",
+      "note": "",
+      "sample_files": [
+        "food_039(1).png"
+      ]
+    },
+    {
+      "gt": "laban",
+      "term_ar": "لبن",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_img0286.jpg"
+      ]
+    },
+    {
+      "gt": "maamoul",
+      "term_ar": "معمول",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_img0103.jpg"
+      ]
+    },
+    {
+      "gt": "mahshi",
+      "term_ar": "محشي",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "خضار محشية عامة، مختلف عن kousa_mahshi وsheikh_el_mahshi المحدَّدين",
+      "sample_files": [
+        "food_045.png"
+      ]
+    },
+    {
+      "gt": "Making Maamoul",
+      "term_ar": "معمول",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "مشهد تحضير لا طبق نهائي — صف عملية التحضير",
+      "sample_files": [
+        "image (8).jpg"
+      ]
+    },
+    {
+      "gt": "Mandi",
+      "term_ar": "مندي",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_087(1).png"
+      ]
+    },
+    {
+      "gt": "masoub",
+      "term_ar": "مصوب",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_009(1).png"
+      ]
+    },
+    {
+      "gt": "massar",
+      "term_ar": "مصر",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "تحقق بصري: عمامة عُمانية مطرزة (المصر العماني)",
+      "sample_files": [
+        "clothes_006.png"
+      ]
+    },
+    {
+      "gt": "mezze",
+      "term_ar": "مقبلات متنوعة",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "composite",
+      "cluster": null,
+      "note": "طبق مشكّل — صف كل عنصر ظاهر، لا تختزله باسم واحد",
+      "sample_files": [
+        "food_082.png"
+      ]
+    },
+    {
+      "gt": "Mizmar",
+      "term_ar": "مزمار",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "image (25).jpg"
+      ]
+    },
+    {
+      "gt": "molokhia",
+      "term_ar": "ملوخية",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_021.png"
+      ]
+    },
+    {
+      "gt": "mud_brick_fort",
+      "term_ar": "حصن طيني",
+      "category": "architecture",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_img0189.jpg"
+      ]
+    },
+    {
+      "gt": "Muffatah",
+      "term_ar": "مفطح",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "low",
+      "type": "normal",
+      "cluster": null,
+      "note": "⚠ غير مؤكد لغويًا رغم أن الصورة تُظهر ذبيحة كاملة على أرز — يُرجى تأكيد الاسم من الفريق",
+      "sample_files": [
+        "image (22).jpg"
+      ]
+    },
+    {
+      "gt": "Mujadara",
+      "term_ar": "مجدرة",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": "mujaddara_mujadara",
+      "note": "",
+      "sample_files": [
+        "food_079.png"
+      ]
+    },
+    {
+      "gt": "mujaddara",
+      "term_ar": "مجدرة",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": "mujaddara_mujadara",
+      "note": "",
+      "sample_files": [
+        "food_094.png"
+      ]
+    },
+    {
+      "gt": "Mullah Rob",
+      "term_ar": "ملاح الروب",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "medium",
+      "type": "normal",
+      "cluster": null,
+      "note": "تحقق بصري: صلصة/مرقة كريمية تُسكب من مغرفة، يطابق طبق سوداني بصلصة الروب",
+      "sample_files": [
+        "food_060.png"
+      ]
+    },
+    {
+      "gt": "musakhan",
+      "term_ar": "مسخن",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_051.jpg"
+      ]
+    },
+    {
+      "gt": "mutabbaq",
+      "term_ar": "مطبق",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_063.png"
+      ]
+    },
+    {
+      "gt": "niqab",
+      "term_ar": "نقاب",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_img0481.jpg"
+      ]
+    },
+    {
+      "gt": "olive_oil",
+      "term_ar": "زيت زيتون",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_032.png"
+      ]
+    },
+    {
+      "gt": "Oqot",
+      "term_ar": "عقوت",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "medium",
+      "type": "normal",
+      "cluster": null,
+      "note": "طبق أرز شرق سعودي أقل توثيقًا؛ يُرجى تأكيد الفريق",
+      "sample_files": [
+        "food_002.png"
+      ]
+    },
+    {
+      "gt": "pastilla",
+      "term_ar": "بسطيلة",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": "bastilla_pastilla",
+      "note": "",
+      "sample_files": [
+        "food_005.jpg"
+      ]
+    },
+    {
+      "gt": "pilot_uniform",
+      "term_ar": "زي طيار",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_img0391.jpg"
+      ]
+    },
+    {
+      "gt": "pottery_making",
+      "term_ar": "صناعة الفخار",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_img0241.jpg"
+      ]
+    },
+    {
+      "gt": "Quffah",
+      "term_ar": "قفة",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_030.png"
+      ]
+    },
+    {
+      "gt": "Ramadan Decorations",
+      "term_ar": "زينة رمضان",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "image (20).jpg"
+      ]
+    },
+    {
+      "gt": "Rebaba",
+      "term_ar": "ربابة",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "image (33).jpg"
+      ]
+    },
+    {
+      "gt": "roz_bi_laban",
+      "term_ar": "رز بلبن",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_065.png"
+      ]
+    },
+    {
+      "gt": "safihat lahm",
+      "term_ar": "صفيحة لحم",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "image (19).jpg"
+      ]
+    },
+    {
+      "gt": "saj_bread",
+      "term_ar": "خبز الصاج",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_007.png"
+      ]
+    },
+    {
+      "gt": "saliq",
+      "term_ar": "سليق",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_img0395.jpg"
+      ]
+    },
+    {
+      "gt": "Sardines",
+      "term_ar": "سردين",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_029.png"
+      ]
+    },
+    {
+      "gt": "Saudi man",
+      "term_ar": "رجل سعودي",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "demographic",
+      "cluster": null,
+      "note": "تسمية ديموغرافية لا اسم قطعة زي — صف الزي الفعلي الظاهر في الصورة تحديدًا",
+      "sample_files": [
+        "016.jpg"
+      ]
+    },
+    {
+      "gt": "saudi woman",
+      "term_ar": "امرأة سعودية",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "demographic",
+      "cluster": null,
+      "note": "تسمية ديموغرافية لا اسم قطعة زي — صف الزي الفعلي الظاهر في الصورة تحديدًا",
+      "sample_files": [
+        "Screenshot 1448-02-23 at 10.12.09 PM.png"
+      ]
+    },
+    {
+      "gt": "Sesame",
+      "term_ar": "سمسم",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "image (11).jpg"
+      ]
+    },
+    {
+      "gt": "Shakshuka",
+      "term_ar": "شكشوكة",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "image (12).jpg"
+      ]
+    },
+    {
+      "gt": "Shayya",
+      "term_ar": "شية",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "تحقق بصري: لحم يُشوى على الفحم في صينية معدنية",
+      "sample_files": [
+        "food_051.png"
+      ]
+    },
+    {
+      "gt": "sheikh_el_mahshi",
+      "term_ar": "شيخ المحشي",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_071.jpg"
+      ]
+    },
+    {
+      "gt": "shemagh",
+      "term_ar": "شماغ",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_img0192.jpg"
+      ]
+    },
+    {
+      "gt": "sherwal",
+      "term_ar": "سروال",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "clothes_016.png"
+      ]
+    },
+    {
+      "gt": "shish_tawook",
+      "term_ar": "شيش طاووق",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_046.png"
+      ]
+    },
+    {
+      "gt": "siniat batatan",
+      "term_ar": "صينية بطاطا",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_001(1).png"
+      ]
+    },
+    {
+      "gt": "Stuffed Grape Leaves",
+      "term_ar": "ورق عنب",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "composite",
+      "cluster": "dolma_grape_leaves",
+      "note": "تحقق بصري: الصحن يضم أيضًا لحمًا ومعجنات — طبق مشكّل، لا تقتصر على ورق العنب فقط",
+      "sample_files": [
+        "food_016.png"
+      ]
+    },
+    {
+      "gt": "Syrian family",
+      "term_ar": "عائلة سورية",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "demographic",
+      "cluster": null,
+      "note": "تسمية ديموغرافية — الصورة بورتريه استوديو يُظهر زيًا تقليديًا مفصّلًا (غطاء رأس، ثوب مخطط، خنجر)",
+      "sample_files": [
+        "clothes_010.png"
+      ]
+    },
+    {
+      "gt": "Syrian stone archway",
+      "term_ar": "قنطرة حجرية سورية",
+      "category": "architecture",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "نتيجة تصحيح صف image_604 (كان نصه Syrian family سابقًا)",
+      "sample_files": [
+        "clothes_017.png"
+      ]
+    },
+    {
+      "gt": "Tabbouleh-Cuba-Grape Leaves",
+      "term_ar": "طبق مشكّل (تبولة، كبة، ورق عنب)",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "composite",
+      "cluster": null,
+      "note": "طبق مشكّل من ثلاثة عناصر — صف كل عنصر ظاهر",
+      "sample_files": [
+        "food_087.png"
+      ]
+    },
+    {
+      "gt": "Tamis",
+      "term_ar": "تميس",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "تحقق بصري: خبز تنّور دائري كبير يُخرَج من فرن — يطابق تميس الخليجي",
+      "sample_files": [
+        "image (16).jpg"
+      ]
+    },
+    {
+      "gt": "Tanoor Bread with Honey",
+      "term_ar": "خبز التنور بالعسل",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_008.jpg"
+      ]
+    },
+    {
+      "gt": "teapot",
+      "term_ar": "إبريق شاي",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_007.jpg"
+      ]
+    },
+    {
+      "gt": "traditional clothing",
+      "term_ar": "زي تقليدي",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "medium",
+      "type": "generic",
+      "cluster": null,
+      "note": "تسمية عامة جدًا في الأصل — صف القطعة الفعلية الظاهرة",
+      "sample_files": [
+        "clothes_012.png"
+      ]
+    },
+    {
+      "gt": "Traditional Pressing",
+      "term_ar": "عصر الأركان التقليدي",
+      "category": "architecture",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "تحقق بصري: نساء يطحن حَب الأركان بمطحنة حجرية تقليدية مغربية، سلال وزجاجات زيت الأركان ظاهرة",
+      "sample_files": [
+        "image (7).jpg"
+      ]
+    },
+    {
+      "gt": "traditional_syrian_garment",
+      "term_ar": "زي سوري تقليدي",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "medium",
+      "type": "generic",
+      "cluster": null,
+      "note": "تصحيح GT (كان thawb) — أكّد الباحث الرئيسي أنه لبس سوري تقليدي دون اسم قطعة محدد؛ تسمية عامة مقصودة بقرار الباحث",
+      "sample_files": [
+        "pearlx_thawba_007.jpg"
+      ]
+    },
+    {
+      "gt": "Tuk-tuk",
+      "term_ar": "توك توك",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "image (2).jpg"
+      ]
+    },
+    {
+      "gt": "tunisian_jubba",
+      "term_ar": "جبة تونسية",
+      "category": "attire",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "تصحيح GT (كان thawb) — أكّده الباحث الرئيسي بعد مراجعة review_gt_mismatches.csv",
+      "sample_files": [
+        "pearlx_thawba_001.jpg"
+      ]
+    },
+    {
+      "gt": "unripe_green_dates",
+      "term_ar": "بلح أخضر",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "تصحيح GT (كان Dates) — بلح غير ناضج معلّق على النخلة، أكّده الباحث الرئيسي",
+      "sample_files": [
+        "image (1).jpg"
+      ]
+    },
+    {
+      "gt": "Water Canal",
+      "term_ar": "قناة مياه",
+      "category": "architecture",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "image (3).jpg"
+      ]
+    },
+    {
+      "gt": "water_cooler",
+      "term_ar": "برّاد ماء",
+      "category": "objects",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "m2cqa_saudi_004.png"
+      ]
+    },
+    {
+      "gt": "yakhnaya",
+      "term_ar": "يخنة",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "high",
+      "type": "normal",
+      "cluster": null,
+      "note": "",
+      "sample_files": [
+        "food_034.png"
+      ]
+    },
+    {
+      "gt": "Zigni",
+      "term_ar": "زقني",
+      "category": "cuisine",
+      "n_rows": 1,
+      "confidence": "low",
+      "type": "flagged_non_arab",
+      "cluster": null,
+      "note": "⚠ طبق إريتري أصيل غالبًا (وُسم بلد=السودان لكن يقدَّم مع الإنجيرا) — يوصى بمراجعة الفريق",
+      "sample_files": [
+        "food_004(1).png"
+      ]
+    }
+  ]
+}
