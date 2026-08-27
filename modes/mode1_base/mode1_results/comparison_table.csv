@@ -1,0 +1,5 @@
+model_name,n_images,n_tasks,acc_all,yes_recall,no_recall,phd_index,yes_rate,clarity,paired_acc,source_file
+google/gemini-2.5-flash,50,100,0.82,0.9,0.74,0.8122,0.58,1.0,0.64,results_mode1_full_google-gemini-2.5-flash.csv
+google/gemini-2.5-flash-lite,50,100,0.72,0.8,0.64,0.7111,0.58,1.0,0.48,results_mode1_full_google-gemini-2.5-flash-lite.csv
+qwen/qwen2.5-vl-72b-instruct,50,100,0.64,0.62,0.66,0.6394,0.48,1.0,0.3,results_mode1_full_qwen-qwen2.5-vl-72b-instruct.csv
+openai/gpt-4o-mini,50,100,0.71,0.96,0.46,0.622,0.75,1.0,0.42,results_mode1_full_openai-gpt-4o-mini.csv

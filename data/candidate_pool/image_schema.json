@@ -1,7 +1,17 @@
 {
   "$schema_name": "ArabPhD image_pool entry — attribute reference",
   "purpose": "Field-by-field definitions for arabphd_full_candidate_pool.json, kept as a standalone reference (not consumed by the pipeline).",
-  "modes_covered_in_pool": ["sec", "icc"],
+  "modes_covered_in_pool": ["mode1"],
+  "modes_covered_note": "Only mode1 (base VQA) is currently populated in arabphd_full_candidate_pool.json (270 entries, author: \"mahyoub\", full question sets). sec/icc/ccs/nota have no generated questions yet — sec/icc DO have 200 raw candidate annotations (captions, h_item, diagnostic_trap_type, implicit_rejection_set) sitting in data/candidate_pool/image_pool.json, but those aren't promoted into the full pool until actual VQA questions exist for them, same promotion bar mode1 just cleared. The sec/icc/ccs field definitions below stay as reference for that future work.",
+  "mode1_note": "mode1 entries (author: \"mahyoub\") do not carry diagnostic_trap_type or implicit_rejection_set — those are sec/icc-only fields, not applicable to plain yes/no VQA. mode1 entries instead carry hitem_level, question_yes_ar, answer_yes, question_no_ar, answer_no (see mode1_fields below). caption_en is also not populated for mode1 entries.",
+  "mode1_fields": {
+    "author": { "type": "string", "definition": "Provenance tag for who authored this entry. \"mahyoub\" for the mode1 set, merged in from modes/mode1_base/questions_base.json + data/candidate_pool/image_pool_mode1.json." },
+    "hitem_level": { "type": "string", "definition": "Granularity of the h_item substitution for the no_ar question (e.g. \"identity\")." },
+    "question_yes_ar": { "type": "string", "definition": "Yes-polarity question in Arabic, asking about the true identity (inferred_identity_ar). Correct answer is always نعم." },
+    "answer_yes": { "type": "string", "enum": ["نعم"], "definition": "Ground-truth answer to question_yes_ar." },
+    "question_no_ar": { "type": "string", "definition": "No-polarity question in Arabic, asking about h_item_ar instead of the true identity. Correct answer is always لا." },
+    "answer_no": { "type": "string", "enum": ["لا"], "definition": "Ground-truth answer to question_no_ar." }
+  },
   "required_fields": {
     "image_id": {
       "type": "string",
@@ -22,10 +32,10 @@
     },
     "mode": {
       "type": "string",
-      "enum": ["base", "sec", "icc", "ccs"],
-      "definition": "Which benchmark evaluation mode this entry was authored for. Only sec and icc are populated in this pool.",
+      "enum": ["mode1", "sec", "icc", "ccs"],
+      "definition": "Which benchmark evaluation mode this entry was authored for. Only mode1 is currently populated in this pool.",
       "mode_definitions": {
-        "base": "Plain VQA, no adversarial context. Tests Cause I (Visual Ambiguity). Not used in this pool.",
+        "mode1": "Plain VQA, no adversarial context. Tests Cause I (Visual Ambiguity). Populated in this pool (270 entries).",
         "sec": "Specious Context / Perceptual Proximity Confuser (PFC). Caption/h_item swap the true identity for the closest visual or functional neighbor — same silhouette, texture, or generic sibling item, without naming a specific rival entity. Tests Cause II (Multimodal Inconsistency).",
         "icc": "Incorrect Context / Domain-Context Hijack. Caption/h_item swap the true identity for a real, specific, structurally-similar NAMED entity that is often also the culturally/text-primed default guess. Tests Cross-modal Arabic Trust Ratio (CATR).",
         "ccs": "Cultural Counter-Common-Sense / Parametric Prior Hijacking. Tests Cause III via norm violations or era/region-implausible cues. Not used in this pool."
