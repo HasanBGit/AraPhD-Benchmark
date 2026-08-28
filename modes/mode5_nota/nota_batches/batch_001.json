@@ -1,15 +1,15 @@
 [
   {
-    "image_id": "architecture_al_faisaliah_tower_f1",
+    "image_id": "architecture_al_faisaliah_tower_f10",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
     "question_ar": "كيف يُعرف المبنى الظاهر في الصورة؟",
     "distractors_ar": [
       "برج المملكة",
       "مركز الملك عبدالله المالي (كافد)",
       "برج خليفة بدبي"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
       "برج المملكة",
       "مركز الملك عبدالله المالي (كافد)",
@@ -20,37 +20,37 @@
     "nota_position": "D",
     "removed_answer_ar": "برج الفيصلية",
     "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Al Faisaliah Tower."
+    "expected_behavior_ar": "Select D — none of A-C is برج الفيصلية."
   },
   {
-    "image_id": "architecture_al_faisaliah_tower_f1",
+    "image_id": "architecture_al_faisaliah_tower_f10",
     "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
     "question_ar": "كيف يُعرف المبنى الظاهر في الصورة؟",
     "distractors_ar": [
       "برج المملكة",
       "مركز الملك عبدالله المالي (كافد)",
       "برج خليفة بدبي"
     ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
     "options_ar": null,
     "nota_option_ar": null,
     "nota_position": null,
     "removed_answer_ar": "برج الفيصلية",
     "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Al Faisaliah Tower counts as a miss."
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming برج الفيصلية or a near-miss counts as a miss."
   },
   {
-    "image_id": "architecture_al_faisaliah_tower_f1",
+    "image_id": "architecture_al_faisaliah_tower_f10",
     "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
     "question_ar": "كيف يُعرف المبنى الظاهر في الصورة؟",
     "distractors_ar": [
       "برج المملكة",
       "مركز الملك عبدالله المالي (كافد)",
       "برج خليفة بدبي"
     ],
+    "condition": "udr",
+    "structure_id": "udr-1",
     "options_ar": [
       "برج المملكة",
       "مركز الملك عبدالله المالي (كافد)",
@@ -60,19 +60,19 @@
     "nota_position": null,
     "removed_answer_ar": "برج الفيصلية",
     "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Al Faisaliah Tower, unprompted."
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is برج الفيصلية, unprompted."
   },
   {
-    "image_id": "architecture_al_faisaliah_tower_f1",
+    "image_id": "architecture_al_faisaliah_tower_f10",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
     "question_ar": "كيف يُعرف المبنى الظاهر في الصورة؟",
     "distractors_ar": [
       "برج المملكة",
       "مركز الملك عبدالله المالي (كافد)",
       "برج خليفة بدبي"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
       "برج المملكة",
       "مركز الملك عبدالله المالي (كافد)",
@@ -83,22 +83,22 @@
     "nota_position": "D",
     "removed_answer_ar": null,
     "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, Al Faisaliah Tower); selecting D here is a false abstention."
+    "expected_behavior_ar": "Select C — the correct answer (برج الفيصلية) is present. Selecting D (NOTA) here is a false abstention."
   },
   {
-    "image_id": "architecture_al_masmak_palace_masmak_1",
+    "image_id": "architecture_al_masmak_palace_masmak_13",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
+    "question_ar": "عرّف المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "قصر المربع التاريخي",
-      "قلعة زعبل بالأحساء",
+      "قلعة زعبل بسكاكا (الجوف)",
       "قصر إبراهيم بالهفوف"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
       "قصر المربع التاريخي",
-      "قلعة زعبل بالأحساء",
+      "قلعة زعبل بسكاكا (الجوف)",
       "قصر إبراهيم بالهفوف",
       "لا توجد إجابة صحيحة"
     ],
@@ -106,148 +106,85 @@
     "nota_position": "D",
     "removed_answer_ar": "قصر المصمك",
     "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Al Masmak Palace (Fortress)."
+    "expected_behavior_ar": "Select D — none of A-C is قصر المصمك."
   },
   {
-    "image_id": "architecture_al_masmak_palace_masmak_1",
+    "image_id": "architecture_al_masmak_palace_masmak_13",
     "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
+    "question_ar": "عرّف المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "قصر المربع التاريخي",
-      "قلعة زعبل بالأحساء",
+      "قلعة زعبل بسكاكا (الجوف)",
       "قصر إبراهيم بالهفوف"
     ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
     "options_ar": null,
     "nota_option_ar": null,
     "nota_position": null,
     "removed_answer_ar": "قصر المصمك",
     "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Al Masmak Palace (Fortress) counts as a miss."
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming قصر المصمك or a near-miss counts as a miss."
   },
   {
-    "image_id": "architecture_al_masmak_palace_masmak_1",
+    "image_id": "architecture_al_masmak_palace_masmak_13",
     "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
+    "question_ar": "عرّف المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "قصر المربع التاريخي",
-      "قلعة زعبل بالأحساء",
+      "قلعة زعبل بسكاكا (الجوف)",
       "قصر إبراهيم بالهفوف"
     ],
+    "condition": "udr",
+    "structure_id": "udr-1",
     "options_ar": [
       "قصر المربع التاريخي",
-      "قلعة زعبل بالأحساء",
+      "قلعة زعبل بسكاكا (الجوف)",
       "قصر إبراهيم بالهفوف"
     ],
     "nota_option_ar": null,
     "nota_position": null,
     "removed_answer_ar": "قصر المصمك",
     "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Al Masmak Palace (Fortress), unprompted."
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is قصر المصمك, unprompted."
   },
   {
-    "image_id": "architecture_al_rahmah_mosque_m1",
+    "image_id": "architecture_al_masmak_palace_masmak_13",
     "task": "object",
+    "question_ar": "عرّف المبنى الظاهر في الصورة.",
+    "distractors_ar": [
+      "قصر المربع التاريخي",
+      "قلعة زعبل بسكاكا (الجوف)",
+      "قصر إبراهيم بالهفوف"
+    ],
     "condition": "mcdr",
     "structure_id": "mcdr-1",
-    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
-    "distractors_ar": [
-      "مسجد الشاطئ العائم بالكويت",
-      "مسجد قباء بالمدينة",
-      "مسجد الكورنيش بجدة"
-    ],
     "options_ar": [
-      "مسجد الشاطئ العائم بالكويت",
-      "مسجد قباء بالمدينة",
-      "مسجد الكورنيش بجدة",
-      "لا توجد إجابة صحيحة"
-    ],
-    "nota_option_ar": "لا توجد إجابة صحيحة",
-    "nota_position": "D",
-    "removed_answer_ar": "مسجد الرحمة (المسجد العائم)",
-    "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Al Rahmah Mosque (the 'Floating Mosque'), Jeddah."
-  },
-  {
-    "image_id": "architecture_al_rahmah_mosque_m1",
-    "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
-    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
-    "distractors_ar": [
-      "مسجد الشاطئ العائم بالكويت",
-      "مسجد قباء بالمدينة",
-      "مسجد الكورنيش بجدة"
-    ],
-    "options_ar": null,
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "مسجد الرحمة (المسجد العائم)",
-    "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Al Rahmah Mosque (the 'Floating Mosque'), Jeddah counts as a miss."
-  },
-  {
-    "image_id": "architecture_al_rahmah_mosque_m1",
-    "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
-    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
-    "distractors_ar": [
-      "مسجد الشاطئ العائم بالكويت",
-      "مسجد قباء بالمدينة",
-      "مسجد الكورنيش بجدة"
-    ],
-    "options_ar": [
-      "مسجد الشاطئ العائم بالكويت",
-      "مسجد قباء بالمدينة",
-      "مسجد الكورنيش بجدة"
-    ],
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "مسجد الرحمة (المسجد العائم)",
-    "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Al Rahmah Mosque (the 'Floating Mosque'), Jeddah, unprompted."
-  },
-  {
-    "image_id": "architecture_al_rahmah_mosque_m1",
-    "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
-    "distractors_ar": [
-      "مسجد الشاطئ العائم بالكويت",
-      "مسجد قباء بالمدينة",
-      "مسجد الكورنيش بجدة"
-    ],
-    "options_ar": [
-      "مسجد الشاطئ العائم بالكويت",
-      "مسجد قباء بالمدينة",
-      "مسجد الرحمة (المسجد العائم)",
+      "قصر المربع التاريخي",
+      "قلعة زعبل بسكاكا (الجوف)",
+      "قصر المصمك",
       "لا توجد إجابة صحيحة"
     ],
     "nota_option_ar": "لا توجد إجابة صحيحة",
     "nota_position": "D",
     "removed_answer_ar": null,
     "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, Al Rahmah Mosque (the 'Floating Mosque'), Jeddah); selecting D here is a false abstention."
+    "expected_behavior_ar": "Select C — the correct answer (قصر المصمك) is present. Selecting D (NOTA) here is a false abstention."
   },
   {
-    "image_id": "architecture_diriyah_d",
+    "image_id": "architecture_diriyah_d12",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
+    "question_ar": "عرّف المبنى الظاهر في الصورة.",
     "distractors_ar": [
+      "قصر المربع التاريخي",
       "قصر المصمك",
-      "قلعة زعبل بالأحساء",
       "قصر إبراهيم بالهفوف"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
+      "قصر المربع التاريخي",
       "قصر المصمك",
-      "قلعة زعبل بالأحساء",
       "قصر إبراهيم بالهفوف",
       "لا توجد إجابة صحيحة"
     ],
@@ -255,147 +192,170 @@
     "nota_position": "D",
     "removed_answer_ar": "حي الطريف بالدرعية",
     "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is At-Turaif District, Diriyah."
+    "expected_behavior_ar": "Select D — none of A-C is حي الطريف بالدرعية."
   },
   {
-    "image_id": "architecture_diriyah_d",
+    "image_id": "architecture_diriyah_d12",
     "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
-    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
+    "question_ar": "عرّف المبنى الظاهر في الصورة.",
     "distractors_ar": [
+      "قصر المربع التاريخي",
       "قصر المصمك",
-      "قلعة زعبل بالأحساء",
       "قصر إبراهيم بالهفوف"
     ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
     "options_ar": null,
     "nota_option_ar": null,
     "nota_position": null,
     "removed_answer_ar": "حي الطريف بالدرعية",
     "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of At-Turaif District, Diriyah counts as a miss."
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming حي الطريف بالدرعية or a near-miss counts as a miss."
   },
   {
-    "image_id": "architecture_diriyah_d",
+    "image_id": "architecture_diriyah_d12",
     "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
-    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
+    "question_ar": "عرّف المبنى الظاهر في الصورة.",
     "distractors_ar": [
+      "قصر المربع التاريخي",
       "قصر المصمك",
-      "قلعة زعبل بالأحساء",
       "قصر إبراهيم بالهفوف"
     ],
+    "condition": "udr",
+    "structure_id": "udr-1",
     "options_ar": [
+      "قصر المربع التاريخي",
       "قصر المصمك",
-      "قلعة زعبل بالأحساء",
       "قصر إبراهيم بالهفوف"
     ],
     "nota_option_ar": null,
     "nota_position": null,
     "removed_answer_ar": "حي الطريف بالدرعية",
     "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is At-Turaif District, Diriyah, unprompted."
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is حي الطريف بالدرعية, unprompted."
   },
   {
-    "image_id": "architecture_hegra_hegra_1",
+    "image_id": "architecture_diriyah_d12",
     "task": "object",
+    "question_ar": "عرّف المبنى الظاهر في الصورة.",
+    "distractors_ar": [
+      "قصر المربع التاريخي",
+      "قصر المصمك",
+      "قصر إبراهيم بالهفوف"
+    ],
     "condition": "mcdr",
     "structure_id": "mcdr-1",
-    "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
-    "distractors_ar": [
-      "البتراء",
-      "آثار جرش بالأردن",
-      "معابد أبو سمبل بمصر"
-    ],
     "options_ar": [
-      "البتراء",
-      "آثار جرش بالأردن",
-      "معابد أبو سمبل بمصر",
-      "لا توجد إجابة صحيحة"
-    ],
-    "nota_option_ar": "لا توجد إجابة صحيحة",
-    "nota_position": "D",
-    "removed_answer_ar": "هجر (مدائن صالح) - قصر الفريد",
-    "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Hegra (Mada'in Salih) - Qasr Al-Farid tomb."
-  },
-  {
-    "image_id": "architecture_hegra_hegra_1",
-    "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
-    "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
-    "distractors_ar": [
-      "البتراء",
-      "آثار جرش بالأردن",
-      "معابد أبو سمبل بمصر"
-    ],
-    "options_ar": null,
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "هجر (مدائن صالح) - قصر الفريد",
-    "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Hegra (Mada'in Salih) - Qasr Al-Farid tomb counts as a miss."
-  },
-  {
-    "image_id": "architecture_hegra_hegra_1",
-    "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
-    "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
-    "distractors_ar": [
-      "البتراء",
-      "آثار جرش بالأردن",
-      "معابد أبو سمبل بمصر"
-    ],
-    "options_ar": [
-      "البتراء",
-      "آثار جرش بالأردن",
-      "معابد أبو سمبل بمصر"
-    ],
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "هجر (مدائن صالح) - قصر الفريد",
-    "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Hegra (Mada'in Salih) - Qasr Al-Farid tomb, unprompted."
-  },
-  {
-    "image_id": "architecture_hegra_hegra_1",
-    "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
-    "distractors_ar": [
-      "البتراء",
-      "آثار جرش بالأردن",
-      "معابد أبو سمبل بمصر"
-    ],
-    "options_ar": [
-      "البتراء",
-      "آثار جرش بالأردن",
-      "هجر (مدائن صالح) - قصر الفريد",
+      "قصر المربع التاريخي",
+      "قصر المصمك",
+      "حي الطريف بالدرعية",
       "لا توجد إجابة صحيحة"
     ],
     "nota_option_ar": "لا توجد إجابة صحيحة",
     "nota_position": "D",
     "removed_answer_ar": null,
     "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, Hegra (Mada'in Salih) - Qasr Al-Farid tomb); selecting D here is a false abstention."
+    "expected_behavior_ar": "Select C — the correct answer (حي الطريف بالدرعية) is present. Selecting D (NOTA) here is a false abstention."
   },
   {
-    "image_id": "architecture_ibrahim_palace_screenshot_2023_11_16_093153",
+    "image_id": "architecture_hegra_hegra_12",
     "task": "object",
+    "question_ar": "ما اسم المبنى الظاهر في الصورة؟",
+    "distractors_ar": [
+      "البتراء",
+      "قصر البنت بالعلا",
+      "آثار جرش بالأردن"
+    ],
     "condition": "mcdr",
     "structure_id": "mcdr-1",
-    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
+    "options_ar": [
+      "البتراء",
+      "قصر البنت بالعلا",
+      "آثار جرش بالأردن",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "قصر الفريد (هجر/مدائن صالح)، العلا",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is قصر الفريد (هجر/مدائن صالح)، العلا."
+  },
+  {
+    "image_id": "architecture_hegra_hegra_12",
+    "task": "object",
+    "question_ar": "ما اسم المبنى الظاهر في الصورة؟",
     "distractors_ar": [
-      "قلعة زعبل بالأحساء",
+      "البتراء",
+      "قصر البنت بالعلا",
+      "آثار جرش بالأردن"
+    ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "قصر الفريد (هجر/مدائن صالح)، العلا",
+    "is_control": false,
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming قصر الفريد (هجر/مدائن صالح)، العلا or a near-miss counts as a miss."
+  },
+  {
+    "image_id": "architecture_hegra_hegra_12",
+    "task": "object",
+    "question_ar": "ما اسم المبنى الظاهر في الصورة؟",
+    "distractors_ar": [
+      "البتراء",
+      "قصر البنت بالعلا",
+      "آثار جرش بالأردن"
+    ],
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "options_ar": [
+      "البتراء",
+      "قصر البنت بالعلا",
+      "آثار جرش بالأردن"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "قصر الفريد (هجر/مدائن صالح)، العلا",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is قصر الفريد (هجر/مدائن صالح)، العلا, unprompted."
+  },
+  {
+    "image_id": "architecture_hegra_hegra_12",
+    "task": "object",
+    "question_ar": "ما اسم المبنى الظاهر في الصورة؟",
+    "distractors_ar": [
+      "البتراء",
+      "قصر البنت بالعلا",
+      "آثار جرش بالأردن"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "البتراء",
+      "قصر البنت بالعلا",
+      "قصر الفريد (هجر/مدائن صالح)، العلا",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select C — the correct answer (قصر الفريد (هجر/مدائن صالح)، العلا) is present. Selecting D (NOTA) here is a false abstention."
+  },
+  {
+    "image_id": "architecture_ibrahim_palace_screenshot_2023_11_16_093330",
+    "task": "object",
+    "question_ar": "عرّف المبنى الظاهر في الصورة.",
+    "distractors_ar": [
+      "قلعة زعبل بسكاكا (الجوف)",
       "قصر المصمك",
       "قصر الحكم بالرياض"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
-      "قلعة زعبل بالأحساء",
+      "قلعة زعبل بسكاكا (الجوف)",
       "قصر المصمك",
       "قصر الحكم بالرياض",
       "لا توجد إجابة صحيحة"
@@ -404,39 +364,39 @@
     "nota_position": "D",
     "removed_answer_ar": "قصر إبراهيم بالهفوف",
     "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Ibrahim Palace, Al-Hofuf."
+    "expected_behavior_ar": "Select D — none of A-C is قصر إبراهيم بالهفوف."
   },
   {
-    "image_id": "architecture_ibrahim_palace_screenshot_2023_11_16_093153",
+    "image_id": "architecture_ibrahim_palace_screenshot_2023_11_16_093330",
     "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
-    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
+    "question_ar": "عرّف المبنى الظاهر في الصورة.",
     "distractors_ar": [
-      "قلعة زعبل بالأحساء",
+      "قلعة زعبل بسكاكا (الجوف)",
       "قصر المصمك",
       "قصر الحكم بالرياض"
     ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
     "options_ar": null,
     "nota_option_ar": null,
     "nota_position": null,
     "removed_answer_ar": "قصر إبراهيم بالهفوف",
     "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Ibrahim Palace, Al-Hofuf counts as a miss."
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming قصر إبراهيم بالهفوف or a near-miss counts as a miss."
   },
   {
-    "image_id": "architecture_ibrahim_palace_screenshot_2023_11_16_093153",
+    "image_id": "architecture_ibrahim_palace_screenshot_2023_11_16_093330",
     "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
-    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
+    "question_ar": "عرّف المبنى الظاهر في الصورة.",
     "distractors_ar": [
-      "قلعة زعبل بالأحساء",
+      "قلعة زعبل بسكاكا (الجوف)",
       "قصر المصمك",
       "قصر الحكم بالرياض"
     ],
+    "condition": "udr",
+    "structure_id": "udr-1",
     "options_ar": [
-      "قلعة زعبل بالأحساء",
+      "قلعة زعبل بسكاكا (الجوف)",
       "قصر المصمك",
       "قصر الحكم بالرياض"
     ],
@@ -444,19 +404,42 @@
     "nota_position": null,
     "removed_answer_ar": "قصر إبراهيم بالهفوف",
     "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Ibrahim Palace, Al-Hofuf, unprompted."
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is قصر إبراهيم بالهفوف, unprompted."
   },
   {
-    "image_id": "architecture_ithra_screenshot_2023_10_31_111009",
+    "image_id": "architecture_ibrahim_palace_screenshot_2023_11_16_093330",
     "task": "object",
+    "question_ar": "عرّف المبنى الظاهر في الصورة.",
+    "distractors_ar": [
+      "قلعة زعبل بسكاكا (الجوف)",
+      "قصر المصمك",
+      "قصر الحكم بالرياض"
+    ],
     "condition": "mcdr",
     "structure_id": "mcdr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
+    "options_ar": [
+      "قلعة زعبل بسكاكا (الجوف)",
+      "قصر المصمك",
+      "قصر إبراهيم بالهفوف",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select C — the correct answer (قصر إبراهيم بالهفوف) is present. Selecting D (NOTA) here is a false abstention."
+  },
+  {
+    "image_id": "architecture_ithra_screenshot_2023_10_31_111338",
+    "task": "object",
+    "question_ar": "عرّف المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "متحف اللوفر أبوظبي",
       "متحف المستقبل بدبي",
       "دار الأوبرا السلطانية بمسقط"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
       "متحف اللوفر أبوظبي",
       "متحف المستقبل بدبي",
@@ -467,37 +450,37 @@
     "nota_position": "D",
     "removed_answer_ar": "مركز الملك عبدالعزيز الثقافي العالمي (إثراء)",
     "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is King Abdulaziz Center for World Culture (Ithra)."
+    "expected_behavior_ar": "Select D — none of A-C is مركز الملك عبدالعزيز الثقافي العالمي (إثراء)."
   },
   {
-    "image_id": "architecture_ithra_screenshot_2023_10_31_111009",
+    "image_id": "architecture_ithra_screenshot_2023_10_31_111338",
     "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
+    "question_ar": "عرّف المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "متحف اللوفر أبوظبي",
       "متحف المستقبل بدبي",
       "دار الأوبرا السلطانية بمسقط"
     ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
     "options_ar": null,
     "nota_option_ar": null,
     "nota_position": null,
     "removed_answer_ar": "مركز الملك عبدالعزيز الثقافي العالمي (إثراء)",
     "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of King Abdulaziz Center for World Culture (Ithra) counts as a miss."
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming مركز الملك عبدالعزيز الثقافي العالمي (إثراء) or a near-miss counts as a miss."
   },
   {
-    "image_id": "architecture_ithra_screenshot_2023_10_31_111009",
+    "image_id": "architecture_ithra_screenshot_2023_10_31_111338",
     "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
+    "question_ar": "عرّف المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "متحف اللوفر أبوظبي",
       "متحف المستقبل بدبي",
       "دار الأوبرا السلطانية بمسقط"
     ],
+    "condition": "udr",
+    "structure_id": "udr-1",
     "options_ar": [
       "متحف اللوفر أبوظبي",
       "متحف المستقبل بدبي",
@@ -507,19 +490,19 @@
     "nota_position": null,
     "removed_answer_ar": "مركز الملك عبدالعزيز الثقافي العالمي (إثراء)",
     "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is King Abdulaziz Center for World Culture (Ithra), unprompted."
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is مركز الملك عبدالعزيز الثقافي العالمي (إثراء), unprompted."
   },
   {
-    "image_id": "architecture_ithra_screenshot_2023_10_31_111009",
+    "image_id": "architecture_ithra_screenshot_2023_10_31_111338",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
+    "question_ar": "عرّف المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "متحف اللوفر أبوظبي",
       "متحف المستقبل بدبي",
       "دار الأوبرا السلطانية بمسقط"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
       "متحف اللوفر أبوظبي",
       "متحف المستقبل بدبي",
@@ -530,82 +513,19 @@
     "nota_position": "D",
     "removed_answer_ar": null,
     "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, King Abdulaziz Center for World Culture (Ithra)); selecting D here is a false abstention."
-  },
-  {
-    "image_id": "architecture_jabal_alfil_elephant_rock_elephant_1",
-    "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
-    "distractors_ar": [
-      "جبل القارة بالأحساء",
-      "صخور وادي رم بالأردن",
-      "الجبل الأحمر بالرياض"
-    ],
-    "options_ar": [
-      "جبل القارة بالأحساء",
-      "صخور وادي رم بالأردن",
-      "الجبل الأحمر بالرياض",
-      "لا توجد إجابة صحيحة"
-    ],
-    "nota_option_ar": "لا توجد إجابة صحيحة",
-    "nota_position": "D",
-    "removed_answer_ar": "جبل الفيل بالعلا",
-    "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Jabal AlFil (Elephant Rock), AlUla."
-  },
-  {
-    "image_id": "architecture_jabal_alfil_elephant_rock_elephant_1",
-    "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
-    "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
-    "distractors_ar": [
-      "جبل القارة بالأحساء",
-      "صخور وادي رم بالأردن",
-      "الجبل الأحمر بالرياض"
-    ],
-    "options_ar": null,
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "جبل الفيل بالعلا",
-    "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Jabal AlFil (Elephant Rock), AlUla counts as a miss."
-  },
-  {
-    "image_id": "architecture_jabal_alfil_elephant_rock_elephant_1",
-    "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
-    "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
-    "distractors_ar": [
-      "جبل القارة بالأحساء",
-      "صخور وادي رم بالأردن",
-      "الجبل الأحمر بالرياض"
-    ],
-    "options_ar": [
-      "جبل القارة بالأحساء",
-      "صخور وادي رم بالأردن",
-      "الجبل الأحمر بالرياض"
-    ],
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "جبل الفيل بالعلا",
-    "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Jabal AlFil (Elephant Rock), AlUla, unprompted."
+    "expected_behavior_ar": "Select C — the correct answer (مركز الملك عبدالعزيز الثقافي العالمي (إثراء)) is present. Selecting D (NOTA) here is a false abstention."
   },
   {
     "image_id": "architecture_king_abdullah_financial_district_kafd_k1",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
     "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "مركز دبي المالي العالمي (DIFC)",
       "برج المملكة",
       "وسط مدينة دبي (داون تاون)"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
       "مركز دبي المالي العالمي (DIFC)",
       "برج المملكة",
@@ -616,37 +536,37 @@
     "nota_position": "D",
     "removed_answer_ar": "مركز الملك عبدالله المالي (كافد)",
     "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is King Abdullah Financial District (KAFD)."
+    "expected_behavior_ar": "Select D — none of A-C is مركز الملك عبدالله المالي (كافد)."
   },
   {
     "image_id": "architecture_king_abdullah_financial_district_kafd_k1",
     "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
     "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "مركز دبي المالي العالمي (DIFC)",
       "برج المملكة",
       "وسط مدينة دبي (داون تاون)"
     ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
     "options_ar": null,
     "nota_option_ar": null,
     "nota_position": null,
     "removed_answer_ar": "مركز الملك عبدالله المالي (كافد)",
     "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of King Abdullah Financial District (KAFD) counts as a miss."
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming مركز الملك عبدالله المالي (كافد) or a near-miss counts as a miss."
   },
   {
     "image_id": "architecture_king_abdullah_financial_district_kafd_k1",
     "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
     "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "مركز دبي المالي العالمي (DIFC)",
       "برج المملكة",
       "وسط مدينة دبي (داون تاون)"
     ],
+    "condition": "udr",
+    "structure_id": "udr-1",
     "options_ar": [
       "مركز دبي المالي العالمي (DIFC)",
       "برج المملكة",
@@ -656,19 +576,19 @@
     "nota_position": null,
     "removed_answer_ar": "مركز الملك عبدالله المالي (كافد)",
     "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is King Abdullah Financial District (KAFD), unprompted."
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is مركز الملك عبدالله المالي (كافد), unprompted."
   },
   {
     "image_id": "architecture_king_abdullah_financial_district_kafd_k1",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
     "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "مركز دبي المالي العالمي (DIFC)",
       "برج المملكة",
       "وسط مدينة دبي (داون تاون)"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
       "مركز دبي المالي العالمي (DIFC)",
       "برج المملكة",
@@ -679,19 +599,19 @@
     "nota_position": "D",
     "removed_answer_ar": null,
     "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, King Abdullah Financial District (KAFD)); selecting D here is a false abstention."
+    "expected_behavior_ar": "Select C — the correct answer (مركز الملك عبدالله المالي (كافد)) is present. Selecting D (NOTA) here is a false abstention."
   },
   {
-    "image_id": "architecture_kingdom_tower_mam_1",
+    "image_id": "architecture_kingdom_tower_mam_13",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
+    "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "برج الفيصلية",
       "مركز الملك عبدالله المالي (كافد)",
       "برج خليفة بدبي"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
       "برج الفيصلية",
       "مركز الملك عبدالله المالي (كافد)",
@@ -702,37 +622,37 @@
     "nota_position": "D",
     "removed_answer_ar": "برج المملكة",
     "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Kingdom Tower (Burj Al-Mamlaka)."
+    "expected_behavior_ar": "Select D — none of A-C is برج المملكة."
   },
   {
-    "image_id": "architecture_kingdom_tower_mam_1",
+    "image_id": "architecture_kingdom_tower_mam_13",
     "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
-    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
+    "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "برج الفيصلية",
       "مركز الملك عبدالله المالي (كافد)",
       "برج خليفة بدبي"
     ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
     "options_ar": null,
     "nota_option_ar": null,
     "nota_position": null,
     "removed_answer_ar": "برج المملكة",
     "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Kingdom Tower (Burj Al-Mamlaka) counts as a miss."
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming برج المملكة or a near-miss counts as a miss."
   },
   {
-    "image_id": "architecture_kingdom_tower_mam_1",
+    "image_id": "architecture_kingdom_tower_mam_13",
     "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
-    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
+    "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "برج الفيصلية",
       "مركز الملك عبدالله المالي (كافد)",
       "برج خليفة بدبي"
     ],
+    "condition": "udr",
+    "structure_id": "udr-1",
     "options_ar": [
       "برج الفيصلية",
       "مركز الملك عبدالله المالي (كافد)",
@@ -742,105 +662,42 @@
     "nota_position": null,
     "removed_answer_ar": "برج المملكة",
     "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Kingdom Tower (Burj Al-Mamlaka), unprompted."
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is برج المملكة, unprompted."
   },
   {
-    "image_id": "architecture_maraya_mirror_1",
+    "image_id": "architecture_kingdom_tower_mam_13",
     "task": "object",
+    "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
+    "distractors_ar": [
+      "برج الفيصلية",
+      "مركز الملك عبدالله المالي (كافد)",
+      "برج خليفة بدبي"
+    ],
     "condition": "mcdr",
     "structure_id": "mcdr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
-    "distractors_ar": [
-      "متحف المستقبل بدبي",
-      "متحف اللوفر أبوظبي",
-      "المتحف الوطني القطري"
-    ],
     "options_ar": [
-      "متحف المستقبل بدبي",
-      "متحف اللوفر أبوظبي",
-      "المتحف الوطني القطري",
-      "لا توجد إجابة صحيحة"
-    ],
-    "nota_option_ar": "لا توجد إجابة صحيحة",
-    "nota_position": "D",
-    "removed_answer_ar": "مرايا (قاعة الحفلات المرآوية بالعلا)",
-    "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Maraya (mirrored concert hall), AlUla."
-  },
-  {
-    "image_id": "architecture_maraya_mirror_1",
-    "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
-    "distractors_ar": [
-      "متحف المستقبل بدبي",
-      "متحف اللوفر أبوظبي",
-      "المتحف الوطني القطري"
-    ],
-    "options_ar": null,
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "مرايا (قاعة الحفلات المرآوية بالعلا)",
-    "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Maraya (mirrored concert hall), AlUla counts as a miss."
-  },
-  {
-    "image_id": "architecture_maraya_mirror_1",
-    "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
-    "distractors_ar": [
-      "متحف المستقبل بدبي",
-      "متحف اللوفر أبوظبي",
-      "المتحف الوطني القطري"
-    ],
-    "options_ar": [
-      "متحف المستقبل بدبي",
-      "متحف اللوفر أبوظبي",
-      "المتحف الوطني القطري"
-    ],
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "مرايا (قاعة الحفلات المرآوية بالعلا)",
-    "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Maraya (mirrored concert hall), AlUla, unprompted."
-  },
-  {
-    "image_id": "architecture_maraya_mirror_1",
-    "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
-    "distractors_ar": [
-      "متحف المستقبل بدبي",
-      "متحف اللوفر أبوظبي",
-      "المتحف الوطني القطري"
-    ],
-    "options_ar": [
-      "متحف المستقبل بدبي",
-      "متحف اللوفر أبوظبي",
-      "مرايا (قاعة الحفلات المرآوية بالعلا)",
+      "برج الفيصلية",
+      "مركز الملك عبدالله المالي (كافد)",
+      "برج المملكة",
       "لا توجد إجابة صحيحة"
     ],
     "nota_option_ar": "لا توجد إجابة صحيحة",
     "nota_position": "D",
     "removed_answer_ar": null,
     "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, Maraya (mirrored concert hall), AlUla); selecting D here is a false abstention."
+    "expected_behavior_ar": "Select C — the correct answer (برج المملكة) is present. Selecting D (NOTA) here is a false abstention."
   },
   {
     "image_id": "architecture_nassif_house_museum_naseif_1",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
     "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
     "distractors_ar": [
       "بيت الشربتلي التاريخي",
       "بيت باناجة بجدة",
       "دار الحكم العثماني بجدة"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
       "بيت الشربتلي التاريخي",
       "بيت باناجة بجدة",
@@ -851,37 +708,37 @@
     "nota_position": "D",
     "removed_answer_ar": "بيت نصيف",
     "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Nassif House (historic Hijazi coral-stone mansion)."
+    "expected_behavior_ar": "Select D — none of A-C is بيت نصيف."
   },
   {
     "image_id": "architecture_nassif_house_museum_naseif_1",
     "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
     "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
     "distractors_ar": [
       "بيت الشربتلي التاريخي",
       "بيت باناجة بجدة",
       "دار الحكم العثماني بجدة"
     ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
     "options_ar": null,
     "nota_option_ar": null,
     "nota_position": null,
     "removed_answer_ar": "بيت نصيف",
     "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Nassif House (historic Hijazi coral-stone mansion) counts as a miss."
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming بيت نصيف or a near-miss counts as a miss."
   },
   {
     "image_id": "architecture_nassif_house_museum_naseif_1",
     "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
     "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
     "distractors_ar": [
       "بيت الشربتلي التاريخي",
       "بيت باناجة بجدة",
       "دار الحكم العثماني بجدة"
     ],
+    "condition": "udr",
+    "structure_id": "udr-1",
     "options_ar": [
       "بيت الشربتلي التاريخي",
       "بيت باناجة بجدة",
@@ -891,19 +748,42 @@
     "nota_position": null,
     "removed_answer_ar": "بيت نصيف",
     "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Nassif House (historic Hijazi coral-stone mansion), unprompted."
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is بيت نصيف, unprompted."
   },
   {
-    "image_id": "architecture_quba_mosque_quba_1",
+    "image_id": "architecture_nassif_house_museum_naseif_1",
     "task": "object",
+    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
+    "distractors_ar": [
+      "بيت الشربتلي التاريخي",
+      "بيت باناجة بجدة",
+      "دار الحكم العثماني بجدة"
+    ],
     "condition": "mcdr",
     "structure_id": "mcdr-1",
-    "question_ar": "عرّف المبنى الظاهر في الصورة.",
+    "options_ar": [
+      "بيت الشربتلي التاريخي",
+      "بيت باناجة بجدة",
+      "بيت نصيف",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select C — the correct answer (بيت نصيف) is present. Selecting D (NOTA) here is a false abstention."
+  },
+  {
+    "image_id": "architecture_quba_mosque_quba_13",
+    "task": "object",
+    "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "مسجد القبلتين",
       "المسجد النبوي الشريف",
       "مسجد الجمعة بالمدينة"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
       "مسجد القبلتين",
       "المسجد النبوي الشريف",
@@ -914,37 +794,37 @@
     "nota_position": "D",
     "removed_answer_ar": "مسجد قباء",
     "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Quba Mosque, Medina."
+    "expected_behavior_ar": "Select D — none of A-C is مسجد قباء."
   },
   {
-    "image_id": "architecture_quba_mosque_quba_1",
+    "image_id": "architecture_quba_mosque_quba_13",
     "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
-    "question_ar": "عرّف المبنى الظاهر في الصورة.",
+    "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "مسجد القبلتين",
       "المسجد النبوي الشريف",
       "مسجد الجمعة بالمدينة"
     ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
     "options_ar": null,
     "nota_option_ar": null,
     "nota_position": null,
     "removed_answer_ar": "مسجد قباء",
     "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Quba Mosque, Medina counts as a miss."
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming مسجد قباء or a near-miss counts as a miss."
   },
   {
-    "image_id": "architecture_quba_mosque_quba_1",
+    "image_id": "architecture_quba_mosque_quba_13",
     "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
-    "question_ar": "عرّف المبنى الظاهر في الصورة.",
+    "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "مسجد القبلتين",
       "المسجد النبوي الشريف",
       "مسجد الجمعة بالمدينة"
     ],
+    "condition": "udr",
+    "structure_id": "udr-1",
     "options_ar": [
       "مسجد القبلتين",
       "المسجد النبوي الشريف",
@@ -954,19 +834,19 @@
     "nota_position": null,
     "removed_answer_ar": "مسجد قباء",
     "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Quba Mosque, Medina, unprompted."
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is مسجد قباء, unprompted."
   },
   {
-    "image_id": "architecture_quba_mosque_quba_1",
+    "image_id": "architecture_quba_mosque_quba_13",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "عرّف المبنى الظاهر في الصورة.",
+    "question_ar": "اذكر اسم المبنى الظاهر في الصورة.",
     "distractors_ar": [
       "مسجد القبلتين",
       "المسجد النبوي الشريف",
       "مسجد الجمعة بالمدينة"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
       "مسجد القبلتين",
       "المسجد النبوي الشريف",
@@ -977,82 +857,19 @@
     "nota_position": "D",
     "removed_answer_ar": null,
     "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, Quba Mosque, Medina); selecting D here is a false abstention."
+    "expected_behavior_ar": "Select C — the correct answer (مسجد قباء) is present. Selecting D (NOTA) here is a false abstention."
   },
   {
-    "image_id": "architecture_riyadh_water_tower_watertower_1",
+    "image_id": "architecture_the_clock_towers_watch_13",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
     "question_ar": "ما هو المبنى الظاهر في الصورة؟",
-    "distractors_ar": [
-      "أبراج الكويت",
-      "برج المملكة",
-      "برج القاهرة"
-    ],
-    "options_ar": [
-      "أبراج الكويت",
-      "برج المملكة",
-      "برج القاهرة",
-      "لا توجد إجابة صحيحة"
-    ],
-    "nota_option_ar": "لا توجد إجابة صحيحة",
-    "nota_position": "D",
-    "removed_answer_ar": "برج المياه بالرياض",
-    "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Riyadh Water Tower."
-  },
-  {
-    "image_id": "architecture_riyadh_water_tower_watertower_1",
-    "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
-    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
-    "distractors_ar": [
-      "أبراج الكويت",
-      "برج المملكة",
-      "برج القاهرة"
-    ],
-    "options_ar": null,
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "برج المياه بالرياض",
-    "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Riyadh Water Tower counts as a miss."
-  },
-  {
-    "image_id": "architecture_riyadh_water_tower_watertower_1",
-    "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
-    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
-    "distractors_ar": [
-      "أبراج الكويت",
-      "برج المملكة",
-      "برج القاهرة"
-    ],
-    "options_ar": [
-      "أبراج الكويت",
-      "برج المملكة",
-      "برج القاهرة"
-    ],
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "برج المياه بالرياض",
-    "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Riyadh Water Tower, unprompted."
-  },
-  {
-    "image_id": "architecture_the_clock_towers_watch_1",
-    "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
     "distractors_ar": [
       "برج خليفة بدبي",
       "بيغ بن بلندن",
       "المسجد الحرام"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
       "برج خليفة بدبي",
       "بيغ بن بلندن",
@@ -1063,37 +880,37 @@
     "nota_position": "D",
     "removed_answer_ar": "أبراج البيت (برج الساعة) بمكة",
     "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is The Clock Towers (Abraj Al-Bait), Mecca."
+    "expected_behavior_ar": "Select D — none of A-C is أبراج البيت (برج الساعة) بمكة."
   },
   {
-    "image_id": "architecture_the_clock_towers_watch_1",
+    "image_id": "architecture_the_clock_towers_watch_13",
     "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
+    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
     "distractors_ar": [
       "برج خليفة بدبي",
       "بيغ بن بلندن",
       "المسجد الحرام"
     ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
     "options_ar": null,
     "nota_option_ar": null,
     "nota_position": null,
     "removed_answer_ar": "أبراج البيت (برج الساعة) بمكة",
     "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of The Clock Towers (Abraj Al-Bait), Mecca counts as a miss."
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming أبراج البيت (برج الساعة) بمكة or a near-miss counts as a miss."
   },
   {
-    "image_id": "architecture_the_clock_towers_watch_1",
+    "image_id": "architecture_the_clock_towers_watch_13",
     "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
+    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
     "distractors_ar": [
       "برج خليفة بدبي",
       "بيغ بن بلندن",
       "المسجد الحرام"
     ],
+    "condition": "udr",
+    "structure_id": "udr-1",
     "options_ar": [
       "برج خليفة بدبي",
       "بيغ بن بلندن",
@@ -1103,19 +920,19 @@
     "nota_position": null,
     "removed_answer_ar": "أبراج البيت (برج الساعة) بمكة",
     "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is The Clock Towers (Abraj Al-Bait), Mecca, unprompted."
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is أبراج البيت (برج الساعة) بمكة, unprompted."
   },
   {
-    "image_id": "architecture_the_clock_towers_watch_1",
+    "image_id": "architecture_the_clock_towers_watch_13",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
+    "question_ar": "ما هو المبنى الظاهر في الصورة؟",
     "distractors_ar": [
       "برج خليفة بدبي",
       "بيغ بن بلندن",
       "المسجد الحرام"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
       "برج خليفة بدبي",
       "بيغ بن بلندن",
@@ -1126,254 +943,19 @@
     "nota_position": "D",
     "removed_answer_ar": null,
     "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, The Clock Towers (Abraj Al-Bait), Mecca); selecting D here is a false abstention."
-  },
-  {
-    "image_id": "architecture_the_kaaba_kabba_1",
-    "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
-    "distractors_ar": [
-      "المسجد الحرام",
-      "برج الساعة (أبراج البيت)",
-      "الحجر الأسود منفرداً"
-    ],
-    "options_ar": [
-      "المسجد الحرام",
-      "برج الساعة (أبراج البيت)",
-      "الحجر الأسود منفرداً",
-      "لا توجد إجابة صحيحة"
-    ],
-    "nota_option_ar": "لا توجد إجابة صحيحة",
-    "nota_position": "D",
-    "removed_answer_ar": "الكعبة المشرفة",
-    "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is The Kaaba."
-  },
-  {
-    "image_id": "architecture_the_kaaba_kabba_1",
-    "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
-    "distractors_ar": [
-      "المسجد الحرام",
-      "برج الساعة (أبراج البيت)",
-      "الحجر الأسود منفرداً"
-    ],
-    "options_ar": null,
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "الكعبة المشرفة",
-    "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of The Kaaba counts as a miss."
-  },
-  {
-    "image_id": "architecture_the_kaaba_kabba_1",
-    "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
-    "question_ar": "ما الاسم الصحيح للمبنى الظاهر في الصورة؟",
-    "distractors_ar": [
-      "المسجد الحرام",
-      "برج الساعة (أبراج البيت)",
-      "الحجر الأسود منفرداً"
-    ],
-    "options_ar": [
-      "المسجد الحرام",
-      "برج الساعة (أبراج البيت)",
-      "الحجر الأسود منفرداً"
-    ],
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "الكعبة المشرفة",
-    "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is The Kaaba, unprompted."
-  },
-  {
-    "image_id": "attire_119451_kaftan",
-    "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
-    "distractors_ar": [
-      "جبة دمشقية حريرية",
-      "دراعة خليجية مخططة",
-      "بشت رجالي حريري"
-    ],
-    "options_ar": [
-      "جبة دمشقية حريرية",
-      "دراعة خليجية مخططة",
-      "بشت رجالي حريري",
-      "لا توجد إجابة صحيحة"
-    ],
-    "nota_option_ar": "لا توجد إجابة صحيحة",
-    "nota_position": "D",
-    "removed_answer_ar": "كافتان حريري",
-    "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Silk kaftan."
-  },
-  {
-    "image_id": "attire_119451_kaftan",
-    "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
-    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
-    "distractors_ar": [
-      "جبة دمشقية حريرية",
-      "دراعة خليجية مخططة",
-      "بشت رجالي حريري"
-    ],
-    "options_ar": null,
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "كافتان حريري",
-    "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Silk kaftan counts as a miss."
-  },
-  {
-    "image_id": "attire_119451_kaftan",
-    "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
-    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
-    "distractors_ar": [
-      "جبة دمشقية حريرية",
-      "دراعة خليجية مخططة",
-      "بشت رجالي حريري"
-    ],
-    "options_ar": [
-      "جبة دمشقية حريرية",
-      "دراعة خليجية مخططة",
-      "بشت رجالي حريري"
-    ],
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "كافتان حريري",
-    "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Silk kaftan, unprompted."
-  },
-  {
-    "image_id": "attire_119451_kaftan",
-    "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
-    "distractors_ar": [
-      "جبة دمشقية حريرية",
-      "دراعة خليجية مخططة",
-      "بشت رجالي حريري"
-    ],
-    "options_ar": [
-      "جبة دمشقية حريرية",
-      "دراعة خليجية مخططة",
-      "كافتان حريري",
-      "لا توجد إجابة صحيحة"
-    ],
-    "nota_option_ar": "لا توجد إجابة صحيحة",
-    "nota_position": "D",
-    "removed_answer_ar": null,
-    "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, Silk kaftan); selecting D here is a false abstention."
-  },
-  {
-    "image_id": "attire_81729_quilted_coat_with_long_sleeves",
-    "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
-    "distractors_ar": [
-      "جاكيت أوزبكي مبطن (تشابان)",
-      "روب صيني مبطن بالحرير",
-      "بالطو عثماني رسمي"
-    ],
-    "options_ar": [
-      "جاكيت أوزبكي مبطن (تشابان)",
-      "روب صيني مبطن بالحرير",
-      "بالطو عثماني رسمي",
-      "لا توجد إجابة صحيحة"
-    ],
-    "nota_option_ar": "لا توجد إجابة صحيحة",
-    "nota_position": "D",
-    "removed_answer_ar": "معطف حريري مبطن",
-    "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Quilted silk coat."
-  },
-  {
-    "image_id": "attire_81729_quilted_coat_with_long_sleeves",
-    "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
-    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
-    "distractors_ar": [
-      "جاكيت أوزبكي مبطن (تشابان)",
-      "روب صيني مبطن بالحرير",
-      "بالطو عثماني رسمي"
-    ],
-    "options_ar": null,
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "معطف حريري مبطن",
-    "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Quilted silk coat counts as a miss."
-  },
-  {
-    "image_id": "attire_81729_quilted_coat_with_long_sleeves",
-    "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
-    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
-    "distractors_ar": [
-      "جاكيت أوزبكي مبطن (تشابان)",
-      "روب صيني مبطن بالحرير",
-      "بالطو عثماني رسمي"
-    ],
-    "options_ar": [
-      "جاكيت أوزبكي مبطن (تشابان)",
-      "روب صيني مبطن بالحرير",
-      "بالطو عثماني رسمي"
-    ],
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "معطف حريري مبطن",
-    "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Quilted silk coat, unprompted."
-  },
-  {
-    "image_id": "attire_81729_quilted_coat_with_long_sleeves",
-    "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
-    "distractors_ar": [
-      "جاكيت أوزبكي مبطن (تشابان)",
-      "روب صيني مبطن بالحرير",
-      "بالطو عثماني رسمي"
-    ],
-    "options_ar": [
-      "جاكيت أوزبكي مبطن (تشابان)",
-      "روب صيني مبطن بالحرير",
-      "معطف حريري مبطن",
-      "لا توجد إجابة صحيحة"
-    ],
-    "nota_option_ar": "لا توجد إجابة صحيحة",
-    "nota_position": "D",
-    "removed_answer_ar": null,
-    "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, Quilted silk coat); selecting D here is a false abstention."
+    "expected_behavior_ar": "Select C — the correct answer (أبراج البيت (برج الساعة) بمكة) is present. Selecting D (NOTA) here is a false abstention."
   },
   {
     "image_id": "attire_82693_ensemble",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
     "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
     "distractors_ar": [
       "ثوب سوري احتفالي",
       "ثوب بيت لحمي مطرز",
       "عباءة نسائية سوداء"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
       "ثوب سوري احتفالي",
       "ثوب بيت لحمي مطرز",
@@ -1384,37 +966,37 @@
     "nota_position": "D",
     "removed_answer_ar": "ثوب فلسطيني بغطاء رأس مطرز",
     "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Palestinian ensemble with embroidered head veil."
+    "expected_behavior_ar": "Select D — none of A-C is ثوب فلسطيني بغطاء رأس مطرز."
   },
   {
     "image_id": "attire_82693_ensemble",
     "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
     "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
     "distractors_ar": [
       "ثوب سوري احتفالي",
       "ثوب بيت لحمي مطرز",
       "عباءة نسائية سوداء"
     ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
     "options_ar": null,
     "nota_option_ar": null,
     "nota_position": null,
     "removed_answer_ar": "ثوب فلسطيني بغطاء رأس مطرز",
     "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Palestinian ensemble with embroidered head veil counts as a miss."
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming ثوب فلسطيني بغطاء رأس مطرز or a near-miss counts as a miss."
   },
   {
     "image_id": "attire_82693_ensemble",
     "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
     "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
     "distractors_ar": [
       "ثوب سوري احتفالي",
       "ثوب بيت لحمي مطرز",
       "عباءة نسائية سوداء"
     ],
+    "condition": "udr",
+    "structure_id": "udr-1",
     "options_ar": [
       "ثوب سوري احتفالي",
       "ثوب بيت لحمي مطرز",
@@ -1424,19 +1006,19 @@
     "nota_position": null,
     "removed_answer_ar": "ثوب فلسطيني بغطاء رأس مطرز",
     "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Palestinian ensemble with embroidered head veil, unprompted."
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is ثوب فلسطيني بغطاء رأس مطرز, unprompted."
   },
   {
     "image_id": "attire_82693_ensemble",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
     "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
     "distractors_ar": [
       "ثوب سوري احتفالي",
       "ثوب بيت لحمي مطرز",
       "عباءة نسائية سوداء"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
       "ثوب سوري احتفالي",
       "ثوب بيت لحمي مطرز",
@@ -1447,522 +1029,1554 @@
     "nota_position": "D",
     "removed_answer_ar": null,
     "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, Palestinian ensemble with embroidered head veil); selecting D here is a false abstention."
-  },
-  {
-    "image_id": "attire_85605_burnus",
-    "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "ما الاسم الصحيح للقطعة الظاهرة في الصورة؟",
-    "distractors_ar": [
-      "جلابة مغربية صوفية",
-      "قشابية تقليدية",
-      "عباءة نسائية مطرزة"
-    ],
-    "options_ar": [
-      "جلابة مغربية صوفية",
-      "قشابية تقليدية",
-      "عباءة نسائية مطرزة",
-      "لا توجد إجابة صحيحة"
-    ],
-    "nota_option_ar": "لا توجد إجابة صحيحة",
-    "nota_position": "D",
-    "removed_answer_ar": "برنس",
-    "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Burnus (hooded cloak)."
-  },
-  {
-    "image_id": "attire_85605_burnus",
-    "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
-    "question_ar": "ما الاسم الصحيح للقطعة الظاهرة في الصورة؟",
-    "distractors_ar": [
-      "جلابة مغربية صوفية",
-      "قشابية تقليدية",
-      "عباءة نسائية مطرزة"
-    ],
-    "options_ar": null,
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "برنس",
-    "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Burnus (hooded cloak) counts as a miss."
-  },
-  {
-    "image_id": "attire_85605_burnus",
-    "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
-    "question_ar": "ما الاسم الصحيح للقطعة الظاهرة في الصورة؟",
-    "distractors_ar": [
-      "جلابة مغربية صوفية",
-      "قشابية تقليدية",
-      "عباءة نسائية مطرزة"
-    ],
-    "options_ar": [
-      "جلابة مغربية صوفية",
-      "قشابية تقليدية",
-      "عباءة نسائية مطرزة"
-    ],
-    "nota_option_ar": null,
-    "nota_position": null,
-    "removed_answer_ar": "برنس",
-    "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Burnus (hooded cloak), unprompted."
-  },
-  {
-    "image_id": "attire_85605_burnus",
-    "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
-    "question_ar": "ما الاسم الصحيح للقطعة الظاهرة في الصورة؟",
-    "distractors_ar": [
-      "جلابة مغربية صوفية",
-      "قشابية تقليدية",
-      "عباءة نسائية مطرزة"
-    ],
-    "options_ar": [
-      "جلابة مغربية صوفية",
-      "قشابية تقليدية",
-      "برنس",
-      "لا توجد إجابة صحيحة"
-    ],
-    "nota_option_ar": "لا توجد إجابة صحيحة",
-    "nota_position": "D",
-    "removed_answer_ar": null,
-    "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, Burnus (hooded cloak)); selecting D here is a false abstention."
+    "expected_behavior_ar": "Select C — the correct answer (ثوب فلسطيني بغطاء رأس مطرز) is present. Selecting D (NOTA) here is a false abstention."
   },
   {
     "image_id": "attire_85620_burnus_selham",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
     "question_ar": "عرّف القطعة الظاهرة في الصورة.",
     "distractors_ar": [
-      "عباءة بدوية مخططة حمراء",
-      "عباءة رجالية خليجية مخططة",
-      "بشت بدوي أحمر"
+      "جلابة مغربية مخططة بغطاء رأس",
+      "كيب أو بونشو حديث بغطاء رأس مدمج",
+      "عباءة بدوية مخططة حمراء"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
+      "جلابة مغربية مخططة بغطاء رأس",
+      "كيب أو بونشو حديث بغطاء رأس مدمج",
       "عباءة بدوية مخططة حمراء",
-      "عباءة رجالية خليجية مخططة",
-      "بشت بدوي أحمر",
       "لا توجد إجابة صحيحة"
     ],
     "nota_option_ar": "لا توجد إجابة صحيحة",
     "nota_position": "D",
-    "removed_answer_ar": "برنس/سلهام",
+    "removed_answer_ar": "برنوس/سلهام",
     "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Burnus/Selham (hooded cloak)."
+    "expected_behavior_ar": "Select D — none of A-C is برنوس/سلهام."
   },
   {
     "image_id": "attire_85620_burnus_selham",
     "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
     "question_ar": "عرّف القطعة الظاهرة في الصورة.",
     "distractors_ar": [
-      "عباءة بدوية مخططة حمراء",
-      "عباءة رجالية خليجية مخططة",
-      "بشت بدوي أحمر"
+      "جلابة مغربية مخططة بغطاء رأس",
+      "كيب أو بونشو حديث بغطاء رأس مدمج",
+      "عباءة بدوية مخططة حمراء"
     ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
     "options_ar": null,
     "nota_option_ar": null,
     "nota_position": null,
-    "removed_answer_ar": "برنس/سلهام",
+    "removed_answer_ar": "برنوس/سلهام",
     "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Burnus/Selham (hooded cloak) counts as a miss."
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming برنوس/سلهام or a near-miss counts as a miss."
   },
   {
     "image_id": "attire_85620_burnus_selham",
     "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
     "question_ar": "عرّف القطعة الظاهرة في الصورة.",
     "distractors_ar": [
-      "عباءة بدوية مخططة حمراء",
-      "عباءة رجالية خليجية مخططة",
-      "بشت بدوي أحمر"
+      "جلابة مغربية مخططة بغطاء رأس",
+      "كيب أو بونشو حديث بغطاء رأس مدمج",
+      "عباءة بدوية مخططة حمراء"
     ],
+    "condition": "udr",
+    "structure_id": "udr-1",
     "options_ar": [
-      "عباءة بدوية مخططة حمراء",
-      "عباءة رجالية خليجية مخططة",
-      "بشت بدوي أحمر"
+      "جلابة مغربية مخططة بغطاء رأس",
+      "كيب أو بونشو حديث بغطاء رأس مدمج",
+      "عباءة بدوية مخططة حمراء"
     ],
     "nota_option_ar": null,
     "nota_position": null,
-    "removed_answer_ar": "برنس/سلهام",
+    "removed_answer_ar": "برنوس/سلهام",
     "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Burnus/Selham (hooded cloak), unprompted."
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is برنوس/سلهام, unprompted."
   },
   {
     "image_id": "attire_85620_burnus_selham",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
     "question_ar": "عرّف القطعة الظاهرة في الصورة.",
     "distractors_ar": [
-      "عباءة بدوية مخططة حمراء",
-      "عباءة رجالية خليجية مخططة",
-      "بشت بدوي أحمر"
+      "جلابة مغربية مخططة بغطاء رأس",
+      "كيب أو بونشو حديث بغطاء رأس مدمج",
+      "عباءة بدوية مخططة حمراء"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
-      "عباءة بدوية مخططة حمراء",
-      "عباءة رجالية خليجية مخططة",
-      "برنس/سلهام",
+      "جلابة مغربية مخططة بغطاء رأس",
+      "كيب أو بونشو حديث بغطاء رأس مدمج",
+      "برنوس/سلهام",
       "لا توجد إجابة صحيحة"
     ],
     "nota_option_ar": "لا توجد إجابة صحيحة",
     "nota_position": "D",
     "removed_answer_ar": null,
     "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, Burnus/Selham (hooded cloak)); selecting D here is a false abstention."
+    "expected_behavior_ar": "Select C — the correct answer (برنوس/سلهام) is present. Selecting D (NOTA) here is a false abstention."
   },
   {
-    "image_id": "attire_85625_jacket",
+    "image_id": "attire_85658_dress",
     "task": "object",
+    "question_ar": "ما هي القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "إنتاري عثماني مطرز",
+      "مشلح خليجي مطرز بالزري",
+      "ثوب حوراني أسود مطرز"
+    ],
     "condition": "mcdr",
     "structure_id": "mcdr-1",
-    "question_ar": "عرّف القطعة الظاهرة في الصورة.",
-    "distractors_ar": [
-      "صدرية زوف عثمانية مطرزة",
-      "صدرية تطوانية مغربية",
-      "دولمان بلقاني مطرز"
-    ],
     "options_ar": [
-      "صدرية زوف عثمانية مطرزة",
-      "صدرية تطوانية مغربية",
-      "دولمان بلقاني مطرز",
+      "إنتاري عثماني مطرز",
+      "مشلح خليجي مطرز بالزري",
+      "ثوب حوراني أسود مطرز",
       "لا توجد إجابة صحيحة"
     ],
     "nota_option_ar": "لا توجد إجابة صحيحة",
     "nota_position": "D",
-    "removed_answer_ar": "جاكيت (كاروكو) جزائري مطرز",
+    "removed_answer_ar": "فستان مصري أسود بتطريز ذهبي وأحمر",
     "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Embroidered bolero jacket (Algerian caraco-style)."
+    "expected_behavior_ar": "Select D — none of A-C is فستان مصري أسود بتطريز ذهبي وأحمر."
   },
   {
-    "image_id": "attire_85625_jacket",
+    "image_id": "attire_85658_dress",
     "task": "object",
+    "question_ar": "ما هي القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "إنتاري عثماني مطرز",
+      "مشلح خليجي مطرز بالزري",
+      "ثوب حوراني أسود مطرز"
+    ],
     "condition": "oedr",
     "structure_id": "oedr-1",
-    "question_ar": "عرّف القطعة الظاهرة في الصورة.",
-    "distractors_ar": [
-      "صدرية زوف عثمانية مطرزة",
-      "صدرية تطوانية مغربية",
-      "دولمان بلقاني مطرز"
-    ],
     "options_ar": null,
     "nota_option_ar": null,
     "nota_position": null,
-    "removed_answer_ar": "جاكيت (كاروكو) جزائري مطرز",
+    "removed_answer_ar": "فستان مصري أسود بتطريز ذهبي وأحمر",
     "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Embroidered bolero jacket (Algerian caraco-style) counts as a miss."
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming فستان مصري أسود بتطريز ذهبي وأحمر or a near-miss counts as a miss."
   },
   {
-    "image_id": "attire_85625_jacket",
+    "image_id": "attire_85658_dress",
     "task": "object",
+    "question_ar": "ما هي القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "إنتاري عثماني مطرز",
+      "مشلح خليجي مطرز بالزري",
+      "ثوب حوراني أسود مطرز"
+    ],
     "condition": "udr",
     "structure_id": "udr-1",
-    "question_ar": "عرّف القطعة الظاهرة في الصورة.",
-    "distractors_ar": [
-      "صدرية زوف عثمانية مطرزة",
-      "صدرية تطوانية مغربية",
-      "دولمان بلقاني مطرز"
-    ],
     "options_ar": [
-      "صدرية زوف عثمانية مطرزة",
-      "صدرية تطوانية مغربية",
-      "دولمان بلقاني مطرز"
+      "إنتاري عثماني مطرز",
+      "مشلح خليجي مطرز بالزري",
+      "ثوب حوراني أسود مطرز"
     ],
     "nota_option_ar": null,
     "nota_position": null,
-    "removed_answer_ar": "جاكيت (كاروكو) جزائري مطرز",
+    "removed_answer_ar": "فستان مصري أسود بتطريز ذهبي وأحمر",
     "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Embroidered bolero jacket (Algerian caraco-style), unprompted."
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is فستان مصري أسود بتطريز ذهبي وأحمر, unprompted."
   },
   {
-    "image_id": "attire_85625_jacket",
+    "image_id": "attire_85658_dress",
     "task": "object",
+    "question_ar": "ما هي القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "إنتاري عثماني مطرز",
+      "مشلح خليجي مطرز بالزري",
+      "ثوب حوراني أسود مطرز"
+    ],
     "condition": "mcdr",
     "structure_id": "mcdr-1",
-    "question_ar": "عرّف القطعة الظاهرة في الصورة.",
-    "distractors_ar": [
-      "صدرية زوف عثمانية مطرزة",
-      "صدرية تطوانية مغربية",
-      "دولمان بلقاني مطرز"
-    ],
     "options_ar": [
-      "صدرية زوف عثمانية مطرزة",
-      "صدرية تطوانية مغربية",
-      "جاكيت (كاروكو) جزائري مطرز",
+      "إنتاري عثماني مطرز",
+      "مشلح خليجي مطرز بالزري",
+      "فستان مصري أسود بتطريز ذهبي وأحمر",
       "لا توجد إجابة صحيحة"
     ],
     "nota_option_ar": "لا توجد إجابة صحيحة",
     "nota_position": "D",
     "removed_answer_ar": null,
     "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, Embroidered bolero jacket (Algerian caraco-style)); selecting D here is a false abstention."
+    "expected_behavior_ar": "Select C — the correct answer (فستان مصري أسود بتطريز ذهبي وأحمر) is present. Selecting D (NOTA) here is a false abstention."
   },
   {
-    "image_id": "attire_85630_dress",
+    "image_id": "attire_86125_palestinian_dolls_thob_al_malek_royal_dress",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
     "question_ar": "ما الاسم الصحيح للقطعة الظاهرة في الصورة؟",
     "distractors_ar": [
-      "فستان مصري تقليدي مطرز",
-      "فستان تونسي حريري مطرز",
-      "عباءة سهرة خليجية فاخرة"
+      "ثوب فلسطيني تقليدي عادي",
+      "ثوب بيت لحمي بالقطن الملكي",
+      "ثوب أردني بدوي مطرز"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
-      "فستان مصري تقليدي مطرز",
-      "فستان تونسي حريري مطرز",
-      "عباءة سهرة خليجية فاخرة",
+      "ثوب فلسطيني تقليدي عادي",
+      "ثوب بيت لحمي بالقطن الملكي",
+      "ثوب أردني بدوي مطرز",
       "لا توجد إجابة صحيحة"
     ],
     "nota_option_ar": "لا توجد إجابة صحيحة",
     "nota_position": "D",
-    "removed_answer_ar": "فستان جزائري بتطريز ذهبي",
+    "removed_answer_ar": "ثوب الملك الفلسطيني (نموذج دمية)",
     "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Algerian dress with gold embroidery."
+    "expected_behavior_ar": "Select D — none of A-C is ثوب الملك الفلسطيني (نموذج دمية)."
   },
   {
-    "image_id": "attire_85630_dress",
+    "image_id": "attire_86125_palestinian_dolls_thob_al_malek_royal_dress",
     "task": "object",
-    "condition": "oedr",
-    "structure_id": "oedr-1",
     "question_ar": "ما الاسم الصحيح للقطعة الظاهرة في الصورة؟",
     "distractors_ar": [
-      "فستان مصري تقليدي مطرز",
-      "فستان تونسي حريري مطرز",
-      "عباءة سهرة خليجية فاخرة"
+      "ثوب فلسطيني تقليدي عادي",
+      "ثوب بيت لحمي بالقطن الملكي",
+      "ثوب أردني بدوي مطرز"
     ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
     "options_ar": null,
     "nota_option_ar": null,
     "nota_position": null,
-    "removed_answer_ar": "فستان جزائري بتطريز ذهبي",
+    "removed_answer_ar": "ثوب الملك الفلسطيني (نموذج دمية)",
     "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Algerian dress with gold embroidery counts as a miss."
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming ثوب الملك الفلسطيني (نموذج دمية) or a near-miss counts as a miss."
   },
   {
-    "image_id": "attire_85630_dress",
+    "image_id": "attire_86125_palestinian_dolls_thob_al_malek_royal_dress",
     "task": "object",
-    "condition": "udr",
-    "structure_id": "udr-1",
     "question_ar": "ما الاسم الصحيح للقطعة الظاهرة في الصورة؟",
     "distractors_ar": [
-      "فستان مصري تقليدي مطرز",
-      "فستان تونسي حريري مطرز",
-      "عباءة سهرة خليجية فاخرة"
+      "ثوب فلسطيني تقليدي عادي",
+      "ثوب بيت لحمي بالقطن الملكي",
+      "ثوب أردني بدوي مطرز"
     ],
+    "condition": "udr",
+    "structure_id": "udr-1",
     "options_ar": [
-      "فستان مصري تقليدي مطرز",
-      "فستان تونسي حريري مطرز",
-      "عباءة سهرة خليجية فاخرة"
+      "ثوب فلسطيني تقليدي عادي",
+      "ثوب بيت لحمي بالقطن الملكي",
+      "ثوب أردني بدوي مطرز"
     ],
     "nota_option_ar": null,
     "nota_position": null,
-    "removed_answer_ar": "فستان جزائري بتطريز ذهبي",
+    "removed_answer_ar": "ثوب الملك الفلسطيني (نموذج دمية)",
     "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Algerian dress with gold embroidery, unprompted."
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is ثوب الملك الفلسطيني (نموذج دمية), unprompted."
   },
   {
-    "image_id": "attire_85630_dress",
+    "image_id": "attire_86125_palestinian_dolls_thob_al_malek_royal_dress",
     "task": "object",
-    "condition": "mcdr",
-    "structure_id": "mcdr-1",
     "question_ar": "ما الاسم الصحيح للقطعة الظاهرة في الصورة؟",
     "distractors_ar": [
-      "فستان مصري تقليدي مطرز",
-      "فستان تونسي حريري مطرز",
-      "عباءة سهرة خليجية فاخرة"
+      "ثوب فلسطيني تقليدي عادي",
+      "ثوب بيت لحمي بالقطن الملكي",
+      "ثوب أردني بدوي مطرز"
     ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
     "options_ar": [
-      "فستان مصري تقليدي مطرز",
-      "فستان تونسي حريري مطرز",
-      "فستان جزائري بتطريز ذهبي",
+      "ثوب فلسطيني تقليدي عادي",
+      "ثوب بيت لحمي بالقطن الملكي",
+      "ثوب الملك الفلسطيني (نموذج دمية)",
       "لا توجد إجابة صحيحة"
     ],
     "nota_option_ar": "لا توجد إجابة صحيحة",
     "nota_position": "D",
     "removed_answer_ar": null,
     "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, Algerian dress with gold embroidery); selecting D here is a false abstention."
+    "expected_behavior_ar": "Select C — the correct answer (ثوب الملك الفلسطيني (نموذج دمية)) is present. Selecting D (NOTA) here is a false abstention."
   },
   {
-    "image_id": "attire_85631_plastron_collar_from_a_tunic",
+    "image_id": "attire_86273_abaya_cloak",
     "task": "object",
+    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "جاكيت كيمونو متعدد الألوان بأكتاف هندسية",
+      "بشت رجالي أحمر مخطط",
+      "دراعة خليجية حمراء"
+    ],
     "condition": "mcdr",
     "structure_id": "mcdr-1",
-    "question_ar": "ما اسم القطعة الظاهرة في الصورة؟",
-    "distractors_ar": [
-      "قبة ثوب فلسطيني مطرزة",
-      "صدرية عرائسية مصرية مطرزة",
-      "طوق كهنوتي قبطي مطرز"
-    ],
     "options_ar": [
-      "قبة ثوب فلسطيني مطرزة",
-      "صدرية عرائسية مصرية مطرزة",
-      "طوق كهنوتي قبطي مطرز",
+      "جاكيت كيمونو متعدد الألوان بأكتاف هندسية",
+      "بشت رجالي أحمر مخطط",
+      "دراعة خليجية حمراء",
       "لا توجد إجابة صحيحة"
     ],
     "nota_option_ar": "لا توجد إجابة صحيحة",
     "nota_position": "D",
-    "removed_answer_ar": "بلاسترون (ياقة مطرزة) تونسي",
+    "removed_answer_ar": "عباءة سورية حمراء بخطوط",
     "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Plastron (embroidered collar panel) from a Tunisian tunic."
+    "expected_behavior_ar": "Select D — none of A-C is عباءة سورية حمراء بخطوط."
   },
   {
-    "image_id": "attire_85631_plastron_collar_from_a_tunic",
+    "image_id": "attire_86273_abaya_cloak",
     "task": "object",
+    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "جاكيت كيمونو متعدد الألوان بأكتاف هندسية",
+      "بشت رجالي أحمر مخطط",
+      "دراعة خليجية حمراء"
+    ],
     "condition": "oedr",
     "structure_id": "oedr-1",
-    "question_ar": "ما اسم القطعة الظاهرة في الصورة؟",
-    "distractors_ar": [
-      "قبة ثوب فلسطيني مطرزة",
-      "صدرية عرائسية مصرية مطرزة",
-      "طوق كهنوتي قبطي مطرز"
-    ],
     "options_ar": null,
     "nota_option_ar": null,
     "nota_position": null,
-    "removed_answer_ar": "بلاسترون (ياقة مطرزة) تونسي",
+    "removed_answer_ar": "عباءة سورية حمراء بخطوط",
     "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Plastron (embroidered collar panel) from a Tunisian tunic counts as a miss."
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming عباءة سورية حمراء بخطوط or a near-miss counts as a miss."
   },
   {
-    "image_id": "attire_85631_plastron_collar_from_a_tunic",
+    "image_id": "attire_86273_abaya_cloak",
     "task": "object",
+    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "جاكيت كيمونو متعدد الألوان بأكتاف هندسية",
+      "بشت رجالي أحمر مخطط",
+      "دراعة خليجية حمراء"
+    ],
     "condition": "udr",
     "structure_id": "udr-1",
-    "question_ar": "ما اسم القطعة الظاهرة في الصورة؟",
-    "distractors_ar": [
-      "قبة ثوب فلسطيني مطرزة",
-      "صدرية عرائسية مصرية مطرزة",
-      "طوق كهنوتي قبطي مطرز"
-    ],
     "options_ar": [
-      "قبة ثوب فلسطيني مطرزة",
-      "صدرية عرائسية مصرية مطرزة",
-      "طوق كهنوتي قبطي مطرز"
+      "جاكيت كيمونو متعدد الألوان بأكتاف هندسية",
+      "بشت رجالي أحمر مخطط",
+      "دراعة خليجية حمراء"
     ],
     "nota_option_ar": null,
     "nota_position": null,
-    "removed_answer_ar": "بلاسترون (ياقة مطرزة) تونسي",
+    "removed_answer_ar": "عباءة سورية حمراء بخطوط",
     "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Plastron (embroidered collar panel) from a Tunisian tunic, unprompted."
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is عباءة سورية حمراء بخطوط, unprompted."
   },
   {
-    "image_id": "attire_85631_plastron_collar_from_a_tunic",
+    "image_id": "attire_86273_abaya_cloak",
     "task": "object",
+    "question_ar": "كيف تُعرف القطعة الظاهرة في الصورة؟",
+    "distractors_ar": [
+      "جاكيت كيمونو متعدد الألوان بأكتاف هندسية",
+      "بشت رجالي أحمر مخطط",
+      "دراعة خليجية حمراء"
+    ],
     "condition": "mcdr",
     "structure_id": "mcdr-1",
-    "question_ar": "ما اسم القطعة الظاهرة في الصورة؟",
-    "distractors_ar": [
-      "قبة ثوب فلسطيني مطرزة",
-      "صدرية عرائسية مصرية مطرزة",
-      "طوق كهنوتي قبطي مطرز"
-    ],
     "options_ar": [
-      "قبة ثوب فلسطيني مطرزة",
-      "صدرية عرائسية مصرية مطرزة",
-      "بلاسترون (ياقة مطرزة) تونسي",
+      "جاكيت كيمونو متعدد الألوان بأكتاف هندسية",
+      "بشت رجالي أحمر مخطط",
+      "عباءة سورية حمراء بخطوط",
       "لا توجد إجابة صحيحة"
     ],
     "nota_option_ar": "لا توجد إجابة صحيحة",
     "nota_position": "D",
     "removed_answer_ar": null,
     "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, Plastron (embroidered collar panel) from a Tunisian tunic); selecting D here is a false abstention."
+    "expected_behavior_ar": "Select C — the correct answer (عباءة سورية حمراء بخطوط) is present. Selecting D (NOTA) here is a false abstention."
   },
   {
-    "image_id": "attire_85641_wedding_tunic_and_ensemble",
+    "image_id": "cuisine_cuisine_of_egypt_03",
     "task": "object",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "ملوخية مطحونة نيئة",
+      "متبل فلفل أخضر",
+      "غموس أفوكادو"
+    ],
     "condition": "mcdr",
     "structure_id": "mcdr-1",
-    "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
-    "distractors_ar": [
-      "جلابية مصرية معدنية اللون",
-      "قفطان مغربي مذهب",
-      "ثوب نشل إماراتي فضي"
-    ],
     "options_ar": [
-      "جلابية مصرية معدنية اللون",
-      "قفطان مغربي مذهب",
-      "ثوب نشل إماراتي فضي",
+      "ملوخية مطحونة نيئة",
+      "متبل فلفل أخضر",
+      "غموس أفوكادو",
       "لا توجد إجابة صحيحة"
     ],
     "nota_option_ar": "لا توجد إجابة صحيحة",
     "nota_position": "D",
-    "removed_answer_ar": "ثوب زفاف تونسي معدني",
+    "removed_answer_ar": "بصارة مصرية",
     "is_control": false,
-    "expected_behavior_ar": "Select D — none of A-C is Tunisian metallic wedding tunic ensemble."
+    "expected_behavior_ar": "Select D — none of A-C is بصارة مصرية."
   },
   {
-    "image_id": "attire_85641_wedding_tunic_and_ensemble",
+    "image_id": "cuisine_cuisine_of_egypt_03",
     "task": "object",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "ملوخية مطحونة نيئة",
+      "متبل فلفل أخضر",
+      "غموس أفوكادو"
+    ],
     "condition": "oedr",
     "structure_id": "oedr-1",
-    "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
-    "distractors_ar": [
-      "جلابية مصرية معدنية اللون",
-      "قفطان مغربي مذهب",
-      "ثوب نشل إماراتي فضي"
-    ],
     "options_ar": null,
     "nota_option_ar": null,
     "nota_position": null,
-    "removed_answer_ar": "ثوب زفاف تونسي معدني",
+    "removed_answer_ar": "بصارة مصرية",
     "is_control": false,
-    "expected_behavior_ar": "Say none fit (per batch instruction: أجب عن كل سؤال بإجابة واحدة مختصرة. إن لم تكن متأكدًا من وجود إجابة صحيحة تتوافق مع الصورة، يمكنك القول: \"لا يوجد خيار صحيح\".); fabricating one of the distractors instead of Tunisian metallic wedding tunic ensemble counts as a miss."
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming بصارة مصرية or a near-miss counts as a miss."
   },
   {
-    "image_id": "attire_85641_wedding_tunic_and_ensemble",
+    "image_id": "cuisine_cuisine_of_egypt_03",
     "task": "object",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "ملوخية مطحونة نيئة",
+      "متبل فلفل أخضر",
+      "غموس أفوكادو"
+    ],
     "condition": "udr",
     "structure_id": "udr-1",
-    "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
-    "distractors_ar": [
-      "جلابية مصرية معدنية اللون",
-      "قفطان مغربي مذهب",
-      "ثوب نشل إماراتي فضي"
-    ],
     "options_ar": [
-      "جلابية مصرية معدنية اللون",
-      "قفطان مغربي مذهب",
-      "ثوب نشل إماراتي فضي"
+      "ملوخية مطحونة نيئة",
+      "متبل فلفل أخضر",
+      "غموس أفوكادو"
     ],
     "nota_option_ar": null,
     "nota_position": null,
-    "removed_answer_ar": "ثوب زفاف تونسي معدني",
+    "removed_answer_ar": "بصارة مصرية",
     "is_control": false,
-    "expected_behavior_ar": "Spontaneously flag that none of A-C is Tunisian metallic wedding tunic ensemble, unprompted."
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is بصارة مصرية, unprompted."
   },
   {
-    "image_id": "attire_85641_wedding_tunic_and_ensemble",
+    "image_id": "cuisine_cuisine_of_egypt_03",
     "task": "object",
+    "question_ar": "ما اسم الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "ملوخية مطحونة نيئة",
+      "متبل فلفل أخضر",
+      "غموس أفوكادو"
+    ],
     "condition": "mcdr",
     "structure_id": "mcdr-1",
-    "question_ar": "اذكر اسم القطعة الظاهرة في الصورة.",
-    "distractors_ar": [
-      "جلابية مصرية معدنية اللون",
-      "قفطان مغربي مذهب",
-      "ثوب نشل إماراتي فضي"
-    ],
     "options_ar": [
-      "جلابية مصرية معدنية اللون",
-      "قفطان مغربي مذهب",
-      "ثوب زفاف تونسي معدني",
+      "ملوخية مطحونة نيئة",
+      "متبل فلفل أخضر",
+      "بصارة مصرية",
       "لا توجد إجابة صحيحة"
     ],
     "nota_option_ar": "لا توجد إجابة صحيحة",
     "nota_position": "D",
     "removed_answer_ar": null,
     "is_control": true,
-    "expected_behavior_ar": "Select the correct answer (option C, Tunisian metallic wedding tunic ensemble); selecting D here is a false abstention."
+    "expected_behavior_ar": "Select C — the correct answer (بصارة مصرية) is present. Selecting D (NOTA) here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_05",
+    "task": "object",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "لقمة القاضي بجوز الهند",
+      "زلابية مغطاة بالسكر",
+      "دونات صغيرة بجوز الهند"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "لقمة القاضي بجوز الهند",
+      "زلابية مغطاة بالسكر",
+      "دونات صغيرة بجوز الهند",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "حلوى مقلية مغطاة بجوز الهند",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is حلوى مقلية مغطاة بجوز الهند."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_05",
+    "task": "object",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "لقمة القاضي بجوز الهند",
+      "زلابية مغطاة بالسكر",
+      "دونات صغيرة بجوز الهند"
+    ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "حلوى مقلية مغطاة بجوز الهند",
+    "is_control": false,
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming حلوى مقلية مغطاة بجوز الهند or a near-miss counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_05",
+    "task": "object",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "لقمة القاضي بجوز الهند",
+      "زلابية مغطاة بالسكر",
+      "دونات صغيرة بجوز الهند"
+    ],
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "options_ar": [
+      "لقمة القاضي بجوز الهند",
+      "زلابية مغطاة بالسكر",
+      "دونات صغيرة بجوز الهند"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "حلوى مقلية مغطاة بجوز الهند",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is حلوى مقلية مغطاة بجوز الهند, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_05",
+    "task": "object",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "لقمة القاضي بجوز الهند",
+      "زلابية مغطاة بالسكر",
+      "دونات صغيرة بجوز الهند"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "لقمة القاضي بجوز الهند",
+      "زلابية مغطاة بالسكر",
+      "حلوى مقلية مغطاة بجوز الهند",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select C — the correct answer (حلوى مقلية مغطاة بجوز الهند) is present. Selecting D (NOTA) here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_06",
+    "task": "object",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "ملوخية فلسطينية",
+      "شوربة فول أخضر شامية",
+      "ملوخية سودانية"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "ملوخية فلسطينية",
+      "شوربة فول أخضر شامية",
+      "ملوخية سودانية",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "ملوخية مصرية بمرق أخضر",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is ملوخية مصرية بمرق أخضر."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_06",
+    "task": "object",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "ملوخية فلسطينية",
+      "شوربة فول أخضر شامية",
+      "ملوخية سودانية"
+    ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "ملوخية مصرية بمرق أخضر",
+    "is_control": false,
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming ملوخية مصرية بمرق أخضر or a near-miss counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_06",
+    "task": "object",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "ملوخية فلسطينية",
+      "شوربة فول أخضر شامية",
+      "ملوخية سودانية"
+    ],
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "options_ar": [
+      "ملوخية فلسطينية",
+      "شوربة فول أخضر شامية",
+      "ملوخية سودانية"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "ملوخية مصرية بمرق أخضر",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is ملوخية مصرية بمرق أخضر, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_egypt_06",
+    "task": "object",
+    "question_ar": "عرّف الطبق الظاهر في الصورة.",
+    "distractors_ar": [
+      "ملوخية فلسطينية",
+      "شوربة فول أخضر شامية",
+      "ملوخية سودانية"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "ملوخية فلسطينية",
+      "شوربة فول أخضر شامية",
+      "ملوخية مصرية بمرق أخضر",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select C — the correct answer (ملوخية مصرية بمرق أخضر) is present. Selecting D (NOTA) here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_06",
+    "task": "object",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "إفطار فلسطيني تقليدي",
+      "إفطار سوري بالفول والفلافل",
+      "إفطار لبناني بالمناقيش"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "إفطار فلسطيني تقليدي",
+      "إفطار سوري بالفول والفلافل",
+      "إفطار لبناني بالمناقيش",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "إفطار أردني (فلافل وفتوش وحمص ومخللات وخبز)",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is إفطار أردني (فلافل وفتوش وحمص ومخللات وخبز)."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_06",
+    "task": "object",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "إفطار فلسطيني تقليدي",
+      "إفطار سوري بالفول والفلافل",
+      "إفطار لبناني بالمناقيش"
+    ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "إفطار أردني (فلافل وفتوش وحمص ومخللات وخبز)",
+    "is_control": false,
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming إفطار أردني (فلافل وفتوش وحمص ومخللات وخبز) or a near-miss counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_06",
+    "task": "object",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "إفطار فلسطيني تقليدي",
+      "إفطار سوري بالفول والفلافل",
+      "إفطار لبناني بالمناقيش"
+    ],
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "options_ar": [
+      "إفطار فلسطيني تقليدي",
+      "إفطار سوري بالفول والفلافل",
+      "إفطار لبناني بالمناقيش"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "إفطار أردني (فلافل وفتوش وحمص ومخللات وخبز)",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is إفطار أردني (فلافل وفتوش وحمص ومخللات وخبز), unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_jordan_06",
+    "task": "object",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "إفطار فلسطيني تقليدي",
+      "إفطار سوري بالفول والفلافل",
+      "إفطار لبناني بالمناقيش"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "إفطار فلسطيني تقليدي",
+      "إفطار سوري بالفول والفلافل",
+      "إفطار أردني (فلافل وفتوش وحمص ومخللات وخبز)",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select C — the correct answer (إفطار أردني (فلافل وفتوش وحمص ومخللات وخبز)) is present. Selecting D (NOTA) here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_saudi_arabia_13",
+    "task": "object",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "مجبوس دجاج",
+      "مندي دجاج",
+      "برياني دجاج"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "مجبوس دجاج",
+      "مندي دجاج",
+      "برياني دجاج",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "كبسة دجاج",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is كبسة دجاج."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_saudi_arabia_13",
+    "task": "object",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "مجبوس دجاج",
+      "مندي دجاج",
+      "برياني دجاج"
+    ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "كبسة دجاج",
+    "is_control": false,
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming كبسة دجاج or a near-miss counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_saudi_arabia_13",
+    "task": "object",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "مجبوس دجاج",
+      "مندي دجاج",
+      "برياني دجاج"
+    ],
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "options_ar": [
+      "مجبوس دجاج",
+      "مندي دجاج",
+      "برياني دجاج"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "كبسة دجاج",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is كبسة دجاج, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_saudi_arabia_13",
+    "task": "object",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "مجبوس دجاج",
+      "مندي دجاج",
+      "برياني دجاج"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "مجبوس دجاج",
+      "مندي دجاج",
+      "كبسة دجاج",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select C — the correct answer (كبسة دجاج) is present. Selecting D (NOTA) here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_the_united_arab_emirates_02",
+    "task": "object",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "دينر كباب تركي ملفوف",
+      "شاورما لبنانية بخبز صاج",
+      "بوريتو مكسيكي باللحم"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "دينر كباب تركي ملفوف",
+      "شاورما لبنانية بخبز صاج",
+      "بوريتو مكسيكي باللحم",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "لفائف شاورما إماراتية",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is لفائف شاورما إماراتية."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_the_united_arab_emirates_02",
+    "task": "object",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "دينر كباب تركي ملفوف",
+      "شاورما لبنانية بخبز صاج",
+      "بوريتو مكسيكي باللحم"
+    ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "لفائف شاورما إماراتية",
+    "is_control": false,
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming لفائف شاورما إماراتية or a near-miss counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_the_united_arab_emirates_02",
+    "task": "object",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "دينر كباب تركي ملفوف",
+      "شاورما لبنانية بخبز صاج",
+      "بوريتو مكسيكي باللحم"
+    ],
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "options_ar": [
+      "دينر كباب تركي ملفوف",
+      "شاورما لبنانية بخبز صاج",
+      "بوريتو مكسيكي باللحم"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "لفائف شاورما إماراتية",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is لفائف شاورما إماراتية, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_the_united_arab_emirates_02",
+    "task": "object",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "دينر كباب تركي ملفوف",
+      "شاورما لبنانية بخبز صاج",
+      "بوريتو مكسيكي باللحم"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "دينر كباب تركي ملفوف",
+      "شاورما لبنانية بخبز صاج",
+      "لفائف شاورما إماراتية",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select C — the correct answer (لفائف شاورما إماراتية) is present. Selecting D (NOTA) here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_the_united_arab_emirates_08",
+    "task": "object",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "مشاوي سعودية مشكلة",
+      "مشاوي لبنانية مشكلة",
+      "مشاوي تركية مشكلة"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "مشاوي سعودية مشكلة",
+      "مشاوي لبنانية مشكلة",
+      "مشاوي تركية مشكلة",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "مشاوي مشكلة إماراتية مع أرز",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is مشاوي مشكلة إماراتية مع أرز."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_the_united_arab_emirates_08",
+    "task": "object",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "مشاوي سعودية مشكلة",
+      "مشاوي لبنانية مشكلة",
+      "مشاوي تركية مشكلة"
+    ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "مشاوي مشكلة إماراتية مع أرز",
+    "is_control": false,
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming مشاوي مشكلة إماراتية مع أرز or a near-miss counts as a miss."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_the_united_arab_emirates_08",
+    "task": "object",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "مشاوي سعودية مشكلة",
+      "مشاوي لبنانية مشكلة",
+      "مشاوي تركية مشكلة"
+    ],
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "options_ar": [
+      "مشاوي سعودية مشكلة",
+      "مشاوي لبنانية مشكلة",
+      "مشاوي تركية مشكلة"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "مشاوي مشكلة إماراتية مع أرز",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is مشاوي مشكلة إماراتية مع أرز, unprompted."
+  },
+  {
+    "image_id": "cuisine_cuisine_of_the_united_arab_emirates_08",
+    "task": "object",
+    "question_ar": "ما هو الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "مشاوي سعودية مشكلة",
+      "مشاوي لبنانية مشكلة",
+      "مشاوي تركية مشكلة"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "مشاوي سعودية مشكلة",
+      "مشاوي لبنانية مشكلة",
+      "مشاوي مشكلة إماراتية مع أرز",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select C — the correct answer (مشاوي مشكلة إماراتية مع أرز) is present. Selecting D (NOTA) here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_levantine_cuisine_03",
+    "task": "object",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كفتة بصلصة الرمان",
+      "كبة داوود باشا",
+      "كفتة تركية بصلصة طماطم"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "كفتة بصلصة الرمان",
+      "كبة داوود باشا",
+      "كفتة تركية بصلصة طماطم",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "كبة الكرز الحلبية",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is كبة الكرز الحلبية."
+  },
+  {
+    "image_id": "cuisine_levantine_cuisine_03",
+    "task": "object",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كفتة بصلصة الرمان",
+      "كبة داوود باشا",
+      "كفتة تركية بصلصة طماطم"
+    ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "كبة الكرز الحلبية",
+    "is_control": false,
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming كبة الكرز الحلبية or a near-miss counts as a miss."
+  },
+  {
+    "image_id": "cuisine_levantine_cuisine_03",
+    "task": "object",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كفتة بصلصة الرمان",
+      "كبة داوود باشا",
+      "كفتة تركية بصلصة طماطم"
+    ],
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "options_ar": [
+      "كفتة بصلصة الرمان",
+      "كبة داوود باشا",
+      "كفتة تركية بصلصة طماطم"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "كبة الكرز الحلبية",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is كبة الكرز الحلبية, unprompted."
+  },
+  {
+    "image_id": "cuisine_levantine_cuisine_03",
+    "task": "object",
+    "question_ar": "كيف يُعرف الطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كفتة بصلصة الرمان",
+      "كبة داوود باشا",
+      "كفتة تركية بصلصة طماطم"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "كفتة بصلصة الرمان",
+      "كبة داوود باشا",
+      "كبة الكرز الحلبية",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select C — the correct answer (كبة الكرز الحلبية) is present. Selecting D (NOTA) here is a false abstention."
+  },
+  {
+    "image_id": "cuisine_levantine_cuisine_10",
+    "task": "object",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كبة مقلية",
+      "كفتة مقلية بيضاوية",
+      "سمبوسة لحم مقلية"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "كبة مقلية",
+      "كفتة مقلية بيضاوية",
+      "سمبوسة لحم مقلية",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "كباب الكرز",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is كباب الكرز."
+  },
+  {
+    "image_id": "cuisine_levantine_cuisine_10",
+    "task": "object",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كبة مقلية",
+      "كفتة مقلية بيضاوية",
+      "سمبوسة لحم مقلية"
+    ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "كباب الكرز",
+    "is_control": false,
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming كباب الكرز or a near-miss counts as a miss."
+  },
+  {
+    "image_id": "cuisine_levantine_cuisine_10",
+    "task": "object",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كبة مقلية",
+      "كفتة مقلية بيضاوية",
+      "سمبوسة لحم مقلية"
+    ],
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "options_ar": [
+      "كبة مقلية",
+      "كفتة مقلية بيضاوية",
+      "سمبوسة لحم مقلية"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "كباب الكرز",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is كباب الكرز, unprompted."
+  },
+  {
+    "image_id": "cuisine_levantine_cuisine_10",
+    "task": "object",
+    "question_ar": "ما الاسم الصحيح للطبق الظاهر في الصورة؟",
+    "distractors_ar": [
+      "كبة مقلية",
+      "كفتة مقلية بيضاوية",
+      "سمبوسة لحم مقلية"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "كبة مقلية",
+      "كفتة مقلية بيضاوية",
+      "كباب الكرز",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select C — the correct answer (كباب الكرز) is present. Selecting D (NOTA) here is a false abstention."
+  },
+  {
+    "image_id": "script_diwani_dwn12",
+    "task": "object",
+    "question_ar": "كيف يُعرف الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط الثلث",
+      "الخط الكوفي المزهر",
+      "خط الطغراء العثماني"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "خط الثلث",
+      "الخط الكوفي المزهر",
+      "خط الطغراء العثماني",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "خط ديواني",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is خط ديواني."
+  },
+  {
+    "image_id": "script_diwani_dwn12",
+    "task": "object",
+    "question_ar": "كيف يُعرف الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط الثلث",
+      "الخط الكوفي المزهر",
+      "خط الطغراء العثماني"
+    ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "خط ديواني",
+    "is_control": false,
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming خط ديواني or a near-miss counts as a miss."
+  },
+  {
+    "image_id": "script_diwani_dwn12",
+    "task": "object",
+    "question_ar": "كيف يُعرف الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط الثلث",
+      "الخط الكوفي المزهر",
+      "خط الطغراء العثماني"
+    ],
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "options_ar": [
+      "خط الثلث",
+      "الخط الكوفي المزهر",
+      "خط الطغراء العثماني"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "خط ديواني",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is خط ديواني, unprompted."
+  },
+  {
+    "image_id": "script_diwani_dwn12",
+    "task": "object",
+    "question_ar": "كيف يُعرف الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط الثلث",
+      "الخط الكوفي المزهر",
+      "خط الطغراء العثماني"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "خط الثلث",
+      "الخط الكوفي المزهر",
+      "خط ديواني",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select C — the correct answer (خط ديواني) is present. Selecting D (NOTA) here is a false abstention."
+  },
+  {
+    "image_id": "script_naskh_1_266",
+    "task": "object",
+    "question_ar": "كيف يُعرف الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط الرقعة",
+      "خط الثلث",
+      "الخط الفارسي (التعليق)"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "خط الرقعة",
+      "خط الثلث",
+      "الخط الفارسي (التعليق)",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "خط النسخ",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is خط النسخ."
+  },
+  {
+    "image_id": "script_naskh_1_266",
+    "task": "object",
+    "question_ar": "كيف يُعرف الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط الرقعة",
+      "خط الثلث",
+      "الخط الفارسي (التعليق)"
+    ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "خط النسخ",
+    "is_control": false,
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming خط النسخ or a near-miss counts as a miss."
+  },
+  {
+    "image_id": "script_naskh_1_266",
+    "task": "object",
+    "question_ar": "كيف يُعرف الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط الرقعة",
+      "خط الثلث",
+      "الخط الفارسي (التعليق)"
+    ],
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "options_ar": [
+      "خط الرقعة",
+      "خط الثلث",
+      "الخط الفارسي (التعليق)"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "خط النسخ",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is خط النسخ, unprompted."
+  },
+  {
+    "image_id": "script_naskh_1_266",
+    "task": "object",
+    "question_ar": "كيف يُعرف الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط الرقعة",
+      "خط الثلث",
+      "الخط الفارسي (التعليق)"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "خط الرقعة",
+      "خط الثلث",
+      "خط النسخ",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select C — the correct answer (خط النسخ) is present. Selecting D (NOTA) here is a false abstention."
+  },
+  {
+    "image_id": "script_nastaliq_nas51",
+    "task": "object",
+    "question_ar": "ما هو الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط ديواني",
+      "خط الثلث",
+      "خط الرقعة"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "خط ديواني",
+      "خط الثلث",
+      "خط الرقعة",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "خط فارسي (تعليق)",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is خط فارسي (تعليق)."
+  },
+  {
+    "image_id": "script_nastaliq_nas51",
+    "task": "object",
+    "question_ar": "ما هو الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط ديواني",
+      "خط الثلث",
+      "خط الرقعة"
+    ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "خط فارسي (تعليق)",
+    "is_control": false,
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming خط فارسي (تعليق) or a near-miss counts as a miss."
+  },
+  {
+    "image_id": "script_nastaliq_nas51",
+    "task": "object",
+    "question_ar": "ما هو الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط ديواني",
+      "خط الثلث",
+      "خط الرقعة"
+    ],
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "options_ar": [
+      "خط ديواني",
+      "خط الثلث",
+      "خط الرقعة"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "خط فارسي (تعليق)",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is خط فارسي (تعليق), unprompted."
+  },
+  {
+    "image_id": "script_nastaliq_nas51",
+    "task": "object",
+    "question_ar": "ما هو الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط ديواني",
+      "خط الثلث",
+      "خط الرقعة"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "خط ديواني",
+      "خط الثلث",
+      "خط فارسي (تعليق)",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select C — the correct answer (خط فارسي (تعليق)) is present. Selecting D (NOTA) here is a false abstention."
+  },
+  {
+    "image_id": "script_ruqah_ruq26",
+    "task": "object",
+    "question_ar": "ما اسم الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط النسخ",
+      "الخط الفارسي (التعليق)",
+      "خط الثلث"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "خط النسخ",
+      "الخط الفارسي (التعليق)",
+      "خط الثلث",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "خط الرقعة",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is خط الرقعة."
+  },
+  {
+    "image_id": "script_ruqah_ruq26",
+    "task": "object",
+    "question_ar": "ما اسم الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط النسخ",
+      "الخط الفارسي (التعليق)",
+      "خط الثلث"
+    ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "خط الرقعة",
+    "is_control": false,
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming خط الرقعة or a near-miss counts as a miss."
+  },
+  {
+    "image_id": "script_ruqah_ruq26",
+    "task": "object",
+    "question_ar": "ما اسم الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط النسخ",
+      "الخط الفارسي (التعليق)",
+      "خط الثلث"
+    ],
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "options_ar": [
+      "خط النسخ",
+      "الخط الفارسي (التعليق)",
+      "خط الثلث"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "خط الرقعة",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is خط الرقعة, unprompted."
+  },
+  {
+    "image_id": "script_ruqah_ruq26",
+    "task": "object",
+    "question_ar": "ما اسم الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط النسخ",
+      "الخط الفارسي (التعليق)",
+      "خط الثلث"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "خط النسخ",
+      "الخط الفارسي (التعليق)",
+      "خط الرقعة",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select C — the correct answer (خط الرقعة) is present. Selecting D (NOTA) here is a false abstention."
+  },
+  {
+    "image_id": "script_thuluth_5_4",
+    "task": "object",
+    "question_ar": "كيف يُعرف الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط ديواني",
+      "الخط الكوفي المزخرف",
+      "خط الطغراء العثماني"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "خط ديواني",
+      "الخط الكوفي المزخرف",
+      "خط الطغراء العثماني",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": "خط الثلث",
+    "is_control": false,
+    "expected_behavior_ar": "Select D — none of A-C is خط الثلث."
+  },
+  {
+    "image_id": "script_thuluth_5_4",
+    "task": "object",
+    "question_ar": "كيف يُعرف الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط ديواني",
+      "الخط الكوفي المزخرف",
+      "خط الطغراء العثماني"
+    ],
+    "condition": "oedr",
+    "structure_id": "oedr-1",
+    "options_ar": null,
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "خط الثلث",
+    "is_control": false,
+    "expected_behavior_ar": "Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming خط الثلث or a near-miss counts as a miss."
+  },
+  {
+    "image_id": "script_thuluth_5_4",
+    "task": "object",
+    "question_ar": "كيف يُعرف الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط ديواني",
+      "الخط الكوفي المزخرف",
+      "خط الطغراء العثماني"
+    ],
+    "condition": "udr",
+    "structure_id": "udr-1",
+    "options_ar": [
+      "خط ديواني",
+      "الخط الكوفي المزخرف",
+      "خط الطغراء العثماني"
+    ],
+    "nota_option_ar": null,
+    "nota_position": null,
+    "removed_answer_ar": "خط الثلث",
+    "is_control": false,
+    "expected_behavior_ar": "Spontaneously flag that none of A-C is خط الثلث, unprompted."
+  },
+  {
+    "image_id": "script_thuluth_5_4",
+    "task": "object",
+    "question_ar": "كيف يُعرف الخط الظاهر في الصورة؟",
+    "distractors_ar": [
+      "خط ديواني",
+      "الخط الكوفي المزخرف",
+      "خط الطغراء العثماني"
+    ],
+    "condition": "mcdr",
+    "structure_id": "mcdr-1",
+    "options_ar": [
+      "خط ديواني",
+      "الخط الكوفي المزخرف",
+      "خط الثلث",
+      "لا توجد إجابة صحيحة"
+    ],
+    "nota_option_ar": "لا توجد إجابة صحيحة",
+    "nota_position": "D",
+    "removed_answer_ar": null,
+    "is_control": true,
+    "expected_behavior_ar": "Select C — the correct answer (خط الثلث) is present. Selecting D (NOTA) here is a false abstention."
   }
 ]

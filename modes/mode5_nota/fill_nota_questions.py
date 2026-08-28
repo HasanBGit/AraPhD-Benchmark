@@ -1,19 +1,26 @@
 """
-Stage 2b of the pipeline: generate ArabPhD-nota (Mode 5) items from
-arabphd_full_candidate_pool.json (the single source of truth -- no separate
-merged base-questions file). See nota_question_prompt.md for the exact
-generation rules (structure -1 only: fixed-position NOTA / task-level-only
-OEDR instruction / vanilla UDR) -- that file IS the system prompt the
-generating LLM follows for every batch. Mirrors fill_captions.py: this
-script is a control layer only (select what's next, validate what comes
-back, merge it in) -- it does not contain the generation logic itself, so
-every batch is produced by an LLM pass reading nota_question_prompt.md, not
-by a template baked into this file.
+Stage 2b of the pipeline: generate ArabPhD-nota (Mode 5) items.
+
+Reset 2026-08-28: source is now the 50 sec/icc candidates NOT exported into
+the Mode 2/3 test sets (of the 200-record corrected, peer-reviewed sec/icc
+pool -- modes/mode2_sec/candidate_pool_sec.json +
+modes/mode3_icc/candidate_pool_icc.json -- 75 went to each mode's test set,
+leaving 50 unused; those 50 are nota's source so no image is reused across
+sec/icc and nota). The prior 100-item quota (built off a stale, pre-review
+pool) was wiped; see backups/arabphd_nota_questions.before_full_reset_*.json.
+
+See nota_question_prompt.md for the exact generation rules (structure -1
+only: fixed-position NOTA / task-level-only OEDR instruction / vanilla UDR).
+That generation is fully mechanical given the pool's own fields
+(inferred_identity_ar, implicit_rejection_set, category) -- no per-item
+judgment call -- so `generate` below produces it directly; `validate`/`merge`
+still gate anything before it lands in arabphd_nota_questions.json.
 
 Usage (run from the modes/mode5_nota/ directory):
     python3 fill_nota_questions.py status
-    python3 fill_nota_questions.py select --n 100                # print the 100-item quota (one-time)
-    python3 fill_nota_questions.py next --n 20                   # print next unfilled items + hints (no model call)
+    python3 fill_nota_questions.py select --n 100                 # print the quota
+    python3 fill_nota_questions.py next --n 20                    # print next unfilled items + hints (no model call)
+    python3 fill_nota_questions.py generate [--apply]             # mechanically build a batch; --apply validates+merges it too
     python3 fill_nota_questions.py validate --file nota_batches/batch_001.json
     python3 fill_nota_questions.py merge --file nota_batches/batch_001.json
 
@@ -32,7 +39,8 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 REPO_ROOT = HERE.parent.parent
-POOL = REPO_ROOT / "pipeline" / "arabphd_full_candidate_pool.json"
+POOL_SEC = REPO_ROOT / "modes" / "mode2_sec" / "candidate_pool_sec.json"
+POOL_ICC = REPO_ROOT / "modes" / "mode3_icc" / "candidate_pool_icc.json"
 
 # Default subject_ar noun phrase + grammatical gender of its head noun, per
 # category. Printed as a hint by `next`, not applied automatically.
@@ -103,7 +111,12 @@ CUISINE_CAP = 55
 
 
 def load_pool():
-    return {e["image_id"]: e for e in json.loads(POOL.read_text(encoding="utf-8"))}
+    """The 50 sec/icc candidates NOT exported into a Mode 2/3 test set --
+    see the module docstring. Both source files carry implicit_rejection_set
+    and inferred_identity_ar already, same as the old full-pool source."""
+    sec = json.loads(POOL_SEC.read_text(encoding="utf-8"))
+    icc = json.loads(POOL_ICC.read_text(encoding="utf-8"))
+    return {e["image_id"]: e for e in sec + icc if not e.get("exported_to_test_set")}
 
 
 def load_output():
@@ -215,6 +228,74 @@ def cmd_next(args):
     print(f"\n# {printed} printed", flush=True)
 
 
+def _build_records(entry, image_id, needs_control):
+    """Mechanically assemble the mcdr/oedr/udr triplet (+ control, if
+    needed) for one item, per nota_question_prompt.md's structure -1 rules.
+    Every field here is deterministic given the pool entry -- no per-item
+    judgment call -- see the module docstring."""
+    subject_ar = CATEGORY_SUBJECT[entry["category"]]
+    gender = CATEGORY_GENDER[entry["category"]]
+    gt_ar = entry["inferred_identity_ar"]
+    distractors = entry["implicit_rejection_set"][:3]
+    question_ar = suggest_question_ar(subject_ar, gender, image_id)
+
+    base = dict(image_id=image_id, task="object", question_ar=question_ar, distractors_ar=distractors)
+    records = [
+        {**base, "condition": "mcdr", "structure_id": "mcdr-1",
+         "options_ar": distractors + [NOTA_TEXT], "nota_option_ar": NOTA_TEXT, "nota_position": "D",
+         "removed_answer_ar": gt_ar, "is_control": False,
+         "expected_behavior_ar": f"Select D — none of A-C is {gt_ar}."},
+        {**base, "condition": "oedr", "structure_id": "oedr-1",
+         "options_ar": None, "nota_option_ar": None, "nota_position": None,
+         "removed_answer_ar": gt_ar, "is_control": False,
+         "expected_behavior_ar": f"Say 'لا يوجد خيار صحيح' rather than fabricate an answer; naming {gt_ar} or a near-miss counts as a miss."},
+        {**base, "condition": "udr", "structure_id": "udr-1",
+         "options_ar": distractors, "nota_option_ar": None, "nota_position": None,
+         "removed_answer_ar": gt_ar, "is_control": False,
+         "expected_behavior_ar": f"Spontaneously flag that none of A-C is {gt_ar}, unprompted."},
+    ]
+    if needs_control:
+        control_options = distractors[:2] + [gt_ar, NOTA_TEXT]
+        records.append({**base, "condition": "mcdr", "structure_id": "mcdr-1",
+                         "options_ar": control_options, "nota_option_ar": NOTA_TEXT, "nota_position": "D",
+                         "removed_answer_ar": None, "is_control": True,
+                         "expected_behavior_ar": f"Select C — the correct answer ({gt_ar}) is present. Selecting D (NOTA) here is a false abstention."})
+    return records
+
+
+def cmd_generate(args):
+    quota, control_eligible = select_quota()
+    output = load_output()
+    pool = load_pool()
+
+    batch = []
+    for image_id in quota:
+        conds, has_control = _covered_conditions(output, image_id)
+        needs_control = image_id in control_eligible and not has_control
+        if REQUIRED_CONDITIONS <= conds and not needs_control:
+            continue
+        entry = pool[image_id]
+        missing = REQUIRED_CONDITIONS - conds
+        recs = _build_records(entry, image_id, needs_control)
+        batch.extend(r for r in recs if r["is_control"] or r["condition"] in missing)
+
+    if not batch:
+        print("nothing to generate — quota already fully covered.")
+        return
+
+    BATCHES_DIR.mkdir(exist_ok=True)
+    existing = sorted(BATCHES_DIR.glob("batch_*.json"))
+    next_n = int(existing[-1].stem.split("_")[1]) + 1 if existing else 1
+    out_path = BATCHES_DIR / f"batch_{next_n:03d}.json"
+    out_path.write_text(json.dumps(batch, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"generated {len(batch)} record(s) across {len(set(r['image_id'] for r in batch))} image(s) -> {out_path.relative_to(REPO_ROOT)}")
+
+    if args.apply:
+        args.file = str(out_path)
+        args.overwrite = False
+        cmd_merge(args)
+
+
 def _validate_one(rec, pool, errors, tag):
     required = ["image_id", "task", "condition", "structure_id", "question_ar",
                 "distractors_ar", "is_control", "expected_behavior_ar"]
@@ -321,6 +402,10 @@ def main():
     p_next = sub.add_parser("next")
     p_next.add_argument("--n", type=int, default=20)
     p_next.set_defaults(func=cmd_next)
+
+    p_gen = sub.add_parser("generate")
+    p_gen.add_argument("--apply", action="store_true", help="also validate and merge the generated batch immediately")
+    p_gen.set_defaults(func=cmd_generate)
 
     p_val = sub.add_parser("validate")
     p_val.add_argument("--file", required=True)

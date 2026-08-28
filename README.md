@@ -72,11 +72,26 @@ OpenRouter models on the same 50-image / 100-question subset:
 | openai/gpt-4o-mini | 71.0% | 96.0% | 46.0% | **0.622** | 75.0% |
 
 Full breakdowns in `modes/mode1_base/mode1_results/comparison_table.md`
-(regenerate anytime with `python3 run_mode1_openrouter.py table`). Modes 2-4
-(sec/icc/ccs) have raw candidate annotations only (`data/candidate_pool/image_pool.json`,
-281 records) but no generated questions yet. Mode 5 (nota) has 350 generated
-records, but it isn't wired into the current pool; see
-[Stage 2b](#pipeline) below.
+(regenerate anytime with `python3 run_mode1_openrouter.py table`).
+
+**Modes 2-3 (sec/icc), context generation in progress.** Misleading-caption
+content (the actual sec/icc adversarial context, matching PhD's
+`context.sec`/`context.icc` design) is built for 200 candidates
+(`modes/mode2_sec/candidate_pool_sec.json`, 98; `modes/mode3_icc/candidate_pool_icc.json`,
+102), 150 of which are exported into test sets (75 each,
+`arabphd_test_set_sec.json` / `arabphd_test_set_icc.json`). None overlap with
+the 96 candidates flagged `rejected` in the review pass. Still missing
+before promotion into the main pool: explicit question text
+(`question_yes_ar`/`question_no_ar`-equivalent) per the hard promotion rule
+in `image_schema.json`, and an evaluation script (no `run_mode2_openrouter.py`
+yet).
+
+Mode 4 (ccs) has no work started. Mode 5 (nota) was reset and rebuilt
+2026-08-28 from the 50 sec/icc candidates not used in the Mode 2/3 test sets
+(the old 350 records were built off a stale, pre-review pool and are
+backed up, not deleted); it now has 120 records (30 images x mcdr/oedr/udr +
+control), fully mechanically generated and disjoint from Mode 1/sec/icc/
+rejected images; see [Stage 2b](#pipeline) below.
 
 ## Repo layout
 
@@ -109,15 +124,19 @@ modes/                             # one subfolder per evaluation mode
     questions_base.json           # source: 270 images x 2 questions, merged into arabphd_full_candidate_pool.json
     BaseMode.ipynb                 # original Colab pilot (Gemini SDK), prompt_version=1 origin
     mode1_results/                # results_mode1_<label>_<model>.csv per run, + comparison_table.md/.csv
-  mode2_sec/                      # not started
-  mode3_icc/                      # not started
+  mode2_sec/
+    candidate_pool_sec.json        # 98 candidates with misleading_caption_ar/en + trap_reasoning; no questions yet
+    arabphd_test_set_sec.json      # 75 exported for evaluation once questions exist
+  mode3_icc/
+    candidate_pool_icc.json        # 102 candidates with misleading_caption_ar/en + trap_reasoning; no questions yet
+    arabphd_test_set_icc.json      # 75 exported for evaluation once questions exist
   mode4_ccs/                      # not started
-  mode5_nota/                     # in progress, not yet wired to arabphd_full_candidate_pool.json
-    fill_nota_questions.py
+  mode5_nota/                     # rebuilt 2026-08-28, not yet wired to arabphd_full_candidate_pool.json
+    fill_nota_questions.py        # status / select / next / generate / validate / merge
     nota_question_prompt.md
-    arabphd_nota_questions.json
+    arabphd_nota_questions.json   # 120 records: 30 images x mcdr/oedr/udr + control
     nota_batches/
-    backups/
+    backups/                      # includes the pre-reset 350-record file and old batches
 
 ```
 
@@ -213,35 +232,37 @@ metric definition) for one results file. `table` scans every results CSV in
 [Status](#status) above. Regenerate it any time results change instead of
 recomputing those numbers by hand.
 
-**Stage 2b: nota (Mode 5), in progress.** `modes/mode5_nota/nota_question_prompt.md`
-is the system prompt an LLM follows to turn one candidate-pool record into
-its MCDR/OEDR/UDR triplet (plus a matched control for 50/100 items), using
-the same per-image vision-verified fields the pool carries
-(`inferred_identity_ar`, `implicit_rejection_set`). No new judgment calls.
-`modes/mode5_nota/fill_nota_questions.py` is the control layer only (mirrors
-`fill_captions.py`): `select`/`status` track the 100-item quota, `next`
-prints the next unfilled items + hints (no model call), `validate`/`merge`
-check a batch against the prompt's rules and fold it into
-`arabphd_nota_questions.json`. Generated batch-by-batch in
-`modes/mode5_nota/nota_batches/`, one LLM pass per batch reading
-`nota_question_prompt.md` as its system prompt. `arabphd_nota_questions.json`
-already holds 350 records (100 triplets + a 50-item matched control) built
-against the pool's earlier sec/icc candidate entries, but those entries
-aren't in `arabphd_full_candidate_pool.json` right now (only `mode1` is), so
-`fill_nota_questions.py status`'s quota count won't be meaningful again
-until sec/icc candidate data is back in the pool (or the script is repointed
-at `data/candidate_pool/image_pool.json`). Not wired up for evaluation yet.
+**Stage 2b: nota (Mode 5), reset and rebuilt 2026-08-28.** `modes/mode5_nota/nota_question_prompt.md`
+defines the MCDR/OEDR/UDR triplet (plus a matched control) each source item
+turns into, using `inferred_identity_ar` and `implicit_rejection_set`. Every
+field that produces is fully mechanical given those two, so
+`modes/mode5_nota/fill_nota_questions.py generate` builds it directly (no
+separate LLM authoring pass): `status`/`select` track the quota, `next`
+prints hints for manual inspection, `generate` mechanically assembles a
+batch, `validate`/`merge` gate it into `arabphd_nota_questions.json` the
+same as before.
+
+Source is now the 50 sec/icc candidates *not* exported into the Mode 2/3
+test sets (75 went to each of `modes/mode2_sec/`/`modes/mode3_icc/`, out of
+the 200-record corrected, peer-reviewed sec/icc pool), so no image is reused
+across sec, icc, and nota. That dedups by unique identity down to 30 items,
+all control-eligible at this smaller scale: **120 records total** (30 x
+mcdr/oedr/udr + control), verified to have zero image overlap with Mode 1,
+the sec/icc test sets, or the 96 candidates flagged `rejected` in the review
+pass. The prior 350-record set was built off a stale, pre-review pool;
+backed up (not deleted) to `modes/mode5_nota/backups/`.
 
 ```bash
-cd modes/mode5_nota && python3 fill_nota_questions.py status
+cd modes/mode5_nota
+python3 fill_nota_questions.py status
+python3 fill_nota_questions.py generate --apply   # rebuild + merge a fresh batch if the quota ever grows
 ```
 
-The 350 records match the proposal's own Mode 5 spec: 100 triplets plus a
-matched 50-triplet control subset, evaluated under MCDR/OEDR/UDR
-(`info/arabphd_proposal.pdf`, §4, "Mode 5, ArabPhD-nota"). `validate` checks
-schema conformance (no answer leakage, distractors match the pool, option
-counts correct); project lead (Hassan Barmandah) has additionally done a
-human review pass over the 350 records.
+`validate` checks schema conformance (no answer leakage, distractors match
+the pool, option counts correct, control records reinstate the real answer).
+Still needs native-speaker verification per the Annotation Pipeline, and
+isn't wired into `arabphd_full_candidate_pool.json` or an evaluation script
+yet.
 
 *Cross-item repetition of `question_ar` is intentional, not a defect.
 This was checked against the literature, not assumed.* Many of the 100 items share

@@ -2,7 +2,8 @@
   "$schema_name": "ArabPhD image_pool entry — attribute reference",
   "purpose": "Field-by-field definitions for arabphd_full_candidate_pool.json, kept as a standalone reference (not consumed by the pipeline).",
   "modes_covered_in_pool": ["mode1"],
-  "modes_covered_note": "Only mode1 (base VQA) is currently populated in arabphd_full_candidate_pool.json (270 entries, author: \"mahyoub\", full question sets). sec/icc/ccs/nota have no generated questions yet — sec/icc DO have 200 raw candidate annotations (captions, h_item, diagnostic_trap_type, implicit_rejection_set) sitting in data/candidate_pool/image_pool.json, but those aren't promoted into the full pool until actual VQA questions exist for them, same promotion bar mode1 just cleared. The sec/icc/ccs field definitions below stay as reference for that future work.",
+  "modes_covered_note": "Only mode1 (base VQA) is currently populated in arabphd_full_candidate_pool.json (270 entries, author: \"mahyoub\", full question sets). sec/icc/ccs/nota have no generated questions yet — sec/icc DO have 281 raw candidate annotations (captions, h_item, diagnostic_trap_type, implicit_rejection_set) sitting in data/candidate_pool/image_pool.json, but those aren't promoted into the full pool until actual VQA questions exist for them, same promotion bar mode1 just cleared. The sec/icc/ccs field definitions below stay as reference for that future work.",
+  "promotion_rule_hard_requirement": "Any record with review_status == \"rejected\" in data/candidate_pool/image_pool.json (see review_status_field below) MUST NOT be promoted into arabphd_full_candidate_pool.json, ever, regardless of mode. 96 of the 281 sec/icc candidates currently carry that flag. This is not optional cleanup -- it's the whole point of having done the review. Whatever script eventually builds sec/icc/ccs question sets from this pool needs to filter on review_status first.",
   "mode1_note": "mode1 entries (author: \"mahyoub\") do not carry diagnostic_trap_type or implicit_rejection_set — those are sec/icc-only fields, not applicable to plain yes/no VQA. mode1 entries instead carry hitem_level, question_yes_ar, answer_yes, question_no_ar, answer_no (see mode1_fields below). caption_en is also not populated for mode1 entries.",
   "mode1_fields": {
     "author": { "type": "string", "definition": "Provenance tag for who authored this entry. \"mahyoub\" for the mode1 set, merged in from modes/mode1_base/questions_base.json + data/candidate_pool/image_pool_mode1.json." },
@@ -89,6 +90,13 @@
       "length": 4,
       "definition": "Exactly 4 Arabic distractor strings a correct model response must implicitly reject. Ground truth (inferred_identity_ar) is never included. First item is typically h_item_ar itself; the remaining 3 span other distractor roles (perceptual-neighbor, parametric-prior, domain-adjacent) to round out a 4-choice MCQ-style distractor set."
     }
+  },
+  "review_status_field": {
+    "field": "review_status",
+    "type": "string | null",
+    "enum": ["correct", "edited", "rejected", null],
+    "definition": "Human review decision from pipeline/review_ui/, set by clicking through each record and saving. \"edited\" means the reviewer corrected caption_ar and/or h_item_ar in the UI (those corrected values are what's stored). \"rejected\" means the record should NOT be promoted into arabphd_full_candidate_pool.json as-is (mode1's mode filter shows the promotion pattern -- rejected records don't have generated questions and should stay unpromoted the same way).",
+    "history": "A full 281-record review pass (91 correct / 93 edited / 97 rejected) was completed 2026-08-23, then silently overwritten by a pool rebuild on 2026-08-25 that reset every record to null. Recovered from git history (commit 61d5027^) and re-applied 2026-08-27 to the 279 still-matching image_ids (91 correct / 92 edited / 96 rejected restored; 2 images from the 2026-08-25 rebuild have no prior review and are still null). Moral: any future rebuild of this file must carry review_status forward by image_id, not regenerate from the manifest alone."
   },
   "optional_manifest_passthrough_fields": {
     "subject": "Original Wikimedia/manifest subject or file title string for the image, passed through as-is (may sometimes mismatch actual visual content — a known manifest data-quality issue, not corrected).",
