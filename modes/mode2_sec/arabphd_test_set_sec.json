@@ -26,7 +26,11 @@
     "caption_en": "A photo of a white mosque built on pillars along the coastline, with a ribbed green dome and a tall slender minaret, an arcaded walkway extending over the water, at sunset.",
     "misleading_caption_ar": "صورة لمسجد تانجونج بونجاه العائم في جزيرة بينانج بماليزيا، مبني على ركائز فوق سطح البحر، بقباب وجدران بيضاء ناصعة ومئذنة شاهقة، يبدو وكأنه عائم فوق الماء عند المد العالي.",
     "misleading_caption_en": "A photo of the Tanjung Bungah Floating Mosque on Penang Island, Malaysia, built on stilts above the sea, with pristine white domes and walls and a towering minaret, appearing to float on the water at high tide.",
-    "trap_reasoning": "Verified no named floating mosque exists in Kuwait, so replaced the trap with a real, documented one (Tanjung Bungah, Penang) whose white dome/walls are a sourced, checkable contrast to Al-Rahma's green dome."
+    "trap_reasoning": "Verified no named floating mosque exists in Kuwait, so replaced the trap with a real, documented one (Tanjung Bungah, Penang) whose white dome/walls are a sourced, checkable contrast to Al-Rahma's green dome.",
+    "question_yes_ar": "هل هذا المبنى مسجد الرحمة (المسجد العائم)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى مسجد تانجونج بونجاه العائم، بينانج، ماليزيا؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -55,7 +59,11 @@
     "caption_en": "A nighttime photo of the mosque lit in blue and green, showing the dome and minaret partially reflected on the surrounding water's surface.",
     "misleading_caption_ar": "صورة ليلية لمسجد تانجونج بونجاه العائم في بينانج بماليزيا، مضاءً بإضاءة زرقاء وخضراء، تظهر قبته ومئذنته منعكستين جزئياً على سطح الماء المحيط.",
     "misleading_caption_en": "A nighttime photo of the Tanjung Bungah Floating Mosque in Penang, Malaysia, lit in blue and green, its dome and minaret partially reflected on the surrounding water's surface.",
-    "trap_reasoning": "Applied the same fix as the earlier Al Rahmah/Kuwait record to this new nighttime image: the invented 'Kuwait' h_item is replaced with the verified real Tanjung Bungah Floating Mosque; kept every shared visual detail (blue/green lighting, water reflection) since those are genuinely consistent with either building."
+    "trap_reasoning": "Applied the same fix as the earlier Al Rahmah/Kuwait record to this new nighttime image: the invented 'Kuwait' h_item is replaced with the verified real Tanjung Bungah Floating Mosque; kept every shared visual detail (blue/green lighting, water reflection) since those are genuinely consistent with either building.",
+    "question_yes_ar": "هل هذا المبنى مسجد الرحمة (المسجد العائم)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى مسجد تانجونج بونجاه العائم، بينانج، ماليزيا؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -84,7 +92,11 @@
     "caption_en": "A close-up photo of the mosque's white arcaded walkway extending over the water, with repeating arches and slender columns.",
     "misleading_caption_ar": "صورة قريبة لممر مسجد تانجونج بونجاه العائم في بينانج المقنطر الأبيض الممتد فوق الماء، بأقواس متكررة وأعمدة رفيعة.",
     "misleading_caption_en": "A close-up photo of the Tanjung Bungah Floating Mosque's white arcaded walkway extending over the water, with repeating arches and slender columns.",
-    "trap_reasoning": "Third instance of the Al Rahmah/Tanjung Bungah fix applied for consistency; kept the shared arcaded-walkway detail since it's genuinely consistent with either building's stilt construction."
+    "trap_reasoning": "Third instance of the Al Rahmah/Tanjung Bungah fix applied for consistency; kept the shared arcaded-walkway detail since it's genuinely consistent with either building's stilt construction.",
+    "question_yes_ar": "هل هذا المبنى مسجد الرحمة (المسجد العائم)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى مسجد تانجونج بونجاه العائم، بينانج، ماليزيا؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -113,7 +125,11 @@
     "caption_en": "A wide daytime photo of the entire mosque from the shore, showing the green dome, the minaret, and the arcaded walkways surrounding the building on all sides.",
     "misleading_caption_ar": "صورة نهارية واسعة لمسجد تانجونج بونجاه العائم بالكامل من الساحل في بينانج، تُظهر القبة البيضاء والمئذنة والممرات المقنطرة المحيطة بالمبنى من جميع الجهات.",
     "misleading_caption_en": "A wide daytime photo of the entire Tanjung Bungah Floating Mosque from the shore in Penang, showing the white dome, the minaret, and the arcaded walkways surrounding the building on all sides.",
-    "trap_reasoning": "Fourth instance of the Al Rahma/Tanjung Bungah fix; this time explicitly asserted the white dome (Tanjung Bungah's real, sourced color) against the true mosque's actual stated green dome, reinforcing the original checkable marker rather than just omitting color."
+    "trap_reasoning": "Fourth instance of the Al Rahma/Tanjung Bungah fix; this time explicitly asserted the white dome (Tanjung Bungah's real, sourced color) against the true mosque's actual stated green dome, reinforcing the original checkable marker rather than just omitting color.",
+    "question_yes_ar": "هل هذا المبنى مسجد الرحمة (المسجد العائم)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى مسجد تانجونج بونجاه العائم، بينانج، ماليزيا؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -142,7 +158,11 @@
     "caption_en": "A photo of the mosque at dusk against a deep blue sky, with warm interior lighting glowing from the building's windows.",
     "misleading_caption_ar": "صورة لمسجد تانجونج بونجاه العائم عند الشفق بألوان سماء زرقاء داكنة في بينانج، مع إضاءة داخلية دافئة تظهر من نوافذ المبنى.",
     "misleading_caption_en": "A photo of the Tanjung Bungah Floating Mosque at dusk against a deep blue sky in Penang, with warm interior lighting glowing from the building's windows.",
-    "trap_reasoning": "Fifth instance of the Al Rahma/Tanjung Bungah fix; kept the shared dusk lighting detail since it's genuinely consistent with either building."
+    "trap_reasoning": "Fifth instance of the Al Rahma/Tanjung Bungah fix; kept the shared dusk lighting detail since it's genuinely consistent with either building.",
+    "question_yes_ar": "هل هذا المبنى مسجد الرحمة (المسجد العائم)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى مسجد تانجونج بونجاه العائم، بينانج، ماليزيا؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -172,7 +192,11 @@
     "caption_en": "A photo of a massive golden-brown sandstone rock naturally eroded into an animal-like shape with a curved leg-like arch, surrounded by dry desert plants.",
     "misleading_caption_ar": "صورة لجبل القارة الرملي الشهير في الأحساء، وهو تكوين صخري طبيعي بلون بني ذهبي يحتوي على فتحة طبيعية كبيرة تشبه نفقاً عبر الصخر، وتحيط به نباتات صحراوية جافة.",
     "misleading_caption_en": "A photo of the famous sandstone Jabal Al-Qarah in Al-Ahsa, a natural rock formation in golden-brown tones featuring a large natural opening resembling a tunnel through the rock, surrounded by dry desert plants.",
-    "trap_reasoning": "Both are real, distinct sandstone formations in Saudi Arabia with a large natural rock opening — a genuine real-world mix-up. Dropped 'leg-like/animal-shaped' phrasing since that's Elephant Rock's specific naming signature."
+    "trap_reasoning": "Both are real, distinct sandstone formations in Saudi Arabia with a large natural rock opening — a genuine real-world mix-up. Dropped 'leg-like/animal-shaped' phrasing since that's Elephant Rock's specific naming signature.",
+    "question_yes_ar": "هل هذا المبنى جبل الفيل بالعلا؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى جبل القارة بالأحساء؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -203,7 +227,11 @@
     "caption_en": "A daytime photo of the massive rock with a car and small human figures in front of it to show its enormous scale, under a clear blue sky.",
     "misleading_caption_ar": "صورة نهارية لجبل القارة بالأحساء مع سيارة وأشخاص صغار الحجم أمامه لإظهار مقياسه الهائل، تحت سماء زرقاء صافية.",
     "misleading_caption_en": "A daytime photo of Jabal Al-Qarah in Al-Ahsa with a car and small human figures in front of it to show its enormous scale, under a clear blue sky.",
-    "trap_reasoning": "Same real sandstone-formation confusion as the earlier Jabal AlFil/Jabal Al-Qarah pair, tested on this new image with a car for scale; kept the shared scale-reference framing since it's plausible for either landmark."
+    "trap_reasoning": "Same real sandstone-formation confusion as the earlier Jabal AlFil/Jabal Al-Qarah pair, tested on this new image with a car for scale; kept the shared scale-reference framing since it's plausible for either landmark.",
+    "question_yes_ar": "هل هذا المبنى جبل الفيل بالعلا؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى جبل القارة بالأحساء؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -234,7 +262,11 @@
     "caption_en": "A photo of the rock at sunset with sun rays spreading through its arched opening, with scattered clouds in the sky.",
     "misleading_caption_ar": "صورة لجبل القارة بالأحساء عند الغروب مع أشعة شمس منتشرة من خلال فتحته المقوسة، وسحب متناثرة في السماء.",
     "misleading_caption_en": "A photo of Jabal Al-Qarah in Al-Ahsa at sunset with sun rays spreading through its arched opening, with scattered clouds in the sky.",
-    "trap_reasoning": "Same real sandstone-formation confusion as the earlier pair, tested on this sunset image; kept the shared arched-opening-with-light detail since it's genuinely plausible for either landmark's real cave passage."
+    "trap_reasoning": "Same real sandstone-formation confusion as the earlier pair, tested on this sunset image; kept the shared arched-opening-with-light detail since it's genuinely plausible for either landmark's real cave passage.",
+    "question_yes_ar": "هل هذا المبنى جبل الفيل بالعلا؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى جبل القارة بالأحساء؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -265,7 +297,11 @@
     "caption_en": "A nighttime photo of the rock lit with warm orange lighting from below, surrounded by an outdoor seating area with chairs, tables, and small lights.",
     "misleading_caption_ar": "صورة ليلية لجبل القارة بالأحساء مضاءً بإضاءة برتقالية دافئة من الأسفل، وسط منطقة جلوس خارجية بكراسي وطاولات وأضواء صغيرة.",
     "misleading_caption_en": "A nighttime photo of Jabal Al-Qarah in Al-Ahsa lit with warm orange lighting from below, surrounded by an outdoor seating area with chairs, tables, and small lights.",
-    "trap_reasoning": "Same real sandstone-formation confusion as the earlier pair, tested on this nighttime image; kept the shared outdoor-seating and warm-lighting setup since both landmarks are developed tourist sites with similar evening amenities."
+    "trap_reasoning": "Same real sandstone-formation confusion as the earlier pair, tested on this nighttime image; kept the shared outdoor-seating and warm-lighting setup since both landmarks are developed tourist sites with similar evening amenities.",
+    "question_yes_ar": "هل هذا المبنى جبل الفيل بالعلا؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى جبل القارة بالأحساء؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -296,7 +332,11 @@
     "caption_en": "A wide daytime photo of the rock under a partly cloudy sky, clearly showing its horizontal rock layers and large arched opening.",
     "misleading_caption_ar": "صورة نهارية واسعة لجبل القارة بالأحساء تحت سماء غائمة جزئياً، تُظهر طبقاته الصخرية الأفقية وفتحته المقوسة الكبيرة بوضوح.",
     "misleading_caption_en": "A wide daytime photo of Jabal Al-Qarah in Al-Ahsa under a partly cloudy sky, clearly showing its horizontal rock layers and large arched opening.",
-    "trap_reasoning": "Final instance of the Jabal AlFil/Jabal Al-Qarah pair — same real sandstone-formation confusion, tested on this wide shot showing the layered rock and arch clearly."
+    "trap_reasoning": "Final instance of the Jabal AlFil/Jabal Al-Qarah pair — same real sandstone-formation confusion, tested on this wide shot showing the layered rock and arch clearly.",
+    "question_yes_ar": "هل هذا المبنى جبل الفيل بالعلا؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى جبل القارة بالأحساء؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "attire_119451_kaftan",
@@ -327,7 +367,11 @@
     ],
     "misleading_caption_ar": "صورة لجبة دمشقية حريرية طويلة حتى القدمين، من قماش حريري لامع بخطوط عمودية رفيعة بألوان برتقالية وخضراء وبيج، بفتحة أمامية متقاطعة تُغلق بحافة داكنة، وأكمام طويلة واسعة، معروضة على مجسم بلا رأس، وهي من النسيج الحريري المعروف بصناعته اليدوية في دمشق.",
     "misleading_caption_en": "A photo of a floor-length Damascene silk jubbah, made of shiny silk fabric with thin vertical stripes in orange, green, and beige, with a crossover front closure edged in a dark trim, and long wide sleeves, displayed on a headless mannequin form — woven from the silk fabric traditionally handwoven in Damascus.",
-    "trap_reasoning": "Kaftan and jubbah are both floor-length, front-closing silk robes — genuinely easy to mistake without cut-terminology expertise; the visual description transfers almost unchanged."
+    "trap_reasoning": "Kaftan and jubbah are both floor-length, front-closing silk robes — genuinely easy to mistake without cut-terminology expertise; the visual description transfers almost unchanged.",
+    "question_yes_ar": "هل هذه القطعة كافتان حريري؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة جبة دمشقية حريرية؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "attire_85605_burnus",
@@ -358,7 +402,11 @@
     ],
     "misleading_caption_ar": "صورة لجلابة مغربية صوفية تقليدية بلون بيج فاتح، فضفاضة تصل حتى القدمين، مزودة بقلنسوة مدببة ثابتة عند الياقة، تُغلق فتحة الصدر بخيط مجدول ينتهي بشرابة صغيرة، وتتدلى من كتفيها طيات قماشية واسعة تعكس طابع الحياكة اليدوية المغربية.",
     "misleading_caption_en": "A photo of a traditional Moroccan wool djellaba in light beige, loose and floor-length, fitted with a fixed pointed hood at the collar, its chest closed with a braided cord ending in a small tassel, with wide fabric folds falling from the shoulders reflecting Moroccan handweaving craftsmanship.",
-    "trap_reasoning": "Burnus and djellaba are near-identical silhouettes (hood, cord-and-tassel closure, floor length); preserved the physical description and only added a Moroccan attribution clause."
+    "trap_reasoning": "Burnus and djellaba are near-identical silhouettes (hood, cord-and-tassel closure, floor length); preserved the physical description and only added a Moroccan attribution clause.",
+    "question_yes_ar": "هل هذه القطعة برنوس؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة جلابة مغربية صوفية؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "attire_86249_festive_dress_from_qalamun",
@@ -389,7 +437,11 @@
     ],
     "misleading_caption_ar": "صورة لثوب حوراني طويل بلون بيج فاتح، بلوحة تطريز مثلثة الشكل عند الصدر مزينة بزخارف نباتية وهندسية متعددة الألوان بالأحمر والأخضر والذهبي، وأكمام طويلة بأطراف مطرزة، وبقية الرداء بسيطة بلا زخرفة.",
     "misleading_caption_en": "A photo of a long Hauran-region thob in light beige, with a triangular embroidered chest panel decorated with multi-colored floral and geometric motifs in red, green, gold, and blue, long sleeves with embroidered cuffs, and the rest of the garment left plain and undecorated.",
-    "trap_reasoning": "The triangular chest-panel embroidery style transfers almost unchanged between the Qalamun and Hauran regional dress traditions — both real, genuinely confusable Levantine embroidery styles."
+    "trap_reasoning": "The triangular chest-panel embroidery style transfers almost unchanged between the Qalamun and Hauran regional dress traditions — both real, genuinely confusable Levantine embroidery styles.",
+    "question_yes_ar": "هل هذه القطعة ثوب احتفالي من القلمون (سوريا)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة ثوب حوراني مطرز؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "attire_86251_headscarf",
@@ -420,7 +472,11 @@
     ],
     "misleading_caption_ar": "صورة لشال حوراني كبير مطرز بالحرير بلون كريمي فاتح، مغطى بصفوف متكررة من زخارف صغيرة تشبه المعينات الهندسية والزهور بلون أحمر داكن مع لمسات خضراء، بحواف جانبية مزخرفة عريضة وخطوط طويلة ملتوية عند الطرف السفلي.",
     "misleading_caption_en": "A photo of a large Hauran-region embroidered silk shawl in cream, covered in repeating rows of small geometric diamond and floral motifs in dark red with green accents, with wide decorated side borders and long twisted fringe along the bottom edge.",
-    "trap_reasoning": "Kept the shared cream ground, dense repeating red-toned motif rows, and twisted fringe — dropped 'birds' and blue accents, motif details more specific to Palestinian mandeel iconography, to keep the Hauran-shawl claim internally consistent."
+    "trap_reasoning": "Kept the shared cream ground, dense repeating red-toned motif rows, and twisted fringe — dropped 'birds' and blue accents, motif details more specific to Palestinian mandeel iconography, to keep the Hauran-shawl claim internally consistent.",
+    "question_yes_ar": "هل هذه القطعة غطاء رأس فلسطيني مطرز (منديل)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة شال حوراني مطرز بالحرير؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "attire_86267_abaya_cloak",
@@ -450,7 +506,11 @@
     ],
     "misleading_caption_ar": "صورة لروب إيكات أوزبكي تقليدي (تشابان) بلون أزرق داكن، مزين بنقوش متداخلة متدرجة الحواف بلون ذهبي مائل للبني تمتد من الكتفين حتى الأطراف السفلية، بفتحة عنق على شكل حرف V تُربط بخيط رفيع، وأكمام واسعة منسدلة، معروض على شكل مجسم.",
     "misleading_caption_en": "A photo of a traditional Uzbek ikat robe (chapan) in deep blue, decorated with soft-edged, blurred gold-brown motifs woven using the ikat resist-dye technique, running from the shoulders down to the lower edges, with a V-shaped neckline tied with a thin cord and wide, draping sleeves, displayed on a mannequin form.",
-    "trap_reasoning": "Ikat's defining trait is a soft, blurred-edge resist-dye pattern — the direct opposite of the true garment's crisp, jagged diagonal bands — so asserting genuine ikat texture creates a checkable visual contradiction rather than a bare nationality label."
+    "trap_reasoning": "Ikat's defining trait is a soft, blurred-edge resist-dye pattern — the direct opposite of the true garment's crisp, jagged diagonal bands — so asserting genuine ikat texture creates a checkable visual contradiction rather than a bare nationality label.",
+    "question_yes_ar": "هل هذه القطعة عباءة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة روب إيكات أوزبكي؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "attire_86275_abaya_cloak",
@@ -481,7 +541,11 @@
     ],
     "misleading_caption_ar": "صورة لمعطف بدوي طويل فضفاض بلون أحمر عنابي ذي بريق ساتان خفيف، تتخلله أشرطة رفيعة فاتحة اللون على الجسم والأكمام، بفتحة أمامية مفتوحة وأكمام واسعة منسدلة، معروض على مجسم أمام خلفية بيضاء.",
     "misleading_caption_en": "A photo of a long, loose Bedouin coat in deep burgundy red with a subtle satin sheen, crossed by thin light-colored diagonal stripes across the body and sleeves, with an open front and wide draping sleeves, displayed on a mannequin against a white background.",
-    "trap_reasoning": "The satin sheen, stripe pattern, and open-front cut transfer essentially unchanged between a Syrian abaya and a Bedouin coat — the two are visually near-identical, which is what makes this a strong perceptual-neighbor trap rather than a forced swap."
+    "trap_reasoning": "The satin sheen, stripe pattern, and open-front cut transfer essentially unchanged between a Syrian abaya and a Bedouin coat — the two are visually near-identical, which is what makes this a strong perceptual-neighbor trap rather than a forced swap.",
+    "question_yes_ar": "هل هذه القطعة عباءة سورية حمراء مخططة (نسخة ثانية)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة معطف بدوي أحمر مخطط بالساتان؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_egypt_02",
@@ -512,7 +576,11 @@
     ],
     "misleading_caption_ar": "صورة لطبق معدني دائري عليه متبل باذنجان مصري مهروس مغطى بصلصة طماطم مفرومة، مزين بحلقات بصل أحمر مرتبة بشكل زهرة دائرية.",
     "misleading_caption_en": "A photo of a round metal plate holding mashed Egyptian eggplant mutabal topped with chopped tomato relish, garnished with red onion rings arranged in a flower-like circular pattern.",
-    "trap_reasoning": "Kept the shared tomato relish topping and onion-ring garnish, but changed the eggplant from grilled slices to a mashed paste — mutabal's defining texture, and the one detail that actually distinguishes it from grilled eggplant slices."
+    "trap_reasoning": "Kept the shared tomato relish topping and onion-ring garnish, but changed the eggplant from grilled slices to a mashed paste — mutabal's defining texture, and the one detail that actually distinguishes it from grilled eggplant slices.",
+    "question_yes_ar": "هل هذا الطبق باذنجان مشوي بالطماطم؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق متبل باذنجان مصري؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_egypt_04",
@@ -543,7 +611,11 @@
     ],
     "misleading_caption_ar": "صورة لعدة قطع عجين لوز مقلية فارغة من الداخل بلون بني ذهبي، على شكل قرون غزال مغربية مقوسة، مرتبة بكثافة فوق صينية معدنية، قبل حشوها بعجينة اللوز.",
     "misleading_caption_en": "A photo of several hollow, golden-brown fried almond-dough pieces shaped like curved Moroccan gazelle horns, densely arranged on a metal tray, before being filled with almond paste.",
-    "trap_reasoning": "Both are real, hollow, golden-brown horn/cone-shaped fried pastries at the pre-filling stage; added 'before being filled with almond paste' to frame the emptiness as an expected preparation step of the Moroccan pastry rather than an anomaly."
+    "trap_reasoning": "Both are real, hollow, golden-brown horn/cone-shaped fried pastries at the pre-filling stage; added 'before being filled with almond paste' to frame the emptiness as an expected preparation step of the Moroccan pastry rather than an anomaly.",
+    "question_yes_ar": "هل هذا الطبق قوالب معجنات مقلية مجوفة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق قرون غزال مغربية فارغة؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_egypt_07",
@@ -574,7 +646,11 @@
     ],
     "misleading_caption_ar": "صورة ليدين تحملان طبقين بحافة وردية يحتويان على مهلبية بالأرز بقوام كريمي أملس متجانس، وملعقة معدنية موضوعة بجانبهما.",
     "misleading_caption_en": "A photo of two hands holding pink-rimmed bowls containing rice mhalabia pudding with a smooth, uniform creamy texture, with a metal spoon placed beside them.",
-    "trap_reasoning": "Roz bel laban and rice mhalabia are nearly identical in appearance (creamy white rice-based pudding in a bowl); kept every shared detail and only adjusted the texture description toward mhalabia's smoother, more uniform set consistency."
+    "trap_reasoning": "Roz bel laban and rice mhalabia are nearly identical in appearance (creamy white rice-based pudding in a bowl); kept every shared detail and only adjusted the texture description toward mhalabia's smoother, more uniform set consistency.",
+    "question_yes_ar": "هل هذا الطبق أرز بلبن مصري؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق مهلبية بالأرز؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_egypt_08",
@@ -605,7 +681,11 @@
     ],
     "misleading_caption_ar": "صورة لطبق معدني داكن اللون عليه قطعتان مزخرفتان على شكل وردتين بيضاويتين اللون، مصنوعتان من عجينة السكر المشكّلة يدوياً ومثبتتان بأعواد خشبية صغيرة.",
     "misleading_caption_en": "A photo of a dark metal plate holding two decorative rose-shaped garnishes in pale cream color, hand-molded from sugar paste and pinned with small wooden picks.",
-    "trap_reasoning": "Kept the shared color, shape, and wooden-pick mounting, but replaced the true garnish's stated construction — thin rolled slices — with hand-molded sugar paste, the one technique detail that actually distinguishes the two."
+    "trap_reasoning": "Kept the shared color, shape, and wooden-pick mounting, but replaced the true garnish's stated construction — thin rolled slices — with hand-molded sugar paste, the one technique detail that actually distinguishes the two.",
+    "question_yes_ar": "هل هذا الطبق زينة طعام على شكل وردة من شرائح الخضار؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق وردة مقطعة من عجينة السكر؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_jordan_02",
@@ -636,7 +716,11 @@
     ],
     "misleading_caption_ar": "صورة مقربة لبيروق لحم تركي كبير الحجم بلون بني فاتح ذي طبقات عجين ملفوفة حلزونياً على شكل أصابع متعددة، موضوع على طبق أبيض بجانب قطعة خبز محمص ووعاء حمص في الخلفية.",
     "misleading_caption_en": "A close-up photo of a large, light-brown Turkish meat börek with spiral-rolled pastry layers forming multiple finger-like coils, placed on a white plate beside a piece of toasted bread and a bowl of hummus in the background.",
-    "trap_reasoning": "Turkish börek is defined by spiral-rolled, coiled pastry layers, not a crimped sealed edge; the true pastry explicitly has crimped, toe-like ridges (a sambousek-style seal) — asserting the spiral-rolled construction is a direct, checkable technique contradiction."
+    "trap_reasoning": "Turkish börek is defined by spiral-rolled, coiled pastry layers, not a crimped sealed edge; the true pastry explicitly has crimped, toe-like ridges (a sambousek-style seal) — asserting the spiral-rolled construction is a direct, checkable technique contradiction.",
+    "question_yes_ar": "هل هذا الطبق سمبوسك مقلي كبير الحجم؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق بيروق لحم تركي؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_jordan_04",
@@ -667,7 +751,11 @@
     ],
     "misleading_caption_ar": "صورة لثلاث حبات فلفل أخضر داكنة اللون موضوعة مباشرة فوق شعلات موقد غاز معدني، مع قشرتها المتفحمة جزئياً وسيقانها الظاهرة.",
     "misleading_caption_en": "A photo of three dark green peppers placed directly on the burners of a metal gas stove, their skins partly charred, with their stems visible.",
-    "trap_reasoning": "Kept the exact shared scene — vegetables directly on gas burners, partly charred skin — and only swapped the vegetable itself, which is genuinely hard to tell apart from a distance given the similar dark, charring silhouette."
+    "trap_reasoning": "Kept the exact shared scene — vegetables directly on gas burners, partly charred skin — and only swapped the vegetable itself, which is genuinely hard to tell apart from a distance given the similar dark, charring silhouette.",
+    "question_yes_ar": "هل هذا الطبق باذنجان مشوي على الموقد استعداداً لبابا غنوج؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق فلفل مشوي على الموقد؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_jordan_05",
@@ -698,7 +786,11 @@
     ],
     "misleading_caption_ar": "صورة لإبريق شاي بدوي أسود ذي مقبض جانبي وغطاء علوي وفوهة صب طويلة، موضوع فوق كومة من الحطب الجاف والرماد على رمال الصحراء، محاطاً بأغصان شجيرات جافة.",
     "misleading_caption_en": "A photo of a black Bedouin teapot with a side handle, a top lid, and a long pouring spout, sitting atop a pile of dry firewood and ashes on desert sand, surrounded by dry shrub branches.",
-    "trap_reasoning": "Kept the shared desert firewood setting completely unchanged, and added a long pouring spout — a teapot's defining feature — as the one concrete detail that would distinguish it from a coffee dallah, which the original description doesn't rule out."
+    "trap_reasoning": "Kept the shared desert firewood setting completely unchanged, and added a long pouring spout — a teapot's defining feature — as the one concrete detail that would distinguish it from a coffee dallah, which the original description doesn't rule out.",
+    "question_yes_ar": "هل هذا الطبق دلة قهوة بدوية على نار الحطب؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق إبريق شاي بدوي؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_saudi_arabia_03",
@@ -729,7 +821,11 @@
     ],
     "misleading_caption_ar": "صورة لخبز صاج لبناني رقيق مطوي على شكل قارب محشو بشرائح لحم الشاورما، وشرائح طماطم وخيار، وحلقات بصل، وزيتون أسود، على خلفية بيضاء بسيطة.",
     "misleading_caption_en": "A photo of thin, boat-folded Lebanese saj bread stuffed with sliced shawarma meat, tomato and cucumber slices, onion rings, and black olives, against a plain white background.",
-    "trap_reasoning": "Kept every shared filling ingredient (meat, tomato, cucumber, onion, olives) and the boat-fold shape, changing only the bread type — saj is thinner and more elastic than pita, but the two look genuinely similar when folded."
+    "trap_reasoning": "Kept every shared filling ingredient (meat, tomato, cucumber, onion, olives) and the boat-fold shape, changing only the bread type — saj is thinner and more elastic than pita, but the two look genuinely similar when folded.",
+    "question_yes_ar": "هل هذا الطبق سندويش عربي محشو باللحم والخضار؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق شاورما لبنانية بخبز صاج؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_saudi_arabia_04",
@@ -760,7 +856,11 @@
     ],
     "misleading_caption_ar": "صورة لطبق عليه قطع خبز ممزقة ومحمصة بلون بني فاتح، في منتصفها بركة من العسل، محاطة بحبات تمر كاملة، في وعاء أحمر الحافة.",
     "misleading_caption_en": "A photo of a dish of torn, lightly toasted bread pieces in light brown, with a pool of dark, syrupy liquid in the center, surrounded by whole dates, in a red-rimmed bowl.",
-    "trap_reasoning": "Masabeeb's defining trait is torn, distinct bread pieces (not a smooth mash); swapped the true dish's mashed, uniform texture for that, keeping the shared syrup pool, whole dates, and red-rimmed bowl."
+    "trap_reasoning": "Masabeeb's defining trait is torn, distinct bread pieces (not a smooth mash); swapped the true dish's mashed, uniform texture for that, keeping the shared syrup pool, whole dates, and red-rimmed bowl.",
+    "question_yes_ar": "هل هذا الطبق عريكة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق مصابيب بالتمر؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_saudi_arabia_07",
@@ -791,7 +891,11 @@
     ],
     "misleading_caption_ar": "صورة لوعاء أبيض صغير يحتوي على صلصة شكشوكة حمراء سميكة القوام، مزينة بشرائح رقيقة من الفلفل الأخضر الحار، مُجهزة على طاولة خشبية تمهيداً لكسر البيض فوقها.",
     "misleading_caption_en": "A photo of a small white bowl containing a thick, chunky red shakshuka sauce, garnished with thin slices of green chili pepper, set on a wooden table in preparation for the eggs to be cracked over it.",
-    "trap_reasoning": "Dakkous and a pre-egg shakshuka base look nearly identical (chunky red tomato relish in a small bowl); added 'in preparation for the eggs' to sell the framing without altering any visual fact already in the neutral caption."
+    "trap_reasoning": "Dakkous and a pre-egg shakshuka base look nearly identical (chunky red tomato relish in a small bowl); added 'in preparation for the eggs' to sell the framing without altering any visual fact already in the neutral caption.",
+    "question_yes_ar": "هل هذا الطبق دقوس (صلصة طماطم)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق صلصة شكشوكة؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_saudi_arabia_10",
@@ -821,7 +925,11 @@
     ],
     "misleading_caption_ar": "صورة مقربة لسندويش خبز ملفوف محشو بقطع كفتة مشوية وبطاطس مقلية وطماطم وخس وبقدونس.",
     "misleading_caption_en": "A close-up photo of a rolled flatbread sandwich filled with grilled kofta pieces, french fries, tomato, lettuce, and parsley.",
-    "trap_reasoning": "Both are rolled street-food sandwiches with an identical filling supporting cast (fries, tomato, lettuce, parsley); dropped the 'English labels/arrows' detail since it spells out 'falafel' in the true image."
+    "trap_reasoning": "Both are rolled street-food sandwiches with an identical filling supporting cast (fries, tomato, lettuce, parsley); dropped the 'English labels/arrows' detail since it spells out 'falafel' in the true image.",
+    "question_yes_ar": "هل هذا الطبق سندويش فلافل؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق سندويش كفتة مشوية؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_saudi_arabia_11",
@@ -852,7 +960,11 @@
     ],
     "misleading_caption_ar": "صورة لعدة أقراص فلافل بنية اللون مقلية بقالب الوافل ذات نقشة شبكية متقاطعة، مكدسة فوق طبق معدني، تُمسك بيد أمام نبات أخضر.",
     "misleading_caption_en": "A photo of several brown, waffle-pressed falafel patties with a crosshatched grid pattern, stacked on a metal plate, held by a hand in front of green foliage.",
-    "trap_reasoning": "Ful medames and falafel patties fried in the same waffle press look nearly identical (same grid pattern, same brown color) — the visual description barely needs to change, which is exactly what makes this a strong perceptual-neighbor trap."
+    "trap_reasoning": "Ful medames and falafel patties fried in the same waffle press look nearly identical (same grid pattern, same brown color) — the visual description barely needs to change, which is exactly what makes this a strong perceptual-neighbor trap.",
+    "question_yes_ar": "هل هذا الطبق أقراص فول مقلية بقالب الوافل؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق فلافل مقلية بقالب الوافل؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_saudi_arabia_14",
@@ -883,7 +995,11 @@
     ],
     "misleading_caption_ar": "صورة لكوب زجاجي مملوء بمشروب اللبن بالتمر اليمني، ذي القوام السميك المائل للبياض، موضوع على طبق صغير محاط بحبات تمر، فوق سجادة صلاة حمراء مزخرفة.",
     "misleading_caption_en": "A photo of a glass filled with Yemeni date-yogurt drink (laban bel tamr), its thick, whitish yogurt-based texture visible, set on a small plate surrounded by dark whole dates, on top of a decorated red prayer rug.",
-    "trap_reasoning": "Asserted the yogurt drink's real defining trait — a thick, whitish, tangier texture from yogurt rather than milk — while keeping every other shared visual detail (glass, dates, red prayer rug) unchanged."
+    "trap_reasoning": "Asserted the yogurt drink's real defining trait — a thick, whitish, tangier texture from yogurt rather than milk — while keeping every other shared visual detail (glass, dates, red prayer rug) unchanged.",
+    "question_yes_ar": "هل هذا الطبق مشروب حليب بالتمر؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق لبن بالتمر يمني؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_the_united_arab_emirates_01",
@@ -914,7 +1030,11 @@
     ],
     "misleading_caption_ar": "صورة من الأعلى لطبق دائري بحافة زرقاء مزخرفة، يحتوي على جريش سعودي خشن القوام مطهو من القمح المجروش، عليه مكعب زبدة ذائب، على قماش مائدة صفراء منقوشة.",
     "misleading_caption_en": "An overhead photo of a round plate with a decorated blue rim, holding Saudi Jareesh made from coarsely cracked wheat, topped with a melting butter cube, on a patterned yellow tablecloth.",
-    "trap_reasoning": "Harees and Jareesh are both coarse cracked-wheat porridges that look nearly identical; dropped the cinnamon-stick garnish (a detail more specific to this Harees preparation, since Jareesh isn't typically served with one) and kept everything else shared."
+    "trap_reasoning": "Harees and Jareesh are both coarse cracked-wheat porridges that look nearly identical; dropped the cinnamon-stick garnish (a detail more specific to this Harees preparation, since Jareesh isn't typically served with one) and kept everything else shared.",
+    "question_yes_ar": "هل هذا الطبق هريس إماراتي؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق جريش سعودي؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_the_united_arab_emirates_05",
@@ -945,7 +1065,11 @@
     ],
     "misleading_caption_ar": "صورة مقربة لوعاء بحافة برتقالية يحتوي على مفركة يمنية بقوام سميك مضروب يميل للتماسك، بلون بني فاتح، تلمع بطبقة من السمن، وملعقة معدنية غاطسة فيها.",
     "misleading_caption_en": "A close-up photo of an orange-rimmed bowl holding Yemeni Mafraka, a thick, beaten, cohesive-textured porridge in light brown, glistening with a layer of ghee, with a metal spoon resting in it.",
-    "trap_reasoning": "Mafraka is defined by a thicker, more vigorously beaten texture and a browner tone from ghee, versus Harees's smoother, lighter beige porridge — asserting the thicker, browner texture is the one checkable difference, while the bowl, spoon, and oil sheen genuinely transfer between both."
+    "trap_reasoning": "Mafraka is defined by a thicker, more vigorously beaten texture and a browner tone from ghee, versus Harees's smoother, lighter beige porridge — asserting the thicker, browner texture is the one checkable difference, while the bowl, spoon, and oil sheen genuinely transfer between both.",
+    "question_yes_ar": "هل هذا الطبق هريس إماراتي؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق مفركة يمنية؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_yemen_03",
@@ -976,7 +1100,11 @@
     ],
     "misleading_caption_ar": "صورة مقربة لقطعة مثلثة من كنافة بعروق الشعرية المقرمشة، مغطاة بشراب عسل لامع، على خلفية بيضاء.",
     "misleading_caption_en": "A close-up photo of a triangular slice of crispy shredded-phyllo (kataifi) kunafa, glazed with a glossy honey syrup, on a white background.",
-    "trap_reasoning": "Kunafa's defining texture is fine shredded phyllo strands (kataifi), not stacked flaky layers; the true pastry is explicitly layered dough topped with nigella seeds — asserting the shredded-strand texture with no seeds is a direct, checkable contradiction."
+    "trap_reasoning": "Kunafa's defining texture is fine shredded phyllo strands (kataifi), not stacked flaky layers; the true pastry is explicitly layered dough topped with nigella seeds — asserting the shredded-strand texture with no seeds is a direct, checkable contradiction.",
+    "question_yes_ar": "هل هذا الطبق بنت الصحن؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق كنافة بالعسل؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_levantine_cuisine_01",
@@ -1006,7 +1134,11 @@
     ],
     "misleading_caption_ar": "صورة مقربة لطبق أسود يحتوي على معجون حمص بالفول كريمي القوام يميل للون البني الفاتح، عليه حبات فول كاملة وزيت زيتون وبقدونس مفروم وورقة نعناع خضراء ورشة من الفلفل الأحمر.",
     "misleading_caption_en": "A close-up photo of a black plate holding creamy, light-brown hummus mixed with fava beans, topped with whole fava beans, olive oil, chopped parsley, a green mint leaf, and a dusting of red chili powder.",
-    "trap_reasoning": "Kept the shared garnish elements (olive oil, parsley, mint, chili dusting) but swapped the plain chickpeas for whole fava beans and shifted the color toward light brown — foul's real, checkable visual markers versus plain hummus's beige tone and whole chickpea garnish."
+    "trap_reasoning": "Kept the shared garnish elements (olive oil, parsley, mint, chili dusting) but swapped the plain chickpeas for whole fava beans and shifted the color toward light brown — foul's real, checkable visual markers versus plain hummus's beige tone and whole chickpea garnish.",
+    "question_yes_ar": "هل هذا الطبق حمص بالطحينة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق حمص بالفول؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_levantine_cuisine_02",
@@ -1036,7 +1168,11 @@
     ],
     "misleading_caption_ar": "صورة تُظهر طبقًا من اللقيمات الخليجية الذهبية المقرمشة، وهي كرات العجين المقلية التقليدية التي تُقدَّم في موائد رمضان الخليجية مغموسة بالشراب السكري اللزج، إلى جانب كوب زجاجي شفاف.",
     "misleading_caption_en": "A photo of a plate of golden, crispy Gulf-style Luqaimat — the traditional fried dough balls served on Gulf Ramadan tables, dipped in sticky sugar syrup — beside a clear glass cup.",
-    "trap_reasoning": "Awameh and Luqaimat share the exact visible form (fried, syrup-coated dough balls); kept the shared visual anchors and added Gulf/Ramadan framing to sell the trap without any Levant-specific detail to leak."
+    "trap_reasoning": "Awameh and Luqaimat share the exact visible form (fried, syrup-coated dough balls); kept the shared visual anchors and added Gulf/Ramadan framing to sell the trap without any Levant-specific detail to leak.",
+    "question_yes_ar": "هل هذا الطبق عوامة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق لقيمات خليجية؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_levantine_cuisine_04",
@@ -1067,7 +1203,11 @@
     ],
     "misleading_caption_ar": "صورة لست كؤوس زجاجية صغيرة تحتوي على أشطة بيضاء كريمية القوام مغطاة بطبقة رقيقة من العسل، مزينة بفستق مطحون وبتلات ورد مجففة، مرتبة على صينية وردية بجانب زجاجة ماء ورد.",
     "misleading_caption_en": "A photo of six small glass cups holding creamy white ashta (clotted cream) topped with a thin layer of honey, garnished with crushed pistachios and dried rose petals, arranged on a pink tray beside a bottle of rose water.",
-    "trap_reasoning": "Ashta and mhalabia look nearly identical in small glass cups with the same rose/pistachio garnish; added the honey drizzle as the one concrete marker that distinguishes ashta's typical serving style from mhalabia's."
+    "trap_reasoning": "Ashta and mhalabia look nearly identical in small glass cups with the same rose/pistachio garnish; added the honey drizzle as the one concrete marker that distinguishes ashta's typical serving style from mhalabia's.",
+    "question_yes_ar": "هل هذا الطبق مهلبية بالفستق وماء الورد؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق أشطة بالعسل؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_levantine_cuisine_11",
@@ -1097,7 +1237,11 @@
     ],
     "misleading_caption_ar": "صورة لقطعتين من سمبوسة اللحم المقلية بيضاوية الشكل وبلون بني ذهبي، بجانبهما شرائح من الطماطم الطازجة وقطع من المخلل وصلصة بيضاء، مقدمة في طبق قصديري فضي مموج الحواف.",
     "misleading_caption_en": "A photo of two pieces of fried meat sambousek, oval-shaped and golden-brown, beside fresh tomato slices, pickle pieces, and white sauce, served on a wavy-edged silver tin tray.",
-    "trap_reasoning": "Fried kibbeh shells and fried meat sambousek share the same oval, golden-brown fried silhouette and are commonly served with the same mezze sides (tomato, pickles, white sauce) — genuinely easy to mistake without seeing the distinctive bulgur-shell texture or pointed kibbeh ends."
+    "trap_reasoning": "Fried kibbeh shells and fried meat sambousek share the same oval, golden-brown fried silhouette and are commonly served with the same mezze sides (tomato, pickles, white sauce) — genuinely easy to mistake without seeing the distinctive bulgur-shell texture or pointed kibbeh ends.",
+    "question_yes_ar": "هل هذا الطبق كبة مقلية بصلصة بيضاء؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق سمبوسة لحم مقلية؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_levantine_cuisine_12",
@@ -1128,7 +1272,11 @@
     ],
     "misleading_caption_ar": "صورة لقطعة نمورة بنية فاتحة اللون ذات قوام حبيبي كثيف من السميد، يظهر بداخلها حشو أبيض من القشطة، ومرشوشة من الأعلى بمسحوق الفستق الأخضر، على طبق أبيض بجانب ملعقة.",
     "misleading_caption_en": "A photo of a piece of Namoura in light brown with a dense, granular semolina texture, a white cream (ashta) filling visible inside, dusted with green pistachio powder on top, on a white plate beside a spoon.",
-    "trap_reasoning": "Namoura is a baked semolina cake with a dense, granular crumb; Mafrouka is a soft, finely whipped semolina-cream dessert — asserting a dense granular semolina texture is the one checkable difference, while the cream filling and green dusting genuinely transfer between both."
+    "trap_reasoning": "Namoura is a baked semolina cake with a dense, granular crumb; Mafrouka is a soft, finely whipped semolina-cream dessert — asserting a dense granular semolina texture is the one checkable difference, while the cream filling and green dusting genuinely transfer between both.",
+    "question_yes_ar": "هل هذا الطبق مفروكة (مدلوكة شامية)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق نمورة بالقشطة؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_levantine_cuisine_13",
@@ -1159,7 +1307,11 @@
     ],
     "misleading_caption_ar": "صورة لقطعة بسبوسة محشوة بالقشطة بشكل مربع أو معين مقطوع بانتظام بلون بني فاتح، محشوة بالقشطة البيضاء ومرشوشة ببودرة الفستق الأخضر في أعلاها، مقدمة في طبق بيضاوي أبيض ذي إطار بني مع ملعقة فضية بجانبها.",
     "misleading_caption_en": "A close-up photo of a piece of cream-stuffed Basbousa, cut into a regular square or diamond shape in light brown, filled with white cream and sprinkled with green pistachio powder on top, served on a white oval plate with a brown rim, with a silver spoon beside it.",
-    "trap_reasoning": "Basbousa's defining shape is a regular square or diamond-cut piece, not a dome; the true dessert is explicitly dome-shaped (Mafrouka's actual mounded presentation) — asserting the flat geometric cut is a direct, checkable structural contradiction, while the cream filling, pistachio dusting, and plate setup genuinely transfer between both."
+    "trap_reasoning": "Basbousa's defining shape is a regular square or diamond-cut piece, not a dome; the true dessert is explicitly dome-shaped (Mafrouka's actual mounded presentation) — asserting the flat geometric cut is a direct, checkable structural contradiction, while the cream filling, pistachio dusting, and plate setup genuinely transfer between both.",
+    "question_yes_ar": "هل هذا الطبق مفروكة (مدلوكة شامية)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق بسبوسة محشوة بالقشطة؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_447019_pierced_globe",
@@ -1189,7 +1341,11 @@
     ],
     "misleading_caption_ar": "صورة لقنديل مسجد نحاسي مثقوب بزخارف هندسية ونباتية دقيقة، تحيط بجسمه الكروي أشرطة أفقية من الكتابة العربية المنقوشة، وله حلقة معدنية معلقة في الأعلى تنتهي بكرة صغيرة تُستخدم لتعليقه من سقف المسجد، بلون نحاسي ذهبي مصقول يعكس الضوء من ثقوبه الصغيرة.",
     "misleading_caption_en": "A photo of a pierced brass mosque lamp (qandil) with fine geometric and vegetal decoration, its spherical body encircled by horizontal bands of engraved Arabic inscription, fitted with a metal ring at the top ending in a small ball used to suspend it from the mosque ceiling, in a polished golden-brass tone that lets light filter through its small perforations.",
-    "trap_reasoning": "Both are perforated brass spheres with a hanging ring and inscription bands; reassigned the ring's and perforations' function from incense/smoke to light/suspension without any burning-related language surviving."
+    "trap_reasoning": "Both are perforated brass spheres with a hanging ring and inscription bands; reassigned the ring's and perforations' function from incense/smoke to light/suspension without any burning-related language surviving.",
+    "question_yes_ar": "هل هذه القطعة مبخرة كروية مثقوبة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة قنديل نحاسي مثقوب؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_chewing_stick_in_use",
@@ -1219,7 +1375,11 @@
     ],
     "misleading_caption_ar": "صورة مقربة منخفضة الدقة لفم مفتوح تظهر فيه الأسنان الأمامية العلوية والسفلية، وبين الأسنان خلة أسنان خشبية صغيرة، ويحيط بالفم شعر وجه كثيف، والصورة عموماً ضبابية وقليلة التفاصيل بسبب صغر حجمها.",
     "misleading_caption_en": "A low-resolution close-up photo of an open mouth showing the upper and lower front teeth, with a small wooden toothpick held between them. Thick facial hair surrounds the mouth, and the overall image is blurry and low in detail due to its small size.",
-    "trap_reasoning": "Kept the exact framing (blurry low-res mouth close-up, facial hair, teeth) but replaced the true twig's explicitly frayed, brush-like tip with a plain wooden toothpick — the one concrete shape detail that actually distinguishes them, since the rest of the image is too blurry to tell more."
+    "trap_reasoning": "Kept the exact framing (blurry low-res mouth close-up, facial hair, teeth) but replaced the true twig's explicitly frayed, brush-like tip with a plain wooden toothpick — the one concrete shape detail that actually distinguishes them, since the rest of the image is too blurry to tell more.",
+    "question_yes_ar": "هل هذه القطعة عود مضغ لتنظيف الأسنان (أثناء الاستخدام)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة عود ثقاب أو خلة أسنان خشبية صغيرة؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_date_picking_basket",
@@ -1250,7 +1410,11 @@
     ],
     "misleading_caption_ar": "صورة لسلة تسوق يدوية دائرية ضحلة منسوجة من سعف نباتي بلون بيج فاتح، تتخللها زخرفة متعرجة داكنة اللون منسوجة داخل الهيكل، ولها حزامان مضفوران متعددا الألوان بدرجات الأزرق المخضر والأحمر الطيني معلقان من نقطتين متقابلتين على حافتها، تُستخدم لحمل مشتريات السوق.",
     "misleading_caption_en": "A photo of a round, shallow woven hand shopping basket in light beige plant fiber, with a dark zigzag pattern woven into its structure, and two multicolored braided straps in teal and rust tones hanging from two opposite points on its rim, used for carrying market purchases.",
-    "trap_reasoning": "The weave pattern and strap design transfer completely unchanged — a date-picking basket and a market shopping basket share the exact same regional handwoven construction, differing only in stated use."
+    "trap_reasoning": "The weave pattern and strap design transfer completely unchanged — a date-picking basket and a market shopping basket share the exact same regional handwoven construction, differing only in stated use.",
+    "question_yes_ar": "هل هذه القطعة مخرفة (سلة قطف التمر)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة سلة تسوق يدوية منسوجة؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_electronic_tasbih_counter",
@@ -1280,7 +1444,11 @@
     ],
     "misleading_caption_ar": "صورة لعداد جولف يدوي إصبعي بلاستيكي صغير بيضاوي الشكل بلون أزرق، تتوسطه شاشة رقمية صغيرة، ويوجد أسفلها زران دائريان، ومن الخلف شريط أبيض منحنٍ يلتف حول الإصبع، والجهاز مصور على خلفية بيضاء ساده.",
     "misleading_caption_en": "A photo of a small, oval-shaped blue plastic handheld golf-stroke tally counter with a small digital display at its center, two round buttons beneath it, and a curved white band on the back that wraps around a finger, photographed against a plain white background.",
-    "trap_reasoning": "The exact shared shape, digital display, and finger-band design transfer completely unchanged between an electronic tasbih and a golf tally counter — the two devices are functionally near-identical in form."
+    "trap_reasoning": "The exact shared shape, digital display, and finger-band design transfer completely unchanged between an electronic tasbih and a golf tally counter — the two devices are functionally near-identical in form.",
+    "question_yes_ar": "هل هذه القطعة سبحة إلكترونية (عداد تسبيح إصبعي)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة عداد جولف يدوي إصبعي؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_fanous_ramadan_lantern",
@@ -1311,7 +1479,11 @@
     ],
     "misleading_caption_ar": "صورة لقنديل مسجد نحاسي مثقوب داكن اللون ذي سقف مدبب مثقوب بزخارف هندسية دائرية، وحلقة تعليق كبيرة أعلى قمته تُستخدم لتعليقه من سقف المسجد، وجسم مستطيل ذو ألواح زجاجية شفافة غير ملونة، مضاء من الداخل بضوء ساطع.",
     "misleading_caption_en": "A photo of a pierced brass mosque lamp (qandil), dark-toned, with a pointed roof pierced with circular geometric cutwork, and a large hanging loop at its very top used to suspend it from the mosque ceiling, its rectangular body fitted with plain, clear (uncolored) glass panels, lit from within with a bright glow.",
-    "trap_reasoning": "A pierced brass mosque lamp is traditionally fitted with plain, clear glass panels and hung by a large loop from the ceiling; the true lantern explicitly has amber/teal-blue colored glass panels and rests on a stepped base — asserting clear glass and a hanging design is a genuine material and structural contradiction, not a nationality label."
+    "trap_reasoning": "A pierced brass mosque lamp is traditionally fitted with plain, clear glass panels and hung by a large loop from the ceiling; the true lantern explicitly has amber/teal-blue colored glass panels and rests on a stepped base — asserting clear glass and a hanging design is a genuine material and structural contradiction, not a nationality label.",
+    "question_yes_ar": "هل هذه القطعة فانوس رمضان؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة قنديل نحاسي مثقوب؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_mihmas_coffee_roaster",
@@ -1341,7 +1513,11 @@
     ],
     "misleading_caption_ar": "صورة علوية لرفش معدني صغير مخصص لتحريك جمر الموقد، ذي مقبض طويل رفيع ووعاء ضحل مقعر دائري الشكل عند طرفه، بلون رمادي داكن يميل للصدأ نتيجة التعرض المتكرر للحرارة، موضوع على سجادة أرضية بخطوط متموجة بجانب الموقد.",
     "misleading_caption_en": "An overhead photo of a small metal shovel used for tending fireplace embers, with a long thin handle and a shallow, round, concave scoop at its end, in a dark rust-tinged grey from repeated exposure to heat, resting on a wavy-striped floor rug beside the hearth.",
-    "trap_reasoning": "Pure structural/functional trap: a long-handled tool ending in a shallow concave scoop, confusable with a fireplace shovel; dropped the ring-and-chain and hinge (mihmas-specific features a shovel wouldn't have)."
+    "trap_reasoning": "Pure structural/functional trap: a long-handled tool ending in a shallow concave scoop, confusable with a fireplace shovel; dropped the ring-and-chain and hinge (mihmas-specific features a shovel wouldn't have).",
+    "question_yes_ar": "هل هذه القطعة محماس (مقلاة تحميص قهوة تقليدية)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة رفش صغير لجمر الموقد (أداة تحريك الفحم)؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_minbar_mosque_pulpit",
@@ -1372,7 +1548,11 @@
     ],
     "misleading_caption_ar": "صورة لدكة المبلغ الخشبية داكنة اللون على شكل منصة مرتفعة تُصعد إليها بدرج، تحيط بجانبي الدرج ألواح مائلة منقوشة بزخارف نباتية مطعمة بخطوط ذهبية، تقف في ركن قاعة ذات أرضية بلاط وجدران فاتحة اللون، تظهر خلفها نوافذ مقوسة بزجاج ملون.",
     "misleading_caption_en": "A photo of a dark wooden muezzin's platform (dikka), a raised platform reached by a staircase, flanked by slanted side panels carved with floral decoration inlaid with gold lines, standing in the corner of a hall with a tiled floor and light-colored walls, with arched stained-glass windows visible behind it.",
-    "trap_reasoning": "Kept the shared raised wooden staircase structure and carved gold-inlaid side panels, but dropped the conical canopy and metal finial — a dikka is an open platform, not topped with a minbar's canopy roof."
+    "trap_reasoning": "Kept the shared raised wooden staircase structure and carved gold-inlaid side panels, but dropped the conical canopy and metal finial — a dikka is an open platform, not topped with a minbar's canopy roof.",
+    "question_yes_ar": "هل هذه القطعة منبر مسجد؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة دكة المبلغ (منصة المؤذن الخشبية)؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_misbaha_wall_display",
@@ -1402,7 +1582,11 @@
     ],
     "misleading_caption_ar": "صورة لعدة عقود خرزية للزينة معلقة بخطافات معدنية على قضيب خشبي داكن يعلو جداراً أبيض، تتنوع ألوان الخرز بين البني الداكن والأسود والأخضر الفاتح شبه الشفاف، وتتدلى من بعضها خيوط زينة ملونة بدرجات الأحمر والأخضر والأصفر، وتُلقي العقود ظلالاً واضحة على الجدار خلفها.",
     "misleading_caption_en": "A photo of several decorative bead necklaces hanging from metal hooks on a dark wooden rail mounted on a white wall, the bead colors varying between dark brown, black, and pale, semi-translucent green, with some strands trailing decorative threads in red, green, and yellow, casting clear shadows on the wall behind them.",
-    "trap_reasoning": "The visual description transfers essentially unchanged — a wall display of bead necklaces looks identical to a wall display of misbaha strands, which is exactly the point of this trap."
+    "trap_reasoning": "The visual description transfers essentially unchanged — a wall display of bead necklaces looks identical to a wall display of misbaha strands, which is exactly the point of this trap.",
+    "question_yes_ar": "هل هذه القطعة مسابح (سبح) معلقة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة عقود خرزية للزينة معلقة للعرض؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_miswak_root",
@@ -1433,7 +1617,11 @@
     ],
     "misleading_caption_ar": "صورة لعود قرفة جاف بلون بني فاتح مائل للبيج، تتخلل قشرته الملساء بقع داكنة صغيرة متناثرة على طوله، ملفوف بشكل أسطواني صلب من طرفيه، على خلفية بيضاء فاتحة مصمتة.",
     "misleading_caption_en": "A photo of a dried cinnamon bark stick in light brown to beige, its smooth surface marked with small scattered dark spots along its length, rolled into a solid cylindrical shape at both ends, set against a plain light background.",
-    "trap_reasoning": "Cinnamon bark sticks are rolled into a solid cylindrical quill at both ends; the true twig has one end explicitly frayed into brush-like bristles (miswak's defining chewed tip) — asserting a solid rolled shape at both ends is a direct, checkable structural contradiction."
+    "trap_reasoning": "Cinnamon bark sticks are rolled into a solid cylindrical quill at both ends; the true twig has one end explicitly frayed into brush-like bristles (miswak's defining chewed tip) — asserting a solid rolled shape at both ends is a direct, checkable structural contradiction.",
+    "question_yes_ar": "هل هذه القطعة سواك (عود أراك)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة عود قرفة جافة (لحاء قرفة)؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_mughal_rose_water_sprinkler",
@@ -1464,7 +1652,11 @@
     ],
     "misleading_caption_ar": "لوحة توضيحية بالغواش تُظهر زجاجة عطر (دهن) معدنية صغيرة مطلية بالمينا، ذات قاعدة كروية منتفخة ترتكز على قدم صغيرة، وعنق قصير يضيق تدريجياً كلما اتجه لأعلى وينتهي بسدادة صغيرة متعددة الفصوص، ويغطي جسمها بالكامل زخارف نباتية متشابكة بدرجات الأخضر الداكن والأحمر القرمزي والأزرق على أرضية فاتحة، تفصلها إطارات مذهبة رفيعة.",
     "misleading_caption_en": "A gouache illustration of a small enameled metal attar/perfume bottle, with a bulbous, rounded base resting on a small foot, and a short neck that tapers gradually upward, ending in a small multi-lobed stopper. Its entire body is covered in interlacing floral decoration in deep green, crimson, and blue tones on a light ground, separated by thin gilt border lines.",
-    "trap_reasoning": "Kept the shared floral-enamel decoration but shortened the neck length — a perfume bottle's practical neck is much shorter than a sprinkler's, which needs the extra length to control the spray."
+    "trap_reasoning": "Kept the shared floral-enamel decoration but shortened the neck length — a perfume bottle's practical neck is much shorter than a sprinkler's, which needs the extra length to control the spray.",
+    "question_yes_ar": "هل هذه القطعة قمقم ماء ورد؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة زجاجة عطر (دهن) مطلية بالمينا؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_pearl_diving_basket",
@@ -1495,7 +1687,11 @@
     ],
     "misleading_caption_ar": "صورة لسلة صيد يدوية شبكية صغيرة دائرية ذات إطار خشبي رفيع وجسم شبكي أبيض منسوج، تمسكها يد بشرية من حبل سميك مضفور أبيض معلق من نقطتين على حافتها، وتحتوي في قاعها على مجموعة من الأسماك الصغيرة، وتظهر في الخلفية حصيرة منسوجة وحبال ملتفة وحجر.",
     "misleading_caption_en": "A photo of a small round handheld mesh fishing basket with a thin wooden rim and a white woven mesh body, held up by a human hand via a thick white braided rope handle attached at two points on the rim. Its base holds a cluster of small fish, with a woven mat, coiled ropes, and a stone visible in the background.",
-    "trap_reasoning": "Kept the exact shared basket structure (mesh body, wooden rim, braided rope handle) and only swapped the catch inside from oyster shells to small fish — the one detail that actually distinguishes a fishing basket's typical contents from a pearl-diving basket's."
+    "trap_reasoning": "Kept the exact shared basket structure (mesh body, wooden rim, braided rope handle) and only swapped the catch inside from oyster shells to small fish — the one detail that actually distinguishes a fishing basket's typical contents from a pearl-diving basket's.",
+    "question_yes_ar": "هل هذه القطعة قفير (ديين) غوص اللؤلؤ؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة سلة صيد يدوية شبكية (لجمع الأسماك الصغيرة)؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_qanun_zither",
@@ -1526,7 +1722,11 @@
     ],
     "misleading_caption_ar": "صورة لآلة السنطور، وهي آلة إيقاعية وترية مسطحة ذات هيكل خشبي شبه منحرف كبير، تمتد فوق سطحه خيوط معدنية موازية مشدودة تُعزف بواسطة مطرقتين خشبيتين صغيرتين، وتتوسط سطحه فتحات بيضاوية مزخرفة بشبك معدني مثقوب، مع إطار خشبي داكن محلى بخطوط تطعيم فاتحة.",
     "misleading_caption_en": "A photo of a santur, a flat hammered box zither with a large trapezoid-shaped wooden body, parallel taut metal strings stretched across its surface played by striking with two small wooden mallets, oval openings decorated with pierced metal grilles at its center, and a dark wooden frame trimmed with light inlay lines.",
-    "trap_reasoning": "Kept the shared trapezoid box-zither shape but reassigned the playing technique to striking with mallets (santur's real defining trait vs. qanun's plucking) — a genuine structural/technique marker, no nationality involved. Dropped the row of tuning pegs (qanun-specific) to avoid an internal contradiction."
+    "trap_reasoning": "Kept the shared trapezoid box-zither shape but reassigned the playing technique to striking with mallets (santur's real defining trait vs. qanun's plucking) — a genuine structural/technique marker, no nationality involved. Dropped the row of tuning pegs (qanun-specific) to avoid an internal contradiction.",
+    "question_yes_ar": "هل هذه القطعة قانون (آلة وترية)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة سنطور (آلة إيقاعية وترية مسطحة)؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_rebaba_spike_fiddle",
@@ -1557,7 +1757,11 @@
     ],
     "misleading_caption_ar": "صورة لصندوق مستطيل مسطح مغطى بجلد بلون بيج فاتح، تحيط بحوافه مسامير معدنية داكنة صغيرة متلاصقة، ويمتد منه عمود خشبي طويل يُمسك باليد أثناء العزف بالقوس، والقطعة موضوعة على سطح أخضر باهت، ويظهر بجانبها بشكل منفصل قوس خشبي منحنٍ مشدود بخيط واحد رفيع، وهو كمان بدائي الصنع من مواد بسيطة.",
     "misleading_caption_en": "A photo of a flat rectangular box covered in light beige animal skin, its edges lined with small, closely-spaced dark metal studs, with a long wooden pole extending from it held by hand while bowing, resting on a pale green surface, with a separate curved wooden bow strung with a single thin string visible beside it — a crude, handmade violin fashioned from simple materials.",
-    "trap_reasoning": "Both are a skin-covered box resonator with a long wooden neck played with a single-string bow; dropped the spiral-carved neck and scroll tip — rebaba-specific ornamental details a 'crude handmade' violin wouldn't have."
+    "trap_reasoning": "Both are a skin-covered box resonator with a long wooden neck played with a single-string bow; dropped the spiral-carved neck and scroll tip — rebaba-specific ornamental details a 'crude handmade' violin wouldn't have.",
+    "question_yes_ar": "هل هذه القطعة ربابة (آلة وترية بدوية)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة كمان بدائي الصنع بصندوق جلدي؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_rehal_quran_stand",
@@ -1588,7 +1792,11 @@
     ],
     "misleading_caption_ar": "صورة لحامل خشبي قابل للطي بشكل حرف Xإنجليزي مخصص لوضع الأواني الساخنة، يتكون من لوحين مسطحين متطابقين محفورين بزخرفة مثقوبة على هيئة أشكال هندسية متشابكة تسمح بتهوية القدر الساخن، ويلتقي اللوحان عند مفصل مركزي، ويقف الحامل مفتوحاً على سطح طاولة فاتح اللون.",
     "misleading_caption_en": "A photo of a folding wooden X-shaped trivet stand for holding hot dishes, made of two matching flat panels carved with pierced decoration in interlocking geometric shapes that let heat vent from the hot pot, meeting at a central hinge, set open on a light-colored tabletop.",
-    "trap_reasoning": "Kept the exact shared X-frame folding structure and pierced geometric carving, only reassigning its purpose — venting heat from a hot dish rather than supporting an open book — since both functions plausibly explain the same pierced X-frame shape."
+    "trap_reasoning": "Kept the exact shared X-frame folding structure and pierced geometric carving, only reassigning its purpose — venting heat from a hot dish rather than supporting an open book — since both functions plausibly explain the same pierced X-frame shape.",
+    "question_yes_ar": "هل هذه القطعة رحلة (حامل كتاب قابل للطي)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة حامل أواني ساخنة خشبي قابل للطي؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_striped_ceramic_teapot",
@@ -1619,7 +1827,11 @@
     ],
     "misleading_caption_ar": "صورة لدلة قهوة عربية نحاسية، ذات جسم مستدير بلون نحاسي ذهبي، لها فوهة صب طويلة مستقيمة مدببة ومقبض مقوس، وغطاء علوي مخروطي ينتهي بمقبض صغير، مصورة على خلفية بيضاء ساده.",
     "misleading_caption_en": "A photo of an Arabic brass coffee pot (dallah), with a round golden-brass body, a long, straight, tapering pouring spout and a curved handle, and a conical lid ending in a small knob, photographed against a plain white background.",
-    "trap_reasoning": "Asserted the dallah's real defining traits — brass material and a long straight tapering spout — directly contradicting the true pot's stated ceramic material and curved C-shaped handle; a genuine material/shape contradiction, not a bare style label."
+    "trap_reasoning": "Asserted the dallah's real defining traits — brass material and a long straight tapering spout — directly contradicting the true pot's stated ceramic material and curved C-shaped handle; a genuine material/shape contradiction, not a bare style label.",
+    "question_yes_ar": "هل هذه القطعة إبريق شاي خزفي مخطط؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة دلة قهوة عربية نحاسية؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_tasat_ashifa_bowl",
@@ -1649,7 +1861,11 @@
     ],
     "misleading_caption_ar": "صورة علوية لطست غسيل يدين نحاسي منقوش، وعاء معدني ضحل دائري الشكل بلون فضي لامع، تغطي سطحه بالكامل حلقات متحدة المركز من الزخرفة الغائرة الدقيقة، وفي منتصفه مدلاة دائرية مرتفعة قليلاً منقوشة بخط بارز، وحافته مؤطرة بحلقة معدنية بارزة.",
     "misleading_caption_en": "An overhead photo of an engraved brass hand-washing basin, a shallow, round, shiny silver-toned metal bowl. Its entire surface is covered in concentric rings of fine engraved decoration, with a slightly raised circular medallion at the center bearing bold engraved script, and its rim is framed by a raised metal ring.",
-    "trap_reasoning": "The visual description transfers completely unchanged — an engraved hand-washing basin and a healing bowl are structurally identical objects, distinguished only by claimed use, which is exactly the point of this trap."
+    "trap_reasoning": "The visual description transfers completely unchanged — an engraved hand-washing basin and a healing bowl are structurally identical objects, distinguished only by claimed use, which is exactly the point of this trap.",
+    "question_yes_ar": "هل هذه القطعة طاسة الشفاء؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة طست غسيل يدين نحاسي منقوش؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_white_tasbih_pearl",
@@ -1679,7 +1895,11 @@
     ],
     "misleading_caption_ar": "صورة لعقد نسائي من الخرز الدائري بلون أبيض لؤلؤي للزينة، تتخلله في نقطتين حبات صغيرة داكنة اللون بلون كحلي، وتتدلى من أحد طرفيه زخرفة فضية معدنية مزخرفة بسلاسل رفيعة متشابكة، والعقد ملفوف بشكل مزدوج على خلفية سوداء داكنة.",
     "misleading_caption_en": "A photo of a women's decorative pearl-white necklace made of round beads, interspersed at two points with small dark navy-blue beads, with an ornate dangling silver metal decoration made of thin interlocking chains hanging from one end, looped in a double coil against a dark black background.",
-    "trap_reasoning": "The bead color, accent beads, and dangling chain decoration transfer unchanged — a decorative pearl necklace and a pearlescent tasbih strand are visually near-indistinguishable in this framing."
+    "trap_reasoning": "The bead color, accent beads, and dangling chain decoration transfer unchanged — a decorative pearl necklace and a pearlescent tasbih strand are visually near-indistinguishable in this framing.",
+    "question_yes_ar": "هل هذه القطعة سبحة بيضاء لؤلؤية؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة عقد لؤلؤ نسائي للزينة؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -1710,7 +1930,11 @@
     "caption_en": "A photo of a wall art piece in purple Arabic script on a light gray background, with interlocking letters ending in long curving tail strokes.",
     "misleading_caption_ar": "صورة للوحة جدارية بخط الثلث على خلفية رمادية فاتحة، بحروف طويلة شاهقة منفصلة بوضوح، وذيول منحنية بارزة تمتد أفقياً.",
     "misleading_caption_en": "A photo of a wall art piece in Thuluth script on a light gray background, with tall, soaring letters clearly separated from one another, and prominent curving tails extending horizontally.",
-    "trap_reasoning": "Asserted Thuluth's real defining trait — tall, clearly separated letters — against the true panel's actual stated interlocking letters (Diwani's signature). Avoided naming an ink color since this record has the same ar/en color-mismatch bug already flagged for nastaliq_nas19/ruqah_ruq53 (gold vs. purple here)."
+    "trap_reasoning": "Asserted Thuluth's real defining trait — tall, clearly separated letters — against the true panel's actual stated interlocking letters (Diwani's signature). Avoided naming an ink color since this record has the same ar/en color-mismatch bug already flagged for nastaliq_nas19/ruqah_ruq53 (gold vs. purple here).",
+    "question_yes_ar": "هل هذا الخط خط ديواني؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط الثلث؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -1741,7 +1965,11 @@
     "caption_en": "A photo of a wall art piece in gold Arabic script on a dark background, with dense, overlapping letters that curve and interlock.",
     "misleading_caption_ar": "صورة للوحة جدارية بخط الثلث الذهبي على خلفية داكنة، بحروف طويلة شاهقة منفصلة بوضوح، وذيول منحنية بارزة تمتد أفقياً.",
     "misleading_caption_en": "A photo of a wall art piece in gold Thuluth script on a dark background, with tall, soaring letters clearly separated, and prominent curving tails extending horizontally.",
-    "trap_reasoning": "Asserted Thuluth's real defining trait — tall, clearly separated letters — against the true panel's actual stated dense, overlapping, interlocking letters (Diwani's signature)."
+    "trap_reasoning": "Asserted Thuluth's real defining trait — tall, clearly separated letters — against the true panel's actual stated dense, overlapping, interlocking letters (Diwani's signature).",
+    "question_yes_ar": "هل هذا الخط خط ديواني؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط الثلث؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -1772,7 +2000,11 @@
     "caption_en": "A photo of an Arabic phrase carved or cut into a light wooden panel, with rounded, overlapping letters and no clear separation between words.",
     "misleading_caption_ar": "صورة لعبارة عربية منحوتة على لوح خشبي فاتح بخط الثلث، بحروف طويلة شاهقة منفصلة بوضوح عن بعضها، وذيول منحنية بارزة تمتد أفقياً.",
     "misleading_caption_en": "A photo of an Arabic phrase carved into a light wooden panel in Thuluth script, with tall, soaring letters clearly separated from one another, and prominent curving tails extending horizontally.",
-    "trap_reasoning": "Asserted Thuluth's real defining trait — tall, clearly separated letters — directly opposite the true panel's stated overlapping letters with no clear word separation (Diwani's actual signature)."
+    "trap_reasoning": "Asserted Thuluth's real defining trait — tall, clearly separated letters — directly opposite the true panel's stated overlapping letters with no clear word separation (Diwani's actual signature).",
+    "question_yes_ar": "هل هذا الخط خط ديواني؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط الثلث؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -1803,7 +2035,11 @@
     "caption_en": "A photo of an Arabic phrase written in black ink on light paper, with flowing letters and interlocking loops, lacking a fixed horizontal baseline.",
     "misleading_caption_ar": "صورة لعبارة عربية مكتوبة بحبر أسود على ورق فاتح بخط الثلث، بحروف طويلة شاهقة منفصلة بوضوح، وذيول منحنية بارزة تمتد أفقياً.",
     "misleading_caption_en": "A photo of an Arabic phrase written in black ink on light paper in Thuluth script, with tall, soaring, clearly separated letters, and prominent curving tails extending horizontally.",
-    "trap_reasoning": "Asserted Thuluth's real defining trait — tall, clearly separated letters — directly opposite the true panel's stated flowing, interlocking loops with no fixed baseline (Diwani's actual signature)."
+    "trap_reasoning": "Asserted Thuluth's real defining trait — tall, clearly separated letters — directly opposite the true panel's stated flowing, interlocking loops with no fixed baseline (Diwani's actual signature).",
+    "question_yes_ar": "هل هذا الخط خط ديواني؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط الثلث؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -1834,7 +2070,11 @@
     "caption_en": "A photo of an Arabic phrase engraved on a round metal plaque, with curved, interlocking letters surrounded by a gilded rim.",
     "misleading_caption_ar": "صورة لعبارة عربية منقوشة بخط الثلث على لوحة معدنية دائرية، بحروف طويلة شاهقة منفصلة بوضوح، محاطة بإطار مذهب.",
     "misleading_caption_en": "A photo of an Arabic phrase engraved in Thuluth script on a round metal plaque, with tall, soaring letters clearly separated, surrounded by a gilded rim.",
-    "trap_reasoning": "Kept the shared round plaque and gilded rim, but replaced Diwani's real curved interlocking letters with Thuluth's tall, clearly separated signature."
+    "trap_reasoning": "Kept the shared round plaque and gilded rim, but replaced Diwani's real curved interlocking letters with Thuluth's tall, clearly separated signature.",
+    "question_yes_ar": "هل هذا الخط خط ديواني؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط الثلث؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -1865,7 +2105,11 @@
     "caption_en": "A photo of a printed book page in classic, clear Arabic script, with evenly sized letters arranged in regular horizontal lines.",
     "misleading_caption_ar": "صورة لصفحة كتاب مطبوعة بخط الرقعة، بحروف صغيرة مدمجة وخطوط مختصرة مرتبة في أسطر أفقية.",
     "misleading_caption_en": "A photo of a printed book page in Ruq'ah script, with small, compact letters and abbreviated strokes arranged in horizontal lines.",
-    "trap_reasoning": "Dropped Naskh's real classic clarity and even letter sizing and asserted Ruq'ah's compact, abbreviated-stroke signature instead."
+    "trap_reasoning": "Dropped Naskh's real classic clarity and even letter sizing and asserted Ruq'ah's compact, abbreviated-stroke signature instead.",
+    "question_yes_ar": "هل هذا الخط خط النسخ؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط الرقعة؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -1896,7 +2140,11 @@
     "caption_en": "A photo of Arabic text in medium-sized black script written on a sign or poster, with rounded, evenly spaced letters.",
     "misleading_caption_ar": "صورة لنص عربي بخط الرقعة متوسط الحجم مكتوب على لافتة أو ملصق، بحروف مدمجة صغيرة وخطوط مختصرة سريعة الكتابة.",
     "misleading_caption_en": "A photo of Arabic text in medium-sized Ruq'ah script written on a sign or poster, with small compact letters and quick, abbreviated strokes.",
-    "trap_reasoning": "Kept the shared sign/poster framing, but replaced Naskh's rounded, evenly spaced letterforms with Ruq'ah's real compact, quickly-written signature."
+    "trap_reasoning": "Kept the shared sign/poster framing, but replaced Naskh's rounded, evenly spaced letterforms with Ruq'ah's real compact, quickly-written signature.",
+    "question_yes_ar": "هل هذا الخط خط النسخ؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط الرقعة؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -1927,7 +2175,11 @@
     "caption_en": "A photo of a card or sign printed in simple black Arabic script, with rounded letters sitting steadily on a single horizontal line.",
     "misleading_caption_ar": "صورة لبطاقة أو لافتة مكتوبة بخط الرقعة، بحروف صغيرة مدمجة وخطوط مختصرة غير مزخرفة.",
     "misleading_caption_en": "A photo of a card or sign written in Ruq'ah script, with small, compact letters and unadorned, abbreviated strokes.",
-    "trap_reasoning": "Dropped the true image's stated 'sitting steadily on a single horizontal line' (Naskh's defining baseline trait) and asserted Ruq'ah's real compact, abbreviated-stroke signature instead."
+    "trap_reasoning": "Dropped the true image's stated 'sitting steadily on a single horizontal line' (Naskh's defining baseline trait) and asserted Ruq'ah's real compact, abbreviated-stroke signature instead.",
+    "question_yes_ar": "هل هذا الخط خط النسخ؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط الرقعة؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -1958,7 +2210,11 @@
     "caption_en": "A photo of a religious manuscript page in regular black Arabic script, surrounded by small colored marginal ornaments.",
     "misleading_caption_ar": "صورة لصفحة مخطوطة بخط الرقعة بحروف مدمجة سريعة الكتابة، محاطة بحركات.",
     "misleading_caption_en": "A photo of a manuscript page in Ruq'ah script with compact, quickly-written letters, surrounded by small colored marginal ornaments.",
-    "trap_reasoning": "Kept the shared manuscript framing and marginal ornaments, but replaced Naskh's regular formal letterforms with Ruq'ah's real compact, quick-written signature."
+    "trap_reasoning": "Kept the shared manuscript framing and marginal ornaments, but replaced Naskh's regular formal letterforms with Ruq'ah's real compact, quick-written signature.",
+    "question_yes_ar": "هل هذا الخط خط النسخ؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط الرقعة؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -1989,7 +2245,11 @@
     "caption_en": "A photo of an old manuscript page in regular Arabic script within a gold floral border, with clearly shaped letters sitting on a straight line.",
     "misleading_caption_ar": "صورة لمخطوطة قديمة بخط الرقعة على ورق مزخرف بإطار ذهبي ونباتي، بحروف صغيرة مدمجة وخطوط مختصرة.",
     "misleading_caption_en": "A photo of an old manuscript page in Ruq'ah script within a gold floral border, with small, compact letters and abbreviated strokes.",
-    "trap_reasoning": "Kept the shared gold floral border framing, but replaced Naskh's clearly shaped letters sitting on a straight line with Ruq'ah's real compact, abbreviated-stroke signature."
+    "trap_reasoning": "Kept the shared gold floral border framing, but replaced Naskh's clearly shaped letters sitting on a straight line with Ruq'ah's real compact, abbreviated-stroke signature.",
+    "question_yes_ar": "هل هذا الخط خط النسخ؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط الرقعة؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2020,7 +2280,11 @@
     "caption_en": "A photo of a sheet of paper with Arabic text in simple black handwriting, relatively regular small letters and short straight connecting strokes.",
     "misleading_caption_ar": "صورة لورقة مكتوب عليها نص عربي بخط النسخ الأسود، بحروف مستديرة متصلة بعناية وواضحة المعالم تجلس على خط أساس ثابت.",
     "misleading_caption_en": "A photo of a sheet of paper with Arabic text in black Naskh script, with carefully connected, clearly rounded letters sitting on a fixed baseline.",
-    "trap_reasoning": "Asserted Naskh's real formal, carefully rounded letterforms against the true page's stated simple handwriting with short straight connecting strokes (Ruq'ah's signature)."
+    "trap_reasoning": "Asserted Naskh's real formal, carefully rounded letterforms against the true page's stated simple handwriting with short straight connecting strokes (Ruq'ah's signature).",
+    "question_yes_ar": "هل هذا الخط خط الرقعة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط النسخ؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2051,7 +2315,11 @@
     "caption_en": "A photo of a small card with Arabic text handwritten in simple, clear script without additional decoration, with compact-sized letters.",
     "misleading_caption_ar": "صورة لبطاقة صغيرة مكتوب عليها نص عربي بخط النسخ، بحروف مستديرة متصلة وواضحة تجلس على خط أساس ثابت.",
     "misleading_caption_en": "A photo of a small card with Arabic text written in Naskh script, with clear, rounded, connected letters sitting on a fixed baseline.",
-    "trap_reasoning": "Asserted Naskh's real defining trait — connected letters on a fixed baseline — against the true card's plain, compact handwriting; a subtler contrast than the other Naskh/Ruq'ah pairs since this particular Ruq'ah sample is already fairly neat, so the baseline claim is the one concrete checkable difference."
+    "trap_reasoning": "Asserted Naskh's real defining trait — connected letters on a fixed baseline — against the true card's plain, compact handwriting; a subtler contrast than the other Naskh/Ruq'ah pairs since this particular Ruq'ah sample is already fairly neat, so the baseline claim is the one concrete checkable difference.",
+    "question_yes_ar": "هل هذا الخط خط الرقعة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط النسخ؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2082,7 +2350,11 @@
     "caption_en": "A photo of a whiteboard with Arabic text in ordinary handwriting using a black marker, small letters and short connecting strokes.",
     "misleading_caption_ar": "صورة للوحة بيضاء مكتوب عليها نص عربي بخط النسخ بقلم ماركر أسود، بحروف مستديرة متصلة وواضحة تجلس على خط أساس ثابت.",
     "misleading_caption_en": "A photo of a whiteboard with Arabic text in Naskh script using a black marker, with clear, rounded, connected letters sitting on a fixed baseline.",
-    "trap_reasoning": "Asserted Naskh's real connected, baseline-anchored letterforms against the true whiteboard's stated ordinary handwriting with short connecting strokes (Ruq'ah's actual style)."
+    "trap_reasoning": "Asserted Naskh's real connected, baseline-anchored letterforms against the true whiteboard's stated ordinary handwriting with short connecting strokes (Ruq'ah's actual style).",
+    "question_yes_ar": "هل هذا الخط خط الرقعة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط النسخ؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2113,7 +2385,11 @@
     "caption_en": "A photo of a small sticker with Arabic text in simple everyday handwriting, small letters with no loops or additional decoration.",
     "misleading_caption_ar": "صورة لملصق صغير مكتوب عليه نص عربي بخط النسخ، بحروف مستديرة متصلة وواضحة تجلس على خط أساس ثابت.",
     "misleading_caption_en": "A photo of a small sticker with Arabic text in Naskh script, with clear, rounded, connected letters sitting on a fixed baseline.",
-    "trap_reasoning": "Asserted Naskh's real connected, baseline-anchored letterforms against the true sticker's stated simple everyday handwriting with no loops (Ruq'ah's actual style)."
+    "trap_reasoning": "Asserted Naskh's real connected, baseline-anchored letterforms against the true sticker's stated simple everyday handwriting with no loops (Ruq'ah's actual style).",
+    "question_yes_ar": "هل هذا الخط خط الرقعة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط النسخ؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2144,7 +2420,11 @@
     "caption_en": "A photo of a white sheet of paper with Arabic text handwritten in simple black marker, small letters with short, straight connecting strokes and no ornamentation.",
     "misleading_caption_ar": "صورة لورقة بيضاء مكتوب عليها نص عربي بخط النسخ، بحروف مستديرة متصلة وواضحة تجلس على خط أساس ثابت، وهو الخط المعروف باستخدامه في الطباعة والنصوص الرسمية لسهولة قراءته.",
     "misleading_caption_en": "A photo of a white sheet of paper with Arabic text written in Naskh script, with clear, rounded, connected letters sitting on a fixed baseline — the script widely used in print and formal texts for its legibility.",
-    "trap_reasoning": "Naskh's defining formal, rounded, baseline-anchored letterforms are the direct opposite of the image's actual informal marker-pen scrawl (Ruq'ah) — a checkable letterform contradiction, verified against the same script reference used for the kuf12/kuf69 pair."
+    "trap_reasoning": "Naskh's defining formal, rounded, baseline-anchored letterforms are the direct opposite of the image's actual informal marker-pen scrawl (Ruq'ah) — a checkable letterform contradiction, verified against the same script reference used for the kuf12/kuf69 pair.",
+    "question_yes_ar": "هل هذا الخط خط الرقعة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط النسخ؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2175,7 +2455,11 @@
     "caption_en": "A photo of an artistic panel in large dark green Arabic script, surrounded by repeating gold floral ornamentation along the edges.",
     "misleading_caption_ar": "صورة للوحة فنية بخط ديواني أخضر داكن كبير الحجم، بحروف مستديرة متشابكة بكثافة دون خط أساس ثابت، تحيط به زخارف نباتية ذهبية متكررة على طول الحواف.",
     "misleading_caption_en": "A photo of an artistic panel in large dark green Diwani script, with densely interwoven rounded letters and no fixed baseline, surrounded by repeating gold floral ornamentation along the edges.",
-    "trap_reasoning": "Kept the shared dark green color and gold floral border framing, but asserted Diwani's real dense-interlacing, no-baseline trait against the true panel's actual large, separated Thuluth letterforms."
+    "trap_reasoning": "Kept the shared dark green color and gold floral border framing, but asserted Diwani's real dense-interlacing, no-baseline trait against the true panel's actual large, separated Thuluth letterforms.",
+    "question_yes_ar": "هل هذا الخط خط الثلث؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط ديواني؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2206,7 +2490,11 @@
     "caption_en": "A photo of an artistic panel in large purple Arabic script on a white background, with tall rising letters ending in fine curving tails.",
     "misleading_caption_ar": "صورة للوحة فنية بخط ديواني بنفسجي كبير الحجم على خلفية بيضاء، بحروف مستديرة متشابكة بكثافة تملأ الفراغ بين الكلمات دون خط أساس ثابت.",
     "misleading_caption_en": "A photo of an artistic panel in large purple Diwani script on a white background, with densely interwoven rounded letters filling the space between words with no fixed baseline.",
-    "trap_reasoning": "Kept the shared purple-on-white color scheme, but asserted Diwani's real dense-interlacing, no-baseline trait against the true panel's actual stated tall rising letters with fine curving tails (Thuluth's signature)."
+    "trap_reasoning": "Kept the shared purple-on-white color scheme, but asserted Diwani's real dense-interlacing, no-baseline trait against the true panel's actual stated tall rising letters with fine curving tails (Thuluth's signature).",
+    "question_yes_ar": "هل هذا الخط خط الثلث؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط ديواني؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2237,7 +2525,11 @@
     "caption_en": "A photo of a carved metal plaque in raised Arabic script, with vertically extended letters and clearly curving lower tails.",
     "misleading_caption_ar": "صورة للوحة معدنية منحوتة بخط ديواني بارز الحروف، بحروف مستديرة متشابكة بكثافة تملأ الفراغ بين الكلمات دون خط أساس ثابت.",
     "misleading_caption_en": "A photo of a carved metal plaque in raised Diwani script, with densely interwoven rounded letters filling the space between words with no fixed baseline.",
-    "trap_reasoning": "Asserted Diwani's real dense-interlacing, no-baseline trait directly against the true plaque's stated vertically extended letters with curving lower tails (Thuluth's actual signature)."
+    "trap_reasoning": "Asserted Diwani's real dense-interlacing, no-baseline trait directly against the true plaque's stated vertically extended letters with curving lower tails (Thuluth's actual signature).",
+    "question_yes_ar": "هل هذا الخط خط الثلث؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط ديواني؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2268,7 +2560,11 @@
     "caption_en": "A photo of a gilded manuscript with bold black Arabic script in the center of the page, surrounded by a multicolored decorative border.",
     "misleading_caption_ar": "صورة لمخطوطة مذهبة بخط ديواني أسود بارز في وسط الصفحة، بحروف مستديرة متشابكة بكثافة دون خط أساس ثابت، محاطة بإطار زخرفي.",
     "misleading_caption_en": "A photo of a gilded manuscript in bold black Diwani script in the center of the page, with densely interwoven rounded letters and no fixed baseline, surrounded by a multicolored decorative border.",
-    "trap_reasoning": "Kept the shared gilded manuscript and decorative border framing, but asserted Diwani's real dense-interlacing, no-baseline trait against the true page's actual bold, presumably more separated Thuluth letterforms."
+    "trap_reasoning": "Kept the shared gilded manuscript and decorative border framing, but asserted Diwani's real dense-interlacing, no-baseline trait against the true page's actual bold, presumably more separated Thuluth letterforms.",
+    "question_yes_ar": "هل هذا الخط خط الثلث؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط ديواني؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2299,6 +2595,10 @@
     "caption_en": "A photo of an artistic panel in large gold Arabic script on a dark background, with tall rising letters and horizontally extended curving tails.",
     "misleading_caption_ar": "صورة للوحة فنية بخط ديواني ذهبي كبير الحجم على خلفية داكنة، بحروف مستديرة متشابكة بكثافة دون خط أساس ثابت، تمنحها طابعاً زخرفياً كثيفاً.",
     "misleading_caption_en": "A photo of an artistic panel in large gold Diwani script on a dark background, with densely interwoven rounded letters and no fixed baseline, giving it a densely ornamental character.",
-    "trap_reasoning": "Swapped Thuluth's real defining trait (tall rising letters, horizontal curving tails) for Diwani's real defining trait (dense interlacing, no baseline) so the claim stays self-consistent and checkable."
+    "trap_reasoning": "Swapped Thuluth's real defining trait (tall rising letters, horizontal curving tails) for Diwani's real defining trait (dense interlacing, no baseline) so the claim stays self-consistent and checkable.",
+    "question_yes_ar": "هل هذا الخط خط الثلث؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط ديواني؟",
+    "answer_no": "لا"
   }
 ]

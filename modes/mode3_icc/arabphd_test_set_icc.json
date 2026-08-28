@@ -28,7 +28,11 @@
     "caption_en": "A photo of a tall, tapering glass skyscraper ending in a point, topped by a large golden spherical structure, with light haze or dust softening the sky around it.",
     "misleading_caption_ar": "صورة لبرج المملكة الزجاجي الأزرق الشاهق، ينتهي من الأعلى بفتحة مقوسة كبيرة على شكل حرف V مقلوب، بلا أي هيكل كروي في القمة، تحت سماء زرقاء صافية.",
     "misleading_caption_en": "A photo of the tall blue glass Kingdom Tower, ending at the top in a large inverted-V-shaped arched opening, with no spherical structure at its peak at all, under a clear blue sky.",
-    "trap_reasoning": "Kingdom Tower's real, sourced defining feature — the large inverted-arch opening — directly replaces the true tower's stated golden spherical cap (Al Faisaliah's actual signature), a concrete architectural contradiction between two well-known, easily distinguished Riyadh towers."
+    "trap_reasoning": "Kingdom Tower's real, sourced defining feature — the large inverted-arch opening — directly replaces the true tower's stated golden spherical cap (Al Faisaliah's actual signature), a concrete architectural contradiction between two well-known, easily distinguished Riyadh towers.",
+    "question_yes_ar": "هل هذا المبنى برج الفيصلية؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى برج المملكة؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -59,7 +63,11 @@
     "caption_en": "A photo of a mudbrick fort with thick sand-colored walls, topped by two cylindrical towers with triangular serrated battlements, small repeating rectangular openings across the walls, surrounded by green trees with a green flag flying nearby under a clear sky.",
     "misleading_caption_ar": "صورة لقصر المربع التاريخي بالرياض، أحد أشهر القصور الطينية التي شيدها الملك عبدالعزيز في مطلع القرن العشرين، بجدرانه السميكة بلون التربة الرملية وأروقته المقنطرة المحيطة بفناء داخلي واسع، تحيط به أشجار خضراء ويرفرف بالقرب منه علم أخضر تحت سماء صافية.",
     "misleading_caption_en": "A photo of the historic Qasr Al Murabba in Riyadh, one of the best-known mudbrick palaces built by King Abdulaziz in the early twentieth century, with its thick sand-colored walls and arcaded colonnades surrounding a wide inner courtyard, surrounded by green trees with a green flag flying nearby under a clear sky.",
-    "trap_reasoning": "Al Masmak (a pre-existing fort King Abdulaziz captured) and Qasr Al Murabba (a palace he later built) are two distinct, non-nested, differently-dated buildings; dropped the cylindrical towers/battlements (Masmak's defining silhouette) and asserted Murabba's real defining feature (arcaded courtyard) instead."
+    "trap_reasoning": "Al Masmak (a pre-existing fort King Abdulaziz captured) and Qasr Al Murabba (a palace he later built) are two distinct, non-nested, differently-dated buildings; dropped the cylindrical towers/battlements (Masmak's defining silhouette) and asserted Murabba's real defining feature (arcaded courtyard) instead.",
+    "question_yes_ar": "هل هذا المبنى قصر المصمك؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى قصر المربع التاريخي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -90,7 +98,11 @@
     "caption_en": "A close-up photo of a corner of the mudbrick fort, showing a single cylindrical tower with triangular battlements and narrow openings, part of the surrounding wall, and parked cars in front.",
     "misleading_caption_ar": "صورة قريبة لركن من أروقة قصر المربع التاريخي المقنطرة، تُظهر عموداً حجرياً واحداً ضمن سلسلة أعمدة الفناء الداخلي، مع جزء من الجدار المزخرف وسيارات مركونة أمامه.",
     "misleading_caption_en": "A close-up photo of a corner of the historic Qasr Al Murabba's arched colonnades, showing a single stone column among the courtyard's column series, part of the decorated wall, with parked cars in front.",
-    "trap_reasoning": "Same arcaded-courtyard contradiction as the earlier Al Masmak/Qasr Al Murabba pairs, tested on this close-up corner shot; replaced the true fort's actual single cylindrical tower with battlements with Qasr Al Murabba's real colonnade column."
+    "trap_reasoning": "Same arcaded-courtyard contradiction as the earlier Al Masmak/Qasr Al Murabba pairs, tested on this close-up corner shot; replaced the true fort's actual single cylindrical tower with battlements with Qasr Al Murabba's real colonnade column.",
+    "question_yes_ar": "هل هذا المبنى قصر المصمك؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى قصر المربع التاريخي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -121,7 +133,11 @@
     "caption_en": "A photo of the main entrance of the mudbrick fort, with a large wooden gate framed in mudbrick, two flanking towers with serrated battlements, and people walking in front of the building.",
     "misleading_caption_ar": "صورة للمدخل الرئيسي لقصر المربع التاريخي، ببوابة مقنطرة كبيرة ضمن أروقة القصر، وأشخاص يسيرون أمام المبنى.",
     "misleading_caption_en": "A photo of the main entrance of the historic Qasr Al Murabba, with a large arched gateway set within the palace's colonnades, and people walking in front of the building.",
-    "trap_reasoning": "Same arcaded-courtyard contradiction as the earlier Al Masmak/Qasr Al Murabba pair, tested on this entrance-focused image; replaced the true fort's actual mudbrick gate and serrated-battlement flanking towers with Qasr Al Murabba's real arched colonnade entrance."
+    "trap_reasoning": "Same arcaded-courtyard contradiction as the earlier Al Masmak/Qasr Al Murabba pair, tested on this entrance-focused image; replaced the true fort's actual mudbrick gate and serrated-battlement flanking towers with Qasr Al Murabba's real arched colonnade entrance.",
+    "question_yes_ar": "هل هذا المبنى قصر المصمك؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى قصر المربع التاريخي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -152,7 +168,11 @@
     "caption_en": "A wide photo of the entire mudbrick fort from outside, showing the length of the walls and several spaced-out cylindrical towers, under a clear blue sky.",
     "misleading_caption_ar": "صورة واسعة لقصر المربع التاريخي بالكامل من الخارج، تُظهر أروقته المقنطرة المحيطة بفناء داخلي واسع، تحت سماء زرقاء صافية.",
     "misleading_caption_en": "A wide photo of the entire historic Qasr Al Murabba from outside, showing its arched colonnades surrounding a wide inner courtyard, under a clear blue sky.",
-    "trap_reasoning": "Same arcaded-courtyard contradiction as the earlier Al Masmak/Qasr Al Murabba pairs, tested on this wide exterior shot; replaced the true fort's actual spaced-out cylindrical towers along its walls with Qasr Al Murabba's real courtyard architecture."
+    "trap_reasoning": "Same arcaded-courtyard contradiction as the earlier Al Masmak/Qasr Al Murabba pairs, tested on this wide exterior shot; replaced the true fort's actual spaced-out cylindrical towers along its walls with Qasr Al Murabba's real courtyard architecture.",
+    "question_yes_ar": "هل هذا المبنى قصر المصمك؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى قصر المربع التاريخي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -183,7 +203,11 @@
     "caption_en": "A photo of an archaeological complex built from earthen mudbrick in tan tones, featuring several towers and walls with irregular, weathered edges, surrounded by palm trees and greenery, with low modern buildings in the foreground and the brim of a straw hat visible in the lower corner of the frame.",
     "misleading_caption_ar": "صورة لقصر المربع التاريخي بالرياض، أحد أشهر القصور الطينية التي شيدها الملك عبدالعزيز في مطلع القرن العشرين، بجدران مستقيمة نظيفة الحواف وأروقة مقنطرة منتظمة، تحيط به أشجار نخيل خضراء.",
     "misleading_caption_en": "A photo of the historic Qasr Al Murabba in Riyadh, one of the best-known mudbrick palaces built by King Abdulaziz in the early twentieth century, with clean straight-edged walls and regular arched colonnades, surrounded by green palm trees.",
-    "trap_reasoning": "Qasr Al Murabba's real, established feature is its regular arched colonnades and clean straight walls (a formal early-20th-century single palace); the true image explicitly shows several irregular, weathered towers and walls (At-Turaif's actual 18th-century multi-building settlement) — asserting the clean colonnaded palace design is a direct, checkable contradiction."
+    "trap_reasoning": "Qasr Al Murabba's real, established feature is its regular arched colonnades and clean straight walls (a formal early-20th-century single palace); the true image explicitly shows several irregular, weathered towers and walls (At-Turaif's actual 18th-century multi-building settlement) — asserting the clean colonnaded palace design is a direct, checkable contradiction.",
+    "question_yes_ar": "هل هذا المبنى حي الطريف بالدرعية؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى قصر المربع التاريخي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -214,7 +238,11 @@
     "caption_en": "A photo of a restored mudbrick building with clean, straight-edged walls, small repeating window openings, and an external staircase leading to an upper level, against a clear blue sky.",
     "misleading_caption_ar": "صورة لقصر المربع التاريخي المرمم، بجدران مستقيمة نظيفة الحواف وأروقة مقنطرة منتظمة، بفتحات نوافذ صغيرة متكررة، على خلفية سماء زرقاء صافية.",
     "misleading_caption_en": "A photo of the restored historic Qasr Al Murabba, with clean, straight-edged walls and regular arched colonnades, small repeating window openings, against a clear blue sky.",
-    "trap_reasoning": "Qasr Al Murabba's real defining feature is its regular arched colonnades framing an inner courtyard; asserted this against the true image's actual stated external staircase (a residential-complex feature more typical of At-Turaif's settlement architecture) — a subtler but genuine structural distinction between two real Najdi mudbrick sites."
+    "trap_reasoning": "Qasr Al Murabba's real defining feature is its regular arched colonnades framing an inner courtyard; asserted this against the true image's actual stated external staircase (a residential-complex feature more typical of At-Turaif's settlement architecture) — a subtler but genuine structural distinction between two real Najdi mudbrick sites.",
+    "question_yes_ar": "هل هذا المبنى حي الطريف بالدرعية؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى قصر المربع التاريخي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -245,7 +273,11 @@
     "caption_en": "A photo of a flat mudbrick facade with rows of dark repeating window openings, surrounded by palm trees, under a pale, clear sky.",
     "misleading_caption_ar": "صورة لواجهة قصر المربع التاريخي الطينية المسطحة، بفتحات نوافذ داكنة متكررة على عدة صفوف ضمن أروقة مقنطرة منتظمة، وسط أشجار نخيل، تحت سماء صافية بيضاء اللون.",
     "misleading_caption_en": "A photo of the historic Qasr Al Murabba's flat mudbrick facade, with rows of dark repeating window openings set within regular arched colonnades, surrounded by palm trees, under a pale, clear sky.",
-    "trap_reasoning": "Added Qasr Al Murabba's real arched colonnade framing to the shared window-row description — the one structural detail (regular arcades) that distinguishes a formal single palace from At-Turaif's residential settlement, even though the window pattern itself is genuinely shared between Najdi mudbrick buildings."
+    "trap_reasoning": "Added Qasr Al Murabba's real arched colonnade framing to the shared window-row description — the one structural detail (regular arcades) that distinguishes a formal single palace from At-Turaif's residential settlement, even though the window pattern itself is genuinely shared between Najdi mudbrick buildings.",
+    "question_yes_ar": "هل هذا المبنى حي الطريف بالدرعية؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى قصر المربع التاريخي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -276,7 +308,11 @@
     "caption_en": "A photo of a cylindrical mudbrick tower projecting from the surrounding wall, with a small platform at its top, amid a dense residential mudbrick complex in the same architectural style.",
     "misleading_caption_ar": "صورة لجزء من أروقة قصر المربع التاريخي المقنطرة، بارز عن الجدار المحيط، ضمن مبنى القصر الواحد الرسمي المستقل، وليس ضمن مجمع سكني متعدد المباني.",
     "misleading_caption_en": "A photo of part of the historic Qasr Al Murabba's arched colonnades, projecting from the surrounding wall, part of the single formal standalone palace building, not a multi-building residential complex.",
-    "trap_reasoning": "Qasr Al Murabba is a single formal palace building; the true image explicitly describes a dense residential mudbrick complex of multiple connected buildings (At-Turaif's actual settlement layout) — asserting the single standalone palace structure is a direct, checkable contradiction, even though both are genuine Najdi mudbrick architecture."
+    "trap_reasoning": "Qasr Al Murabba is a single formal palace building; the true image explicitly describes a dense residential mudbrick complex of multiple connected buildings (At-Turaif's actual settlement layout) — asserting the single standalone palace structure is a direct, checkable contradiction, even though both are genuine Najdi mudbrick architecture.",
+    "question_yes_ar": "هل هذا المبنى حي الطريف بالدرعية؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى قصر المربع التاريخي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -307,7 +343,11 @@
     "caption_en": "A photo of a massive standalone sandstone rock carved with a classical architectural facade featuring pilasters and geometric ornamentation, standing alone in an open desert.",
     "misleading_caption_ar": "صورة لواجهة أثرية نبطية منحوتة في الصخر، محصورة بعمق داخل جدران واد صخري ضيق، تُظهر أعمدة كلاسيكية وزخارف هندسية منحوتة بدقة، وهي واجهة خزنة البتراء الشهيرة أو إحدى المقابر الملكية في الأردن المحفورة في الصخر الرملي الوردي.",
     "misleading_caption_en": "A photo of a Nabataean archaeological facade carved into the rock, nestled deep within the walls of a narrow rocky canyon, showing classical pilasters and finely carved geometric ornamentation — the facade of Petra's famous Treasury (Al-Khazneh) or one of the Royal Tombs in Jordan, carved into pink sandstone.",
-    "trap_reasoning": "Sharpened using a more precise real marker: Petra's famous facades (Al-Khazneh, the Royal Tombs) are nestled deep within tight canyon walls, not standing alone in open desert — directly contradicting the true image's stated standalone-desert setting, a stronger checkable contradiction than the previous version's generic 'carved into pink sandstone' framing."
+    "trap_reasoning": "Sharpened using a more precise real marker: Petra's famous facades (Al-Khazneh, the Royal Tombs) are nestled deep within tight canyon walls, not standing alone in open desert — directly contradicting the true image's stated standalone-desert setting, a stronger checkable contradiction than the previous version's generic 'carved into pink sandstone' framing.",
+    "question_yes_ar": "هل هذا المبنى قصر الفريد (هجر/مدائن صالح)، العلا؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى البتراء؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -338,7 +378,11 @@
     "caption_en": "A nighttime photo of a conical mudbrick tower lit with warm lighting, with triangular serrated battlements at its top, part of a larger historic complex.",
     "misleading_caption_ar": "صورة ليلية لبرج طيني مخروطي من أبراج قلعة زعبل الأربعة، يعلو قمة جبل صخري شاهق في سكاكا، مضاء بإضاءة دافئة، بشرفات مسننة مثلثية عند القمة.",
     "misleading_caption_en": "A nighttime photo of one of Zaabal Fort's four conical mudbrick towers, perched atop a steep rocky mountain in Sakaka, lit with warm lighting, with triangular serrated battlements at its top.",
-    "trap_reasoning": "Zaabal Fort's real, defining setting is a steep rocky mountaintop in Sakaka — a genuinely different, checkable topography from Ibrahim Palace's flat city-center location in Al-Hofuf. Also corrects the h_item's location from the invented 'Al-Ahsa' to the verified real Sakaka/Al-Jouf location."
+    "trap_reasoning": "Zaabal Fort's real, defining setting is a steep rocky mountaintop in Sakaka — a genuinely different, checkable topography from Ibrahim Palace's flat city-center location in Al-Hofuf. Also corrects the h_item's location from the invented 'Al-Ahsa' to the verified real Sakaka/Al-Jouf location.",
+    "question_yes_ar": "هل هذا المبنى قصر إبراهيم بالهفوف؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى قلعة زعبل بسكاكا (الجوف)؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -369,7 +413,11 @@
     "caption_en": "A daytime photo of two near-identical cylindrical mudbrick towers with serrated battlements, with a green flag and palm trees in front of them.",
     "misleading_caption_ar": "صورة نهارية لبرجين من أبراج قلعة زعبل الأربعة المخروطية الشكل بشرفات مسننة، على قمة صخرية جرداء بلا نخيل أو أعلام، في سكاكا.",
     "misleading_caption_en": "A daytime photo of two of Zaabal Fort's four conical towers with serrated battlements, on a bare rocky summit with no palm trees or flags, in Sakaka.",
-    "trap_reasoning": "Zaabal has four towers total on a bare rocky mountaintop with no landscaping; the true image explicitly shows a green flag and palm trees in front (city-center palace grounds, not a defensive mountaintop site) — asserting the bare rocky summit is a direct, checkable contradiction."
+    "trap_reasoning": "Zaabal has four towers total on a bare rocky mountaintop with no landscaping; the true image explicitly shows a green flag and palm trees in front (city-center palace grounds, not a defensive mountaintop site) — asserting the bare rocky summit is a direct, checkable contradiction.",
+    "question_yes_ar": "هل هذا المبنى قصر إبراهيم بالهفوف؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى قلعة زعبل بسكاكا (الجوف)؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -400,7 +448,11 @@
     "caption_en": "A nighttime photo of a green dome and a white minaret attached to the mudbrick complex, illuminated by artificial lighting.",
     "misleading_caption_ar": "صورة ليلية لقلعة زعبل، منشأة عسكرية دفاعية بحتة تخلو من أي قباب أو مآذن، تتكون من غرفتين فقط ضمن سورها الحجري، مضاءة بإضاءة صناعية خافتة على قمة الجبل.",
     "misleading_caption_en": "A nighttime photo of Zaabal Fort, a purely defensive military structure with no domes or minarets at all, consisting of just two rooms within its stone wall, dimly lit by artificial lighting atop the mountain.",
-    "trap_reasoning": "Zaabal is documented as a purely military structure with just two interior rooms and no religious architecture; the true image explicitly shows a green dome and white minaret (Ibrahim Palace's real administrative/religious elements) — asserting their complete absence is a direct, checkable contradiction."
+    "trap_reasoning": "Zaabal is documented as a purely military structure with just two interior rooms and no religious architecture; the true image explicitly shows a green dome and white minaret (Ibrahim Palace's real administrative/religious elements) — asserting their complete absence is a direct, checkable contradiction.",
+    "question_yes_ar": "هل هذا المبنى قصر إبراهيم بالهفوف؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى قلعة زعبل بسكاكا (الجوف)؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -431,7 +483,11 @@
     "caption_en": "A photo of a cylindrical mudbrick tower undergoing restoration, with metal scaffolding visible around part of the wall, and serrated battlements at the top.",
     "misleading_caption_ar": "صورة لبرج أسطواني من أبراج قلعة زعبل الحجرية قيد الترميم على قمة الجبل الصخري في سكاكا، بسقالات معدنية ظاهرة حول جزء من الجدار، وشرفات مسننة عند القمة.",
     "misleading_caption_en": "A photo of one of Zaabal Fort's stone towers undergoing restoration atop the rocky mountain in Sakaka, with metal scaffolding visible around part of the wall, and serrated battlements at the top.",
-    "trap_reasoning": "Zaabal's walls are built of stone and clay, not mudbrick, and the fort sits on a rocky mountain in Sakaka; asserting the stone material and mountaintop setting are the two checkable contradictions against the true image's actual mudbrick tower."
+    "trap_reasoning": "Zaabal's walls are built of stone and clay, not mudbrick, and the fort sits on a rocky mountain in Sakaka; asserting the stone material and mountaintop setting are the two checkable contradictions against the true image's actual mudbrick tower.",
+    "question_yes_ar": "هل هذا المبنى قصر إبراهيم بالهفوف؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى قلعة زعبل بسكاكا (الجوف)؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -462,7 +518,11 @@
     "caption_en": "A nighttime photo of a huge metallic building shaped like a tilted leaf or sail, lit in bright magenta, rising from a wide curved base, with people walking in the plaza in front of it.",
     "misleading_caption_ar": "صورة ليلية لمتحف اللوفر أبوظبي، بقبته الهندسية الضخمة المثقوبة بزخارف نجمية متشابكة تسمح بتسرب أشعة الضوء عبرها لتحاكي أشعة الشمس المتسللة بين سعف النخيل، يعلو المتحف الذي يبدو وكأنه يطفو فوق الماء، وأشخاص يسيرون في الساحة أمامه.",
     "misleading_caption_en": "A nighttime photo of the Louvre Abu Dhabi, its massive geometric dome perforated with interlacing star-patterned openings that let filtered light through to mimic sunlight filtering through palm fronds, the museum appearing to float above the water, with people walking in the plaza in front of it.",
-    "trap_reasoning": "Louvre Abu Dhabi's defining, sourced feature is its massive perforated geometric dome; the true building has no dome at all (leaf/sail-shaped, magenta-lit) — a concrete, checkable architectural contradiction, and a different country (UAE vs. Saudi Arabia) besides."
+    "trap_reasoning": "Louvre Abu Dhabi's defining, sourced feature is its massive perforated geometric dome; the true building has no dome at all (leaf/sail-shaped, magenta-lit) — a concrete, checkable architectural contradiction, and a different country (UAE vs. Saudi Arabia) besides.",
+    "question_yes_ar": "هل هذا المبنى مركز الملك عبدالعزيز الثقافي العالمي (إثراء)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى متحف اللوفر أبوظبي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -493,7 +553,11 @@
     "caption_en": "A nighttime photo of the same building lit in dim purple, showing dark horizontal bands crossing its metallic surface, with a lit walkway leading toward it through desert plants.",
     "misleading_caption_ar": "صورة ليلية لمتحف اللوفر أبوظبي، تُظهر قبته الهندسية الضخمة المثقوبة بزخارف نجمية متشابكة مضاءة من الداخل، ترتفع فوق أروقة زجاجية عند القاعدة تحيط بها مياه عاكسة.",
     "misleading_caption_en": "A nighttime photo of the Louvre Abu Dhabi, its massive geometric dome perforated with interlacing star-patterned openings lit from within, rising above glass-walled galleries at its base surrounded by reflective water.",
-    "trap_reasoning": "Louvre Abu Dhabi's real, sourced defining dome and water setting directly replace the true building's stated dark horizontal metallic bands and desert-plant walkway, a concrete architectural contradiction rather than a same-country museum mix-up."
+    "trap_reasoning": "Louvre Abu Dhabi's real, sourced defining dome and water setting directly replace the true building's stated dark horizontal metallic bands and desert-plant walkway, a concrete architectural contradiction rather than a same-country museum mix-up.",
+    "question_yes_ar": "هل هذا المبنى مركز الملك عبدالعزيز الثقافي العالمي (إثراء)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى متحف اللوفر أبوظبي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -524,7 +588,11 @@
     "caption_en": "A daytime photo of the building in its natural silvery metallic color, showing its pointed top shape and curved base partly covered by trees.",
     "misleading_caption_ar": "صورة نهارية لمتحف اللوفر أبوظبي، تُظهر قبته الهندسية الفضية المعدنية الطبيعية اللون المثقوبة بزخارف نجمية متشابكة، ترتفع فوق قاعدة تحيط بها مياه عاكسة جزئياً بأشجار نخيل.",
     "misleading_caption_en": "A daytime photo of the Louvre Abu Dhabi, showing its geometric dome in a natural silvery metallic color, perforated with interlacing star-patterned openings, rising above a base surrounded by reflective water partly bordered by palm trees.",
-    "trap_reasoning": "Same dome contradiction as the earlier Ithra/Louvre pairs, tested on this daytime image; asserted the real perforated star-pattern dome instead of the true building's stated pointed tapering top shape."
+    "trap_reasoning": "Same dome contradiction as the earlier Ithra/Louvre pairs, tested on this daytime image; asserted the real perforated star-pattern dome instead of the true building's stated pointed tapering top shape.",
+    "question_yes_ar": "هل هذا المبنى مركز الملك عبدالعزيز الثقافي العالمي (إثراء)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى متحف اللوفر أبوظبي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -555,7 +623,11 @@
     "caption_en": "A photo of the building at dusk against a pink-and-blue sky, showing its flattened conical shape and small green flags below it.",
     "misleading_caption_ar": "صورة لمتحف اللوفر أبوظبي عند الشفق بألوان سماء وردية وزرقاء، تُظهر قبته الهندسية الضخمة المثقوبة بزخارف نجمية متشابكة، وأعلاماً صغيرة أسفله.",
     "misleading_caption_en": "A photo of the Louvre Abu Dhabi at dusk against a pink-and-blue sky, showing its massive geometric dome perforated with interlacing star-patterned openings, and small flags below it.",
-    "trap_reasoning": "Same dome contradiction as the earlier Ithra/Louvre pairs, tested on this dusk image; asserted the real perforated star-pattern dome against the true building's actual stated flattened conical shape."
+    "trap_reasoning": "Same dome contradiction as the earlier Ithra/Louvre pairs, tested on this dusk image; asserted the real perforated star-pattern dome against the true building's actual stated flattened conical shape.",
+    "question_yes_ar": "هل هذا المبنى مركز الملك عبدالعزيز الثقافي العالمي (إثراء)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى متحف اللوفر أبوظبي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -586,7 +658,11 @@
     "caption_en": "A daytime photo of several glass towers under construction with cranes, surrounded by palm trees along a wide road.",
     "misleading_caption_ar": "صورة نهارية لمركز دبي المالي العالمي (DIFC)، مكتمل الإنشاء بالكامل بأبراجه الزجاجية، من بينها مبنى البوابة (ذا غيت) ذو الشكل شبه المنحرف المقوس المميز، تحيط به نخيل على طول طريق واسع.",
     "misleading_caption_en": "A daytime photo of the fully completed Dubai International Financial Centre (DIFC), its glass towers including the distinctively arched trapezoid-shaped Gate building, surrounded by palm trees along a wide road.",
-    "trap_reasoning": "Asserted DIFC as fully completed with its real distinct Gate building, directly contradicting the true district's actual stated under-construction state with visible cranes — a concrete, checkable contradiction on top of the established Gate-building marker."
+    "trap_reasoning": "Asserted DIFC as fully completed with its real distinct Gate building, directly contradicting the true district's actual stated under-construction state with visible cranes — a concrete, checkable contradiction on top of the established Gate-building marker.",
+    "question_yes_ar": "هل هذا المبنى مركز الملك عبدالله المالي (كافد)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى مركز دبي المالي العالمي (DIFC)؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -617,7 +693,11 @@
     "caption_en": "A nighttime aerial photo of a cluster of towers lit in bright blue and green, with busy light-filled highways below.",
     "misleading_caption_ar": "صورة جوية ليلية لمركز دبي المالي العالمي (DIFC)، يظهر بين أبراجه الزجاجية مبنى البوابة (ذا غيت) ذو الشكل شبه المنحرف المقوس المميز مضاءً، مع طرق سريعة مضاءة أسفله.",
     "misleading_caption_en": "A nighttime aerial photo of the Dubai International Financial Centre (DIFC), its glass towers including the distinctively lit, arched trapezoid-shaped Gate building, with illuminated highways below.",
-    "trap_reasoning": "Same Gate-building contradiction as the earlier KAFD/DIFC pair, tested on this nighttime aerial image; asserted DIFC's real, distinct arched trapezoid landmark rather than the true district's generic blue/green-lit tower cluster."
+    "trap_reasoning": "Same Gate-building contradiction as the earlier KAFD/DIFC pair, tested on this nighttime aerial image; asserted DIFC's real, distinct arched trapezoid landmark rather than the true district's generic blue/green-lit tower cluster.",
+    "question_yes_ar": "هل هذا المبنى مركز الملك عبدالله المالي (كافد)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى مركز دبي المالي العالمي (DIFC)؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -648,7 +728,11 @@
     "caption_en": "A nighttime photo of several glass towers lit in multiple colors including blue, purple, and green, with illuminated palm trees in the foreground.",
     "misleading_caption_ar": "صورة ليلية لمركز دبي المالي العالمي (DIFC)، يظهر بين أبراجه مبنى البوابة (ذا غيت) ذو الشكل شبه المنحرف المقوس مضاءً بإضاءة بيضاء ثابتة، مع نخيل مضاء في المقدمة.",
     "misleading_caption_en": "A nighttime photo of the Dubai International Financial Centre (DIFC), its towers including the arched trapezoid-shaped Gate building lit in steady white light, with illuminated palm trees in the foreground.",
-    "trap_reasoning": "Same Gate-building contradiction as the earlier KAFD/DIFC pairs, tested on this multicolor-lit nighttime image; asserted DIFC's real distinct landmark building rather than the true district's generic multicolor tower lighting."
+    "trap_reasoning": "Same Gate-building contradiction as the earlier KAFD/DIFC pairs, tested on this multicolor-lit nighttime image; asserted DIFC's real distinct landmark building rather than the true district's generic multicolor tower lighting.",
+    "question_yes_ar": "هل هذا المبنى مركز الملك عبدالله المالي (كافد)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى مركز دبي المالي العالمي (DIFC)؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -679,7 +763,11 @@
     "caption_en": "A nighttime photo of a tall tower lit in bright purple, surrounded by other shorter towers with white and blue lighting.",
     "misleading_caption_ar": "صورة ليلية لمركز دبي المالي العالمي (DIFC)، يظهر مبنى البوابة (ذا غيت) ذو الشكل شبه المنحرف المقوس مضاءً بإضاءة بيضاء ثابتة، محاطاً بأبراج زجاجية أخرى.",
     "misleading_caption_en": "A nighttime photo of the Dubai International Financial Centre (DIFC), showing the arched trapezoid-shaped Gate building lit in steady white light, surrounded by other glass towers.",
-    "trap_reasoning": "Same Gate-building contradiction as the earlier KAFD/DIFC pairs, tested on this nighttime image; asserted DIFC's real distinct arched landmark rather than the true district's actual stated tall purple-lit tower with no distinctive trapezoid shape."
+    "trap_reasoning": "Same Gate-building contradiction as the earlier KAFD/DIFC pairs, tested on this nighttime image; asserted DIFC's real distinct arched landmark rather than the true district's actual stated tall purple-lit tower with no distinctive trapezoid shape.",
+    "question_yes_ar": "هل هذا المبنى مركز الملك عبدالله المالي (كافد)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى مركز دبي المالي العالمي (DIFC)؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -710,7 +798,11 @@
     "caption_en": "A photo of a tall blue glass tower ending at the top in a large inverted-V-shaped arched opening, under a clear blue sky.",
     "misleading_caption_ar": "صورة لبرج الفيصلية الزجاجي الشاهق المدبب من الأعلى، يعلوه هيكل كروي ذهبي كبير، تحت سماء زرقاء صافية.",
     "misleading_caption_en": "A photo of the tall, tapering glass Al Faisaliah Tower, topped by a large golden spherical structure, under a clear blue sky.",
-    "trap_reasoning": "Reverse of the Al Faisaliah/Kingdom Tower pair, tested here on the opposite ground-truth image: Al Faisaliah's real golden sphere directly replaces Kingdom Tower's actual stated arched opening, with no sphere at all."
+    "trap_reasoning": "Reverse of the Al Faisaliah/Kingdom Tower pair, tested here on the opposite ground-truth image: Al Faisaliah's real golden sphere directly replaces Kingdom Tower's actual stated arched opening, with no sphere at all.",
+    "question_yes_ar": "هل هذا المبنى برج المملكة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى برج الفيصلية؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -741,7 +833,11 @@
     "caption_en": "A nighttime photo of the same tower lit in purple and blue, clearly showing the arched opening at the top, with palm trees in the foreground.",
     "misleading_caption_ar": "صورة ليلية لبرج الفيصلية مضاءً بإضاءة أرجوانية وزرقاء، تُظهر الهيكل الكروي الذهبي عند القمة مضاءً بوضوح وسط نخيل في المقدمة.",
     "misleading_caption_en": "A nighttime photo of Al Faisaliah Tower lit in purple and blue, clearly showing the golden spherical structure at the top glowing under the lighting, with palm trees in the foreground.",
-    "trap_reasoning": "Same sphere-vs-arch contradiction as the earlier Faisaliah/Kingdom pair, tested on a new nighttime image; asserted the golden sphere lit up under the purple/blue lighting, directly replacing Kingdom Tower's actual stated arched opening."
+    "trap_reasoning": "Same sphere-vs-arch contradiction as the earlier Faisaliah/Kingdom pair, tested on a new nighttime image; asserted the golden sphere lit up under the purple/blue lighting, directly replacing Kingdom Tower's actual stated arched opening.",
+    "question_yes_ar": "هل هذا المبنى برج المملكة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى برج الفيصلية؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -772,7 +868,11 @@
     "caption_en": "A photo of the tower under a gray cloudy sky, showing its glossy glass facade and the arched opening at the top, with street lamps in the foreground.",
     "misleading_caption_ar": "صورة لبرج الفيصلية تحت سماء غائمة رمادية، تُظهر واجهته الزجاجية اللامعة وهيكله الكروي الذهبي عند القمة، مع أعمدة إنارة في المقدمة.",
     "misleading_caption_en": "A photo of Al Faisaliah Tower under a gray cloudy sky, showing its glossy glass facade and its golden spherical structure at the top, with street lamps in the foreground.",
-    "trap_reasoning": "Same sphere-vs-arch contradiction as the earlier Faisaliah/Kingdom pairs, tested on this cloudy-sky image; asserted the golden sphere against the true tower's actual stated arched opening at the top."
+    "trap_reasoning": "Same sphere-vs-arch contradiction as the earlier Faisaliah/Kingdom pairs, tested on this cloudy-sky image; asserted the golden sphere against the true tower's actual stated arched opening at the top.",
+    "question_yes_ar": "هل هذا المبنى برج المملكة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى برج الفيصلية؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -803,7 +903,11 @@
     "caption_en": "A close-up upward-angle photo of the blue glass tower, showing sunlight reflecting off its facade amid surrounding palm trees.",
     "misleading_caption_ar": "صورة مقربة من أسفل لبرج الفيصلية، تُظهر انعكاس ضوء الشمس على هيكله الكروي الذهبي وسط نخيل حوله.",
     "misleading_caption_en": "A close-up upward-angle photo of Al Faisaliah Tower, showing sunlight reflecting off its golden spherical structure amid surrounding palm trees.",
-    "trap_reasoning": "Same sphere-vs-arch contradiction as the earlier Faisaliah/Kingdom pairs, tested on this close-up angle; asserted the golden sphere catching the sunlight, rather than the true tower's actual stated blue glass facade with no sphere."
+    "trap_reasoning": "Same sphere-vs-arch contradiction as the earlier Faisaliah/Kingdom pairs, tested on this close-up angle; asserted the golden sphere catching the sunlight, rather than the true tower's actual stated blue glass facade with no sphere.",
+    "question_yes_ar": "هل هذا المبنى برج المملكة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى برج الفيصلية؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -834,7 +938,11 @@
     "caption_en": "A photo of a cube-shaped building entirely covered in reflective mirror panels, reflecting the surrounding sandstone mountains and blue sky, with a dark doorway opening at its base.",
     "misleading_caption_ar": "صورة لمتحف المستقبل بدبي، ذي الشكل البيضاوي المفرغ، تغطي واجهته عبارات شعرية بالخط العربي محفورة كنوافذ تسمح بدخول الضوء، مرتفعاً فوق قاعدة خضراء منخفضة.",
     "misleading_caption_en": "A photo of the Museum of the Future in Dubai, its hollow oval torus shape, its facade covered in Arabic calligraphic poetry carved as window openings that let light through, rising above a low green base.",
-    "trap_reasoning": "Museum of the Future's real, sourced defining features — an oval torus shape and a calligraphy-cutout facade — directly replace the true building's stated cube shape and mirror cladding, a concrete architectural contradiction rather than a same-country landmark mix-up."
+    "trap_reasoning": "Museum of the Future's real, sourced defining features — an oval torus shape and a calligraphy-cutout facade — directly replace the true building's stated cube shape and mirror cladding, a concrete architectural contradiction rather than a same-country landmark mix-up.",
+    "question_yes_ar": "هل هذا المبنى مرايا (قاعة الحفلات المرآوية بالعلا)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى متحف المستقبل بدبي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -865,7 +973,11 @@
     "caption_en": "Another angle of the mirrored building under a deep blue sky, showing large dark glass windows at its base amid reflections of the rocky mountains.",
     "misleading_caption_ar": "صورة لمتحف المستقبل بدبي تحت سماء زرقاء داكنة، تُظهر واجهته البيضاوية المفرغة المغطاة بعبارات شعرية بالخط العربي المحفورة كنوافذ، مرتفعاً فوق قاعدة خضراء منخفضة وسط أضواء المدينة.",
     "misleading_caption_en": "A photo of the Museum of the Future in Dubai under a deep blue sky, showing its hollow oval facade covered in Arabic calligraphic poetry carved as window openings, rising above a low green base amid the city lights.",
-    "trap_reasoning": "Same oval-torus/calligraphy-facade contradiction as the earlier Maraya/Museum of the Future pair, tested on a new image; replaced the true building's actual dark glass windows and rocky-mountain reflection with the Museum's real, sourced facade design."
+    "trap_reasoning": "Same oval-torus/calligraphy-facade contradiction as the earlier Maraya/Museum of the Future pair, tested on a new image; replaced the true building's actual dark glass windows and rocky-mountain reflection with the Museum's real, sourced facade design.",
+    "question_yes_ar": "هل هذا المبنى مرايا (قاعة الحفلات المرآوية بالعلا)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى متحف المستقبل بدبي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -896,7 +1008,11 @@
     "caption_en": "A close-up photo of the mirrored building's facade, showing a dark rectangular window opening amid a detailed reflection of the rocky mountain terrain.",
     "misleading_caption_ar": "صورة قريبة لواجهة متحف المستقبل بدبي، تُظهر فتحة نافذة على شكل عبارة شعرية بالخط العربي المحفور، تسمح بدخول الضوء عبرها وسط سطح فضي لامع.",
     "misleading_caption_en": "A close-up photo of the Museum of the Future's facade in Dubai, showing a window opening shaped as a carved Arabic calligraphic phrase letting light through, amid a shiny silver surface.",
-    "trap_reasoning": "Same calligraphy-facade contradiction as the earlier Maraya/Museum of the Future pairs, tested on this close-up image; asserted the museum's real Arabic-calligraphy window cutout against the true building's actual stated mirror reflecting the rocky mountain terrain — mirrors vs. calligraphy is the concrete, checkable difference."
+    "trap_reasoning": "Same calligraphy-facade contradiction as the earlier Maraya/Museum of the Future pairs, tested on this close-up image; asserted the museum's real Arabic-calligraphy window cutout against the true building's actual stated mirror reflecting the rocky mountain terrain — mirrors vs. calligraphy is the concrete, checkable difference.",
+    "question_yes_ar": "هل هذا المبنى مرايا (قاعة الحفلات المرآوية بالعلا)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى متحف المستقبل بدبي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -927,7 +1043,11 @@
     "caption_en": "A wide photo of the entire mirrored building with small vehicles and construction equipment in front of it, in an open desert area.",
     "misleading_caption_ar": "صورة واسعة لمتحف المستقبل بدبي بالكامل، مع مركبات صغيرة أمامه، وسط مياه عاكسة محيطة بالمبنى بدلاً من الصحراء.",
     "misleading_caption_en": "A wide photo of the entire Museum of the Future in Dubai, with small vehicles in front of it, amid reflective water surrounding the building instead of open desert.",
-    "trap_reasoning": "Same setting contradiction as the earlier Maraya/Museum of the Future pairs, tested on this wide shot; asserted the museum's real water-surrounded urban setting against the true building's actual stated open desert location."
+    "trap_reasoning": "Same setting contradiction as the earlier Maraya/Museum of the Future pairs, tested on this wide shot; asserted the museum's real water-surrounded urban setting against the true building's actual stated open desert location.",
+    "question_yes_ar": "هل هذا المبنى مرايا (قاعة الحفلات المرآوية بالعلا)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى متحف المستقبل بدبي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -958,7 +1078,11 @@
     "caption_en": "A photo of a white mosque with several slender minarets topped by double-tiered caps, multiple white domes, and palm trees in front, under a clear blue sky.",
     "misleading_caption_ar": "صورة لمسجد القبلتين بالمدينة المنورة، ذي القبتين المتقاربتين في الحجم ترتفعان نحو 17 متراً، ومئذنة واحدة عند الركن الشمالي الشرقي، ونخيل أمامه، تحت سماء زرقاء صافية.",
     "misleading_caption_en": "A photo of Masjid al-Qiblatain in Medina, with its two similarly-sized domes rising about 17 meters, a single minaret at the northeast corner, and palm trees in front, under a clear blue sky.",
-    "trap_reasoning": "Asserted Masjid al-Qiblatain's real, sourced architectural facts — exactly two similarly-sized domes and a single corner minaret — directly contradicting the true mosque's stated multiple minarets and domes, a verified structural contradiction rather than a same-city mosque mix-up."
+    "trap_reasoning": "Asserted Masjid al-Qiblatain's real, sourced architectural facts — exactly two similarly-sized domes and a single corner minaret — directly contradicting the true mosque's stated multiple minarets and domes, a verified structural contradiction rather than a same-city mosque mix-up.",
+    "question_yes_ar": "هل هذا المبنى مسجد قباء؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى مسجد القبلتين؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -989,7 +1113,11 @@
     "caption_en": "Another angle of the white mosque showing four minarets of varying heights and adjoining domes, with a mountain visible behind the building.",
     "misleading_caption_ar": "صورة لمسجد القبلتين الأبيض بالمدينة المنورة من زاوية أخرى، تُظهر القبتين المتقاربتين في الحجم ومئذنته الواحدة عند الركن الشمالي الشرقي.",
     "misleading_caption_en": "A photo of the white Masjid al-Qiblatain in Medina from another angle, showing its two similarly-sized domes and its single minaret at the northeast corner.",
-    "trap_reasoning": "Same two-domes/one-minaret contradiction as the earlier Quba/Qiblatain pair, tested on this new angle; asserted the real, sourced dome and minaret count rather than the true mosque's stated minarets and domes."
+    "trap_reasoning": "Same two-domes/one-minaret contradiction as the earlier Quba/Qiblatain pair, tested on this new angle; asserted the real, sourced dome and minaret count rather than the true mosque's stated minarets and domes.",
+    "question_yes_ar": "هل هذا المبنى مسجد قباء؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى مسجد القبلتين؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -1020,7 +1148,11 @@
     "caption_en": "A photo of the mosque at dusk, showing its white minarets with dark tips lightly illuminated against a pale blue sky.",
     "misleading_caption_ar": "صورة لمسجد القبلتين عند الشفق، تُظهر قبتيه المتقاربتين في الحجم مضاءتين بإضاءة خفيفة تحت سماء زرقاء فاتحة.",
     "misleading_caption_en": "A photo of Masjid al-Qiblatain at dusk, showing its two similarly-sized domes lightly illuminated against a pale blue sky.",
-    "trap_reasoning": "Same two-domes/one-minaret contradiction as the earlier Quba/Qiblatain pairs, tested on this dusk image; asserted the real two-dome feature against the true mosque's actual stated multiple minarets."
+    "trap_reasoning": "Same two-domes/one-minaret contradiction as the earlier Quba/Qiblatain pairs, tested on this dusk image; asserted the real two-dome feature against the true mosque's actual stated multiple minarets.",
+    "question_yes_ar": "هل هذا المبنى مسجد قباء؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى مسجد القبلتين؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -1051,7 +1183,11 @@
     "caption_en": "A wide photo of the mosque from a distance, showing four minarets and its multiple white domes, with parked cars in a forecourt.",
     "misleading_caption_ar": "صورة واسعة لمسجد القبلتين من مسافة بعيدة، تُظهر مئذنته الواحدة وقبتيه المتقاربتين في الحجم وسط سيارات مركونة في ساحة أمامية.",
     "misleading_caption_en": "A wide photo of Masjid al-Qiblatain from a distance, showing its single minaret and two similarly-sized domes, with parked cars in a forecourt.",
-    "trap_reasoning": "Same two-domes/one-minaret contradiction as the earlier Quba/Qiblatain pairs, tested on this wide distant shot; asserted the real single minaret and two domes against the true mosque's actual stated four minarets and multiple domes."
+    "trap_reasoning": "Same two-domes/one-minaret contradiction as the earlier Quba/Qiblatain pairs, tested on this wide distant shot; asserted the real single minaret and two domes against the true mosque's actual stated four minarets and multiple domes.",
+    "question_yes_ar": "هل هذا المبنى مسجد قباء؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى مسجد القبلتين؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -1082,7 +1218,11 @@
     "caption_en": "A photo of a tower with a wide umbrella-shaped top, alternating blue and tan wedge-shaped stripes, standing on a slender column, with a large palm tree in the foreground.",
     "misleading_caption_ar": "صورة لأبراج الكويت الشهيرة، ذات الكرة الزرقاء الكبيرة المكسوة بالفسيفساء والمرتكزة على عمود رفيع شاهق، مع برج إبري مجاور، ونخلة كبيرة في المقدمة.",
     "misleading_caption_en": "A photo of the famous Kuwait Towers, with their large blue mosaic-tiled sphere mounted atop a tall slender column, alongside a neighboring needle-shaped spire, and a large palm tree in the foreground.",
-    "trap_reasoning": "Kuwait Towers' defining shape is a large mosaic-tiled sphere; the true tower's actual top is a wide umbrella/disc shape, not a sphere — a concrete, checkable structural contradiction, not just a same-region tower mix-up."
+    "trap_reasoning": "Kuwait Towers' defining shape is a large mosaic-tiled sphere; the true tower's actual top is a wide umbrella/disc shape, not a sphere — a concrete, checkable structural contradiction, not just a same-region tower mix-up.",
+    "question_yes_ar": "هل هذا المبنى برج المياه بالرياض؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى أبراج الكويت؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -1113,7 +1253,11 @@
     "caption_en": "A low-angle photo of the same tower, showing detail of the blue and tan stripes at the top and its blue column decorated with white script-like patterning.",
     "misleading_caption_ar": "صورة من زاوية منخفضة لأبراج الكويت، تُظهر تفاصيل الكرة الزرقاء المكسوة بالفسيفساء عند القمة وعمودها الأزرق الرفيع الشاهق.",
     "misleading_caption_en": "A low-angle photo of Kuwait Towers, showing detail of the blue mosaic-tiled sphere at the top and its tall, slender blue column.",
-    "trap_reasoning": "Same sphere-vs-disc contradiction as the earlier Kuwait Towers pair, tested on a new low-angle image; dropped the true tower's stated tan-striped umbrella top and white script-like column patterning, which Kuwait Towers' actual design doesn't have."
+    "trap_reasoning": "Same sphere-vs-disc contradiction as the earlier Kuwait Towers pair, tested on a new low-angle image; dropped the true tower's stated tan-striped umbrella top and white script-like column patterning, which Kuwait Towers' actual design doesn't have.",
+    "question_yes_ar": "هل هذا المبنى برج المياه بالرياض؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى أبراج الكويت؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -1144,7 +1288,11 @@
     "caption_en": "An extreme close-up photo from below of the tower's umbrella-shaped top, clearly showing the alternating blue and tan stripes against a deep blue sky.",
     "misleading_caption_ar": "صورة مقربة جداً من أسفل لكرة أبراج الكويت الزرقاء المكسوة بالفسيفساء، تُظهر تفاصيل قطع الفسيفساء الزرقاء بوضوح تام تحت سماء زرقاء داكنة.",
     "misleading_caption_en": "An extreme close-up photo from below of Kuwait Towers' blue mosaic-tiled sphere, clearly showing the individual blue mosaic tile details, against a deep blue sky.",
-    "trap_reasoning": "Same sphere-vs-disc contradiction as the earlier Kuwait Towers pairs, tested on this extreme close-up image; asserted the mosaic tile texture of a sphere, directly contradicting the true tower's actual striped umbrella-shaped top."
+    "trap_reasoning": "Same sphere-vs-disc contradiction as the earlier Kuwait Towers pairs, tested on this extreme close-up image; asserted the mosaic tile texture of a sphere, directly contradicting the true tower's actual striped umbrella-shaped top.",
+    "question_yes_ar": "هل هذا المبنى برج المياه بالرياض؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى أبراج الكويت؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -1175,7 +1323,11 @@
     "caption_en": "A wide photo of the tower at its full height, with a crowd of people at its base and low horizontal buildings in the background.",
     "misleading_caption_ar": "صورة واسعة لأبراج الكويت بكامل ارتفاعها، تظهر الكرة الزرقاء المكسوة بالفسيفساء عند القمة بوضوح، وسط حشد من الناس عند قاعدتها ومبانٍ أفقية منخفضة في الخلفية.",
     "misleading_caption_en": "A wide photo of Kuwait Towers at their full height, clearly showing the blue mosaic-tiled sphere at the top, with a crowd of people at the base and low horizontal buildings in the background.",
-    "trap_reasoning": "Same sphere-vs-disc contradiction as the earlier Kuwait Towers pairs, tested on this full-height wide shot; asserted the real mosaic-tiled sphere at the top rather than the true tower's actual umbrella-shaped disc top."
+    "trap_reasoning": "Same sphere-vs-disc contradiction as the earlier Kuwait Towers pairs, tested on this full-height wide shot; asserted the real mosaic-tiled sphere at the top rather than the true tower's actual umbrella-shaped disc top.",
+    "question_yes_ar": "هل هذا المبنى برج المياه بالرياض؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى أبراج الكويت؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -1206,7 +1358,11 @@
     "caption_en": "A photo of a very tall tower topped by a large clock face with Roman numerals and a golden crescent finial, flanked by smaller symmetric towers, with white and green domes visible at its base.",
     "misleading_caption_ar": "صورة لبرج خليفة الشاهق بدبي، ذي الهيكل الحلزوني المدبب الذي يضيق تدريجياً كلما ارتفع نحو السماء، بلا أي واجهة ساعة أو زخارف أعلى قمته، محاطاً بأبراج زجاجية حديثة أقصر ارتفاعاً.",
     "misleading_caption_en": "A photo of the towering Burj Khalifa in Dubai, its spiraling, tapering structure narrowing gradually as it rises into the sky, with no clock face or ornamentation at its peak, surrounded by shorter modern glass towers.",
-    "trap_reasoning": "Burj Khalifa is a slender, undecorated spire with no clock face at all — the direct opposite of the true tower's stated giant clock and golden crescent — a concrete, checkable architectural contradiction rather than a same-region tower mix-up."
+    "trap_reasoning": "Burj Khalifa is a slender, undecorated spire with no clock face at all — the direct opposite of the true tower's stated giant clock and golden crescent — a concrete, checkable architectural contradiction rather than a same-region tower mix-up.",
+    "question_yes_ar": "هل هذا المبنى أبراج البيت (برج الساعة) بمكة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى برج خليفة بدبي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -1237,7 +1393,11 @@
     "caption_en": "A photo of the same tower at dusk against a pink sky, showing the golden crescent at the top and an illuminated Arabic word below the clock face.",
     "misleading_caption_ar": "صورة لبرج خليفة عند الشفق بألوان سماء وردية، ذي الهيكل الحلزوني المدبب البسيط الخالي من أي زخارف أو كتابات مضيئة، يضيق تدريجياً كلما ارتفع نحو السماء.",
     "misleading_caption_en": "A photo of Burj Khalifa at dusk against a pink sky, its simple, tapering spiral structure completely free of any ornamentation or illuminated lettering, narrowing gradually as it rises into the sky.",
-    "trap_reasoning": "Same clock/crescent contradiction as the earlier Clock Towers/Burj Khalifa pair, tested on a new dusk image; explicitly asserted the plain, undecorated spire, directly contradicting the true tower's stated golden crescent and illuminated Arabic word."
+    "trap_reasoning": "Same clock/crescent contradiction as the earlier Clock Towers/Burj Khalifa pair, tested on a new dusk image; explicitly asserted the plain, undecorated spire, directly contradicting the true tower's stated golden crescent and illuminated Arabic word.",
+    "question_yes_ar": "هل هذا المبنى أبراج البيت (برج الساعة) بمكة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى برج خليفة بدبي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -1268,7 +1428,11 @@
     "caption_en": "A close-up upward-angle photo of the tower, showing its tiered green glass facade and large clock face under a clear blue sky.",
     "misleading_caption_ar": "صورة مقربة من أسفل لبرج خليفة، تُظهر واجهته الزجاجية الملساء المتدرجة الخالية من أي ساعة، تضيق تدريجياً كلما ارتفعت نحو السماء تحت سماء زرقاء صافية.",
     "misleading_caption_en": "A close-up upward-angle photo of Burj Khalifa, showing its smooth, tiered glass facade with no clock face at all, tapering gradually as it rises into the sky under a clear blue sky.",
-    "trap_reasoning": "Same clock-face contradiction as the earlier Clock Towers/Burj Khalifa pairs, tested on this close-up upward angle; explicitly asserted the absence of any clock, directly contradicting the true tower's stated large clock face."
+    "trap_reasoning": "Same clock-face contradiction as the earlier Clock Towers/Burj Khalifa pairs, tested on this close-up upward angle; explicitly asserted the absence of any clock, directly contradicting the true tower's stated large clock face.",
+    "question_yes_ar": "هل هذا المبنى أبراج البيت (برج الساعة) بمكة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى برج خليفة بدبي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -1299,7 +1463,11 @@
     "caption_en": "A wide photo of the tower amid a large crowd of pilgrims in white garments, with a construction crane visible beside it.",
     "misleading_caption_ar": "صورة واسعة لبرج خليفة وسط أبراج زجاجية حديثة أخرى، مع رافعة بناء بجانبه ضمن أعمال إنشائية، بلا أي حشود من الحجاج حوله.",
     "misleading_caption_en": "A wide photo of Burj Khalifa among other modern glass towers, with a construction crane beside it as part of ongoing construction work, with no crowds of pilgrims around it at all.",
-    "trap_reasoning": "Burj Khalifa is not a pilgrimage site and has no crowds of worshippers around it; the true image explicitly shows a large crowd of pilgrims in white garments (a Mecca-specific detail) — asserting their absence is a direct, checkable contextual contradiction, not just a same-region tower mix-up."
+    "trap_reasoning": "Burj Khalifa is not a pilgrimage site and has no crowds of worshippers around it; the true image explicitly shows a large crowd of pilgrims in white garments (a Mecca-specific detail) — asserting their absence is a direct, checkable contextual contradiction, not just a same-region tower mix-up.",
+    "question_yes_ar": "هل هذا المبنى أبراج البيت (برج الساعة) بمكة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى برج خليفة بدبي؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -1330,7 +1498,11 @@
     "caption_en": "A photo of a massive black cubic structure draped in black cloth embroidered with horizontal gold bands bearing Arabic inscriptions, and vertical gold panels at the corners, with a clock tower under construction visible behind it.",
     "misleading_caption_ar": "صورة لواجهة المسجد الحرام في مكة المكرمة، تُظهر جزءًا من عمارته المهيبة المغطاة بأقمشة سوداء مطرزة بأشرطة ذهبية أفقية تحمل آيات قرآنية، إلى جانب برج الساعة الشهير الذي يرتفع خلف أسواره.",
     "misleading_caption_en": "A photo of a facade of Masjid al-Haram in Mecca, showing part of its majestic architecture draped in black fabric embroidered with horizontal gold bands bearing Qur'anic verses, alongside the famous clock tower rising behind its walls.",
-    "trap_reasoning": "Classic viewer conflation — the black-and-gold structure plus the clock tower reads as 'the Grand Mosque complex' rather than the specific structure inside it; framed as 'a facade/part of' to keep the claim fine-grained rather than an absurd blanket lie."
+    "trap_reasoning": "Classic viewer conflation — the black-and-gold structure plus the clock tower reads as 'the Grand Mosque complex' rather than the specific structure inside it; framed as 'a facade/part of' to keep the claim fine-grained rather than an absurd blanket lie.",
+    "question_yes_ar": "هل هذا المبنى الكعبة المشرفة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى المسجد الحرام؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -1361,7 +1533,11 @@
     "caption_en": "A photo of the black cubic structure surrounded by a large crowd of people in white garments, with tall glass towers in the background.",
     "misleading_caption_ar": "صورة لواجهة من واجهات المسجد الحرام بمكة المكرمة، محاطة بحشد كبير من المصلين يرتدون ملابس الإحرام البيضاء، مع أبراج زجاجية شاهقة تابعة لمجمع المسجد في الخلفية.",
     "misleading_caption_en": "A photo of one of the facades of Masjid al-Haram in Mecca, surrounded by a large crowd of worshippers in white ihram garments, with tall glass towers belonging to the mosque complex visible in the background.",
-    "trap_reasoning": "Same context-hijack logic as the earlier Kaaba/Masjid al-Haram pair, tested on a new image with a visible crowd and the glass towers in the background instead of the clock tower — framed as 'one of the facades' to keep the claim fine-grained rather than an absolute lie."
+    "trap_reasoning": "Same context-hijack logic as the earlier Kaaba/Masjid al-Haram pair, tested on a new image with a visible crowd and the glass towers in the background instead of the clock tower — framed as 'one of the facades' to keep the claim fine-grained rather than an absolute lie.",
+    "question_yes_ar": "هل هذا المبنى الكعبة المشرفة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى المسجد الحرام؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -1392,7 +1568,11 @@
     "caption_en": "A close-up photo of the black cubic structure, clearly showing the gold embroidered band with Arabic inscription, with a yellow-and-red construction crane behind it.",
     "misleading_caption_ar": "صورة قريبة لواجهة من واجهات المسجد الحرام بمكة المكرمة، تُظهر الحزام الذهبي المطرز بالكتابة العربية بوضوح على جزء من عمارته، مع رافعتي بناء صفراء وحمراء خلفه ضمن أعمال التوسعة.",
     "misleading_caption_en": "A close-up photo of one of the facades of Masjid al-Haram in Mecca, clearly showing the gold embroidered band with Arabic inscription on part of its architecture, with a yellow-and-red construction crane behind it as part of the expansion works.",
-    "trap_reasoning": "Same context-hijack logic as the earlier Kaaba/Masjid al-Haram pairs, tested on this close-up image with the construction crane; framed as 'one of the facades... part of the expansion works' to stay fine-grained rather than an absolute lie."
+    "trap_reasoning": "Same context-hijack logic as the earlier Kaaba/Masjid al-Haram pairs, tested on this close-up image with the construction crane; framed as 'one of the facades... part of the expansion works' to stay fine-grained rather than an absolute lie.",
+    "question_yes_ar": "هل هذا المبنى الكعبة المشرفة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى المسجد الحرام؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -1423,7 +1603,11 @@
     "caption_en": "A photo of the black cubic structure with a crowd of worshippers prostrating on the ground in front of it, and a golden conical metal object standing before one of its corners.",
     "misleading_caption_ar": "صورة لواجهة من واجهات المسجد الحرام بمكة المكرمة، مع حشد من المصلين ساجدين على الأرض أمامها، وهيكل معدني ذهبي مخروطي الشكل قائم أمام أحد أركانها ضمن عناصر المجمع.",
     "misleading_caption_en": "A photo of one of the facades of Masjid al-Haram in Mecca, with a crowd of worshippers prostrating on the ground in front of it, and a golden conical metal structure standing before one of its corners as part of the complex's features.",
-    "trap_reasoning": "Same context-hijack logic as the earlier Kaaba/Masjid al-Haram pairs, tested on this image with worshippers prostrating and the golden conical object (likely Maqam Ibrahim) nearby; framed as 'one of the facades... part of the complex's features' to stay fine-grained."
+    "trap_reasoning": "Same context-hijack logic as the earlier Kaaba/Masjid al-Haram pairs, tested on this image with worshippers prostrating and the golden conical object (likely Maqam Ibrahim) nearby; framed as 'one of the facades... part of the complex's features' to stay fine-grained.",
+    "question_yes_ar": "هل هذا المبنى الكعبة المشرفة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى المسجد الحرام؟",
+    "answer_no": "لا"
   },
   {
     "category": "architecture",
@@ -1454,7 +1638,11 @@
     "caption_en": "A photo of the black cubic structure from a somewhat distant angle, surrounded by white-and-gold arcaded galleries and large crowds of worshippers, with a white minaret visible in the background.",
     "misleading_caption_ar": "صورة لواجهة من واجهات المسجد الحرام بمكة المكرمة من زاوية بعيدة نسبياً، محاطة بأروقة مقنطرة بيضاء وذهبية وحشود كبيرة من المصلين، مع مئذنة بيضاء ظاهرة في الخلفية ضمن عمارة المجمع.",
     "misleading_caption_en": "A photo of one of the facades of Masjid al-Haram in Mecca from a somewhat distant angle, surrounded by white-and-gold arcaded galleries and large crowds of worshippers, with a white minaret visible in the background as part of the complex's architecture.",
-    "trap_reasoning": "Same context-hijack logic as the earlier Kaaba/Masjid al-Haram pairs, tested on this distant-angle image with the arcaded galleries and minaret; framed as 'one of the facades... part of the complex's architecture' to stay fine-grained."
+    "trap_reasoning": "Same context-hijack logic as the earlier Kaaba/Masjid al-Haram pairs, tested on this distant-angle image with the arcaded galleries and minaret; framed as 'one of the facades... part of the complex's architecture' to stay fine-grained.",
+    "question_yes_ar": "هل هذا المبنى الكعبة المشرفة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا المبنى المسجد الحرام؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "attire_81729_quilted_coat_with_long_sleeves",
@@ -1484,7 +1672,11 @@
     ],
     "misleading_caption_ar": "صورة لجاكيت أوزبكي تقليدي (تشابان) مبطن، بخطوط إيكات ملونة زاهية متعرجة تغطي كامل سطحه، بفتحة أمامية على شكل V وأكمام طويلة، معروض على مجسم.",
     "misleading_caption_en": "A photo of a traditional quilted Uzbek chapan jacket, covered in vivid, wavy multicolor ikat stripes across its entire surface, with a V-shaped front opening and long sleeves, displayed on a mannequin.",
-    "trap_reasoning": "The neutral caption explicitly states 'solid golden-yellow... no colored embroidery bands' — a real chapan's defining trait is bold multicolor ikat striping, so asserting vivid ikat patterning directly contradicts a stated, checkable fact rather than being just a plausible guess. Reassigned from sec to icc for that reason."
+    "trap_reasoning": "The neutral caption explicitly states 'solid golden-yellow... no colored embroidery bands' — a real chapan's defining trait is bold multicolor ikat striping, so asserting vivid ikat patterning directly contradicts a stated, checkable fact rather than being just a plausible guess. Reassigned from sec to icc for that reason.",
+    "question_yes_ar": "هل هذه القطعة معطف حريري مبطن؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة جاكيت أوزبكي مبطن (تشابان)؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "attire_85625_jacket",
@@ -1515,7 +1707,11 @@
     ],
     "misleading_caption_ar": "صورة لصدرية زوف عثمانية قصيرة بلا أكمام بلون أخضر زيتوني، مطرزة بالكامل بخيوط ذهبية معدنية على شكل زخارف نباتية متعرجة، بفتحة أمامية مستديرة مفتوحة بلا أزرار، وأكتاف عريضة مزخرفة بحواف مسننة ذهبية.",
     "misleading_caption_en": "A photo of a short, sleeveless Ottoman zouave-style bolero vest in olive green, fully embroidered with metallic gold thread in swirling floral vine patterns, with a rounded, open front and no buttons, and wide winged shoulders trimmed with a scalloped gold edge.",
-    "trap_reasoning": "A real Ottoman zouave vest is defined by an open, buttonless rounded front; the true vest explicitly has round buttons down the front and hip flap pockets (Algerian caraco-specific details) — asserting the buttonless open front is a direct, checkable structural contradiction."
+    "trap_reasoning": "A real Ottoman zouave vest is defined by an open, buttonless rounded front; the true vest explicitly has round buttons down the front and hip flap pockets (Algerian caraco-specific details) — asserting the buttonless open front is a direct, checkable structural contradiction.",
+    "question_yes_ar": "هل هذه القطعة جاكيت (كاروكو) جزائري مطرز؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة صدرية زوف عثمانية مطرزة؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "attire_85630_dress",
@@ -1546,7 +1742,11 @@
     ],
     "misleading_caption_ar": "صورة لفستان مصري تقليدي طويل بلا أكمام بلون أسود داكن لامع، مطرز عند فتحة الصدر العميقة على شكل V بزخارف نباتية ذهبية اللون، بتنورة مستقيمة القصة بلا تطبيقات أو طيات، معروض على مجسم.",
     "misleading_caption_en": "A photo of a traditional Egyptian dress, long and sleeveless in dark, glossy charcoal-black, embroidered at the deep V-neckline with gold-colored vine and leaf motifs, with a straight-cut skirt with no gathering or pleats, displayed on a mannequin.",
-    "trap_reasoning": "Traditional Egyptian dresses are characteristically straight-cut; the true dress explicitly has a gathered, tiered, pleated skirt (an Algerian styling detail) — asserting a straight skirt is a direct, checkable structural contradiction."
+    "trap_reasoning": "Traditional Egyptian dresses are characteristically straight-cut; the true dress explicitly has a gathered, tiered, pleated skirt (an Algerian styling detail) — asserting a straight skirt is a direct, checkable structural contradiction.",
+    "question_yes_ar": "هل هذه القطعة فستان جزائري بتطريز ذهبي؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة فستان مصري تقليدي مطرز؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "attire_85631_plastron_collar_from_a_tunic",
@@ -1577,7 +1777,11 @@
     ],
     "misleading_caption_ar": "صورة لقبة ثوب فلسطيني مطرزة، ما زالت متصلة بالثوب الأصلي، مطرزة بالكامل بغرز متقاطعة على شكل زخارف هندسية متكررة، وتظهر حواف من قماش أسود عند الأطراف الخارجية.",
     "misleading_caption_en": "A photo of an embroidered Palestinian thob chest panel (qabbeh), still attached to the original garment, fully embroidered in cross-stitch with repeating geometric motifs, with edges of black fabric visible at the outer borders.",
-    "trap_reasoning": "A genuine qabbeh is sewn into the dress front and uses cross-stitch geometric patterns; the true piece is explicitly detached with circular medallion motifs in couched metallic thread — asserting an attached, cross-stitch panel is a checkable technique and attachment contradiction, not a regional relabeling."
+    "trap_reasoning": "A genuine qabbeh is sewn into the dress front and uses cross-stitch geometric patterns; the true piece is explicitly detached with circular medallion motifs in couched metallic thread — asserting an attached, cross-stitch panel is a checkable technique and attachment contradiction, not a regional relabeling.",
+    "question_yes_ar": "هل هذه القطعة بلاسترون (ياقة مطرزة) تونسي؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة قبة ثوب فلسطيني مطرزة؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "attire_85641_wedding_tunic_and_ensemble",
@@ -1608,7 +1812,11 @@
     ],
     "misleading_caption_ar": "صورة لبوبو غرب أفريقي فاخر بلون ذهبي برونزي معدني، من نسيج الدمسك الحريري بخطوط عمودية دقيقة، بأكمام مربعة عريضة وقصة مستطيلة واسعة وفضفاضة تصل حتى القدمين، معروض على مجسم.",
     "misleading_caption_en": "A photo of a formal West African grand boubou in metallic bronze-gold, made from silk damask with fine vertical striping, wide box-cut sleeves, and a wide, rectangular, loose drape reaching the floor, displayed on a mannequin.",
-    "trap_reasoning": "Formal silk-damask grand boubous share the exact same metallic vertical-stripe fabric and wide rectangular drape as this ensemble; asserted the boubou's real box-cut wide sleeves against the true garment's actual short sleeves — a genuine structural difference, and a fully different culture/region (West Africa vs. Tunisia) with no leakage risk toward the true Tunisian identity."
+    "trap_reasoning": "Formal silk-damask grand boubous share the exact same metallic vertical-stripe fabric and wide rectangular drape as this ensemble; asserted the boubou's real box-cut wide sleeves against the true garment's actual short sleeves — a genuine structural difference, and a fully different culture/region (West Africa vs. Tunisia) with no leakage risk toward the true Tunisian identity.",
+    "question_yes_ar": "هل هذه القطعة ثوب زفاف تونسي معدني؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة بوبو غرب أفريقي فاخر بأكمام مربعة؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "attire_85659_dress",
@@ -1639,7 +1847,11 @@
     ],
     "misleading_caption_ar": "صورة لثوب بدوي سيناوي طويل بلون بيج فاتح، مغطى بالكامل بتطريز كثيف من الغرز المتقاطعة بألوان حمراء وذهبية وزرقاء على هيئة زخارف نباتية تمتد من الصدر حتى أسفل التنورة، مع أكمام طويلة ذات أطراف مطرزة بأشرطة مماثلة، معروض على مجسم.",
     "misleading_caption_en": "A photo of a long light-beige Sinai Bedouin embroidered dress, densely covered from the chest down to the hem of the skirt in cross-stitch embroidery in red, gold, and blue floral motifs, with long sleeves ending in embroidered cuff bands, displayed on a mannequin.",
-    "trap_reasoning": "Sinai Bedouin dresses are defined by dense, all-over cross-stitch embroidery covering the whole dress; the true dress explicitly has only a triangular chest panel with a plain, undecorated skirt — asserting all-over coverage is a checkable layout contradiction, not just a regional relabeling."
+    "trap_reasoning": "Sinai Bedouin dresses are defined by dense, all-over cross-stitch embroidery covering the whole dress; the true dress explicitly has only a triangular chest panel with a plain, undecorated skirt — asserting all-over coverage is a checkable layout contradiction, not just a regional relabeling.",
+    "question_yes_ar": "هل هذه القطعة فستان مصري بيج بتطريز صدر مثلثي؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة ثوب بدوي سيناوي مطرز؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "attire_86241_festive_dress_from_quteife",
@@ -1670,7 +1882,11 @@
     ],
     "misleading_caption_ar": "صورة لثوب فلسطيني تقليدي أحمر طويل بأكمام واسعة منسدلة، بلوحة تطريز مربعة كبيرة عند الصدر (القبة) مطرزة بغرز متقاطعة بألوان أرجوانية وبرتقالية وذهبية على شكل زخارف هندسية ونباتية متكررة، وفتحة رقبة تحيط بها شريطة داكنة.",
     "misleading_caption_en": "A photo of a traditional Palestinian thob in red with wide draping sleeves, a large square embroidered chest panel (qabbeh) in cross-stitch with purple, orange, and gold repeating geometric and floral motifs, and a neckline bordered by a dark band.",
-    "trap_reasoning": "A Palestinian thob's defining trait is a concentrated square chest panel (qabbeh); the true dress's embroidery is explicitly described as dense vertical panels with no chest-block layout — asserting the qabbeh structure is a checkable layout contradiction, not just a regional relabeling."
+    "trap_reasoning": "A Palestinian thob's defining trait is a concentrated square chest panel (qabbeh); the true dress's embroidery is explicitly described as dense vertical panels with no chest-block layout — asserting the qabbeh structure is a checkable layout contradiction, not just a regional relabeling.",
+    "question_yes_ar": "هل هذه القطعة ثوب احتفالي من قطيفة (سوريا)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة ثوب فلسطيني تقليدي؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "attire_86546_cape",
@@ -1701,7 +1917,11 @@
     ],
     "misleading_caption_ar": "صورة لبرنوس مغربي تقليدي بلون كريمي فاتح، مزود بقلنسوة متصلة عند العنق، بسطح بسيط بلا زخارف تطريز، مع شرابة صغيرة عند رباط العنق، وفتحة أمامية مفتوحة تُربط بخيط عند الصدر.",
     "misleading_caption_en": "A photo of a traditional Moroccan burnus in light cream, fitted with an attached pointed hood at the neckline, its surface plain and undecorated, with a small tassel at the neck tie, and an open front closed with a cord at the chest.",
-    "trap_reasoning": "A traditional burnus is deliberately plain, functional desert wear with no embroidery; the true cape is explicitly described as fully embroidered with tone-on-tone floral motifs and multiple tassels — asserting a plain, undecorated surface is a direct, checkable contradiction rather than a same-silhouette relabeling."
+    "trap_reasoning": "A traditional burnus is deliberately plain, functional desert wear with no embroidery; the true cape is explicitly described as fully embroidered with tone-on-tone floral motifs and multiple tassels — asserting a plain, undecorated surface is a direct, checkable contradiction rather than a same-silhouette relabeling.",
+    "question_yes_ar": "هل هذه القطعة عباءة عراقية مطرزة بغطاء رأس؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة برنوس مغربي تقليدي؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "attire_89306_wedding_ensemble",
@@ -1732,7 +1952,11 @@
     ],
     "misleading_caption_ar": "صورة لقفطان مغربي طويل حتى القدمين بلون ذهبي برونزي لامع، مطرز بخيوط الصقلي المعدنية على شكل خطوط عمودية متتالية، بفتحة عنق على شكل V مزينة بزخرفة هندسية معينية الشكل عند الصدر، وأكمام طويلة واسعة تصل حتى المعصم، مثبت عند الخصر بحزام (مضمة) مطرز.",
     "misleading_caption_en": "A photo of a floor-length Moroccan caftan in shimmering bronze-gold, embroidered with sqalli metallic thread in continuous vertical lines, a V-shaped neckline decorated with a diamond-shaped geometric pattern at the chest, and long, wide sleeves reaching the wrist, cinched at the waist with an embroidered belt (mdamma).",
-    "trap_reasoning": "The true garment is stated to have short cap sleeves; a caftan is structurally defined by long sleeves and a cinched waist belt. Asserted long sleeves and a belt explicitly — a garment-category contradiction against a stated fact, not a plausible eyeball mix-up. Reassigned from sec to icc for that reason."
+    "trap_reasoning": "The true garment is stated to have short cap sleeves; a caftan is structurally defined by long sleeves and a cinched waist belt. Asserted long sleeves and a belt explicitly — a garment-category contradiction against a stated fact, not a plausible eyeball mix-up. Reassigned from sec to icc for that reason.",
+    "question_yes_ar": "هل هذه القطعة ثوب زفاف احتفالي؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة قفطان مغربي مطرز بخيوط الصقلي؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_egypt_01",
@@ -1762,7 +1986,11 @@
     ],
     "misleading_caption_ar": "صورة لقدر معدني كبير يحتوي على أرز أحمر مطهو بمعجون الطماطم وخلطة بهارات الكبسة، عليه عدة قطع دجاج محمرة الأطراف، وبصلة كاملة محشوة بقطعة زبدة في المنتصف، وفلفل أخضر على الحافة، وسط بخار متصاعد.",
     "misleading_caption_en": "A photo of a large metal pot of red rice cooked with tomato paste and Kabsa spice blend, topped with several browned chicken pieces, a whole onion stuffed with a piece of butter in the center, and a green pepper at the edge, with steam rising.",
-    "trap_reasoning": "Kabsa's defining trait is red, tomato-based rice; the true pot is explicitly saffron-yellow rice — asserting the red/tomato color is a direct, checkable contradiction, not a bare nationality claim."
+    "trap_reasoning": "Kabsa's defining trait is red, tomato-based rice; the true pot is explicitly saffron-yellow rice — asserting the red/tomato color is a direct, checkable contradiction, not a bare nationality claim.",
+    "question_yes_ar": "هل هذا الطبق أرز مندي بالدجاج؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق كبسة دجاج؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_egypt_11",
@@ -1792,7 +2020,11 @@
     ],
     "misleading_caption_ar": "صورة لطبق سمك صيادية، يحتوي على أسماك كاملة موضوعة فوق طبقة من الأرز الداكن اللون المطهو في مرقة السمك المكرمل بالبصل، ومزينة بحلقات بصل وشرائح فلفل أخضر وأوراق بقدونس ومكسرات محمصة.",
     "misleading_caption_en": "A photo of a plate of Samak Sayadieh, whole fish placed atop a layer of dark-colored rice cooked in fish stock caramelized with onions, garnished with onion rings, green pepper slices, parsley leaves, and toasted nuts.",
-    "trap_reasoning": "Replaced a bare nationality swap ('Yemeni Fish Mandi', no real distinguishing marker) with Sayadieh, whose defining, checkable trait — dark fish-stock-caramelized rice — is a structural presence/absence marker; the true tray has fish and garnish only, no rice at all."
+    "trap_reasoning": "Replaced a bare nationality swap ('Yemeni Fish Mandi', no real distinguishing marker) with Sayadieh, whose defining, checkable trait — dark fish-stock-caramelized rice — is a structural presence/absence marker; the true tray has fish and garnish only, no rice at all.",
+    "question_yes_ar": "هل هذا الطبق سمك مشوي مصري؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق سمك صيادية؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_jordan_01",
@@ -1823,7 +2055,11 @@
     ],
     "misleading_caption_ar": "صورة لطبق مزخرف عليه سبع سمبوسات هندية مثلثية الشكل بحشوة بطاطس متبلة، مقلية بلون ذهبي، إلى جانبه وعاءان أبيضان صغيران أحدهما بصلصة النعناع الخضراء والآخر بمربى التمر الحامض (تمرهندي).",
     "misleading_caption_en": "A photo of a decorated plate holding seven triangular Indian samosas filled with spiced potato, fried golden-brown, beside two small white bowls, one with green mint chutney and the other with tamarind chutney.",
-    "trap_reasoning": "Samosa's defining traits — a pyramidal triangular fold and a potato filling — directly contradict the true dish's stated half-moon crimped shape and meat filling, making this a checkable structural/ingredient contradiction rather than a bare nationality label."
+    "trap_reasoning": "Samosa's defining traits — a pyramidal triangular fold and a potato filling — directly contradict the true dish's stated half-moon crimped shape and meat filling, making this a checkable structural/ingredient contradiction rather than a bare nationality label.",
+    "question_yes_ar": "هل هذا الطبق سمبوسك مقلي بحشوة لحم؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق سمبوسة هندية؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_jordan_10",
@@ -1853,7 +2089,11 @@
     ],
     "misleading_caption_ar": "صورة لطبق أسود بيضاوي فوق قاعدة خشبية، يحتوي على شرائح رقيقة جداً من شاورما اللحم والدجاج المشوية على السيخ الدوار ثم حُلقت، بلا أي شرائح فلفل ملون، وسط تصاعد بخار من الطبق الساخن.",
     "misleading_caption_en": "A photo of a black oval sizzle plate on a wooden base, holding very thin shavings of beef and chicken shawarma, shaved from the rotating vertical spit, with no colored pepper slices at all, with steam rising from the hot plate.",
-    "trap_reasoning": "Shawarma is defined by thin meat shavings carved from a rotating vertical spit, with no bell peppers in the presentation; the true plate explicitly has thick grilled strips with colored bell peppers (fajita's defining components) — asserting thin spit-shaved meat with no peppers is a direct, checkable contradiction."
+    "trap_reasoning": "Shawarma is defined by thin meat shavings carved from a rotating vertical spit, with no bell peppers in the presentation; the true plate explicitly has thick grilled strips with colored bell peppers (fajita's defining components) — asserting thin spit-shaved meat with no peppers is a direct, checkable contradiction.",
+    "question_yes_ar": "هل هذا الطبق فاهيتا لحم ودجاج مشوية؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق شاورما مشكلة على الصاج؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_saudi_arabia_05",
@@ -1883,7 +2123,11 @@
     ],
     "misleading_caption_ar": "صورة مأخوذة من الأعلى لطبق معدني دائري كبير يحتوي على كمية وافرة من الأرز الأحمر المطهو بمعجون الطماطم وبهارات الكبسة، تعلوه عدة قطع من الدجاج المطهو والمحمر، ومزين بصنوبر محمص، مع تقديم شرائح خيار وقطع طماطم على الأطراف، فوق قماش مائدة فاتح اللون بنقوش زهرية صغيرة.",
     "misleading_caption_en": "A photo taken from above of a large round metal platter containing a generous amount of red rice cooked with tomato paste and Kabsa spices, topped with several pieces of cooked, browned chicken, garnished with toasted pine nuts, with cucumber slices and tomato wedges served around the edges, on a light-colored tablecloth with a small floral pattern.",
-    "trap_reasoning": "Kabsa's real defining traits — red, tomato-based rice and a pine-nut garnish — directly replace the true platter's explicitly yellow spiced rice with almonds and raisins (Bukhari's actual markers), a concrete two-part checkable contradiction rather than a bare nationality label."
+    "trap_reasoning": "Kabsa's real defining traits — red, tomato-based rice and a pine-nut garnish — directly replace the true platter's explicitly yellow spiced rice with almonds and raisins (Bukhari's actual markers), a concrete two-part checkable contradiction rather than a bare nationality label.",
+    "question_yes_ar": "هل هذا الطبق أرز بخاري بالدجاج؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق كبسة دجاج؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_saudi_arabia_06",
@@ -1913,7 +2157,11 @@
     ],
     "misleading_caption_ar": "صورة مقربة لطبق مندي دجاج، أرز طويل الحبة بلون ذهبي مصبوغ بالهيل والزعفران، عليه قطعة دجاج محمرة اللون مع فلفل أخضر حار، ومحاطة بشرائط بصل مقلية داكنة اللون، في طبق معدني، وهو الطبق المعروف بنكهته المدخنة المميزة من طريقة الطهي في حفرة تحت الأرض.",
     "misleading_caption_en": "A close-up photo of a plate of Chicken Mandi, long-grain rice tinted golden with cardamom and saffron, topped with a browned piece of chicken and a green chili pepper, surrounded by dark fried onion strips, in a metal dish — the dish known for its distinctive smoky flavor from being cooked in an underground pit.",
-    "trap_reasoning": "Saleeg is defined by creamy white, mushy rice texture; Mandi is defined by golden, separate long-grain rice from pit-smoking — genuinely different preparations, not two names for one dish."
+    "trap_reasoning": "Saleeg is defined by creamy white, mushy rice texture; Mandi is defined by golden, separate long-grain rice from pit-smoking — genuinely different preparations, not two names for one dish.",
+    "question_yes_ar": "هل هذا الطبق سليق دجاج؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق مندي دجاج؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_saudi_arabia_08",
@@ -1944,7 +2192,11 @@
     ],
     "misleading_caption_ar": "صورة لطبق أبيض عليه كومة من بهارات الكبسة المطحونة ناعمة القوام بلون بني فاتح موحد، على خلفية داكنة.",
     "misleading_caption_en": "A photo of a white plate holding a mound of finely ground Kabsa spice mix in a uniform light-brown powder, against a dark background.",
-    "trap_reasoning": "Kabsa spice mix is a fine, uniform ground powder; the true plate is explicitly coarse and dotted with whole seeds (Dukka) — asserting a fine, seed-free texture is a direct, checkable contradiction."
+    "trap_reasoning": "Kabsa spice mix is a fine, uniform ground powder; the true plate is explicitly coarse and dotted with whole seeds (Dukka) — asserting a fine, seed-free texture is a direct, checkable contradiction.",
+    "question_yes_ar": "هل هذا الطبق دقة (خلطة بهارات وبذور)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق بهارات كبسة؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_saudi_arabia_12",
@@ -1975,7 +2227,11 @@
     ],
     "misleading_caption_ar": "صورة مقربة لهريس إماراتي، عصيدة بيضاء كريمية القوام مصنوعة من القمح المجروش الممزوج بشرائح دجاج أو لحم مفتتة داخل العصيدة نفسها، في وعاء معدني.",
     "misleading_caption_en": "A close-up photo of Emirati Harees, a creamy white porridge made from cracked wheat blended with shredded chicken or meat mixed directly into the porridge itself, in a metal bowl.",
-    "trap_reasoning": "Harees is defined by shredded meat pounded and mixed directly into the wheat porridge; the true bowl is explicitly plain porridge topped only with fried onions, with no meat at all — asserting meat mixed into the texture is a direct, checkable preparation contradiction."
+    "trap_reasoning": "Harees is defined by shredded meat pounded and mixed directly into the wheat porridge; the true bowl is explicitly plain porridge topped only with fried onions, with no meat at all — asserting meat mixed into the texture is a direct, checkable preparation contradiction.",
+    "question_yes_ar": "هل هذا الطبق جريش؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق هريس إماراتي؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_the_united_arab_emirates_03",
@@ -2006,7 +2262,11 @@
     ],
     "misleading_caption_ar": "صورة من الأعلى لطبق دائري أسود يحتوي على بودينغ الخبز الإنجليزي، وهو حلوى مخبوزة من مكعبات الخبز المنقوعة في خليط الكاسترد، نصفها مغطى بطبقة بيضاء محمصة من الكريمة، ونصفها الآخر مغطى بمكسرات مشكلة من اللوز والفستق والجوز، على قماش أحمر.",
     "misleading_caption_en": "An overhead photo of a round black dish holding English bread pudding, a baked dessert made from bread cubes soaked in custard, one half topped with a browned white cream layer, the other half topped with a mix of almonds, pistachios, and walnuts, on red fabric.",
-    "trap_reasoning": "English bread pudding is structurally defined by bread cubes soaked in custard, versus Umm Ali's real puff-pastry base — a genuine, checkable structural difference, not a plausibility-only nationality swap."
+    "trap_reasoning": "English bread pudding is structurally defined by bread cubes soaked in custard, versus Umm Ali's real puff-pastry base — a genuine, checkable structural difference, not a plausibility-only nationality swap.",
+    "question_yes_ar": "هل هذا الطبق أم علي؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق بودينغ الخبز الإنجليزي؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_cuisine_of_yemen_07",
@@ -2037,7 +2297,11 @@
     ],
     "misleading_caption_ar": "صورة لخبز إنجيرا إثيوبية دائري الشكل، رقيق ومسامي بلون بني رمادي داكن، مليء بثقوب صغيرة متناثرة على كامل سطحه، بطعم حامض مميز ناتج عن التخمر، على طبق أزرق مزخرف.",
     "misleading_caption_en": "A photo of round Ethiopian injera bread, thin and spongy in a dark grayish-brown color, covered in small scattered holes across its entire surface, with a distinctive sour flavor from fermentation, on a decorated blue plate.",
-    "trap_reasoning": "Injera's teff flour gives it a defining dark grayish-brown color and sour fermented taste; the true bread is explicitly light beige with golden edges (Lahoh's actual color) — asserting the dark color and sour flavor is a direct, checkable contradiction, even though the spongy hole pattern really is shared between the two breads."
+    "trap_reasoning": "Injera's teff flour gives it a defining dark grayish-brown color and sour fermented taste; the true bread is explicitly light beige with golden edges (Lahoh's actual color) — asserting the dark color and sour flavor is a direct, checkable contradiction, even though the spongy hole pattern really is shared between the two breads.",
+    "question_yes_ar": "هل هذا الطبق لحوح يمني؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق إنجيرا إثيوبية؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "cuisine_levantine_cuisine_14",
@@ -2067,7 +2331,11 @@
     ],
     "misleading_caption_ar": "صورة مقربة لخبز مسحّب تركي بشكل قارب مستطيل، مغطى بطبقة كثيفة من خليط الزعتر والسمسم المحمص، بحواف مرفوعة ومقروصة على طول الشكل، ومحمص حتى اسمرار طفيف.",
     "misleading_caption_en": "A close-up photo of a boat-shaped Turkish pide bread, covered in a dense layer of za'atar and toasted sesame mix, with raised, pinched edges running along its length, baked to a light char.",
-    "trap_reasoning": "Pide's real defining shape — an elongated boat with pinched raised edges — directly contradicts the true bread's stated round shape cut into wedges, a concrete structural contradiction rather than a bare nationality claim."
+    "trap_reasoning": "Pide's real defining shape — an elongated boat with pinched raised edges — directly contradicts the true bread's stated round shape cut into wedges, a concrete structural contradiction rather than a bare nationality claim.",
+    "question_yes_ar": "هل هذا الطبق مناقيش زعتر؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الطبق خبز مسحّب زعتر تركي؟",
+    "answer_no": "لا"
   },
   {
     "image_id": "objects_447008_incense_burner",
@@ -2097,7 +2365,11 @@
     ],
     "misleading_caption_ar": "صورة لدلة قهوة عربية نحاسية داكنة اللون، ترتكز على أربع قوائم قصيرة، بغطاء مقبب صغير ينتهي بمقبض كروي، ولها بزال أنبوبي طويل يمتد أفقياً من جسم الإبريق لصب القهوة، وتغطي سطحها زخارف هندسية محفورة وأشرطة كتابية مطعمة بمعدن فاتح اللون تعكس الطابع الخليجي التقليدي.",
     "misleading_caption_en": "A photo of a dark-toned Arabic brass coffee pot (dallah), standing on four short legs, with a small domed lid ending in a round knob, and a long tubular spout extending horizontally from the body of the pot for pouring coffee, its surface covered in engraved geometric decoration and inscribed bands inlaid with a lighter metal, reflecting a traditional Gulf character.",
-    "trap_reasoning": "The mibkhara's tubular arm and domed lid genuinely resemble a dallah's spout and finial; kept the physical description almost verbatim, relabeling only the arm's function from incense to coffee-pouring."
+    "trap_reasoning": "The mibkhara's tubular arm and domed lid genuinely resemble a dallah's spout and finial; kept the physical description almost verbatim, relabeling only the arm's function from incense to coffee-pouring.",
+    "question_yes_ar": "هل هذه القطعة مبخرة؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذه القطعة دلة قهوة نحاسية مطعمة؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2128,7 +2400,11 @@
     "caption_en": "A photo of an Arabic phrase carved with straight-lined letters and sharp angles on a stone panel, with no curves or circular ornamentation.",
     "misleading_caption_ar": "صورة للوحة حجرية منقوش عليها عبارة عربية بخط النسخ، الخط المعروف بانتشاره الواسع في المصاحف والنصوص الرسمية العربية عبر العصور.",
     "misleading_caption_en": "A photo of a stone panel inscribed with an Arabic phrase in Naskh script, the script widely known for its extensive use in Qur'ans and formal Arabic texts throughout history.",
-    "trap_reasoning": "Naskh's real defining trait (rounded, curved letterforms) is the direct opposite of the stone panel's actual straight, perpendicular lines (Kufic) — a physically verifiable letterform contradiction, not a naming dispute."
+    "trap_reasoning": "Naskh's real defining trait (rounded, curved letterforms) is the direct opposite of the stone panel's actual straight, perpendicular lines (Kufic) — a physically verifiable letterform contradiction, not a naming dispute.",
+    "question_yes_ar": "هل هذا الخط خط كوفي؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط النسخ؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2159,7 +2435,11 @@
     "caption_en": "A photo of a decorative architectural design incorporating Arabic letters with straight perpendicular lines, used as a decorative frieze atop a building's facade.",
     "misleading_caption_ar": "صورة لتصميم معماري زخرفي يضم حروفاً عربية بخط النسخ المستدير الانسيابي، مستخدم كإفريز زخرفي أعلى واجهة مبنى، وهو الخط المعروف بسهولة قراءته نظراً لوضوح حروفه المنحنية.",
     "misleading_caption_en": "A photo of a decorative architectural design incorporating Arabic letters in flowing, rounded Naskh script, used as a decorative frieze atop a building's facade — the script known for its easy legibility thanks to its clear, curved letterforms.",
-    "trap_reasoning": "Same letterform logic as kuf12, cross-checked against a labeled six-script reference image (script types.webp) and outside sources: Naskh's rounded/curved letterforms are the verified opposite of Kufic's straight/angular ones."
+    "trap_reasoning": "Same letterform logic as kuf12, cross-checked against a labeled six-script reference image (script types.webp) and outside sources: Naskh's rounded/curved letterforms are the verified opposite of Kufic's straight/angular ones.",
+    "question_yes_ar": "هل هذا الخط خط كوفي؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط النسخ؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2190,7 +2470,11 @@
     "caption_en": "A photo of an old poetry page in black on yellowed paper, with thin elongated letters descending in an aesthetically consistent pattern across the lines.",
     "misleading_caption_ar": "صورة لصفحة شعرية قديمة بخط ديواني أسود على ورق مصفر، بحروف مستديرة متشابكة بكثافة تملأ المسافة بين الكلمات دون خط أساس واضح، بأسلوب زخرفي كثيف يصعب تقليده.",
     "misleading_caption_en": "A photo of an old poetry page in black Diwani script on yellowed paper, with densely interwoven rounded letters filling the space between words with no clear baseline, in a densely ornamental style that's hard to imitate.",
-    "trap_reasoning": "Dropped the image's actual thin elongated descending letters (Nasta'liq's signature) and asserted Diwani's real dense-interlacing, no-baseline trait instead, worded differently from the nas32/nas35/nas47 versions to avoid repeating the same sentence structure."
+    "trap_reasoning": "Dropped the image's actual thin elongated descending letters (Nasta'liq's signature) and asserted Diwani's real dense-interlacing, no-baseline trait instead, worded differently from the nas32/nas35/nas47 versions to avoid repeating the same sentence structure.",
+    "question_yes_ar": "هل هذا الخط خط فارسي (تعليق)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط ديواني؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2221,7 +2505,11 @@
     "caption_en": "A photo of Arabic text in gold script on a dark background, with elongated letters of varying thickness sloping steeply downward from right to left.",
     "misleading_caption_ar": "صورة لنص عربي بخط ديواني على خلفية داكنة، بحروف مستديرة متشابكة بكثافة تملأ الفراغ بين الكلمات دون خط أساس ثابت.",
     "misleading_caption_en": "A photo of Arabic text in Diwani script on a dark background, with densely interwoven rounded letters filling the space between words with no fixed baseline.",
-    "trap_reasoning": "Dropped the image's actual steeply sloping, elongated letters (Nasta'liq's signature) and asserted Diwani's real dense-interlacing, no-baseline trait instead. Deliberately left out any ink-color claim since the record's own caption_ar and caption_en disagree on it (black vs. gold) — flagging that separately."
+    "trap_reasoning": "Dropped the image's actual steeply sloping, elongated letters (Nasta'liq's signature) and asserted Diwani's real dense-interlacing, no-baseline trait instead. Deliberately left out any ink-color claim since the record's own caption_ar and caption_en disagree on it (black vs. gold) — flagging that separately.",
+    "question_yes_ar": "هل هذا الخط خط فارسي (تعليق)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط ديواني؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2252,7 +2540,11 @@
     "caption_en": "A photo of an artistic panel with white Arabic script on a textured dark blue background, with long letters sloping along a clearly diagonal line.",
     "misleading_caption_ar": "صورة للوحة فنية بخط ديواني على خلفية محببة، بحروف مستديرة متشابكة بكثافة دون خط أساس ثابت، تمنح النص طابعاً زخرفياً كثيفاً.",
     "misleading_caption_en": "A photo of an artistic panel in Diwani script on a textured background, with densely interwoven rounded letters and no fixed baseline, giving the text a densely ornamental character.",
-    "trap_reasoning": "Same verified Nasta'liq/Diwani contrast as the earlier pilot (nas51): dropped the image's actual diagonal slope (Nasta'liq's signature) and asserted Diwani's real dense-interlacing, no-baseline trait instead."
+    "trap_reasoning": "Same verified Nasta'liq/Diwani contrast as the earlier pilot (nas51): dropped the image's actual diagonal slope (Nasta'liq's signature) and asserted Diwani's real dense-interlacing, no-baseline trait instead.",
+    "question_yes_ar": "هل هذا الخط خط فارسي (تعليق)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط ديواني؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2283,7 +2575,11 @@
     "caption_en": "A photo of a poetry page written in black on aged paper, with lines sloping gradually from right to left, using thin, elongated strokes.",
     "misleading_caption_ar": "صورة لصفحة قديمة مكتوبة بخط ديواني أسود، بحروف مستديرة متشابكة بكثافة تتزاحم فوق بعضها دون خط أساس واضح، وهو الأسلوب الذي طوّره كتّاب الديوان السلطاني العثماني ليصعب تقليده أو تزويره.",
     "misleading_caption_en": "A photo of an aged page written in black Diwani script, with densely interwoven rounded letters crowding into each other with no clear baseline — the style Ottoman chancery scribes developed specifically to make it hard to imitate or forge.",
-    "trap_reasoning": "Dropped the image's actual gradual right-to-left slope (Nasta'liq's signature) and leaned on Diwani's real, sourced trait (dense crowding, deliberately hard to forge) instead, phrased differently from the nas32/nas51 versions to avoid repeating the same sentence."
+    "trap_reasoning": "Dropped the image's actual gradual right-to-left slope (Nasta'liq's signature) and leaned on Diwani's real, sourced trait (dense crowding, deliberately hard to forge) instead, phrased differently from the nas32/nas51 versions to avoid repeating the same sentence.",
+    "question_yes_ar": "هل هذا الخط خط فارسي (تعليق)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط ديواني؟",
+    "answer_no": "لا"
   },
   {
     "category": "script",
@@ -2314,6 +2610,10 @@
     "caption_en": "A photo of a hanging panel with dark navy-blue Arabic script arranged in a circular design, featuring thin sloping letters ending in long tail strokes.",
     "misleading_caption_ar": "صورة للوحة معلقة بخط ديواني ضمن تصميم دائري، بحروف مستديرة متشابكة بكثافة تملأ الفراغ بين الكلمات دون خط أساس واضح.",
     "misleading_caption_en": "A photo of a hanging panel with Diwani script arranged in a circular design, densely interwoven rounded letters filling the space between words with no clear baseline.",
-    "trap_reasoning": "Kept the neutral 'circular design' framing (plausible for either script) but dropped the image's actual sloping letters and long tail strokes (Nasta'liq's signature), asserting Diwani's real dense-interlacing, no-baseline trait instead."
+    "trap_reasoning": "Kept the neutral 'circular design' framing (plausible for either script) but dropped the image's actual sloping letters and long tail strokes (Nasta'liq's signature), asserting Diwani's real dense-interlacing, no-baseline trait instead.",
+    "question_yes_ar": "هل هذا الخط خط فارسي (تعليق)؟",
+    "answer_yes": "نعم",
+    "question_no_ar": "هل هذا الخط خط ديواني؟",
+    "answer_no": "لا"
   }
 ]
