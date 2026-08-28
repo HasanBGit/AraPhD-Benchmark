@@ -10,7 +10,7 @@ back, merge it in) -- it does not contain the generation logic itself, so
 every batch is produced by an LLM pass reading nota_question_prompt.md, not
 by a template baked into this file.
 
-Usage (run from the pipeline/ directory):
+Usage (run from the modes/mode5_nota/ directory):
     python3 fill_nota_questions.py status
     python3 fill_nota_questions.py select --n 100                # print the 100-item quota (one-time)
     python3 fill_nota_questions.py next --n 20                   # print next unfilled items + hints (no model call)
@@ -31,7 +31,8 @@ from collections import defaultdict
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-POOL = HERE / "arabphd_full_candidate_pool.json"
+REPO_ROOT = HERE.parent.parent
+POOL = REPO_ROOT / "pipeline" / "arabphd_full_candidate_pool.json"
 
 # Default subject_ar noun phrase + grammatical gender of its head noun, per
 # category. Printed as a hint by `next`, not applied automatically.
@@ -303,7 +304,7 @@ def cmd_merge(args):
     OUTPUT.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
     msg = f"Merged {added} record(s) into {OUTPUT.name} ({skipped} skipped as duplicates)."
     if backup_path:
-        msg += f" Backup: {backup_path.relative_to(HERE.parent)}"
+        msg += f" Backup: {backup_path.relative_to(REPO_ROOT)}"
     print(msg)
 
 

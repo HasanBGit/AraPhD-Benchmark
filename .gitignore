@@ -5,3 +5,4 @@ __pycache__/
 .DS_Store
 data/candidate_pool/backups/
 data/candidate_pool/images/
+report/
