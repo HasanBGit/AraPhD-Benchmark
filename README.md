@@ -86,7 +86,44 @@ before promotion into the main pool: explicit question text
 in `image_schema.json`, and an evaluation script (no `run_mode2_openrouter.py`
 yet).
 
-Mode 4 (ccs) has no work started. Mode 5 (nota) was reset and rebuilt
+**Mode 4 (ccs), 15/15 images organized and evaluated end-to-end, same
+Yes/No protocol as Liu et al. 2025's PhD-ccs.**
+`modes/mode4_ccs/arabphd_ccs_questions.json` holds 15 AI-generated Arab/
+Islamic cultural-norm-violation images (`modes/mode4_ccs/images/`) across 6
+categories (Sacred Space Violations, Religious & Attire Contradictions,
+Seasonal & Holiday Context Mix, Sacred Text & OCR Hijacking, Subtle
+Historical Anachronisms, Tashkeel Diacritics Contrast). Each image carries
+the originally-delivered open-ended trap question/ground-truth/
+failure_mechanism (kept as documentation) plus a proper Yes/No pair
+(`question_yes_ar`/`answer_yes`, `question_no_ar`/`answer_no`), matching
+the paper's CCS/CS pairing (Table 3): `question_yes_ar` is the actual norm
+violation depicted (GT=نعم), `question_no_ar` is an authored, plausible
+"normal" counterpart that is *not* depicted (GT=لا) -- mechanically derived
+from each record's existing ground truth, the same way Mode 1's h_item-based
+no-questions were derived, not new invented facts. `run_mode4_openrouter.py`
+scores it exactly like Mode 1 (base): forced single-word yes/no output,
+same system instruction, no context text (PhD-ccs is plain image+question
+per the paper), same accuracy / Yes-recall / No-recall / PhD Index metrics.
+An earlier free-text + LLM-judge version of this script and its results are
+kept in `modes/mode4_ccs/backups/pre_yesno_protocol_20260829/` for
+reference. Only 15 images / 30 questions exist so far, short of the
+proposal's 50-triplet target for this mode.
+
+```bash
+cd modes/mode4_ccs
+python3 run_mode4_openrouter.py run --concurrency 5
+python3 run_mode4_openrouter.py metrics --file mode4_results/results_mode4_ccs_google-gemini-2.5-flash.csv
+python3 run_mode4_openrouter.py table --out mode4_results/comparison_table.md
+```
+
+| model | n | accuracy | Yes-recall | No-recall | PhD Index | clarity |
+|---|---:|---:|---:|---:|---:|---:|
+| google/gemini-2.5-flash | 30 | 93.3% | 93.3% | 93.3% | 0.933 | 100.0% |
+| qwen/qwen2.5-vl-72b-instruct | 30 | 90.0% | 86.7% | 93.3% | 0.899 | 100.0% |
+| openai/gpt-4o-mini | 30 | 83.3% | 93.3% | 73.3% | 0.821 | 100.0% |
+| google/gemini-2.5-flash-lite | 30 | 73.3% | 73.3% | 73.3% | 0.733 | 100.0% |
+
+Mode 5 (nota) was reset and rebuilt
 2026-08-28 from the 50 sec/icc candidates not used in the Mode 2/3 test sets
 (the old 350 records were built off a stale, pre-review pool and are
 backed up, not deleted); it now has 120 records (30 images x mcdr/oedr/udr +
@@ -130,7 +167,12 @@ modes/                             # one subfolder per evaluation mode
   mode3_icc/
     candidate_pool_icc.json        # 102 candidates with misleading_caption_ar/en + trap_reasoning; no questions yet
     arabphd_test_set_icc.json      # 75 exported for evaluation once questions exist
-  mode4_ccs/                      # not started
+  mode4_ccs/
+    arabphd_ccs_questions.json    # 15 CCS images x Yes/No pair (+ original trap question/ground truth as docs)
+    images/                        # the 15 AI-generated CCS images (renamed from their original messy filenames)
+    run_mode4_openrouter.py       # OpenRouter inference script: run / metrics / table subcommands
+    mode4_results/                 # results_mode4_ccs_<model>.csv per run, + comparison_table.md
+    backups/pre_yesno_protocol_20260829/  # earlier free-text + LLM-judge version, kept for reference
   mode5_nota/                     # rebuilt 2026-08-28, not yet wired to arabphd_full_candidate_pool.json
     fill_nota_questions.py        # status / select / next / generate / validate / merge
     nota_question_prompt.md
